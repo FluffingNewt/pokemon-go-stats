@@ -1,6 +1,6 @@
 {
 	"name": "Pogo App Container",
-	"image": "Dockerfile",
+	"dockerFile": "Dockerfile",
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "uname -a",

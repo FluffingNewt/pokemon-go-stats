@@ -20,8 +20,8 @@ RUN apt update -y \
      unzip \
      libglu1-mesa \
      # Chrome prerequisites
-     wget \
-     gpg \
+    #  wget \
+    #  gpg \
  && apt autoremove -y \
  && apt clean -y \
  && rm -rf /var/lib/apt/lists/* 
@@ -36,15 +36,15 @@ WORKDIR $HOME
 
 ######################################################################################
 
-# Chrome
-RUN sudo wget https://dl-ssl.google.com/linux/linux_signing_key.pub -O /tmp/google.pub \
- && sudo gpg --no-default-keyring \
-        --keyring /etc/apt/keyrings/google-chrome.gpg \
-        --import /tmp/google.pub \
- && echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list \
- && sudo apt update && sudo apt install -y google-chrome-stable \
- && sudo apt autoremove -y \
- && sudo apt clean -y \
- && sudo rm -rf /var/lib/apt/lists/* 
+# # Chrome
+# RUN sudo wget https://dl-ssl.google.com/linux/linux_signing_key.pub -O /tmp/google.pub \
+#  && sudo gpg --no-default-keyring \
+#         --keyring /etc/apt/keyrings/google-chrome.gpg \
+#         --import /tmp/google.pub \
+#  && echo 'deb [arch=amd64 signed-by=/etc/apt/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list \
+#  && sudo apt update && sudo apt install -y google-chrome-stable \
+#  && sudo apt autoremove -y \
+#  && sudo apt clean -y \
+#  && sudo rm -rf /var/lib/apt/lists/* 
 
 ######################################################################################
