@@ -1,69 +1,92 @@
 import requests
+import json
 from lib import formulas
 
-regions = ["ALOLA", "GALARIAN", "HISUIAN", "PALDEA"]
 
+regions = ["ALOLA", "GALARIAN", "HISUIAN", "PALDEA"]
 base_url = "https://pokemon-go-api.github.io/pokemon-go-api/api/pokedex"
 
-# Megas
-def gen_mega_dict():
-    url = base_url + "/mega.json"
-    response = requests.get(url)
-    data = response.json()
 
-    with open("./assets/pokemon-mega.py", "w") as file:
-        file.write("megas = {\n")
-        prev_entry = ""
+class Pokemon:
+    def __init__(self, pokemon, region):
+        self.name   = pokemon["names"]["English"]
+        self.number = pokemon["dexNr"]
+        self.type1  = pokemon["primaryType"]["names"]["English"]
+        self.type2  = pokemon["secondaryType"]["names"]["English"] if pokemon["secondaryType"] else "null"
+        self.stats  = pokemon["stats"]
+        self.fast_moves = [
+            pokemon["quickMoves"][move]["names"]["English"]
+            for move in pokemon["quickMoves"]
+            ] + [
+            pokemon["eliteQuickMoves"][move]["names"]["English"]
+            for move in pokemon["eliteQuickMoves"]
+        ]
+        self.charged_moves = [
+            pokemon["cinematicMoves"][move]["names"]["English"]
+            for move in pokemon["cinematicMoves"]
+            ] + [
+            pokemon["eliteCinematicMoves"][move]["names"]["English"]
+            for move in pokemon["eliteCinematicMoves"]
+        ]
+        
+        self.image = f"./assets/sprites/{str}.png" if region == "" else f"./assets/sprites/{self.number}-{region.lower()}.png"
 
-        for pokemon in data:
-            number = pokemon["dexNr"]
-            if prev_entry == pokemon["names"]["English"]:
-                continue
-
-            for mega in pokemon["megaEvolutions"].values():
-                name  = mega["names"]["English"]
-                type1 = mega["primaryType"]["names"]["English"]
-                type2 = mega["secondaryType"]["names"]["English"] if mega["secondaryType"] else "null"
-                stats = mega["stats"]
-
-                image = f"{number}-mega"
-                if name[-1] in {"X", "Y"}: image += f"-{name[-1].lower()}"
-
-                fast_moves = [
-                    pokemon["quickMoves"][move]["names"]["English"]
-                    for move in pokemon["quickMoves"]
-                ] + [
-                    pokemon["eliteQuickMoves"][move]["names"]["English"]
-                    for move in pokemon["eliteQuickMoves"]
-                ]
-
-                charged_moves = [
-                    pokemon["cinematicMoves"][move]["names"]["English"]
-                    for move in pokemon["cinematicMoves"]
-                ] + [
-                    pokemon["eliteCinematicMoves"][move]["names"]["English"]
-                    for move in pokemon["eliteCinematicMoves"]
-                ]
-
-                file.write(f'\t"{name}": {{\n')
-                file.write(f'\t\t"number": "{number}",\n')
-                file.write(f'\t\t"type": ["{type1}", "{type2}"],\n')
-                file.write(f'\t\t"stats": {{"attack": {stats["attack"]}, "defense": {stats["defense"]}, "hp": {stats["stamina"]}}},\n')
-                file.write(f'\t\t"max_cp": {formulas.calc_max_cp(stats["attack"], stats["defense"], stats["stamina"])},\n')
-                file.write(f'\t\t"fast_moves": {fast_moves},\n')
-                file.write(f'\t\t"charged_moves": {charged_moves},\n')
-                file.write(f'\t\t"image": "./assets/sprites/{image}.png"\n')
-                file.write('\t},\n')
-
-            prev_entry = pokemon["names"]["English"]
-
-        file.write("}\n")
+        self.max_cp = formulas.calc_max_cp(self.stats["attack"], self.stats["defense"], self.stats["stamina"])
 
 
 
-# Pokedex
+class Mega:
+    def __init__(self, pokemon, mega):
+        self.name   = mega["names"]["English"]
+        self.number = pokemon["dexNr"]
+        self.type1  = mega["primaryType"]["names"]["English"]
+        self.type2  = mega["secondaryType"]["names"]["English"] if mega["secondaryType"] else "null"
+        self.stats  = mega["stats"]
+        self.fast_moves = [
+            pokemon["quickMoves"][move]["names"]["English"]
+            for move in pokemon["quickMoves"]
+            ] + [
+            pokemon["eliteQuickMoves"][move]["names"]["English"]
+            for move in pokemon["eliteQuickMoves"]
+        ]
+        self.charged_moves = [
+            pokemon["cinematicMoves"][move]["names"]["English"]
+            for move in pokemon["cinematicMoves"]
+            ] + [
+            pokemon["eliteCinematicMoves"][move]["names"]["English"]
+            for move in pokemon["eliteCinematicMoves"]
+        ]
+        
+        url = f"{self.number}-mega"
+        if self.name[-1] in {"X", "Y"}:
+                url += f"-{self.name[-1].lower()}"
+
+        self.image = f"./assets/sprites/{url}.png"
+
+        self.max_cp = formulas.calc_max_cp(self.stats["attack"], self.stats["defense"], self.stats["stamina"])
+
+
+
+# Writes the input pokemon's data to the file
+def write_pokemon_data(file, pokemon):
+    text = (
+        f'\t"{pokemon.name}": {{\n'
+        f'\t\t"number": {pokemon.number},\n'
+        f'\t\t"type": ["{pokemon.type1}", "{pokemon.type2}"],\n'
+        f'\t\t"stats": {{"attack": {pokemon.stats["attack"]}, "defense": {pokemon.stats["defense"]}, "hp": {pokemon.stats["stamina"]}}},\n'
+        f'\t\t"max_cp": {pokemon.max_cp},\n'
+        f'\t\t"fast_moves": {pokemon.fast_moves},\n'
+        f'\t\t"charged_moves": {pokemon.charged_moves},\n'
+        f'\t\t"image": "{pokemon.image}"\n'
+        f'\t}},\n'
+    )
+    file.write(text)
+
+
+
+# Genereates the regular pokedex dictionary
 def gen_dex_dict():
-    url = base_url + ".json"
+    url = f"{base_url}.json"
     response = requests.get(url)
     data = response.json()
 
@@ -72,79 +95,42 @@ def gen_dex_dict():
 
         for pokemon in data:
             if pokemon["stats"]:
-                name   = pokemon["names"]["English"]
-                number = pokemon["dexNr"]
-                type1  = pokemon["primaryType"]["names"]["English"]
-                type2  = pokemon["secondaryType"]["names"]["English"] if pokemon["secondaryType"] else "null"
-                stats  = pokemon["stats"]
+                # Create and write the main Pokemon object
+                pokemon_obj = Pokemon(pokemon, "")
+                write_pokemon_data(file, pokemon_obj)
 
-                fast_moves = [
-                    pokemon["quickMoves"][move]["names"]["English"]
-                    for move in pokemon["quickMoves"]
-                ] + [
-                    pokemon["eliteQuickMoves"][move]["names"]["English"]
-                    for move in pokemon["eliteQuickMoves"]
-                ]
-
-                charged_moves = [
-                    pokemon["cinematicMoves"][move]["names"]["English"]
-                    for move in pokemon["cinematicMoves"]
-                ] + [
-                    pokemon["eliteCinematicMoves"][move]["names"]["English"]
-                    for move in pokemon["eliteCinematicMoves"]
-                ]
-
-
-                file.write(f'\t"{name}": {{\n')
-                file.write(f'\t\t"number": "{number}",\n')
-                file.write(f'\t\t"type": ["{type1}", "{type2}"],\n')
-                file.write(f'\t\t"stats": {{"attack": {stats["attack"]}, "defense": {stats["defense"]}, "hp": {stats["stamina"]}}},\n')
-                file.write(f'\t\t"max_cp": {formulas.calc_max_cp(stats["attack"], stats["defense"], stats["stamina"])},\n')
-                file.write(f'\t\t"fast_moves": {fast_moves},\n')
-                file.write(f'\t\t"charged_moves": {charged_moves},\n')
-                file.write(f'\t\t"image": "./assets/sprites/{number}.png"\n')
-                file.write('\t},\n')
-
+                # Create and write regional forms
                 for regional in pokemon["regionForms"]:
                     for region in regions:
                         if region in regional:
-                            name   = pokemon["regionForms"][regional]["names"]["English"]
-                            type1  = pokemon["regionForms"][regional]["primaryType"]["names"]["English"]
-                            type2  = pokemon["regionForms"][regional]["secondaryType"]["names"]["English"] if pokemon["regionForms"][regional]["secondaryType"] else "null"
-                            stats  = pokemon["regionForms"][regional]["stats"]
-
-                            fast_moves = [
-                                pokemon["regionForms"][regional]["quickMoves"][move]["names"]["English"]
-                                for move in pokemon["regionForms"][regional]["quickMoves"]
-                            ] + [
-                                pokemon["regionForms"][regional]["eliteQuickMoves"][move]["names"]["English"]
-                                for move in pokemon["regionForms"][regional]["eliteQuickMoves"]
-                            ]
-
-                            charged_moves = [
-                                pokemon["regionForms"][regional]["cinematicMoves"][move]["names"]["English"]
-                                for move in pokemon["regionForms"][regional]["cinematicMoves"]
-                            ] + [
-                                pokemon["regionForms"][regional]["eliteCinematicMoves"][move]["names"]["English"]
-                                for move in pokemon["regionForms"][regional]["eliteCinematicMoves"]
-                            ]
-
+                            regionalObj = Pokemon(pokemon["regionForms"][regional], region)
+                            write_pokemon_data(file, regionalObj)
                             
+        file.write("}\n")
 
-                            file.write(f'\t"{name}": {{\n')
-                            file.write(f'\t\t"number": "{number}",\n')
-                            file.write(f'\t\t"type": ["{type1}", "{type2}"],\n')
-                            file.write(f'\t\t"stats": {{"attack": {stats["attack"]}, "defense": {stats["defense"]}, "hp": {stats["stamina"]}}},\n')
-                            file.write(f'\t\t"max_cp": {formulas.calc_max_cp(stats["attack"], stats["defense"], stats["stamina"])},\n')
-                            file.write(f'\t\t"fast_moves": {fast_moves},\n')
-                            file.write(f'\t\t"charged_moves": {charged_moves},\n')
-                            file.write(f'\t\t"image": "./assets/sprites/{number}-{region.lower()}.png"\n')
-                            file.write('\t},\n')
 
+
+# Generates the mega evolution pokedex dictionary
+def gen_mega_dict():
+    url = f"{base_url}/mega.json"
+    response = requests.get(url)
+    data = response.json()
+
+    with open("./assets/pokemon-mega.py", "w") as file:
+        file.write("megas = {\n")
+        prev_entry = ""
+        for pokemon in data:
+            if prev_entry != pokemon["names"]["English"]:
+                for mega in pokemon["megaEvolutions"]:
+                    mega_obj = Mega(pokemon, pokemon["megaEvolutions"][mega])
+                    write_pokemon_data(file, mega_obj)
+
+            prev_entry = pokemon["names"]["English"]
 
         file.write("}\n")
 
 
 
-# gen_mega_dict()
+
 gen_dex_dict()
+gen_mega_dict()

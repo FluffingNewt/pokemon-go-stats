@@ -1,6 +1,6 @@
 megas = {
 	"Mega Venusaur": {
-		"number": "3",
+		"number": 3,
 		"type": ["Grass", "Poison"],
 		"stats": {"attack": 241, "defense": 246, "hp": 190},
 		"max_cp": 4181,
@@ -9,7 +9,7 @@ megas = {
 		"image": "./assets/sprites/3-mega.png"
 	},
 	"Mega Charizard X": {
-		"number": "6",
+		"number": 6,
 		"type": ["Fire", "Dragon"],
 		"stats": {"attack": 273, "defense": 213, "hp": 186},
 		"max_cp": 4353,
@@ -18,7 +18,7 @@ megas = {
 		"image": "./assets/sprites/6-mega-x.png"
 	},
 	"Mega Charizard Y": {
-		"number": "6",
+		"number": 6,
 		"type": ["Fire", "Flying"],
 		"stats": {"attack": 319, "defense": 212, "hp": 186},
 		"max_cp": 5037,
@@ -27,7 +27,7 @@ megas = {
 		"image": "./assets/sprites/6-mega-y.png"
 	},
 	"Mega Blastoise": {
-		"number": "9",
+		"number": 9,
 		"type": ["Water", "null"],
 		"stats": {"attack": 264, "defense": 237, "hp": 188},
 		"max_cp": 4455,
@@ -36,7 +36,7 @@ megas = {
 		"image": "./assets/sprites/9-mega.png"
 	},
 	"Mega Beedrill": {
-		"number": "15",
+		"number": 15,
 		"type": ["Bug", "Poison"],
 		"stats": {"attack": 303, "defense": 148, "hp": 163},
 		"max_cp": 3824,
@@ -45,7 +45,7 @@ megas = {
 		"image": "./assets/sprites/15-mega.png"
 	},
 	"Mega Pidgeot": {
-		"number": "18",
+		"number": 18,
 		"type": ["Normal", "Flying"],
 		"stats": {"attack": 280, "defense": 175, "hp": 195},
 		"max_cp": 4160,
@@ -54,7 +54,7 @@ megas = {
 		"image": "./assets/sprites/18-mega.png"
 	},
 	"Mega Alakazam": {
-		"number": "65",
+		"number": 65,
 		"type": ["Psychic", "null"],
 		"stats": {"attack": 367, "defense": 207, "hp": 146},
 		"max_cp": 5099,
@@ -63,7 +63,7 @@ megas = {
 		"image": "./assets/sprites/65-mega.png"
 	},
 	"Mega Slowbro": {
-		"number": "80",
+		"number": 80,
 		"type": ["Water", "Psychic"],
 		"stats": {"attack": 224, "defense": 259, "hp": 216},
 		"max_cp": 4245,
@@ -72,7 +72,7 @@ megas = {
 		"image": "./assets/sprites/80-mega.png"
 	},
 	"Mega Gengar": {
-		"number": "94",
+		"number": 94,
 		"type": ["Ghost", "Poison"],
 		"stats": {"attack": 349, "defense": 199, "hp": 155},
 		"max_cp": 4902,
@@ -81,7 +81,7 @@ megas = {
 		"image": "./assets/sprites/94-mega.png"
 	},
 	"Mega Kangaskhan": {
-		"number": "115",
+		"number": 115,
 		"type": ["Normal", "null"],
 		"stats": {"attack": 246, "defense": 210, "hp": 233},
 		"max_cp": 4353,
@@ -90,7 +90,7 @@ megas = {
 		"image": "./assets/sprites/115-mega.png"
 	},
 	"Mega Pinsir": {
-		"number": "127",
+		"number": 127,
 		"type": ["Bug", "Flying"],
 		"stats": {"attack": 305, "defense": 231, "hp": 163},
 		"max_cp": 4728,
@@ -99,7 +99,7 @@ megas = {
 		"image": "./assets/sprites/127-mega.png"
 	},
 	"Mega Gyarados": {
-		"number": "130",
+		"number": 130,
 		"type": ["Water", "Dark"],
 		"stats": {"attack": 292, "defense": 247, "hp": 216},
 		"max_cp": 5332,
@@ -108,7 +108,7 @@ megas = {
 		"image": "./assets/sprites/130-mega.png"
 	},
 	"Mega Aerodactyl": {
-		"number": "142",
+		"number": 142,
 		"type": ["Rock", "Flying"],
 		"stats": {"attack": 292, "defense": 210, "hp": 190},
 		"max_cp": 4655,
@@ -117,7 +117,7 @@ megas = {
 		"image": "./assets/sprites/142-mega.png"
 	},
 	"Mega Ampharos": {
-		"number": "181",
+		"number": 181,
 		"type": ["Electric", "Dragon"],
 		"stats": {"attack": 294, "defense": 203, "hp": 207},
 		"max_cp": 4799,
@@ -126,7 +126,7 @@ megas = {
 		"image": "./assets/sprites/181-mega.png"
 	},
 	"Mega Steelix": {
-		"number": "208",
+		"number": 208,
 		"type": ["Steel", "Ground"],
 		"stats": {"attack": 212, "defense": 327, "hp": 181},
 		"max_cp": 4149,
@@ -135,7 +135,7 @@ megas = {
 		"image": "./assets/sprites/208-mega.png"
 	},
 	"Mega Scizor": {
-		"number": "212",
+		"number": 212,
 		"type": ["Bug", "Steel"],
 		"stats": {"attack": 279, "defense": 250, "hp": 172},
 		"max_cp": 4621,
@@ -144,7 +144,7 @@ megas = {
 		"image": "./assets/sprites/212-mega.png"
 	},
 	"Mega Heracross": {
-		"number": "214",
+		"number": 214,
 		"type": ["Bug", "Fighting"],
 		"stats": {"attack": 334, "defense": 223, "hp": 190},
 		"max_cp": 5443,
@@ -153,7 +153,7 @@ megas = {
 		"image": "./assets/sprites/214-mega.png"
 	},
 	"Mega Houndoom": {
-		"number": "229",
+		"number": 229,
 		"type": ["Dark", "Fire"],
 		"stats": {"attack": 289, "defense": 194, "hp": 181},
 		"max_cp": 4344,
@@ -162,7 +162,7 @@ megas = {
 		"image": "./assets/sprites/229-mega.png"
 	},
 	"Mega Tyranitar": {
-		"number": "248",
+		"number": 248,
 		"type": ["Rock", "Dark"],
 		"stats": {"attack": 309, "defense": 276, "hp": 225},
 		"max_cp": 6045,
@@ -171,7 +171,7 @@ megas = {
 		"image": "./assets/sprites/248-mega.png"
 	},
 	"Mega Sceptile": {
-		"number": "254",
+		"number": 254,
 		"type": ["Grass", "Dragon"],
 		"stats": {"attack": 320, "defense": 186, "hp": 172},
 		"max_cp": 4585,
@@ -180,7 +180,7 @@ megas = {
 		"image": "./assets/sprites/254-mega.png"
 	},
 	"Mega Blaziken": {
-		"number": "257",
+		"number": 257,
 		"type": ["Fire", "Fighting"],
 		"stats": {"attack": 329, "defense": 168, "hp": 190},
 		"max_cp": 4704,
@@ -189,7 +189,7 @@ megas = {
 		"image": "./assets/sprites/257-mega.png"
 	},
 	"Mega Swampert": {
-		"number": "260",
+		"number": 260,
 		"type": ["Water", "Ground"],
 		"stats": {"attack": 283, "defense": 218, "hp": 225},
 		"max_cp": 4975,
@@ -198,7 +198,7 @@ megas = {
 		"image": "./assets/sprites/260-mega.png"
 	},
 	"Mega Gardevoir": {
-		"number": "282",
+		"number": 282,
 		"type": ["Psychic", "Fairy"],
 		"stats": {"attack": 326, "defense": 229, "hp": 169},
 		"max_cp": 5101,
@@ -207,7 +207,7 @@ megas = {
 		"image": "./assets/sprites/282-mega.png"
 	},
 	"Mega Sableye": {
-		"number": "302",
+		"number": 302,
 		"type": ["Dark", "Ghost"],
 		"stats": {"attack": 151, "defense": 216, "hp": 137},
 		"max_cp": 2196,
@@ -216,7 +216,7 @@ megas = {
 		"image": "./assets/sprites/302-mega.png"
 	},
 	"Mega Aggron": {
-		"number": "306",
+		"number": 306,
 		"type": ["Steel", "null"],
 		"stats": {"attack": 247, "defense": 331, "hp": 172},
 		"max_cp": 4705,
@@ -225,7 +225,7 @@ megas = {
 		"image": "./assets/sprites/306-mega.png"
 	},
 	"Mega Medicham": {
-		"number": "308",
+		"number": 308,
 		"type": ["Fighting", "Psychic"],
 		"stats": {"attack": 205, "defense": 179, "hp": 155},
 		"max_cp": 2821,
@@ -234,7 +234,7 @@ megas = {
 		"image": "./assets/sprites/308-mega.png"
 	},
 	"Mega Manectric": {
-		"number": "310",
+		"number": 310,
 		"type": ["Electric", "null"],
 		"stats": {"attack": 286, "defense": 179, "hp": 172},
 		"max_cp": 4048,
@@ -243,7 +243,7 @@ megas = {
 		"image": "./assets/sprites/310-mega.png"
 	},
 	"Mega Altaria": {
-		"number": "334",
+		"number": 334,
 		"type": ["Dragon", "Fairy"],
 		"stats": {"attack": 222, "defense": 218, "hp": 181},
 		"max_cp": 3576,
@@ -252,7 +252,7 @@ megas = {
 		"image": "./assets/sprites/334-mega.png"
 	},
 	"Mega Banette": {
-		"number": "354",
+		"number": 354,
 		"type": ["Ghost", "null"],
 		"stats": {"attack": 312, "defense": 160, "hp": 162},
 		"max_cp": 4063,
@@ -261,7 +261,7 @@ megas = {
 		"image": "./assets/sprites/354-mega.png"
 	},
 	"Mega Absol": {
-		"number": "359",
+		"number": 359,
 		"type": ["Dark", "null"],
 		"stats": {"attack": 314, "defense": 130, "hp": 163},
 		"max_cp": 3732,
@@ -270,7 +270,7 @@ megas = {
 		"image": "./assets/sprites/359-mega.png"
 	},
 	"Mega Glalie": {
-		"number": "362",
+		"number": 362,
 		"type": ["Ice", "null"],
 		"stats": {"attack": 252, "defense": 168, "hp": 190},
 		"max_cp": 3651,
@@ -279,7 +279,7 @@ megas = {
 		"image": "./assets/sprites/362-mega.png"
 	},
 	"Mega Salamence": {
-		"number": "373",
+		"number": 373,
 		"type": ["Dragon", "Flying"],
 		"stats": {"attack": 310, "defense": 251, "hp": 216},
 		"max_cp": 5688,
@@ -288,7 +288,7 @@ megas = {
 		"image": "./assets/sprites/373-mega.png"
 	},
 	"Mega Latias": {
-		"number": "380",
+		"number": 380,
 		"type": ["Dragon", "Psychic"],
 		"stats": {"attack": 289, "defense": 297, "hp": 190},
 		"max_cp": 5428,
@@ -297,7 +297,7 @@ megas = {
 		"image": "./assets/sprites/380-mega.png"
 	},
 	"Mega Latios": {
-		"number": "381",
+		"number": 381,
 		"type": ["Dragon", "Psychic"],
 		"stats": {"attack": 335, "defense": 241, "hp": 190},
 		"max_cp": 5661,
@@ -306,7 +306,7 @@ megas = {
 		"image": "./assets/sprites/381-mega.png"
 	},
 	"Primal Kyogre": {
-		"number": "382",
+		"number": 382,
 		"type": ["Water", "null"],
 		"stats": {"attack": 353, "defense": 268, "hp": 218},
 		"max_cp": 6672,
@@ -315,7 +315,7 @@ megas = {
 		"image": "./assets/sprites/382-mega.png"
 	},
 	"Primal Groudon": {
-		"number": "383",
+		"number": 383,
 		"type": ["Ground", "Fire"],
 		"stats": {"attack": 353, "defense": 268, "hp": 218},
 		"max_cp": 6672,
@@ -324,7 +324,7 @@ megas = {
 		"image": "./assets/sprites/383-mega.png"
 	},
 	"Mega Rayquaza": {
-		"number": "384",
+		"number": 384,
 		"type": ["Dragon", "Flying"],
 		"stats": {"attack": 377, "defense": 210, "hp": 227},
 		"max_cp": 6458,
@@ -333,7 +333,7 @@ megas = {
 		"image": "./assets/sprites/384-mega.png"
 	},
 	"Mega Lopunny": {
-		"number": "428",
+		"number": 428,
 		"type": ["Normal", "Fighting"],
 		"stats": {"attack": 282, "defense": 214, "hp": 163},
 		"max_cp": 4234,
@@ -342,7 +342,7 @@ megas = {
 		"image": "./assets/sprites/428-mega.png"
 	},
 	"Mega Garchomp": {
-		"number": "445",
+		"number": 445,
 		"type": ["Dragon", "Ground"],
 		"stats": {"attack": 339, "defense": 222, "hp": 239},
 		"max_cp": 6132,
@@ -351,7 +351,7 @@ megas = {
 		"image": "./assets/sprites/445-mega.png"
 	},
 	"Mega Abomasnow": {
-		"number": "460",
+		"number": 460,
 		"type": ["Grass", "Ice"],
 		"stats": {"attack": 240, "defense": 191, "hp": 207},
 		"max_cp": 3850,
@@ -360,7 +360,7 @@ megas = {
 		"image": "./assets/sprites/460-mega.png"
 	},
 	"Mega Diancie": {
-		"number": "719",
+		"number": 719,
 		"type": ["Rock", "Fairy"],
 		"stats": {"attack": 342, "defense": 235, "hp": 137},
 		"max_cp": 4913,
