@@ -8,7 +8,13 @@ def calc_max_cp(attack, defense, hp):
 
 
 
+def calc_best_moveset():
+    return
 
+
+
+def calc_damage_values(pokemon):
+    return
 
 
 

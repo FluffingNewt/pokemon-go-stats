@@ -1,5 +1,4 @@
 import requests
-import json
 from lib import formulas
 
 
@@ -8,25 +7,25 @@ base_url = "https://pokemon-go-api.github.io/pokemon-go-api/api/pokedex"
 
 
 class Pokemon:
-    def __init__(self, pokemon, region):
-        self.name   = pokemon["names"]["English"]
-        self.number = pokemon["dexNr"]
-        self.type1  = pokemon["primaryType"]["names"]["English"]
-        self.type2  = pokemon["secondaryType"]["names"]["English"] if pokemon["secondaryType"] else "null"
-        self.stats  = pokemon["stats"]
+    def __init__(self, pokemon_dict, region):
+        self.name   = pokemon_dict["names"]["English"]
+        self.number = pokemon_dict["dexNr"]
+        self.type1  = pokemon_dict["primaryType"]["names"]["English"]
+        self.type2  = pokemon_dict["secondaryType"]["names"]["English"] if pokemon_dict["secondaryType"] else "none"
+        self.stats  = pokemon_dict["stats"]
         self.fast_moves = [
-            pokemon["quickMoves"][move]["names"]["English"]
-            for move in pokemon["quickMoves"]
+            pokemon_dict["quickMoves"][move]["names"]["English"]
+            for move in pokemon_dict["quickMoves"]
             ] + [
-            pokemon["eliteQuickMoves"][move]["names"]["English"]
-            for move in pokemon["eliteQuickMoves"]
+            pokemon_dict["eliteQuickMoves"][move]["names"]["English"]
+            for move in pokemon_dict["eliteQuickMoves"]
         ]
         self.charged_moves = [
-            pokemon["cinematicMoves"][move]["names"]["English"]
-            for move in pokemon["cinematicMoves"]
+            pokemon_dict["cinematicMoves"][move]["names"]["English"]
+            for move in pokemon_dict["cinematicMoves"]
             ] + [
-            pokemon["eliteCinematicMoves"][move]["names"]["English"]
-            for move in pokemon["eliteCinematicMoves"]
+            pokemon_dict["eliteCinematicMoves"][move]["names"]["English"]
+            for move in pokemon_dict["eliteCinematicMoves"]
         ]
         
         self.image = f"./assets/sprites/{str}.png" if region == "" else f"./assets/sprites/{self.number}-{region.lower()}.png"
@@ -36,25 +35,25 @@ class Pokemon:
 
 
 class Mega:
-    def __init__(self, pokemon, mega):
-        self.name   = mega["names"]["English"]
-        self.number = pokemon["dexNr"]
-        self.type1  = mega["primaryType"]["names"]["English"]
-        self.type2  = mega["secondaryType"]["names"]["English"] if mega["secondaryType"] else "null"
-        self.stats  = mega["stats"]
+    def __init__(self, pokemon_dict, mega_dict):
+        self.name   = mega_dict["names"]["English"]
+        self.number = pokemon_dict["dexNr"]
+        self.type1  = mega_dict["primaryType"]["names"]["English"]
+        self.type2  = mega_dict["secondaryType"]["names"]["English"] if mega_dict["secondaryType"] else "none"
+        self.stats  = mega_dict["stats"]
         self.fast_moves = [
-            pokemon["quickMoves"][move]["names"]["English"]
-            for move in pokemon["quickMoves"]
+            pokemon_dict["quickMoves"][move]["names"]["English"]
+            for move in pokemon_dict["quickMoves"]
             ] + [
-            pokemon["eliteQuickMoves"][move]["names"]["English"]
-            for move in pokemon["eliteQuickMoves"]
+            pokemon_dict["eliteQuickMoves"][move]["names"]["English"]
+            for move in pokemon_dict["eliteQuickMoves"]
         ]
         self.charged_moves = [
-            pokemon["cinematicMoves"][move]["names"]["English"]
-            for move in pokemon["cinematicMoves"]
+            pokemon_dict["cinematicMoves"][move]["names"]["English"]
+            for move in pokemon_dict["cinematicMoves"]
             ] + [
-            pokemon["eliteCinematicMoves"][move]["names"]["English"]
-            for move in pokemon["eliteCinematicMoves"]
+            pokemon_dict["eliteCinematicMoves"][move]["names"]["English"]
+            for move in pokemon_dict["eliteCinematicMoves"]
         ]
         
         url = f"{self.number}-mega"
@@ -87,8 +86,15 @@ def write_pokemon_data(file, pokemon):
 # Genereates the regular pokedex dictionary
 def gen_dex_dict():
     url = f"{base_url}.json"
-    response = requests.get(url)
-    data = response.json()
+
+    # Checks to see if there API is up before overwriting files
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+    except requests.RequestException as e:
+        print(f"Error fetching data from API: {e}")
+        return
 
     with open("./assets/pokemon-reg.py", "w") as file:
         file.write("pokemon = {\n")
@@ -113,8 +119,15 @@ def gen_dex_dict():
 # Generates the mega evolution pokedex dictionary
 def gen_mega_dict():
     url = f"{base_url}/mega.json"
-    response = requests.get(url)
-    data = response.json()
+    
+    # Checks to see if there API is up before overwriting files
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        data = response.json()
+    except requests.RequestException as e:
+        print(f"Error fetching data from API: {e}")
+        return
 
     with open("./assets/pokemon-mega.py", "w") as file:
         file.write("megas = {\n")
@@ -131,6 +144,6 @@ def gen_mega_dict():
 
 
 
-
+########## Method Calls ##########
 gen_dex_dict()
 gen_mega_dict()

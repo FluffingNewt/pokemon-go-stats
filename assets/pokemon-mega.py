@@ -28,7 +28,7 @@ megas = {
 	},
 	"Mega Blastoise": {
 		"number": 9,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 264, "defense": 237, "hp": 188},
 		"max_cp": 4455,
 		"fast_moves": ['Water Gun', 'Bite'],
@@ -55,7 +55,7 @@ megas = {
 	},
 	"Mega Alakazam": {
 		"number": 65,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 367, "defense": 207, "hp": 146},
 		"max_cp": 5099,
 		"fast_moves": ['Psycho Cut', 'Confusion', 'Counter'],
@@ -82,7 +82,7 @@ megas = {
 	},
 	"Mega Kangaskhan": {
 		"number": 115,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 246, "defense": 210, "hp": 233},
 		"max_cp": 4353,
 		"fast_moves": ['Mud-Slap', 'Low Kick'],
@@ -217,7 +217,7 @@ megas = {
 	},
 	"Mega Aggron": {
 		"number": 306,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 247, "defense": 331, "hp": 172},
 		"max_cp": 4705,
 		"fast_moves": ['Dragon Tail', 'Iron Tail', 'Smack Down'],
@@ -235,7 +235,7 @@ megas = {
 	},
 	"Mega Manectric": {
 		"number": 310,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 286, "defense": 179, "hp": 172},
 		"max_cp": 4048,
 		"fast_moves": ['Snarl', 'Charge Beam', 'Thunder Fang'],
@@ -253,7 +253,7 @@ megas = {
 	},
 	"Mega Banette": {
 		"number": 354,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 312, "defense": 160, "hp": 162},
 		"max_cp": 4063,
 		"fast_moves": ['Hex', 'Shadow Claw'],
@@ -262,7 +262,7 @@ megas = {
 	},
 	"Mega Absol": {
 		"number": 359,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 314, "defense": 130, "hp": 163},
 		"max_cp": 3732,
 		"fast_moves": ['Psycho Cut', 'Snarl'],
@@ -271,7 +271,7 @@ megas = {
 	},
 	"Mega Glalie": {
 		"number": 362,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 252, "defense": 168, "hp": 190},
 		"max_cp": 3651,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
@@ -307,7 +307,7 @@ megas = {
 	},
 	"Primal Kyogre": {
 		"number": 382,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 353, "defense": 268, "hp": 218},
 		"max_cp": 6672,
 		"fast_moves": ['Waterfall'],

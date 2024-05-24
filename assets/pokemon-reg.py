@@ -28,7 +28,7 @@ pokemon = {
 	},
 	"Charmander": {
 		"number": 4,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 116, "defense": 93, "hp": 118},
 		"max_cp": 1108,
 		"fast_moves": ['Ember', 'Scratch'],
@@ -37,7 +37,7 @@ pokemon = {
 	},
 	"Charmeleon": {
 		"number": 5,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 158, "defense": 126, "hp": 151},
 		"max_cp": 1868,
 		"fast_moves": ['Ember', 'Fire Fang', 'Scratch'],
@@ -55,7 +55,7 @@ pokemon = {
 	},
 	"Squirtle": {
 		"number": 7,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 94, "defense": 121, "hp": 127},
 		"max_cp": 1069,
 		"fast_moves": ['Bubble', 'Tackle'],
@@ -64,7 +64,7 @@ pokemon = {
 	},
 	"Wartortle": {
 		"number": 8,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 126, "defense": 155, "hp": 153},
 		"max_cp": 1682,
 		"fast_moves": ['Water Gun', 'Bite'],
@@ -73,7 +73,7 @@ pokemon = {
 	},
 	"Blastoise": {
 		"number": 9,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 171, "defense": 207, "hp": 188},
 		"max_cp": 2788,
 		"fast_moves": ['Water Gun', 'Bite'],
@@ -82,7 +82,7 @@ pokemon = {
 	},
 	"Caterpie": {
 		"number": 10,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 55, "defense": 55, "hp": 128},
 		"max_cp": 494,
 		"fast_moves": ['Bug Bite', 'Tackle'],
@@ -91,7 +91,7 @@ pokemon = {
 	},
 	"Metapod": {
 		"number": 11,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 45, "defense": 80, "hp": 137},
 		"max_cp": 509,
 		"fast_moves": ['Bug Bite', 'Tackle'],
@@ -163,7 +163,7 @@ pokemon = {
 	},
 	"Rattata": {
 		"number": 19,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 103, "defense": 70, "hp": 102},
 		"max_cp": 830,
 		"fast_moves": ['Tackle', 'Quick Attack'],
@@ -181,7 +181,7 @@ pokemon = {
 	},
 	"Raticate": {
 		"number": 20,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 161, "defense": 139, "hp": 146},
 		"max_cp": 1956,
 		"fast_moves": ['Bite', 'Quick Attack'],
@@ -217,7 +217,7 @@ pokemon = {
 	},
 	"Ekans": {
 		"number": 23,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 110, "defense": 97, "hp": 111},
 		"max_cp": 1048,
 		"fast_moves": ['Poison Sting', 'Acid'],
@@ -226,7 +226,7 @@ pokemon = {
 	},
 	"Arbok": {
 		"number": 24,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 167, "defense": 153, "hp": 155},
 		"max_cp": 2171,
 		"fast_moves": ['Bite', 'Acid', 'Dragon Tail'],
@@ -235,7 +235,7 @@ pokemon = {
 	},
 	"Pikachu": {
 		"number": 25,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 112, "defense": 96, "hp": 111},
 		"max_cp": 1060,
 		"fast_moves": ['Thunder Shock', 'Quick Attack', 'Present'],
@@ -244,7 +244,7 @@ pokemon = {
 	},
 	"Raichu": {
 		"number": 26,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 193, "defense": 151, "hp": 155},
 		"max_cp": 2467,
 		"fast_moves": ['Volt Switch', 'Spark', 'Charm', 'Thunder Shock'],
@@ -262,7 +262,7 @@ pokemon = {
 	},
 	"Sandshrew": {
 		"number": 27,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 126, "defense": 120, "hp": 137},
 		"max_cp": 1426,
 		"fast_moves": ['Scratch', 'Mud Shot', 'Sand Attack'],
@@ -280,7 +280,7 @@ pokemon = {
 	},
 	"Sandslash": {
 		"number": 28,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 182, "defense": 175, "hp": 181},
 		"max_cp": 2684,
 		"fast_moves": ['Metal Claw', 'Mud Shot', 'Sand Attack'],
@@ -298,7 +298,7 @@ pokemon = {
 	},
 	"Nidoran♀": {
 		"number": 29,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 86, "defense": 89, "hp": 146},
 		"max_cp": 922,
 		"fast_moves": ['Bite', 'Poison Sting'],
@@ -307,7 +307,7 @@ pokemon = {
 	},
 	"Nidorina": {
 		"number": 30,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 117, "defense": 120, "hp": 172},
 		"max_cp": 1480,
 		"fast_moves": ['Bite', 'Poison Sting'],
@@ -325,7 +325,7 @@ pokemon = {
 	},
 	"Nidoran♂": {
 		"number": 32,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 105, "defense": 76, "hp": 130},
 		"max_cp": 973,
 		"fast_moves": ['Peck', 'Poison Sting'],
@@ -334,7 +334,7 @@ pokemon = {
 	},
 	"Nidorino": {
 		"number": 33,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 137, "defense": 111, "hp": 156},
 		"max_cp": 1575,
 		"fast_moves": ['Poison Jab', 'Poison Sting'],
@@ -352,7 +352,7 @@ pokemon = {
 	},
 	"Clefairy": {
 		"number": 35,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 107, "defense": 108, "hp": 172},
 		"max_cp": 1306,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
@@ -361,7 +361,7 @@ pokemon = {
 	},
 	"Clefable": {
 		"number": 36,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 178, "defense": 162, "hp": 216},
 		"max_cp": 2755,
 		"fast_moves": ['Charge Beam', 'Zen Headbutt', 'Charm', 'Fairy Wind', 'Pound'],
@@ -370,7 +370,7 @@ pokemon = {
 	},
 	"Vulpix": {
 		"number": 37,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 96, "defense": 109, "hp": 116},
 		"max_cp": 998,
 		"fast_moves": ['Quick Attack', 'Ember'],
@@ -379,7 +379,7 @@ pokemon = {
 	},
 	"Alolan Vulpix": {
 		"number": 37,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 96, "defense": 109, "hp": 116},
 		"max_cp": 998,
 		"fast_moves": ['Zen Headbutt', 'Powder Snow'],
@@ -388,7 +388,7 @@ pokemon = {
 	},
 	"Ninetales": {
 		"number": 38,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 169, "defense": 190, "hp": 177},
 		"max_cp": 2577,
 		"fast_moves": ['Feint Attack', 'Fire Spin', 'Ember'],
@@ -505,7 +505,7 @@ pokemon = {
 	},
 	"Diglett": {
 		"number": 50,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 109, "defense": 78, "hp": 67},
 		"max_cp": 764,
 		"fast_moves": ['Mud-Slap', 'Scratch', 'Mud Shot'],
@@ -523,7 +523,7 @@ pokemon = {
 	},
 	"Dugtrio": {
 		"number": 51,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 167, "defense": 134, "hp": 111},
 		"max_cp": 1760,
 		"fast_moves": ['Sucker Punch', 'Mud-Slap', 'Mud Shot'],
@@ -541,7 +541,7 @@ pokemon = {
 	},
 	"Meowth": {
 		"number": 52,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 92, "defense": 78, "hp": 120},
 		"max_cp": 846,
 		"fast_moves": ['Scratch', 'Bite'],
@@ -550,7 +550,7 @@ pokemon = {
 	},
 	"Alolan Meowth": {
 		"number": 52,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 99, "defense": 78, "hp": 120},
 		"max_cp": 901,
 		"fast_moves": ['Scratch', 'Bite'],
@@ -559,7 +559,7 @@ pokemon = {
 	},
 	"Galarian Meowth": {
 		"number": 52,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 115, "defense": 92, "hp": 137},
 		"max_cp": 1170,
 		"fast_moves": ['Scratch', 'Metal Claw'],
@@ -568,7 +568,7 @@ pokemon = {
 	},
 	"Persian": {
 		"number": 53,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 150, "defense": 136, "hp": 163},
 		"max_cp": 1910,
 		"fast_moves": ['Scratch', 'Feint Attack'],
@@ -577,7 +577,7 @@ pokemon = {
 	},
 	"Alolan Persian": {
 		"number": 53,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 158, "defense": 136, "hp": 163},
 		"max_cp": 2002,
 		"fast_moves": ['Scratch', 'Feint Attack'],
@@ -586,7 +586,7 @@ pokemon = {
 	},
 	"Psyduck": {
 		"number": 54,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 122, "defense": 95, "hp": 137},
 		"max_cp": 1250,
 		"fast_moves": ['Water Gun', 'Zen Headbutt'],
@@ -595,7 +595,7 @@ pokemon = {
 	},
 	"Golduck": {
 		"number": 55,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 191, "defense": 162, "hp": 190},
 		"max_cp": 2770,
 		"fast_moves": ['Water Gun', 'Confusion'],
@@ -604,7 +604,7 @@ pokemon = {
 	},
 	"Mankey": {
 		"number": 56,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 148, "defense": 82, "hp": 120},
 		"max_cp": 1317,
 		"fast_moves": ['Karate Chop', 'Scratch'],
@@ -613,7 +613,7 @@ pokemon = {
 	},
 	"Primeape": {
 		"number": 57,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 207, "defense": 138, "hp": 163},
 		"max_cp": 2586,
 		"fast_moves": ['Low Kick', 'Counter', 'Karate Chop'],
@@ -622,7 +622,7 @@ pokemon = {
 	},
 	"Growlithe": {
 		"number": 58,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 136, "defense": 93, "hp": 146},
 		"max_cp": 1405,
 		"fast_moves": ['Ember', 'Bite'],
@@ -640,7 +640,7 @@ pokemon = {
 	},
 	"Arcanine": {
 		"number": 59,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 227, "defense": 166, "hp": 207},
 		"max_cp": 3425,
 		"fast_moves": ['Fire Fang', 'Snarl', 'Thunder Fang', 'Bite'],
@@ -658,7 +658,7 @@ pokemon = {
 	},
 	"Poliwag": {
 		"number": 60,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 101, "defense": 82, "hp": 120},
 		"max_cp": 937,
 		"fast_moves": ['Bubble', 'Mud Shot'],
@@ -667,7 +667,7 @@ pokemon = {
 	},
 	"Poliwhirl": {
 		"number": 61,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 130, "defense": 123, "hp": 163},
 		"max_cp": 1604,
 		"fast_moves": ['Bubble', 'Mud Shot'],
@@ -685,7 +685,7 @@ pokemon = {
 	},
 	"Abra": {
 		"number": 63,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 195, "defense": 82, "hp": 93},
 		"max_cp": 1517,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
@@ -694,7 +694,7 @@ pokemon = {
 	},
 	"Kadabra": {
 		"number": 64,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 232, "defense": 117, "hp": 120},
 		"max_cp": 2328,
 		"fast_moves": ['Psycho Cut', 'Confusion'],
@@ -703,7 +703,7 @@ pokemon = {
 	},
 	"Alakazam": {
 		"number": 65,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 271, "defense": 167, "hp": 146},
 		"max_cp": 3456,
 		"fast_moves": ['Psycho Cut', 'Confusion', 'Counter'],
@@ -712,7 +712,7 @@ pokemon = {
 	},
 	"Machop": {
 		"number": 66,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 137, "defense": 82, "hp": 172},
 		"max_cp": 1445,
 		"fast_moves": ['Rock Smash', 'Karate Chop', 'Low Kick'],
@@ -721,7 +721,7 @@ pokemon = {
 	},
 	"Machoke": {
 		"number": 67,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 177, "defense": 125, "hp": 190},
 		"max_cp": 2296,
 		"fast_moves": ['Low Kick', 'Karate Chop'],
@@ -730,7 +730,7 @@ pokemon = {
 	},
 	"Machamp": {
 		"number": 68,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 234, "defense": 159, "hp": 207},
 		"max_cp": 3455,
 		"fast_moves": ['Bullet Punch', 'Counter', 'Karate Chop'],
@@ -838,7 +838,7 @@ pokemon = {
 	},
 	"Ponyta": {
 		"number": 77,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 170, "defense": 127, "hp": 137},
 		"max_cp": 1919,
 		"fast_moves": ['Tackle', 'Ember'],
@@ -847,7 +847,7 @@ pokemon = {
 	},
 	"Galarian Ponyta": {
 		"number": 77,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 170, "defense": 127, "hp": 137},
 		"max_cp": 1919,
 		"fast_moves": ['Low Kick', 'Psycho Cut'],
@@ -856,7 +856,7 @@ pokemon = {
 	},
 	"Rapidash": {
 		"number": 78,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 207, "defense": 162, "hp": 163},
 		"max_cp": 2782,
 		"fast_moves": ['Low Kick', 'Fire Spin', 'Incinerate', 'Ember'],
@@ -883,7 +883,7 @@ pokemon = {
 	},
 	"Galarian Slowpoke": {
 		"number": 79,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 109, "defense": 98, "hp": 207},
 		"max_cp": 1386,
 		"fast_moves": ['Confusion', 'Iron Tail'],
@@ -937,7 +937,7 @@ pokemon = {
 	},
 	"Galarian Farfetch'd": {
 		"number": 83,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 174, "defense": 114, "hp": 141},
 		"max_cp": 1893,
 		"fast_moves": ['Rock Smash', 'Fury Cutter'],
@@ -964,7 +964,7 @@ pokemon = {
 	},
 	"Seel": {
 		"number": 86,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 85, "defense": 121, "hp": 163},
 		"max_cp": 1098,
 		"fast_moves": ['Ice Shard', 'Lick', 'Water Gun'],
@@ -982,7 +982,7 @@ pokemon = {
 	},
 	"Grimer": {
 		"number": 88,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 135, "defense": 90, "hp": 190},
 		"max_cp": 1553,
 		"fast_moves": ['Poison Jab', 'Mud-Slap'],
@@ -1000,7 +1000,7 @@ pokemon = {
 	},
 	"Muk": {
 		"number": 89,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 190, "defense": 172, "hp": 233},
 		"max_cp": 3117,
 		"fast_moves": ['Infestation', 'Poison Jab', 'Lick'],
@@ -1018,7 +1018,7 @@ pokemon = {
 	},
 	"Shellder": {
 		"number": 90,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 116, "defense": 134, "hp": 102},
 		"max_cp": 1221,
 		"fast_moves": ['Ice Shard', 'Tackle'],
@@ -1072,7 +1072,7 @@ pokemon = {
 	},
 	"Drowzee": {
 		"number": 96,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 89, "defense": 136, "hp": 155},
 		"max_cp": 1176,
 		"fast_moves": ['Pound', 'Confusion'],
@@ -1081,7 +1081,7 @@ pokemon = {
 	},
 	"Hypno": {
 		"number": 97,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 144, "defense": 193, "hp": 198},
 		"max_cp": 2363,
 		"fast_moves": ['Zen Headbutt', 'Confusion'],
@@ -1090,7 +1090,7 @@ pokemon = {
 	},
 	"Krabby": {
 		"number": 98,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 181, "defense": 124, "hp": 102},
 		"max_cp": 1764,
 		"fast_moves": ['Bubble', 'Mud Shot'],
@@ -1099,7 +1099,7 @@ pokemon = {
 	},
 	"Kingler": {
 		"number": 99,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 240, "defense": 181, "hp": 146},
 		"max_cp": 3198,
 		"fast_moves": ['Bubble', 'Metal Claw', 'Mud Shot'],
@@ -1108,7 +1108,7 @@ pokemon = {
 	},
 	"Voltorb": {
 		"number": 100,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 109, "defense": 111, "hp": 120},
 		"max_cp": 1141,
 		"fast_moves": ['Spark', 'Tackle'],
@@ -1126,7 +1126,7 @@ pokemon = {
 	},
 	"Electrode": {
 		"number": 101,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 173, "defense": 173, "hp": 155},
 		"max_cp": 2373,
 		"fast_moves": ['Spark', 'Volt Switch', 'Tackle'],
@@ -1171,7 +1171,7 @@ pokemon = {
 	},
 	"Cubone": {
 		"number": 104,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 90, "defense": 144, "hp": 137},
 		"max_cp": 1152,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
@@ -1180,7 +1180,7 @@ pokemon = {
 	},
 	"Marowak": {
 		"number": 105,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 144, "defense": 186, "hp": 155},
 		"max_cp": 2075,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
@@ -1198,7 +1198,7 @@ pokemon = {
 	},
 	"Hitmonlee": {
 		"number": 106,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 224, "defense": 181, "hp": 137},
 		"max_cp": 2912,
 		"fast_moves": ['Low Kick', 'Rock Smash', 'Double Kick'],
@@ -1207,7 +1207,7 @@ pokemon = {
 	},
 	"Hitmonchan": {
 		"number": 107,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 193, "defense": 197, "hp": 137},
 		"max_cp": 2636,
 		"fast_moves": ['Bullet Punch', 'Counter', 'Rock Smash'],
@@ -1216,7 +1216,7 @@ pokemon = {
 	},
 	"Lickitung": {
 		"number": 108,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 108, "defense": 137, "hp": 207},
 		"max_cp": 1595,
 		"fast_moves": ['Lick', 'Zen Headbutt'],
@@ -1225,7 +1225,7 @@ pokemon = {
 	},
 	"Koffing": {
 		"number": 109,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 119, "defense": 141, "hp": 120},
 		"max_cp": 1373,
 		"fast_moves": ['Tackle', 'Infestation'],
@@ -1234,7 +1234,7 @@ pokemon = {
 	},
 	"Weezing": {
 		"number": 110,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 174, "defense": 197, "hp": 163},
 		"max_cp": 2592,
 		"fast_moves": ['Tackle', 'Infestation'],
@@ -1270,7 +1270,7 @@ pokemon = {
 	},
 	"Chansey": {
 		"number": 113,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 60, "defense": 128, "hp": 487},
 		"max_cp": 1418,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
@@ -1279,7 +1279,7 @@ pokemon = {
 	},
 	"Tangela": {
 		"number": 114,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 183, "defense": 169, "hp": 163},
 		"max_cp": 2530,
 		"fast_moves": ['Vine Whip', 'Infestation'],
@@ -1288,7 +1288,7 @@ pokemon = {
 	},
 	"Kangaskhan": {
 		"number": 115,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 181, "defense": 165, "hp": 233},
 		"max_cp": 2924,
 		"fast_moves": ['Mud-Slap', 'Low Kick'],
@@ -1297,7 +1297,7 @@ pokemon = {
 	},
 	"Horsea": {
 		"number": 116,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 129, "defense": 103, "hp": 102},
 		"max_cp": 1194,
 		"fast_moves": ['Water Gun', 'Bubble'],
@@ -1306,7 +1306,7 @@ pokemon = {
 	},
 	"Seadra": {
 		"number": 117,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 187, "defense": 156, "hp": 146},
 		"max_cp": 2366,
 		"fast_moves": ['Water Gun', 'Dragon Breath'],
@@ -1315,7 +1315,7 @@ pokemon = {
 	},
 	"Goldeen": {
 		"number": 118,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 123, "defense": 110, "hp": 128},
 		"max_cp": 1302,
 		"fast_moves": ['Peck', 'Mud Shot'],
@@ -1324,7 +1324,7 @@ pokemon = {
 	},
 	"Seaking": {
 		"number": 119,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 175, "defense": 147, "hp": 190},
 		"max_cp": 2444,
 		"fast_moves": ['Peck', 'Waterfall', 'Poison Jab'],
@@ -1333,7 +1333,7 @@ pokemon = {
 	},
 	"Staryu": {
 		"number": 120,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 137, "defense": 112, "hp": 102},
 		"max_cp": 1308,
 		"fast_moves": ['Tackle', 'Water Gun'],
@@ -1387,7 +1387,7 @@ pokemon = {
 	},
 	"Electabuzz": {
 		"number": 125,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 198, "defense": 158, "hp": 163},
 		"max_cp": 2639,
 		"fast_moves": ['Thunder Shock', 'Low Kick'],
@@ -1396,7 +1396,7 @@ pokemon = {
 	},
 	"Magmar": {
 		"number": 126,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 206, "defense": 154, "hp": 163},
 		"max_cp": 2706,
 		"fast_moves": ['Ember', 'Karate Chop'],
@@ -1405,7 +1405,7 @@ pokemon = {
 	},
 	"Pinsir": {
 		"number": 127,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 238, "defense": 182, "hp": 163},
 		"max_cp": 3345,
 		"fast_moves": ['Rock Smash', 'Bug Bite', 'Fury Cutter'],
@@ -1414,7 +1414,7 @@ pokemon = {
 	},
 	"Tauros": {
 		"number": 128,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 198, "defense": 183, "hp": 181},
 		"max_cp": 2962,
 		"fast_moves": ['Tackle', 'Zen Headbutt'],
@@ -1423,7 +1423,7 @@ pokemon = {
 	},
 	"Magikarp": {
 		"number": 129,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 29, "defense": 85, "hp": 85},
 		"max_cp": 310,
 		"fast_moves": ['Splash'],
@@ -1450,7 +1450,7 @@ pokemon = {
 	},
 	"Ditto": {
 		"number": 132,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 91, "defense": 91, "hp": 134},
 		"max_cp": 940,
 		"fast_moves": ['Transform'],
@@ -1459,7 +1459,7 @@ pokemon = {
 	},
 	"Eevee": {
 		"number": 133,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 104, "defense": 114, "hp": 146},
 		"max_cp": 1210,
 		"fast_moves": ['Quick Attack', 'Tackle'],
@@ -1468,7 +1468,7 @@ pokemon = {
 	},
 	"Vaporeon": {
 		"number": 134,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 205, "defense": 161, "hp": 277},
 		"max_cp": 3521,
 		"fast_moves": ['Water Gun'],
@@ -1477,7 +1477,7 @@ pokemon = {
 	},
 	"Jolteon": {
 		"number": 135,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 232, "defense": 182, "hp": 163},
 		"max_cp": 3265,
 		"fast_moves": ['Thunder Shock', 'Volt Switch'],
@@ -1486,7 +1486,7 @@ pokemon = {
 	},
 	"Flareon": {
 		"number": 136,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 246, "defense": 179, "hp": 163},
 		"max_cp": 3424,
 		"fast_moves": ['Ember', 'Fire Spin'],
@@ -1495,7 +1495,7 @@ pokemon = {
 	},
 	"Porygon": {
 		"number": 137,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 153, "defense": 136, "hp": 163},
 		"max_cp": 1944,
 		"fast_moves": ['Charge Beam', 'Hidden Power', 'Tackle', 'Zen Headbutt'],
@@ -1549,7 +1549,7 @@ pokemon = {
 	},
 	"Snorlax": {
 		"number": 143,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 190, "defense": 169, "hp": 330},
 		"max_cp": 3647,
 		"fast_moves": ['Zen Headbutt', 'Lick', 'Yawn'],
@@ -1612,7 +1612,7 @@ pokemon = {
 	},
 	"Dratini": {
 		"number": 147,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 119, "defense": 91, "hp": 121},
 		"max_cp": 1136,
 		"fast_moves": ['Dragon Breath', 'Iron Tail'],
@@ -1621,7 +1621,7 @@ pokemon = {
 	},
 	"Dragonair": {
 		"number": 148,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 163, "defense": 135, "hp": 156},
 		"max_cp": 2012,
 		"fast_moves": ['Dragon Breath', 'Iron Tail'],
@@ -1639,7 +1639,7 @@ pokemon = {
 	},
 	"Mewtwo": {
 		"number": 150,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 300, "defense": 182, "hp": 214},
 		"max_cp": 4724,
 		"fast_moves": ['Psycho Cut', 'Confusion'],
@@ -1648,7 +1648,7 @@ pokemon = {
 	},
 	"Mew": {
 		"number": 151,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 210, "defense": 210, "hp": 225},
 		"max_cp": 3691,
 		"fast_moves": ['Pound', 'Steel Wing', 'Charge Beam', 'Shadow Claw', 'Volt Switch', 'Struggle Bug', 'Frost Breath', 'Dragon Tail', 'Infestation', 'Poison Jab', 'Rock Smash', 'Snarl', 'Cut', 'Waterfall'],
@@ -1657,7 +1657,7 @@ pokemon = {
 	},
 	"Chikorita": {
 		"number": 152,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 92, "defense": 122, "hp": 128},
 		"max_cp": 1057,
 		"fast_moves": ['Vine Whip', 'Tackle', 'Magical Leaf'],
@@ -1666,7 +1666,7 @@ pokemon = {
 	},
 	"Bayleef": {
 		"number": 153,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 122, "defense": 155, "hp": 155},
 		"max_cp": 1644,
 		"fast_moves": ['Razor Leaf', 'Tackle', 'Magical Leaf'],
@@ -1675,7 +1675,7 @@ pokemon = {
 	},
 	"Meganium": {
 		"number": 154,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 168, "defense": 202, "hp": 190},
 		"max_cp": 2725,
 		"fast_moves": ['Razor Leaf', 'Vine Whip', 'Magical Leaf'],
@@ -1684,7 +1684,7 @@ pokemon = {
 	},
 	"Cyndaquil": {
 		"number": 155,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 116, "defense": 93, "hp": 118},
 		"max_cp": 1108,
 		"fast_moves": ['Ember', 'Tackle'],
@@ -1693,7 +1693,7 @@ pokemon = {
 	},
 	"Quilava": {
 		"number": 156,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 158, "defense": 126, "hp": 151},
 		"max_cp": 1868,
 		"fast_moves": ['Ember', 'Tackle'],
@@ -1702,7 +1702,7 @@ pokemon = {
 	},
 	"Typhlosion": {
 		"number": 157,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 223, "defense": 173, "hp": 186},
 		"max_cp": 3266,
 		"fast_moves": ['Ember', 'Shadow Claw', 'Incinerate'],
@@ -1720,7 +1720,7 @@ pokemon = {
 	},
 	"Totodile": {
 		"number": 158,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 117, "defense": 109, "hp": 137},
 		"max_cp": 1279,
 		"fast_moves": ['Water Gun', 'Scratch'],
@@ -1729,7 +1729,7 @@ pokemon = {
 	},
 	"Croconaw": {
 		"number": 159,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 150, "defense": 142, "hp": 163},
 		"max_cp": 1947,
 		"fast_moves": ['Water Gun', 'Scratch'],
@@ -1738,7 +1738,7 @@ pokemon = {
 	},
 	"Feraligatr": {
 		"number": 160,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 205, "defense": 188, "hp": 198},
 		"max_cp": 3230,
 		"fast_moves": ['Waterfall', 'Bite', 'Ice Fang', 'Shadow Claw', 'Water Gun'],
@@ -1747,7 +1747,7 @@ pokemon = {
 	},
 	"Sentret": {
 		"number": 161,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 79, "defense": 73, "hp": 111},
 		"max_cp": 698,
 		"fast_moves": ['Scratch', 'Quick Attack'],
@@ -1756,7 +1756,7 @@ pokemon = {
 	},
 	"Furret": {
 		"number": 162,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 148, "defense": 125, "hp": 198},
 		"max_cp": 1987,
 		"fast_moves": ['Quick Attack', 'Sucker Punch'],
@@ -1846,7 +1846,7 @@ pokemon = {
 	},
 	"Pichu": {
 		"number": 172,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 77, "defense": 53, "hp": 85},
 		"max_cp": 535,
 		"fast_moves": ['Thunder Shock'],
@@ -1855,7 +1855,7 @@ pokemon = {
 	},
 	"Cleffa": {
 		"number": 173,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 75, "defense": 79, "hp": 137},
 		"max_cp": 759,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
@@ -1873,7 +1873,7 @@ pokemon = {
 	},
 	"Togepi": {
 		"number": 175,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 67, "defense": 116, "hp": 111},
 		"max_cp": 743,
 		"fast_moves": ['Hidden Power', 'Peck', 'Zen Headbutt'],
@@ -1909,7 +1909,7 @@ pokemon = {
 	},
 	"Mareep": {
 		"number": 179,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 114, "defense": 79, "hp": 146},
 		"max_cp": 1120,
 		"fast_moves": ['Tackle', 'Thunder Shock'],
@@ -1918,7 +1918,7 @@ pokemon = {
 	},
 	"Flaaffy": {
 		"number": 180,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 145, "defense": 109, "hp": 172},
 		"max_cp": 1720,
 		"fast_moves": ['Tackle', 'Charge Beam'],
@@ -1927,7 +1927,7 @@ pokemon = {
 	},
 	"Ampharos": {
 		"number": 181,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 211, "defense": 169, "hp": 207},
 		"max_cp": 3225,
 		"fast_moves": ['Charge Beam', 'Volt Switch'],
@@ -1936,7 +1936,7 @@ pokemon = {
 	},
 	"Bellossom": {
 		"number": 182,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 169, "defense": 186, "hp": 181},
 		"max_cp": 2578,
 		"fast_moves": ['Razor Leaf', 'Acid', 'Bullet Seed', 'Magical Leaf'],
@@ -1963,7 +1963,7 @@ pokemon = {
 	},
 	"Sudowoodo": {
 		"number": 185,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 167, "defense": 176, "hp": 172},
 		"max_cp": 2428,
 		"fast_moves": ['Rock Throw', 'Counter'],
@@ -1972,7 +1972,7 @@ pokemon = {
 	},
 	"Politoed": {
 		"number": 186,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 174, "defense": 179, "hp": 207},
 		"max_cp": 2769,
 		"fast_moves": ['Mud Shot', 'Bubble'],
@@ -2008,7 +2008,7 @@ pokemon = {
 	},
 	"Aipom": {
 		"number": 190,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 136, "defense": 112, "hp": 146},
 		"max_cp": 1524,
 		"fast_moves": ['Scratch', 'Astonish'],
@@ -2017,7 +2017,7 @@ pokemon = {
 	},
 	"Sunkern": {
 		"number": 191,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 55, "defense": 55, "hp": 102},
 		"max_cp": 447,
 		"fast_moves": ['Razor Leaf', 'Cut'],
@@ -2026,7 +2026,7 @@ pokemon = {
 	},
 	"Sunflora": {
 		"number": 192,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 185, "defense": 135, "hp": 181},
 		"max_cp": 2421,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
@@ -2071,7 +2071,7 @@ pokemon = {
 	},
 	"Espeon": {
 		"number": 196,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 261, "defense": 175, "hp": 163},
 		"max_cp": 3583,
 		"fast_moves": ['Confusion', 'Zen Headbutt'],
@@ -2080,7 +2080,7 @@ pokemon = {
 	},
 	"Umbreon": {
 		"number": 197,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 126, "defense": 240, "hp": 216},
 		"max_cp": 2416,
 		"fast_moves": ['Feint Attack', 'Snarl'],
@@ -2116,7 +2116,7 @@ pokemon = {
 	},
 	"Misdreavus": {
 		"number": 200,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 167, "defense": 154, "hp": 155},
 		"max_cp": 2178,
 		"fast_moves": ['Astonish', 'Hex', 'Psywave'],
@@ -2125,7 +2125,7 @@ pokemon = {
 	},
 	"Unown": {
 		"number": 201,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 136, "defense": 91, "hp": 134},
 		"max_cp": 1339,
 		"fast_moves": ['Hidden Power'],
@@ -2134,7 +2134,7 @@ pokemon = {
 	},
 	"Wobbuffet": {
 		"number": 202,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 60, "defense": 106, "hp": 382},
 		"max_cp": 1160,
 		"fast_moves": ['Counter', 'Splash', 'Charm'],
@@ -2152,7 +2152,7 @@ pokemon = {
 	},
 	"Pineco": {
 		"number": 204,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 108, "defense": 122, "hp": 137},
 		"max_cp": 1253,
 		"fast_moves": ['Tackle', 'Bug Bite'],
@@ -2170,7 +2170,7 @@ pokemon = {
 	},
 	"Dunsparce": {
 		"number": 206,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 131, "defense": 128, "hp": 225},
 		"max_cp": 1909,
 		"fast_moves": ['Bite', 'Astonish', 'Rollout'],
@@ -2197,7 +2197,7 @@ pokemon = {
 	},
 	"Snubbull": {
 		"number": 209,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 137, "defense": 85, "hp": 155},
 		"max_cp": 1399,
 		"fast_moves": ['Tackle', 'Bite'],
@@ -2206,7 +2206,7 @@ pokemon = {
 	},
 	"Granbull": {
 		"number": 210,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 212, "defense": 131, "hp": 207},
 		"max_cp": 2885,
 		"fast_moves": ['Bite', 'Snarl', 'Charm'],
@@ -2278,7 +2278,7 @@ pokemon = {
 	},
 	"Teddiursa": {
 		"number": 216,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 142, "defense": 93, "hp": 155},
 		"max_cp": 1502,
 		"fast_moves": ['Scratch', 'Lick'],
@@ -2287,7 +2287,7 @@ pokemon = {
 	},
 	"Ursaring": {
 		"number": 217,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 236, "defense": 144, "hp": 207},
 		"max_cp": 3329,
 		"fast_moves": ['Metal Claw', 'Counter', 'Shadow Claw'],
@@ -2296,7 +2296,7 @@ pokemon = {
 	},
 	"Slugma": {
 		"number": 218,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 118, "defense": 71, "hp": 120},
 		"max_cp": 1011,
 		"fast_moves": ['Ember', 'Rock Throw'],
@@ -2341,7 +2341,7 @@ pokemon = {
 	},
 	"Remoraid": {
 		"number": 223,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 127, "defense": 69, "hp": 111},
 		"max_cp": 1031,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
@@ -2350,7 +2350,7 @@ pokemon = {
 	},
 	"Octillery": {
 		"number": 224,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 197, "defense": 141, "hp": 181},
 		"max_cp": 2617,
 		"fast_moves": ['Water Gun', 'Mud Shot', 'Lock-On'],
@@ -2413,7 +2413,7 @@ pokemon = {
 	},
 	"Phanpy": {
 		"number": 231,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 107, "defense": 98, "hp": 207},
 		"max_cp": 1364,
 		"fast_moves": ['Tackle', 'Rock Smash'],
@@ -2422,7 +2422,7 @@ pokemon = {
 	},
 	"Donphan": {
 		"number": 232,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 214, "defense": 185, "hp": 207},
 		"max_cp": 3407,
 		"fast_moves": ['Tackle', 'Counter', 'Mud-Slap', 'Charm'],
@@ -2431,7 +2431,7 @@ pokemon = {
 	},
 	"Porygon2": {
 		"number": 233,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 198, "defense": 180, "hp": 198},
 		"max_cp": 3065,
 		"fast_moves": ['Hidden Power', 'Charge Beam', 'Lock-On'],
@@ -2440,7 +2440,7 @@ pokemon = {
 	},
 	"Stantler": {
 		"number": 234,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 192, "defense": 131, "hp": 177},
 		"max_cp": 2447,
 		"fast_moves": ['Tackle', 'Zen Headbutt'],
@@ -2449,7 +2449,7 @@ pokemon = {
 	},
 	"Smeargle": {
 		"number": 235,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 40, "defense": 83, "hp": 146},
 		"max_cp": 487,
 		"fast_moves": [],
@@ -2458,7 +2458,7 @@ pokemon = {
 	},
 	"Tyrogue": {
 		"number": 236,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 64, "defense": 64, "hp": 111},
 		"max_cp": 556,
 		"fast_moves": ['Rock Smash', 'Tackle'],
@@ -2467,7 +2467,7 @@ pokemon = {
 	},
 	"Hitmontop": {
 		"number": 237,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 173, "defense": 207, "hp": 137},
 		"max_cp": 2438,
 		"fast_moves": ['Rock Smash', 'Counter'],
@@ -2485,7 +2485,7 @@ pokemon = {
 	},
 	"Elekid": {
 		"number": 239,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 135, "defense": 101, "hp": 128},
 		"max_cp": 1364,
 		"fast_moves": ['Thunder Shock', 'Low Kick'],
@@ -2494,7 +2494,7 @@ pokemon = {
 	},
 	"Magby": {
 		"number": 240,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 151, "defense": 99, "hp": 128},
 		"max_cp": 1496,
 		"fast_moves": ['Ember', 'Karate Chop'],
@@ -2503,7 +2503,7 @@ pokemon = {
 	},
 	"Miltank": {
 		"number": 241,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 157, "defense": 193, "hp": 216},
 		"max_cp": 2662,
 		"fast_moves": ['Tackle', 'Zen Headbutt', 'Rollout'],
@@ -2512,7 +2512,7 @@ pokemon = {
 	},
 	"Blissey": {
 		"number": 242,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 129, "defense": 169, "hp": 496},
 		"max_cp": 3117,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
@@ -2521,7 +2521,7 @@ pokemon = {
 	},
 	"Raikou": {
 		"number": 243,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 241, "defense": 195, "hp": 207},
 		"max_cp": 3902,
 		"fast_moves": ['Thunder Shock', 'Volt Switch'],
@@ -2530,7 +2530,7 @@ pokemon = {
 	},
 	"Entei": {
 		"number": 244,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 235, "defense": 171, "hp": 251},
 		"max_cp": 3926,
 		"fast_moves": ['Fire Spin', 'Fire Fang'],
@@ -2539,7 +2539,7 @@ pokemon = {
 	},
 	"Suicune": {
 		"number": 245,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 180, "defense": 235, "hp": 225},
 		"max_cp": 3372,
 		"fast_moves": ['Extrasensory', 'Snarl', 'Ice Fang', 'Hidden Power'],
@@ -2602,7 +2602,7 @@ pokemon = {
 	},
 	"Treecko": {
 		"number": 252,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 124, "defense": 94, "hp": 120},
 		"max_cp": 1190,
 		"fast_moves": ['Pound', 'Bullet Seed'],
@@ -2611,7 +2611,7 @@ pokemon = {
 	},
 	"Grovyle": {
 		"number": 253,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 172, "defense": 120, "hp": 137},
 		"max_cp": 1891,
 		"fast_moves": ['Quick Attack', 'Bullet Seed'],
@@ -2620,7 +2620,7 @@ pokemon = {
 	},
 	"Sceptile": {
 		"number": 254,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 223, "defense": 169, "hp": 172},
 		"max_cp": 3117,
 		"fast_moves": ['Fury Cutter', 'Bullet Seed'],
@@ -2629,7 +2629,7 @@ pokemon = {
 	},
 	"Torchic": {
 		"number": 255,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 130, "defense": 87, "hp": 128},
 		"max_cp": 1236,
 		"fast_moves": ['Scratch', 'Ember'],
@@ -2656,7 +2656,7 @@ pokemon = {
 	},
 	"Mudkip": {
 		"number": 258,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 126, "defense": 93, "hp": 137},
 		"max_cp": 1275,
 		"fast_moves": ['Tackle', 'Water Gun'],
@@ -2683,7 +2683,7 @@ pokemon = {
 	},
 	"Poochyena": {
 		"number": 261,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 96, "defense": 61, "hp": 111},
 		"max_cp": 766,
 		"fast_moves": ['Tackle', 'Snarl'],
@@ -2692,7 +2692,7 @@ pokemon = {
 	},
 	"Mightyena": {
 		"number": 262,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 171, "defense": 132, "hp": 172},
 		"max_cp": 2177,
 		"fast_moves": ['Bite', 'Fire Fang', 'Thunder Fang', 'Ice Fang'],
@@ -2701,7 +2701,7 @@ pokemon = {
 	},
 	"Zigzagoon": {
 		"number": 263,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 58, "defense": 80, "hp": 116},
 		"max_cp": 575,
 		"fast_moves": ['Tackle', 'Rock Smash', 'Sand Attack'],
@@ -2719,7 +2719,7 @@ pokemon = {
 	},
 	"Linoone": {
 		"number": 264,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 142, "defense": 128, "hp": 186},
 		"max_cp": 1879,
 		"fast_moves": ['Shadow Claw', 'Tackle', 'Sand Attack'],
@@ -2737,7 +2737,7 @@ pokemon = {
 	},
 	"Wurmple": {
 		"number": 265,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 75, "defense": 59, "hp": 128},
 		"max_cp": 653,
 		"fast_moves": ['Tackle', 'Bug Bite'],
@@ -2746,7 +2746,7 @@ pokemon = {
 	},
 	"Silcoon": {
 		"number": 266,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 60, "defense": 77, "hp": 137},
 		"max_cp": 626,
 		"fast_moves": ['Poison Sting', 'Bug Bite'],
@@ -2764,7 +2764,7 @@ pokemon = {
 	},
 	"Cascoon": {
 		"number": 268,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 60, "defense": 77, "hp": 137},
 		"max_cp": 626,
 		"fast_moves": ['Poison Sting', 'Bug Bite'],
@@ -2809,7 +2809,7 @@ pokemon = {
 	},
 	"Seedot": {
 		"number": 273,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 71, "defense": 77, "hp": 120},
 		"max_cp": 676,
 		"fast_moves": ['Bullet Seed', 'Quick Attack'],
@@ -2917,7 +2917,7 @@ pokemon = {
 	},
 	"Shroomish": {
 		"number": 285,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 74, "defense": 110, "hp": 155},
 		"max_cp": 916,
 		"fast_moves": ['Tackle', 'Bullet Seed'],
@@ -2935,7 +2935,7 @@ pokemon = {
 	},
 	"Slakoth": {
 		"number": 287,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 104, "defense": 92, "hp": 155},
 		"max_cp": 1133,
 		"fast_moves": ['Yawn'],
@@ -2944,7 +2944,7 @@ pokemon = {
 	},
 	"Vigoroth": {
 		"number": 288,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 159, "defense": 145, "hp": 190},
 		"max_cp": 2225,
 		"fast_moves": ['Scratch', 'Counter'],
@@ -2953,7 +2953,7 @@ pokemon = {
 	},
 	"Slaking": {
 		"number": 289,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 290, "defense": 166, "hp": 284},
 		"max_cp": 5010,
 		"fast_moves": ['Yawn'],
@@ -2989,7 +2989,7 @@ pokemon = {
 	},
 	"Whismur": {
 		"number": 293,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 92, "defense": 42, "hp": 162},
 		"max_cp": 758,
 		"fast_moves": ['Pound', 'Astonish'],
@@ -2998,7 +2998,7 @@ pokemon = {
 	},
 	"Loudred": {
 		"number": 294,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 134, "defense": 81, "hp": 197},
 		"max_cp": 1500,
 		"fast_moves": ['Bite', 'Rock Smash'],
@@ -3007,7 +3007,7 @@ pokemon = {
 	},
 	"Exploud": {
 		"number": 295,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 179, "defense": 137, "hp": 232},
 		"max_cp": 2654,
 		"fast_moves": ['Bite', 'Astonish'],
@@ -3016,7 +3016,7 @@ pokemon = {
 	},
 	"Makuhita": {
 		"number": 296,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 99, "defense": 54, "hp": 176},
 		"max_cp": 924,
 		"fast_moves": ['Rock Smash', 'Tackle'],
@@ -3025,7 +3025,7 @@ pokemon = {
 	},
 	"Hariyama": {
 		"number": 297,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 209, "defense": 114, "hp": 302},
 		"max_cp": 3198,
 		"fast_moves": ['Counter', 'Bullet Punch'],
@@ -3043,7 +3043,7 @@ pokemon = {
 	},
 	"Nosepass": {
 		"number": 299,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 82, "defense": 215, "hp": 102},
 		"max_cp": 1123,
 		"fast_moves": ['Rock Throw', 'Spark'],
@@ -3052,7 +3052,7 @@ pokemon = {
 	},
 	"Skitty": {
 		"number": 300,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 84, "defense": 79, "hp": 137},
 		"max_cp": 835,
 		"fast_moves": ['Feint Attack', 'Tackle'],
@@ -3061,7 +3061,7 @@ pokemon = {
 	},
 	"Delcatty": {
 		"number": 301,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 132, "defense": 127, "hp": 172},
 		"max_cp": 1691,
 		"fast_moves": ['Feint Attack', 'Zen Headbutt', 'Charm'],
@@ -3133,7 +3133,7 @@ pokemon = {
 	},
 	"Electrike": {
 		"number": 309,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 123, "defense": 78, "hp": 120},
 		"max_cp": 1091,
 		"fast_moves": ['Quick Attack', 'Spark'],
@@ -3142,7 +3142,7 @@ pokemon = {
 	},
 	"Manectric": {
 		"number": 310,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 215, "defense": 127, "hp": 172},
 		"max_cp": 2646,
 		"fast_moves": ['Snarl', 'Charge Beam', 'Thunder Fang'],
@@ -3151,7 +3151,7 @@ pokemon = {
 	},
 	"Plusle": {
 		"number": 311,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 167, "defense": 129, "hp": 155},
 		"max_cp": 2010,
 		"fast_moves": ['Spark', 'Quick Attack'],
@@ -3160,7 +3160,7 @@ pokemon = {
 	},
 	"Minun": {
 		"number": 312,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 147, "defense": 150, "hp": 155},
 		"max_cp": 1915,
 		"fast_moves": ['Spark', 'Quick Attack'],
@@ -3169,7 +3169,7 @@ pokemon = {
 	},
 	"Volbeat": {
 		"number": 313,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 143, "defense": 166, "hp": 163},
 		"max_cp": 2002,
 		"fast_moves": ['Struggle Bug', 'Tackle'],
@@ -3178,7 +3178,7 @@ pokemon = {
 	},
 	"Illumise": {
 		"number": 314,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 143, "defense": 166, "hp": 163},
 		"max_cp": 2002,
 		"fast_moves": ['Struggle Bug', 'Tackle'],
@@ -3196,7 +3196,7 @@ pokemon = {
 	},
 	"Gulpin": {
 		"number": 316,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 80, "defense": 99, "hp": 172},
 		"max_cp": 979,
 		"fast_moves": ['Pound', 'Rock Smash'],
@@ -3205,7 +3205,7 @@ pokemon = {
 	},
 	"Swalot": {
 		"number": 317,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 140, "defense": 159, "hp": 225},
 		"max_cp": 2236,
 		"fast_moves": ['Rock Smash', 'Infestation', 'Mud Shot'],
@@ -3232,7 +3232,7 @@ pokemon = {
 	},
 	"Wailmer": {
 		"number": 320,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 136, "defense": 68, "hp": 277},
 		"max_cp": 1659,
 		"fast_moves": ['Splash', 'Water Gun'],
@@ -3241,7 +3241,7 @@ pokemon = {
 	},
 	"Wailord": {
 		"number": 321,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 175, "defense": 87, "hp": 347},
 		"max_cp": 2577,
 		"fast_moves": ['Zen Headbutt', 'Water Gun'],
@@ -3268,7 +3268,7 @@ pokemon = {
 	},
 	"Torkoal": {
 		"number": 324,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 151, "defense": 203, "hp": 172},
 		"max_cp": 2366,
 		"fast_moves": ['Fire Spin', 'Ember'],
@@ -3277,7 +3277,7 @@ pokemon = {
 	},
 	"Spoink": {
 		"number": 325,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 125, "defense": 122, "hp": 155},
 		"max_cp": 1508,
 		"fast_moves": ['Splash', 'Zen Headbutt'],
@@ -3286,7 +3286,7 @@ pokemon = {
 	},
 	"Grumpig": {
 		"number": 326,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 171, "defense": 188, "hp": 190},
 		"max_cp": 2679,
 		"fast_moves": ['Charge Beam', 'Extrasensory'],
@@ -3295,7 +3295,7 @@ pokemon = {
 	},
 	"Spinda": {
 		"number": 327,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 116, "defense": 116, "hp": 155},
 		"max_cp": 1380,
 		"fast_moves": ['Sucker Punch', 'Psycho Cut'],
@@ -3304,7 +3304,7 @@ pokemon = {
 	},
 	"Trapinch": {
 		"number": 328,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 162, "defense": 78, "hp": 128},
 		"max_cp": 1441,
 		"fast_moves": ['Mud Shot', 'Struggle Bug', 'Sand Attack'],
@@ -3331,7 +3331,7 @@ pokemon = {
 	},
 	"Cacnea": {
 		"number": 331,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 156, "defense": 74, "hp": 137},
 		"max_cp": 1404,
 		"fast_moves": ['Poison Sting', 'Sucker Punch', 'Sand Attack'],
@@ -3367,7 +3367,7 @@ pokemon = {
 	},
 	"Zangoose": {
 		"number": 335,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 222, "defense": 124, "hp": 177},
 		"max_cp": 2733,
 		"fast_moves": ['Fury Cutter', 'Shadow Claw'],
@@ -3376,7 +3376,7 @@ pokemon = {
 	},
 	"Seviper": {
 		"number": 336,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 196, "defense": 118, "hp": 177},
 		"max_cp": 2380,
 		"fast_moves": ['Poison Jab', 'Iron Tail'],
@@ -3421,7 +3421,7 @@ pokemon = {
 	},
 	"Corphish": {
 		"number": 341,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 141, "defense": 99, "hp": 125},
 		"max_cp": 1391,
 		"fast_moves": ['Bubble', 'Rock Smash'],
@@ -3493,7 +3493,7 @@ pokemon = {
 	},
 	"Feebas": {
 		"number": 349,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 29, "defense": 85, "hp": 85},
 		"max_cp": 310,
 		"fast_moves": ['Splash', 'Tackle'],
@@ -3502,7 +3502,7 @@ pokemon = {
 	},
 	"Milotic": {
 		"number": 350,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 192, "defense": 219, "hp": 216},
 		"max_cp": 3398,
 		"fast_moves": ['Waterfall', 'Dragon Tail'],
@@ -3511,7 +3511,7 @@ pokemon = {
 	},
 	"Castform": {
 		"number": 351,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 139, "defense": 139, "hp": 172},
 		"max_cp": 1845,
 		"fast_moves": ['Tackle', 'Hex'],
@@ -3520,7 +3520,7 @@ pokemon = {
 	},
 	"Kecleon": {
 		"number": 352,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 161, "defense": 189, "hp": 155},
 		"max_cp": 2314,
 		"fast_moves": ['Lick', 'Sucker Punch'],
@@ -3529,7 +3529,7 @@ pokemon = {
 	},
 	"Shuppet": {
 		"number": 353,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 138, "defense": 65, "hp": 127},
 		"max_cp": 1151,
 		"fast_moves": ['Feint Attack', 'Astonish'],
@@ -3538,7 +3538,7 @@ pokemon = {
 	},
 	"Banette": {
 		"number": 354,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 218, "defense": 126, "hp": 162},
 		"max_cp": 2599,
 		"fast_moves": ['Hex', 'Shadow Claw'],
@@ -3547,7 +3547,7 @@ pokemon = {
 	},
 	"Duskull": {
 		"number": 355,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 70, "defense": 162, "hp": 85},
 		"max_cp": 798,
 		"fast_moves": ['Hex', 'Astonish'],
@@ -3556,7 +3556,7 @@ pokemon = {
 	},
 	"Dusclops": {
 		"number": 356,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 124, "defense": 234, "hp": 120},
 		"max_cp": 1799,
 		"fast_moves": ['Hex', 'Feint Attack'],
@@ -3574,7 +3574,7 @@ pokemon = {
 	},
 	"Chimecho": {
 		"number": 358,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 175, "defense": 170, "hp": 181},
 		"max_cp": 2554,
 		"fast_moves": ['Extrasensory', 'Astonish'],
@@ -3583,7 +3583,7 @@ pokemon = {
 	},
 	"Absol": {
 		"number": 359,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 246, "defense": 120, "hp": 163},
 		"max_cp": 2856,
 		"fast_moves": ['Psycho Cut', 'Snarl'],
@@ -3592,7 +3592,7 @@ pokemon = {
 	},
 	"Wynaut": {
 		"number": 360,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 41, "defense": 86, "hp": 216},
 		"max_cp": 603,
 		"fast_moves": ['Splash', 'Counter'],
@@ -3601,7 +3601,7 @@ pokemon = {
 	},
 	"Snorunt": {
 		"number": 361,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 95, "defense": 95, "hp": 137},
 		"max_cp": 1004,
 		"fast_moves": ['Powder Snow', 'Hex'],
@@ -3610,7 +3610,7 @@ pokemon = {
 	},
 	"Glalie": {
 		"number": 362,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 162, "defense": 162, "hp": 190},
 		"max_cp": 2380,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
@@ -3646,7 +3646,7 @@ pokemon = {
 	},
 	"Clamperl": {
 		"number": 366,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 133, "defense": 135, "hp": 111},
 		"max_cp": 1436,
 		"fast_moves": ['Water Gun'],
@@ -3655,7 +3655,7 @@ pokemon = {
 	},
 	"Huntail": {
 		"number": 367,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 197, "defense": 179, "hp": 146},
 		"max_cp": 2645,
 		"fast_moves": ['Water Gun', 'Bite'],
@@ -3664,7 +3664,7 @@ pokemon = {
 	},
 	"Gorebyss": {
 		"number": 368,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 211, "defense": 179, "hp": 146},
 		"max_cp": 2820,
 		"fast_moves": ['Water Gun', 'Confusion'],
@@ -3682,7 +3682,7 @@ pokemon = {
 	},
 	"Luvdisc": {
 		"number": 370,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 81, "defense": 128, "hp": 125},
 		"max_cp": 959,
 		"fast_moves": ['Water Gun', 'Splash'],
@@ -3691,7 +3691,7 @@ pokemon = {
 	},
 	"Bagon": {
 		"number": 371,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 134, "defense": 93, "hp": 128},
 		"max_cp": 1307,
 		"fast_moves": ['Bite', 'Ember'],
@@ -3700,7 +3700,7 @@ pokemon = {
 	},
 	"Shelgon": {
 		"number": 372,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 172, "defense": 155, "hp": 163},
 		"max_cp": 2296,
 		"fast_moves": ['Ember', 'Dragon Breath'],
@@ -3745,7 +3745,7 @@ pokemon = {
 	},
 	"Regirock": {
 		"number": 377,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 179, "defense": 309, "hp": 190},
 		"max_cp": 3530,
 		"fast_moves": ['Rock Throw', 'Rock Smash', 'Lock-On'],
@@ -3754,7 +3754,7 @@ pokemon = {
 	},
 	"Regice": {
 		"number": 378,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 179, "defense": 309, "hp": 190},
 		"max_cp": 3530,
 		"fast_moves": ['Frost Breath', 'Rock Smash', 'Lock-On'],
@@ -3763,7 +3763,7 @@ pokemon = {
 	},
 	"Registeel": {
 		"number": 379,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 143, "defense": 285, "hp": 190},
 		"max_cp": 2766,
 		"fast_moves": ['Metal Claw', 'Rock Smash', 'Lock-On'],
@@ -3790,7 +3790,7 @@ pokemon = {
 	},
 	"Kyogre": {
 		"number": 382,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 270, "defense": 228, "hp": 205},
 		"max_cp": 4652,
 		"fast_moves": ['Waterfall'],
@@ -3799,7 +3799,7 @@ pokemon = {
 	},
 	"Groudon": {
 		"number": 383,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 270, "defense": 228, "hp": 205},
 		"max_cp": 4652,
 		"fast_moves": ['Mud Shot', 'Dragon Tail'],
@@ -3826,7 +3826,7 @@ pokemon = {
 	},
 	"Deoxys": {
 		"number": 386,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 345, "defense": 115, "hp": 137},
 		"max_cp": 3573,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
@@ -3835,7 +3835,7 @@ pokemon = {
 	},
 	"Turtwig": {
 		"number": 387,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 119, "defense": 110, "hp": 146},
 		"max_cp": 1342,
 		"fast_moves": ['Tackle', 'Razor Leaf'],
@@ -3844,7 +3844,7 @@ pokemon = {
 	},
 	"Grotle": {
 		"number": 388,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 157, "defense": 143, "hp": 181},
 		"max_cp": 2137,
 		"fast_moves": ['Bite', 'Razor Leaf'],
@@ -3862,7 +3862,7 @@ pokemon = {
 	},
 	"Chimchar": {
 		"number": 390,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 113, "defense": 86, "hp": 127},
 		"max_cp": 1082,
 		"fast_moves": ['Ember', 'Scratch'],
@@ -3889,7 +3889,7 @@ pokemon = {
 	},
 	"Piplup": {
 		"number": 393,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 112, "defense": 102, "hp": 142},
 		"max_cp": 1215,
 		"fast_moves": ['Bubble', 'Pound'],
@@ -3898,7 +3898,7 @@ pokemon = {
 	},
 	"Prinplup": {
 		"number": 394,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 150, "defense": 139, "hp": 162},
 		"max_cp": 1923,
 		"fast_moves": ['Bubble', 'Metal Claw'],
@@ -3943,7 +3943,7 @@ pokemon = {
 	},
 	"Bidoof": {
 		"number": 399,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 80, "defense": 73, "hp": 153},
 		"max_cp": 815,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -3961,7 +3961,7 @@ pokemon = {
 	},
 	"Kricketot": {
 		"number": 401,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 45, "defense": 74, "hp": 114},
 		"max_cp": 453,
 		"fast_moves": ['Struggle Bug', 'Bug Bite'],
@@ -3970,7 +3970,7 @@ pokemon = {
 	},
 	"Kricketune": {
 		"number": 402,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 160, "defense": 100, "hp": 184},
 		"max_cp": 1869,
 		"fast_moves": ['Struggle Bug', 'Fury Cutter'],
@@ -3979,7 +3979,7 @@ pokemon = {
 	},
 	"Shinx": {
 		"number": 403,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 117, "defense": 64, "hp": 128},
 		"max_cp": 990,
 		"fast_moves": ['Tackle', 'Spark'],
@@ -3988,7 +3988,7 @@ pokemon = {
 	},
 	"Luxio": {
 		"number": 404,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 159, "defense": 95, "hp": 155},
 		"max_cp": 1680,
 		"fast_moves": ['Spark', 'Bite'],
@@ -3997,7 +3997,7 @@ pokemon = {
 	},
 	"Luxray": {
 		"number": 405,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 232, "defense": 156, "hp": 190},
 		"max_cp": 3265,
 		"fast_moves": ['Spark', 'Snarl', 'Hidden Power'],
@@ -4024,7 +4024,7 @@ pokemon = {
 	},
 	"Cranidos": {
 		"number": 408,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 218, "defense": 71, "hp": 167},
 		"max_cp": 2058,
 		"fast_moves": ['Zen Headbutt', 'Take Down'],
@@ -4033,7 +4033,7 @@ pokemon = {
 	},
 	"Rampardos": {
 		"number": 409,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 295, "defense": 109, "hp": 219},
 		"max_cp": 3728,
 		"fast_moves": ['Zen Headbutt', 'Smack Down'],
@@ -4060,7 +4060,7 @@ pokemon = {
 	},
 	"Burmy": {
 		"number": 412,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 53, "defense": 83, "hp": 120},
 		"max_cp": 552,
 		"fast_moves": ['Tackle', 'Bug Bite'],
@@ -4105,7 +4105,7 @@ pokemon = {
 	},
 	"Pachirisu": {
 		"number": 417,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 94, "defense": 172, "hp": 155},
 		"max_cp": 1372,
 		"fast_moves": ['Spark', 'Volt Switch'],
@@ -4114,7 +4114,7 @@ pokemon = {
 	},
 	"Buizel": {
 		"number": 418,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 132, "defense": 67, "hp": 146},
 		"max_cp": 1192,
 		"fast_moves": ['Water Gun', 'Quick Attack'],
@@ -4123,7 +4123,7 @@ pokemon = {
 	},
 	"Floatzel": {
 		"number": 419,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 221, "defense": 114, "hp": 198},
 		"max_cp": 2762,
 		"fast_moves": ['Water Gun', 'Waterfall'],
@@ -4132,7 +4132,7 @@ pokemon = {
 	},
 	"Cherubi": {
 		"number": 420,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 108, "defense": 92, "hp": 128},
 		"max_cp": 1074,
 		"fast_moves": ['Tackle', 'Bullet Seed'],
@@ -4141,7 +4141,7 @@ pokemon = {
 	},
 	"Cherrim": {
 		"number": 421,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 170, "defense": 153, "hp": 172},
 		"max_cp": 2315,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
@@ -4150,7 +4150,7 @@ pokemon = {
 	},
 	"Shellos": {
 		"number": 422,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 103, "defense": 105, "hp": 183},
 		"max_cp": 1284,
 		"fast_moves": ['Mud-Slap', 'Hidden Power'],
@@ -4168,7 +4168,7 @@ pokemon = {
 	},
 	"Ambipom": {
 		"number": 424,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 205, "defense": 143, "hp": 181},
 		"max_cp": 2733,
 		"fast_moves": ['Scratch', 'Astonish'],
@@ -4195,7 +4195,7 @@ pokemon = {
 	},
 	"Buneary": {
 		"number": 427,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 130, "defense": 105, "hp": 146},
 		"max_cp": 1423,
 		"fast_moves": ['Pound', 'Quick Attack'],
@@ -4204,7 +4204,7 @@ pokemon = {
 	},
 	"Lopunny": {
 		"number": 428,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 156, "defense": 194, "hp": 163},
 		"max_cp": 2328,
 		"fast_moves": ['Pound', 'Low Kick', 'Double Kick'],
@@ -4213,7 +4213,7 @@ pokemon = {
 	},
 	"Mismagius": {
 		"number": 429,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 211, "defense": 187, "hp": 155},
 		"max_cp": 2957,
 		"fast_moves": ['Sucker Punch', 'Hex', 'Magical Leaf', 'Psywave'],
@@ -4231,7 +4231,7 @@ pokemon = {
 	},
 	"Glameow": {
 		"number": 431,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 109, "defense": 82, "hp": 135},
 		"max_cp": 1056,
 		"fast_moves": ['Scratch', 'Quick Attack'],
@@ -4240,7 +4240,7 @@ pokemon = {
 	},
 	"Purugly": {
 		"number": 432,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 172, "defense": 133, "hp": 174},
 		"max_cp": 2208,
 		"fast_moves": ['Scratch', 'Shadow Claw'],
@@ -4249,7 +4249,7 @@ pokemon = {
 	},
 	"Chingling": {
 		"number": 433,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 114, "defense": 94, "hp": 128},
 		"max_cp": 1137,
 		"fast_moves": ['Zen Headbutt', 'Astonish'],
@@ -4294,7 +4294,7 @@ pokemon = {
 	},
 	"Bonsly": {
 		"number": 438,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 124, "defense": 133, "hp": 137},
 		"max_cp": 1472,
 		"fast_moves": ['Rock Throw', 'Counter'],
@@ -4312,7 +4312,7 @@ pokemon = {
 	},
 	"Happiny": {
 		"number": 440,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 25, "defense": 77, "hp": 225},
 		"max_cp": 419,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
@@ -4366,7 +4366,7 @@ pokemon = {
 	},
 	"Munchlax": {
 		"number": 446,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 137, "defense": 117, "hp": 286},
 		"max_cp": 2139,
 		"fast_moves": ['Tackle', 'Lick'],
@@ -4375,7 +4375,7 @@ pokemon = {
 	},
 	"Riolu": {
 		"number": 447,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 127, "defense": 78, "hp": 120},
 		"max_cp": 1123,
 		"fast_moves": ['Counter', 'Quick Attack'],
@@ -4393,7 +4393,7 @@ pokemon = {
 	},
 	"Hippopotas": {
 		"number": 449,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 124, "defense": 118, "hp": 169},
 		"max_cp": 1535,
 		"fast_moves": ['Tackle', 'Bite', 'Sand Attack'],
@@ -4402,7 +4402,7 @@ pokemon = {
 	},
 	"Hippowdon": {
 		"number": 450,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 201, "defense": 191, "hp": 239},
 		"max_cp": 3488,
 		"fast_moves": ['Fire Fang', 'Bite', 'Thunder Fang', 'Ice Fang', 'Sand Attack'],
@@ -4447,7 +4447,7 @@ pokemon = {
 	},
 	"Carnivine": {
 		"number": 455,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 187, "defense": 136, "hp": 179},
 		"max_cp": 2441,
 		"fast_moves": ['Bite', 'Vine Whip'],
@@ -4456,7 +4456,7 @@ pokemon = {
 	},
 	"Finneon": {
 		"number": 456,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 96, "defense": 116, "hp": 135},
 		"max_cp": 1098,
 		"fast_moves": ['Pound', 'Water Gun'],
@@ -4465,7 +4465,7 @@ pokemon = {
 	},
 	"Lumineon": {
 		"number": 457,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 142, "defense": 170, "hp": 170},
 		"max_cp": 2050,
 		"fast_moves": ['Waterfall', 'Water Gun'],
@@ -4519,7 +4519,7 @@ pokemon = {
 	},
 	"Lickilicky": {
 		"number": 463,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 161, "defense": 181, "hp": 242},
 		"max_cp": 2789,
 		"fast_moves": ['Lick', 'Zen Headbutt'],
@@ -4537,7 +4537,7 @@ pokemon = {
 	},
 	"Tangrowth": {
 		"number": 465,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 207, "defense": 184, "hp": 225},
 		"max_cp": 3425,
 		"fast_moves": ['Vine Whip', 'Infestation'],
@@ -4546,7 +4546,7 @@ pokemon = {
 	},
 	"Electivire": {
 		"number": 466,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 249, "defense": 163, "hp": 181},
 		"max_cp": 3481,
 		"fast_moves": ['Thunder Shock', 'Low Kick'],
@@ -4555,7 +4555,7 @@ pokemon = {
 	},
 	"Magmortar": {
 		"number": 467,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 247, "defense": 172, "hp": 181},
 		"max_cp": 3541,
 		"fast_moves": ['Fire Spin', 'Karate Chop'],
@@ -4582,7 +4582,7 @@ pokemon = {
 	},
 	"Leafeon": {
 		"number": 470,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 216, "defense": 219, "hp": 163},
 		"max_cp": 3328,
 		"fast_moves": ['Razor Leaf', 'Quick Attack', 'Bullet Seed'],
@@ -4591,7 +4591,7 @@ pokemon = {
 	},
 	"Glaceon": {
 		"number": 471,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 238, "defense": 205, "hp": 163},
 		"max_cp": 3535,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
@@ -4618,7 +4618,7 @@ pokemon = {
 	},
 	"Porygon-Z": {
 		"number": 474,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 264, "defense": 150, "hp": 198},
 		"max_cp": 3693,
 		"fast_moves": ['Hidden Power', 'Charge Beam', 'Lock-On'],
@@ -4645,7 +4645,7 @@ pokemon = {
 	},
 	"Dusknoir": {
 		"number": 477,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 180, "defense": 254, "hp": 128},
 		"max_cp": 2700,
 		"fast_moves": ['Hex', 'Astonish'],
@@ -4672,7 +4672,7 @@ pokemon = {
 	},
 	"Uxie": {
 		"number": 480,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 156, "defense": 270, "hp": 181},
 		"max_cp": 2853,
 		"fast_moves": ['Confusion', 'Extrasensory'],
@@ -4681,7 +4681,7 @@ pokemon = {
 	},
 	"Mesprit": {
 		"number": 481,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 212, "defense": 212, "hp": 190},
 		"max_cp": 3457,
 		"fast_moves": ['Confusion', 'Extrasensory'],
@@ -4690,7 +4690,7 @@ pokemon = {
 	},
 	"Azelf": {
 		"number": 482,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 270, "defense": 151, "hp": 181},
 		"max_cp": 3629,
 		"fast_moves": ['Confusion', 'Extrasensory'],
@@ -4726,7 +4726,7 @@ pokemon = {
 	},
 	"Regigigas": {
 		"number": 486,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 287, "defense": 210, "hp": 221},
 		"max_cp": 4913,
 		"fast_moves": ['Zen Headbutt', 'Hidden Power'],
@@ -4744,7 +4744,7 @@ pokemon = {
 	},
 	"Cresselia": {
 		"number": 488,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 152, "defense": 258, "hp": 260},
 		"max_cp": 3230,
 		"fast_moves": ['Psycho Cut', 'Confusion'],
@@ -4753,7 +4753,7 @@ pokemon = {
 	},
 	"Phione": {
 		"number": 489,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 162, "defense": 162, "hp": 190},
 		"max_cp": 2380,
 		"fast_moves": ['Waterfall', 'Bubble'],
@@ -4762,7 +4762,7 @@ pokemon = {
 	},
 	"Manaphy": {
 		"number": 490,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 210, "defense": 210, "hp": 225},
 		"max_cp": 3691,
 		"fast_moves": ['Waterfall', 'Bubble'],
@@ -4771,7 +4771,7 @@ pokemon = {
 	},
 	"Darkrai": {
 		"number": 491,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 285, "defense": 198, "hp": 172},
 		"max_cp": 4227,
 		"fast_moves": ['Snarl', 'Feint Attack'],
@@ -4780,7 +4780,7 @@ pokemon = {
 	},
 	"Shaymin": {
 		"number": 492,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 210, "defense": 210, "hp": 225},
 		"max_cp": 3691,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
@@ -4789,7 +4789,7 @@ pokemon = {
 	},
 	"Arceus": {
 		"number": 493,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 238, "defense": 238, "hp": 237},
 		"max_cp": 4510,
 		"fast_moves": ['Iron Tail', 'Shadow Claw'],
@@ -4807,7 +4807,7 @@ pokemon = {
 	},
 	"Snivy": {
 		"number": 495,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 88, "defense": 107, "hp": 128},
 		"max_cp": 960,
 		"fast_moves": ['Tackle', 'Vine Whip'],
@@ -4816,7 +4816,7 @@ pokemon = {
 	},
 	"Servine": {
 		"number": 496,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 122, "defense": 152, "hp": 155},
 		"max_cp": 1629,
 		"fast_moves": ['Iron Tail', 'Vine Whip'],
@@ -4825,7 +4825,7 @@ pokemon = {
 	},
 	"Serperior": {
 		"number": 497,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 161, "defense": 204, "hp": 181},
 		"max_cp": 2574,
 		"fast_moves": ['Iron Tail', 'Vine Whip'],
@@ -4834,7 +4834,7 @@ pokemon = {
 	},
 	"Tepig": {
 		"number": 498,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 115, "defense": 85, "hp": 163},
 		"max_cp": 1224,
 		"fast_moves": ['Tackle', 'Ember'],
@@ -4861,7 +4861,7 @@ pokemon = {
 	},
 	"Oshawott": {
 		"number": 501,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 117, "defense": 85, "hp": 146},
 		"max_cp": 1182,
 		"fast_moves": ['Tackle', 'Water Gun'],
@@ -4870,7 +4870,7 @@ pokemon = {
 	},
 	"Dewott": {
 		"number": 502,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 159, "defense": 116, "hp": 181},
 		"max_cp": 1968,
 		"fast_moves": ['Fury Cutter', 'Water Gun'],
@@ -4879,7 +4879,7 @@ pokemon = {
 	},
 	"Samurott": {
 		"number": 503,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 212, "defense": 157, "hp": 216},
 		"max_cp": 3194,
 		"fast_moves": ['Fury Cutter', 'Waterfall'],
@@ -4897,7 +4897,7 @@ pokemon = {
 	},
 	"Patrat": {
 		"number": 504,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 98, "defense": 73, "hp": 128},
 		"max_cp": 895,
 		"fast_moves": ['Tackle', 'Bite'],
@@ -4906,7 +4906,7 @@ pokemon = {
 	},
 	"Watchog": {
 		"number": 505,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 165, "defense": 139, "hp": 155},
 		"max_cp": 2056,
 		"fast_moves": ['Low Kick', 'Bite'],
@@ -4915,7 +4915,7 @@ pokemon = {
 	},
 	"Lillipup": {
 		"number": 506,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 107, "defense": 86, "hp": 128},
 		"max_cp": 1035,
 		"fast_moves": ['Tackle', 'Take Down', 'Sand Attack'],
@@ -4924,7 +4924,7 @@ pokemon = {
 	},
 	"Herdier": {
 		"number": 507,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 145, "defense": 126, "hp": 163},
 		"max_cp": 1789,
 		"fast_moves": ['Lick', 'Take Down', 'Sand Attack'],
@@ -4933,7 +4933,7 @@ pokemon = {
 	},
 	"Stoutland": {
 		"number": 508,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 206, "defense": 182, "hp": 198},
 		"max_cp": 3196,
 		"fast_moves": ['Lick', 'Take Down', 'Ice Fang', 'Sand Attack'],
@@ -4942,7 +4942,7 @@ pokemon = {
 	},
 	"Purrloin": {
 		"number": 509,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 98, "defense": 73, "hp": 121},
 		"max_cp": 872,
 		"fast_moves": ['Scratch', 'Sucker Punch'],
@@ -4951,7 +4951,7 @@ pokemon = {
 	},
 	"Liepard": {
 		"number": 510,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 187, "defense": 106, "hp": 162},
 		"max_cp": 2087,
 		"fast_moves": ['Charm', 'Snarl'],
@@ -4960,7 +4960,7 @@ pokemon = {
 	},
 	"Pansage": {
 		"number": 511,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 104, "defense": 94, "hp": 137},
 		"max_cp": 1081,
 		"fast_moves": ['Scratch', 'Vine Whip'],
@@ -4969,7 +4969,7 @@ pokemon = {
 	},
 	"Simisage": {
 		"number": 512,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 206, "defense": 133, "hp": 181},
 		"max_cp": 2657,
 		"fast_moves": ['Bite', 'Vine Whip'],
@@ -4978,7 +4978,7 @@ pokemon = {
 	},
 	"Pansear": {
 		"number": 513,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 104, "defense": 94, "hp": 137},
 		"max_cp": 1081,
 		"fast_moves": ['Scratch', 'Fire Spin'],
@@ -4987,7 +4987,7 @@ pokemon = {
 	},
 	"Simisear": {
 		"number": 514,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 206, "defense": 133, "hp": 181},
 		"max_cp": 2657,
 		"fast_moves": ['Bite', 'Fire Spin'],
@@ -4996,7 +4996,7 @@ pokemon = {
 	},
 	"Panpour": {
 		"number": 515,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 104, "defense": 94, "hp": 137},
 		"max_cp": 1081,
 		"fast_moves": ['Scratch', 'Water Gun'],
@@ -5005,7 +5005,7 @@ pokemon = {
 	},
 	"Simipour": {
 		"number": 516,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 206, "defense": 133, "hp": 181},
 		"max_cp": 2657,
 		"fast_moves": ['Bite', 'Water Gun'],
@@ -5014,7 +5014,7 @@ pokemon = {
 	},
 	"Munna": {
 		"number": 517,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 111, "defense": 92, "hp": 183},
 		"max_cp": 1294,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
@@ -5023,7 +5023,7 @@ pokemon = {
 	},
 	"Musharna": {
 		"number": 518,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 183, "defense": 166, "hp": 253},
 		"max_cp": 3079,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
@@ -5059,7 +5059,7 @@ pokemon = {
 	},
 	"Blitzle": {
 		"number": 522,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 118, "defense": 64, "hp": 128},
 		"max_cp": 998,
 		"fast_moves": ['Quick Attack', 'Spark'],
@@ -5068,7 +5068,7 @@ pokemon = {
 	},
 	"Zebstrika": {
 		"number": 523,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 211, "defense": 136, "hp": 181},
 		"max_cp": 2745,
 		"fast_moves": ['Low Kick', 'Spark'],
@@ -5077,7 +5077,7 @@ pokemon = {
 	},
 	"Roggenrola": {
 		"number": 524,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 121, "defense": 110, "hp": 146},
 		"max_cp": 1362,
 		"fast_moves": ['Tackle', 'Smack Down'],
@@ -5086,7 +5086,7 @@ pokemon = {
 	},
 	"Boldore": {
 		"number": 525,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 174, "defense": 143, "hp": 172},
 		"max_cp": 2293,
 		"fast_moves": ['Mud-Slap', 'Smack Down'],
@@ -5095,7 +5095,7 @@ pokemon = {
 	},
 	"Gigalith": {
 		"number": 526,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 226, "defense": 201, "hp": 198},
 		"max_cp": 3650,
 		"fast_moves": ['Mud-Slap', 'Smack Down'],
@@ -5122,7 +5122,7 @@ pokemon = {
 	},
 	"Drilbur": {
 		"number": 529,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 154, "defense": 85, "hp": 155},
 		"max_cp": 1555,
 		"fast_moves": ['Scratch', 'Mud-Slap'],
@@ -5140,7 +5140,7 @@ pokemon = {
 	},
 	"Audino": {
 		"number": 531,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 114, "defense": 163, "hp": 230},
 		"max_cp": 1902,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
@@ -5149,7 +5149,7 @@ pokemon = {
 	},
 	"Timburr": {
 		"number": 532,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 134, "defense": 87, "hp": 181},
 		"max_cp": 1487,
 		"fast_moves": ['Low Kick', 'Pound'],
@@ -5158,7 +5158,7 @@ pokemon = {
 	},
 	"Gurdurr": {
 		"number": 533,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 180, "defense": 134, "hp": 198},
 		"max_cp": 2452,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
@@ -5167,7 +5167,7 @@ pokemon = {
 	},
 	"Conkeldurr": {
 		"number": 534,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 243, "defense": 158, "hp": 233},
 		"max_cp": 3773,
 		"fast_moves": ['Counter', 'Poison Jab'],
@@ -5176,7 +5176,7 @@ pokemon = {
 	},
 	"Tympole": {
 		"number": 535,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 98, "defense": 78, "hp": 137},
 		"max_cp": 948,
 		"fast_moves": ['Mud Shot', 'Bubble'],
@@ -5203,7 +5203,7 @@ pokemon = {
 	},
 	"Throh": {
 		"number": 538,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 172, "defense": 160, "hp": 260},
 		"max_cp": 2896,
 		"fast_moves": ['Low Kick', 'Zen Headbutt'],
@@ -5212,7 +5212,7 @@ pokemon = {
 	},
 	"Sawk": {
 		"number": 539,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 231, "defense": 153, "hp": 181},
 		"max_cp": 3152,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
@@ -5293,7 +5293,7 @@ pokemon = {
 	},
 	"Petilil": {
 		"number": 548,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 119, "defense": 91, "hp": 128},
 		"max_cp": 1164,
 		"fast_moves": ['Charm', 'Hidden Power'],
@@ -5302,7 +5302,7 @@ pokemon = {
 	},
 	"Lilligant": {
 		"number": 549,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 214, "defense": 155, "hp": 172},
 		"max_cp": 2883,
 		"fast_moves": ['Charm', 'Hidden Power', 'Magical Leaf'],
@@ -5311,7 +5311,7 @@ pokemon = {
 	},
 	"Basculin": {
 		"number": 550,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 189, "defense": 129, "hp": 172},
 		"max_cp": 2363,
 		"fast_moves": ['Tackle', 'Water Gun'],
@@ -5347,7 +5347,7 @@ pokemon = {
 	},
 	"Darumaka": {
 		"number": 554,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 153, "defense": 86, "hp": 172},
 		"max_cp": 1630,
 		"fast_moves": ['Tackle', 'Fire Fang'],
@@ -5356,7 +5356,7 @@ pokemon = {
 	},
 	"Galarian Darumaka": {
 		"number": 554,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 153, "defense": 86, "hp": 172},
 		"max_cp": 1630,
 		"fast_moves": ['Tackle', 'Ice Fang'],
@@ -5365,7 +5365,7 @@ pokemon = {
 	},
 	"Darmanitan": {
 		"number": 555,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 263, "defense": 114, "hp": 233},
 		"max_cp": 3511,
 		"fast_moves": ['Tackle', 'Fire Fang', 'Incinerate'],
@@ -5374,7 +5374,7 @@ pokemon = {
 	},
 	"Darmanitan": {
 		"number": 555,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 263, "defense": 114, "hp": 233},
 		"max_cp": 3511,
 		"fast_moves": ['Tackle', 'Ice Fang'],
@@ -5392,7 +5392,7 @@ pokemon = {
 	},
 	"Maractus": {
 		"number": 556,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 201, "defense": 130, "hp": 181},
 		"max_cp": 2571,
 		"fast_moves": ['Bullet Seed', 'Poison Jab'],
@@ -5446,7 +5446,7 @@ pokemon = {
 	},
 	"Yamask": {
 		"number": 562,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 95, "defense": 141, "hp": 116},
 		"max_cp": 1110,
 		"fast_moves": ['Astonish', 'Zen Headbutt'],
@@ -5464,7 +5464,7 @@ pokemon = {
 	},
 	"Cofagrigus": {
 		"number": 563,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 163, "defense": 237, "hp": 151},
 		"max_cp": 2570,
 		"fast_moves": ['Astonish', 'Zen Headbutt', 'Shadow Claw'],
@@ -5509,7 +5509,7 @@ pokemon = {
 	},
 	"Trubbish": {
 		"number": 568,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 96, "defense": 122, "hp": 137},
 		"max_cp": 1131,
 		"fast_moves": ['Pound', 'Take Down'],
@@ -5518,7 +5518,7 @@ pokemon = {
 	},
 	"Garbodor": {
 		"number": 569,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 181, "defense": 164, "hp": 190},
 		"max_cp": 2651,
 		"fast_moves": ['Infestation', 'Take Down'],
@@ -5527,7 +5527,7 @@ pokemon = {
 	},
 	"Zorua": {
 		"number": 570,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 153, "defense": 78, "hp": 120},
 		"max_cp": 1329,
 		"fast_moves": ['Scratch', 'Feint Attack'],
@@ -5536,7 +5536,7 @@ pokemon = {
 	},
 	"Zoroark": {
 		"number": 571,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 250, "defense": 127, "hp": 155},
 		"max_cp": 2907,
 		"fast_moves": ['Shadow Claw', 'Snarl'],
@@ -5545,7 +5545,7 @@ pokemon = {
 	},
 	"Minccino": {
 		"number": 572,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 98, "defense": 80, "hp": 146},
 		"max_cp": 986,
 		"fast_moves": ['Pound', 'Charm'],
@@ -5554,7 +5554,7 @@ pokemon = {
 	},
 	"Cinccino": {
 		"number": 573,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 198, "defense": 130, "hp": 181},
 		"max_cp": 2535,
 		"fast_moves": ['Pound', 'Charm'],
@@ -5563,7 +5563,7 @@ pokemon = {
 	},
 	"Gothita": {
 		"number": 574,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 98, "defense": 112, "hp": 128},
 		"max_cp": 1075,
 		"fast_moves": ['Pound', 'Confusion'],
@@ -5572,7 +5572,7 @@ pokemon = {
 	},
 	"Gothorita": {
 		"number": 575,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 137, "defense": 153, "hp": 155},
 		"max_cp": 1813,
 		"fast_moves": ['Pound', 'Confusion'],
@@ -5581,7 +5581,7 @@ pokemon = {
 	},
 	"Gothitelle": {
 		"number": 576,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 176, "defense": 205, "hp": 172},
 		"max_cp": 2735,
 		"fast_moves": ['Charm', 'Confusion'],
@@ -5590,7 +5590,7 @@ pokemon = {
 	},
 	"Solosis": {
 		"number": 577,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 170, "defense": 83, "hp": 128},
 		"max_cp": 1546,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
@@ -5599,7 +5599,7 @@ pokemon = {
 	},
 	"Duosion": {
 		"number": 578,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 208, "defense": 103, "hp": 163},
 		"max_cp": 2282,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
@@ -5608,7 +5608,7 @@ pokemon = {
 	},
 	"Reuniclus": {
 		"number": 579,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 214, "defense": 148, "hp": 242},
 		"max_cp": 3309,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
@@ -5635,7 +5635,7 @@ pokemon = {
 	},
 	"Vanillite": {
 		"number": 582,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 118, "defense": 106, "hp": 113},
 		"max_cp": 1168,
 		"fast_moves": ['Powder Snow', 'Astonish'],
@@ -5644,7 +5644,7 @@ pokemon = {
 	},
 	"Vanillish": {
 		"number": 583,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 151, "defense": 138, "hp": 139},
 		"max_cp": 1799,
 		"fast_moves": ['Frost Breath', 'Astonish'],
@@ -5653,7 +5653,7 @@ pokemon = {
 	},
 	"Vanilluxe": {
 		"number": 584,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 218, "defense": 184, "hp": 174},
 		"max_cp": 3190,
 		"fast_moves": ['Frost Breath', 'Astonish'],
@@ -5689,7 +5689,7 @@ pokemon = {
 	},
 	"Karrablast": {
 		"number": 588,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 137, "defense": 87, "hp": 137},
 		"max_cp": 1336,
 		"fast_moves": ['Peck', 'Fury Cutter'],
@@ -5743,7 +5743,7 @@ pokemon = {
 	},
 	"Alomomola": {
 		"number": 594,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 138, "defense": 131, "hp": 338},
 		"max_cp": 2452,
 		"fast_moves": ['Waterfall', 'Hidden Power'],
@@ -5788,7 +5788,7 @@ pokemon = {
 	},
 	"Klink": {
 		"number": 599,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 98, "defense": 121, "hp": 120},
 		"max_cp": 1081,
 		"fast_moves": ['Volt Switch', 'Charge Beam', 'Metal Sound'],
@@ -5797,7 +5797,7 @@ pokemon = {
 	},
 	"Klang": {
 		"number": 600,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 150, "defense": 174, "hp": 155},
 		"max_cp": 2088,
 		"fast_moves": ['Thunder Shock', 'Charge Beam', 'Metal Sound'],
@@ -5806,7 +5806,7 @@ pokemon = {
 	},
 	"Klinklang": {
 		"number": 601,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 199, "defense": 214, "hp": 155},
 		"max_cp": 2981,
 		"fast_moves": ['Thunder Shock', 'Charge Beam', 'Metal Sound'],
@@ -5815,7 +5815,7 @@ pokemon = {
 	},
 	"Tynamo": {
 		"number": 602,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 105, "defense": 78, "hp": 111},
 		"max_cp": 917,
 		"fast_moves": ['Tackle', 'Spark'],
@@ -5824,7 +5824,7 @@ pokemon = {
 	},
 	"Eelektrik": {
 		"number": 603,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 156, "defense": 130, "hp": 163},
 		"max_cp": 1939,
 		"fast_moves": ['Acid', 'Spark'],
@@ -5833,7 +5833,7 @@ pokemon = {
 	},
 	"Eelektross": {
 		"number": 604,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 217, "defense": 152, "hp": 198},
 		"max_cp": 3089,
 		"fast_moves": ['Acid', 'Spark'],
@@ -5842,7 +5842,7 @@ pokemon = {
 	},
 	"Elgyem": {
 		"number": 605,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 148, "defense": 100, "hp": 146},
 		"max_cp": 1566,
 		"fast_moves": ['Confusion', 'Astonish'],
@@ -5851,7 +5851,7 @@ pokemon = {
 	},
 	"Beheeyem": {
 		"number": 606,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 221, "defense": 163, "hp": 181},
 		"max_cp": 3112,
 		"fast_moves": ['Confusion', 'Astonish'],
@@ -5887,7 +5887,7 @@ pokemon = {
 	},
 	"Axew": {
 		"number": 610,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 154, "defense": 101, "hp": 130},
 		"max_cp": 1547,
 		"fast_moves": ['Scratch', 'Iron Tail'],
@@ -5896,7 +5896,7 @@ pokemon = {
 	},
 	"Fraxure": {
 		"number": 611,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 212, "defense": 123, "hp": 165},
 		"max_cp": 2526,
 		"fast_moves": ['Dragon Tail', 'Iron Tail'],
@@ -5905,7 +5905,7 @@ pokemon = {
 	},
 	"Haxorus": {
 		"number": 612,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 284, "defense": 172, "hp": 183},
 		"max_cp": 4062,
 		"fast_moves": ['Dragon Tail', 'Counter'],
@@ -5914,7 +5914,7 @@ pokemon = {
 	},
 	"Cubchoo": {
 		"number": 613,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 128, "defense": 74, "hp": 146},
 		"max_cp": 1208,
 		"fast_moves": ['Powder Snow', 'Charm'],
@@ -5923,7 +5923,7 @@ pokemon = {
 	},
 	"Beartic": {
 		"number": 614,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 233, "defense": 152, "hp": 216},
 		"max_cp": 3439,
 		"fast_moves": ['Powder Snow', 'Charm'],
@@ -5932,7 +5932,7 @@ pokemon = {
 	},
 	"Cryogonal": {
 		"number": 615,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 190, "defense": 218, "hp": 190},
 		"max_cp": 3163,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
@@ -5941,7 +5941,7 @@ pokemon = {
 	},
 	"Shelmet": {
 		"number": 616,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 72, "defense": 140, "hp": 137},
 		"max_cp": 942,
 		"fast_moves": ['Acid', 'Infestation'],
@@ -5950,7 +5950,7 @@ pokemon = {
 	},
 	"Accelgor": {
 		"number": 617,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 220, "defense": 120, "hp": 190},
 		"max_cp": 2760,
 		"fast_moves": ['Acid', 'Infestation', 'Water Shuriken'],
@@ -5977,7 +5977,7 @@ pokemon = {
 	},
 	"Mienfoo": {
 		"number": 619,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 160, "defense": 98, "hp": 128},
 		"max_cp": 1570,
 		"fast_moves": ['Low Kick', 'Pound'],
@@ -5986,7 +5986,7 @@ pokemon = {
 	},
 	"Mienshao": {
 		"number": 620,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 258, "defense": 127, "hp": 163},
 		"max_cp": 3064,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
@@ -5995,7 +5995,7 @@ pokemon = {
 	},
 	"Druddigon": {
 		"number": 621,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 213, "defense": 170, "hp": 184},
 		"max_cp": 3088,
 		"fast_moves": ['Dragon Tail', 'Bite'],
@@ -6040,7 +6040,7 @@ pokemon = {
 	},
 	"Bouffalant": {
 		"number": 626,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 195, "defense": 182, "hp": 216},
 		"max_cp": 3163,
 		"fast_moves": ['Zen Headbutt', 'Mud Shot'],
@@ -6094,7 +6094,7 @@ pokemon = {
 	},
 	"Heatmor": {
 		"number": 631,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 204, "defense": 129, "hp": 198},
 		"max_cp": 2708,
 		"fast_moves": ['Lick', 'Fire Spin'],
@@ -6184,7 +6184,7 @@ pokemon = {
 	},
 	"Tornadus": {
 		"number": 641,
-		"type": ["Flying", "null"],
+		"type": ["Flying", "none"],
 		"stats": {"attack": 266, "defense": 164, "hp": 188},
 		"max_cp": 3782,
 		"fast_moves": ['Bite', 'Air Slash'],
@@ -6265,7 +6265,7 @@ pokemon = {
 	},
 	"Chespin": {
 		"number": 650,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 110, "defense": 106, "hp": 148},
 		"max_cp": 1239,
 		"fast_moves": ['Take Down', 'Vine Whip'],
@@ -6274,7 +6274,7 @@ pokemon = {
 	},
 	"Quilladin": {
 		"number": 651,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 146, "defense": 156, "hp": 156},
 		"max_cp": 1943,
 		"fast_moves": ['Low Kick', 'Vine Whip'],
@@ -6292,7 +6292,7 @@ pokemon = {
 	},
 	"Fennekin": {
 		"number": 653,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 116, "defense": 102, "hp": 120},
 		"max_cp": 1162,
 		"fast_moves": ['Scratch', 'Ember'],
@@ -6301,7 +6301,7 @@ pokemon = {
 	},
 	"Braixen": {
 		"number": 654,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 171, "defense": 130, "hp": 153},
 		"max_cp": 2049,
 		"fast_moves": ['Scratch', 'Ember'],
@@ -6319,7 +6319,7 @@ pokemon = {
 	},
 	"Froakie": {
 		"number": 656,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 122, "defense": 84, "hp": 121},
 		"max_cp": 1122,
 		"fast_moves": ['Pound', 'Bubble'],
@@ -6328,7 +6328,7 @@ pokemon = {
 	},
 	"Frogadier": {
 		"number": 657,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 168, "defense": 114, "hp": 144},
 		"max_cp": 1850,
 		"fast_moves": ['Pound', 'Bubble'],
@@ -6346,7 +6346,7 @@ pokemon = {
 	},
 	"Bunnelby": {
 		"number": 659,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 68, "defense": 72, "hp": 116},
 		"max_cp": 625,
 		"fast_moves": ['Mud-Slap', 'Quick Attack'],
@@ -6391,7 +6391,7 @@ pokemon = {
 	},
 	"Scatterbug": {
 		"number": 664,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 63, "defense": 63, "hp": 116},
 		"max_cp": 556,
 		"fast_moves": ['Bug Bite', 'Tackle'],
@@ -6400,7 +6400,7 @@ pokemon = {
 	},
 	"Spewpa": {
 		"number": 665,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 48, "defense": 89, "hp": 128},
 		"max_cp": 542,
 		"fast_moves": ['Struggle Bug'],
@@ -6436,7 +6436,7 @@ pokemon = {
 	},
 	"Flabébé": {
 		"number": 669,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 108, "defense": 120, "hp": 127},
 		"max_cp": 1202,
 		"fast_moves": ['Vine Whip', 'Tackle'],
@@ -6445,7 +6445,7 @@ pokemon = {
 	},
 	"Floette": {
 		"number": 670,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 136, "defense": 151, "hp": 144},
 		"max_cp": 1732,
 		"fast_moves": ['Vine Whip', 'Tackle'],
@@ -6454,7 +6454,7 @@ pokemon = {
 	},
 	"Florges": {
 		"number": 671,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 212, "defense": 244, "hp": 186},
 		"max_cp": 3657,
 		"fast_moves": ['Vine Whip', 'Tackle', 'Razor Leaf', 'Fairy Wind'],
@@ -6463,7 +6463,7 @@ pokemon = {
 	},
 	"Skiddo": {
 		"number": 672,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 123, "defense": 102, "hp": 165},
 		"max_cp": 1414,
 		"fast_moves": ['Zen Headbutt', 'Rock Smash'],
@@ -6472,7 +6472,7 @@ pokemon = {
 	},
 	"Gogoat": {
 		"number": 673,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 196, "defense": 146, "hp": 265},
 		"max_cp": 3163,
 		"fast_moves": ['Zen Headbutt', 'Rock Smash', 'Vine Whip'],
@@ -6481,7 +6481,7 @@ pokemon = {
 	},
 	"Pancham": {
 		"number": 674,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 145, "defense": 107, "hp": 167},
 		"max_cp": 1683,
 		"fast_moves": ['Low Kick', 'Tackle'],
@@ -6499,7 +6499,7 @@ pokemon = {
 	},
 	"Furfrou": {
 		"number": 676,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 164, "defense": 167, "hp": 181},
 		"max_cp": 2387,
 		"fast_moves": ['Take Down', 'Bite', 'Sucker Punch', 'Sand Attack'],
@@ -6508,7 +6508,7 @@ pokemon = {
 	},
 	"Espurr": {
 		"number": 677,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 120, "defense": 114, "hp": 158},
 		"max_cp": 1424,
 		"fast_moves": ['Confusion', 'Scratch'],
@@ -6517,7 +6517,7 @@ pokemon = {
 	},
 	"Meowstic": {
 		"number": 678,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 166, "defense": 167, "hp": 179},
 		"max_cp": 2401,
 		"fast_moves": ['Confusion', 'Sucker Punch'],
@@ -6526,7 +6526,7 @@ pokemon = {
 	},
 	"Spritzee": {
 		"number": 682,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 110, "defense": 113, "hp": 186},
 		"max_cp": 1415,
 		"fast_moves": ['Charm', 'Charge Beam'],
@@ -6535,7 +6535,7 @@ pokemon = {
 	},
 	"Aromatisse": {
 		"number": 683,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 173, "defense": 150, "hp": 226},
 		"max_cp": 2647,
 		"fast_moves": ['Charm', 'Charge Beam'],
@@ -6544,7 +6544,7 @@ pokemon = {
 	},
 	"Swirlix": {
 		"number": 684,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 109, "defense": 119, "hp": 158},
 		"max_cp": 1333,
 		"fast_moves": ['Tackle'],
@@ -6553,7 +6553,7 @@ pokemon = {
 	},
 	"Slurpuff": {
 		"number": 685,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 168, "defense": 163, "hp": 193},
 		"max_cp": 2486,
 		"fast_moves": ['Tackle', 'Charm', 'Fairy Wind'],
@@ -6616,7 +6616,7 @@ pokemon = {
 	},
 	"Clauncher": {
 		"number": 692,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 108, "defense": 117, "hp": 137},
 		"max_cp": 1230,
 		"fast_moves": ['Water Gun', 'Smack Down'],
@@ -6625,7 +6625,7 @@ pokemon = {
 	},
 	"Clawitzer": {
 		"number": 693,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 221, "defense": 171, "hp": 174},
 		"max_cp": 3124,
 		"fast_moves": ['Water Gun', 'Smack Down'],
@@ -6688,7 +6688,7 @@ pokemon = {
 	},
 	"Sylveon": {
 		"number": 700,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 203, "defense": 205, "hp": 216},
 		"max_cp": 3470,
 		"fast_moves": ['Charm', 'Quick Attack'],
@@ -6724,7 +6724,7 @@ pokemon = {
 	},
 	"Goomy": {
 		"number": 704,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 101, "defense": 112, "hp": 128},
 		"max_cp": 1103,
 		"fast_moves": ['Water Gun', 'Tackle'],
@@ -6733,7 +6733,7 @@ pokemon = {
 	},
 	"Sliggoo": {
 		"number": 705,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 159, "defense": 176, "hp": 169},
 		"max_cp": 2303,
 		"fast_moves": ['Water Gun', 'Tackle'],
@@ -6742,7 +6742,7 @@ pokemon = {
 	},
 	"Goodra": {
 		"number": 706,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 220, "defense": 242, "hp": 207},
 		"max_cp": 3963,
 		"fast_moves": ['Water Gun', 'Dragon Breath'],
@@ -6796,7 +6796,7 @@ pokemon = {
 	},
 	"Bergmite": {
 		"number": 712,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 117, "defense": 120, "hp": 146},
 		"max_cp": 1374,
 		"fast_moves": ['Bite', 'Tackle'],
@@ -6805,7 +6805,7 @@ pokemon = {
 	},
 	"Avalugg": {
 		"number": 713,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 196, "defense": 240, "hp": 216},
 		"max_cp": 3615,
 		"fast_moves": ['Bite', 'Ice Fang'],
@@ -6841,7 +6841,7 @@ pokemon = {
 	},
 	"Xerneas": {
 		"number": 716,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 250, "defense": 185, "hp": 246},
 		"max_cp": 4275,
 		"fast_moves": ['Tackle', 'Zen Headbutt', 'Geomancy'],
@@ -6931,7 +6931,7 @@ pokemon = {
 	},
 	"Litten": {
 		"number": 725,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 128, "defense": 79, "hp": 128},
 		"max_cp": 1170,
 		"fast_moves": ['Scratch', 'Ember'],
@@ -6940,7 +6940,7 @@ pokemon = {
 	},
 	"Torracat": {
 		"number": 726,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 174, "defense": 103, "hp": 163},
 		"max_cp": 1934,
 		"fast_moves": ['Bite', 'Ember'],
@@ -6958,7 +6958,7 @@ pokemon = {
 	},
 	"Popplio": {
 		"number": 728,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 120, "defense": 103, "hp": 137},
 		"max_cp": 1276,
 		"fast_moves": ['Pound', 'Water Gun'],
@@ -6967,7 +6967,7 @@ pokemon = {
 	},
 	"Brionne": {
 		"number": 729,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 168, "defense": 145, "hp": 155},
 		"max_cp": 2131,
 		"fast_moves": ['Charm', 'Water Gun'],
@@ -7012,7 +7012,7 @@ pokemon = {
 	},
 	"Yungoos": {
 		"number": 734,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 122, "defense": 56, "hp": 134},
 		"max_cp": 994,
 		"fast_moves": ['Tackle', 'Bite'],
@@ -7021,7 +7021,7 @@ pokemon = {
 	},
 	"Gumshoos": {
 		"number": 735,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 194, "defense": 113, "hp": 204},
 		"max_cp": 2470,
 		"fast_moves": ['Take Down', 'Bite'],
@@ -7030,7 +7030,7 @@ pokemon = {
 	},
 	"Grubbin": {
 		"number": 736,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 115, "defense": 85, "hp": 132},
 		"max_cp": 1112,
 		"fast_moves": ['Bug Bite', 'Spark'],
@@ -7057,7 +7057,7 @@ pokemon = {
 	},
 	"Crabrawler": {
 		"number": 739,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 150, "defense": 104, "hp": 132},
 		"max_cp": 1540,
 		"fast_moves": ['Rock Smash', 'Bubble'],
@@ -7102,7 +7102,7 @@ pokemon = {
 	},
 	"Rockruff": {
 		"number": 744,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 117, "defense": 78, "hp": 128},
 		"max_cp": 1074,
 		"fast_moves": ['Tackle', 'Rock Throw'],
@@ -7111,7 +7111,7 @@ pokemon = {
 	},
 	"Lycanroc": {
 		"number": 745,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 231, "defense": 140, "hp": 181},
 		"max_cp": 3027,
 		"fast_moves": ['Sucker Punch', 'Rock Throw'],
@@ -7120,7 +7120,7 @@ pokemon = {
 	},
 	"Wishiwashi": {
 		"number": 746,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 46, "defense": 43, "hp": 128},
 		"max_cp": 392,
 		"fast_moves": ['Water Gun', 'Waterfall', 'Iron Tail'],
@@ -7147,7 +7147,7 @@ pokemon = {
 	},
 	"Mudbray": {
 		"number": 749,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 175, "defense": 121, "hp": 172},
 		"max_cp": 2139,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
@@ -7156,7 +7156,7 @@ pokemon = {
 	},
 	"Mudsdale": {
 		"number": 750,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 214, "defense": 174, "hp": 225},
 		"max_cp": 3443,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
@@ -7183,7 +7183,7 @@ pokemon = {
 	},
 	"Fomantis": {
 		"number": 753,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 100, "defense": 64, "hp": 120},
 		"max_cp": 838,
 		"fast_moves": ['Razor Leaf', 'Fury Cutter', 'Leafage'],
@@ -7192,7 +7192,7 @@ pokemon = {
 	},
 	"Lurantis": {
 		"number": 754,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 192, "defense": 169, "hp": 172},
 		"max_cp": 2711,
 		"fast_moves": ['Razor Leaf', 'Fury Cutter', 'Leafage'],
@@ -7255,7 +7255,7 @@ pokemon = {
 	},
 	"Bounsweet": {
 		"number": 761,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 55, "defense": 69, "hp": 123},
 		"max_cp": 532,
 		"fast_moves": ['Razor Leaf', 'Charm'],
@@ -7264,7 +7264,7 @@ pokemon = {
 	},
 	"Steenee": {
 		"number": 762,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 78, "defense": 94, "hp": 141},
 		"max_cp": 856,
 		"fast_moves": ['Razor Leaf', 'Charm'],
@@ -7273,7 +7273,7 @@ pokemon = {
 	},
 	"Tsareena": {
 		"number": 763,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 222, "defense": 195, "hp": 176},
 		"max_cp": 3351,
 		"fast_moves": ['Razor Leaf', 'Charm', 'Magical Leaf'],
@@ -7282,7 +7282,7 @@ pokemon = {
 	},
 	"Comfey": {
 		"number": 764,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 165, "defense": 215, "hp": 139},
 		"max_cp": 2392,
 		"fast_moves": ['Vine Whip', 'Hidden Power'],
@@ -7300,7 +7300,7 @@ pokemon = {
 	},
 	"Passimian": {
 		"number": 766,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 222, "defense": 160, "hp": 225},
 		"max_cp": 3429,
 		"fast_moves": ['Counter', 'Rock Smash', 'Take Down'],
@@ -7345,7 +7345,7 @@ pokemon = {
 	},
 	"Pyukumuku": {
 		"number": 771,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 97, "defense": 224, "hp": 146},
 		"max_cp": 1551,
 		"fast_moves": ['Counter'],
@@ -7354,7 +7354,7 @@ pokemon = {
 	},
 	"Type: Null": {
 		"number": 772,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 184, "defense": 184, "hp": 216},
 		"max_cp": 3012,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -7363,7 +7363,7 @@ pokemon = {
 	},
 	"Silvally": {
 		"number": 773,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 198, "defense": 198, "hp": 216},
 		"max_cp": 3336,
 		"fast_moves": ['Tackle', 'Take Down', 'Bite'],
@@ -7381,7 +7381,7 @@ pokemon = {
 	},
 	"Komala": {
 		"number": 775,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 216, "defense": 165, "hp": 163},
 		"max_cp": 2919,
 		"fast_moves": ['Rollout', 'Yawn'],
@@ -7444,7 +7444,7 @@ pokemon = {
 	},
 	"Jangmo-o": {
 		"number": 782,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 102, "defense": 108, "hp": 128},
 		"max_cp": 1095,
 		"fast_moves": ['Tackle', 'Dragon Tail'],
@@ -7507,7 +7507,7 @@ pokemon = {
 	},
 	"Cosmog": {
 		"number": 789,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 54, "defense": 57, "hp": 125},
 		"max_cp": 489,
 		"fast_moves": ['Splash'],
@@ -7516,7 +7516,7 @@ pokemon = {
 	},
 	"Cosmoem": {
 		"number": 790,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 54, "defense": 242, "hp": 125},
 		"max_cp": 924,
 		"fast_moves": ['Splash'],
@@ -7570,7 +7570,7 @@ pokemon = {
 	},
 	"Xurkitree": {
 		"number": 796,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 330, "defense": 144, "hp": 195},
 		"max_cp": 4451,
 		"fast_moves": ['Thunder Shock', 'Spark'],
@@ -7606,7 +7606,7 @@ pokemon = {
 	},
 	"Necrozma": {
 		"number": 800,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 251, "defense": 195, "hp": 219},
 		"max_cp": 4163,
 		"fast_moves": ['Metal Claw', 'Psycho Cut', 'Shadow Claw'],
@@ -7633,7 +7633,7 @@ pokemon = {
 	},
 	"Poipole": {
 		"number": 803,
-		"type": ["Poison", "null"],
+		"type": ["Poison", "none"],
 		"stats": {"attack": 145, "defense": 133, "hp": 167},
 		"max_cp": 1854,
 		"fast_moves": ['Poison Jab', 'Peck'],
@@ -7669,7 +7669,7 @@ pokemon = {
 	},
 	"Zeraora": {
 		"number": 807,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 252, "defense": 177, "hp": 204},
 		"max_cp": 3865,
 		"fast_moves": ['Spark', 'Volt Switch'],
@@ -7678,7 +7678,7 @@ pokemon = {
 	},
 	"Meltan": {
 		"number": 808,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 118, "defense": 99, "hp": 130},
 		"max_cp": 1207,
 		"fast_moves": ['Thunder Shock'],
@@ -7687,7 +7687,7 @@ pokemon = {
 	},
 	"Melmetal": {
 		"number": 809,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 226, "defense": 190, "hp": 264},
 		"max_cp": 4069,
 		"fast_moves": ['Thunder Shock'],
@@ -7696,7 +7696,7 @@ pokemon = {
 	},
 	"Grookey": {
 		"number": 810,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 122, "defense": 91, "hp": 137},
 		"max_cp": 1227,
 		"fast_moves": ['Scratch', 'Razor Leaf'],
@@ -7705,7 +7705,7 @@ pokemon = {
 	},
 	"Thwackey": {
 		"number": 811,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 165, "defense": 134, "hp": 172},
 		"max_cp": 2121,
 		"fast_moves": ['Scratch', 'Razor Leaf'],
@@ -7714,7 +7714,7 @@ pokemon = {
 	},
 	"Rillaboom": {
 		"number": 812,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 239, "defense": 168, "hp": 225},
 		"max_cp": 3758,
 		"fast_moves": ['Scratch', 'Razor Leaf'],
@@ -7723,7 +7723,7 @@ pokemon = {
 	},
 	"Scorbunny": {
 		"number": 813,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 132, "defense": 79, "hp": 137},
 		"max_cp": 1240,
 		"fast_moves": ['Tackle', 'Ember'],
@@ -7732,7 +7732,7 @@ pokemon = {
 	},
 	"Raboot": {
 		"number": 814,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 170, "defense": 125, "hp": 163},
 		"max_cp": 2062,
 		"fast_moves": ['Tackle', 'Ember'],
@@ -7741,7 +7741,7 @@ pokemon = {
 	},
 	"Cinderace": {
 		"number": 815,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 238, "defense": 163, "hp": 190},
 		"max_cp": 3412,
 		"fast_moves": ['Tackle', 'Ember'],
@@ -7750,7 +7750,7 @@ pokemon = {
 	},
 	"Sobble": {
 		"number": 816,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 132, "defense": 79, "hp": 137},
 		"max_cp": 1240,
 		"fast_moves": ['Pound', 'Water Gun'],
@@ -7759,7 +7759,7 @@ pokemon = {
 	},
 	"Drizzile": {
 		"number": 817,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 186, "defense": 113, "hp": 163},
 		"max_cp": 2142,
 		"fast_moves": ['Pound', 'Water Gun'],
@@ -7768,7 +7768,7 @@ pokemon = {
 	},
 	"Inteleon": {
 		"number": 818,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 262, "defense": 142, "hp": 172},
 		"max_cp": 3351,
 		"fast_moves": ['Pound', 'Water Gun'],
@@ -7777,7 +7777,7 @@ pokemon = {
 	},
 	"Skwovet": {
 		"number": 819,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 95, "defense": 86, "hp": 172},
 		"max_cp": 1067,
 		"fast_moves": ['Tackle', 'Bite', 'Bullet Seed'],
@@ -7786,7 +7786,7 @@ pokemon = {
 	},
 	"Greedent": {
 		"number": 820,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 160, "defense": 156, "hp": 260},
 		"max_cp": 2679,
 		"fast_moves": ['Tackle', 'Bite', 'Bullet Seed', 'Mud Shot'],
@@ -7795,7 +7795,7 @@ pokemon = {
 	},
 	"Rookidee": {
 		"number": 821,
-		"type": ["Flying", "null"],
+		"type": ["Flying", "none"],
 		"stats": {"attack": 88, "defense": 67, "hp": 116},
 		"max_cp": 753,
 		"fast_moves": ['Peck', 'Air Slash'],
@@ -7804,7 +7804,7 @@ pokemon = {
 	},
 	"Corvisquire": {
 		"number": 822,
-		"type": ["Flying", "null"],
+		"type": ["Flying", "none"],
 		"stats": {"attack": 129, "defense": 110, "hp": 169},
 		"max_cp": 1542,
 		"fast_moves": ['Peck', 'Air Slash'],
@@ -7822,7 +7822,7 @@ pokemon = {
 	},
 	"Blipbug": {
 		"number": 824,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 46, "defense": 67, "hp": 93},
 		"max_cp": 405,
 		"fast_moves": ['Struggle Bug'],
@@ -7849,7 +7849,7 @@ pokemon = {
 	},
 	"Nickit": {
 		"number": 827,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 85, "defense": 82, "hp": 120},
 		"max_cp": 808,
 		"fast_moves": ['Quick Attack', 'Snarl'],
@@ -7858,7 +7858,7 @@ pokemon = {
 	},
 	"Thievul": {
 		"number": 828,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 172, "defense": 164, "hp": 172},
 		"max_cp": 2415,
 		"fast_moves": ['Quick Attack', 'Snarl'],
@@ -7867,7 +7867,7 @@ pokemon = {
 	},
 	"Gossifleur": {
 		"number": 829,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 70, "defense": 104, "hp": 120},
 		"max_cp": 760,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
@@ -7876,7 +7876,7 @@ pokemon = {
 	},
 	"Eldegoss": {
 		"number": 830,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 148, "defense": 211, "hp": 155},
 		"max_cp": 2255,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
@@ -7885,7 +7885,7 @@ pokemon = {
 	},
 	"Wooloo": {
 		"number": 831,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 76, "defense": 97, "hp": 123},
 		"max_cp": 798,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -7894,7 +7894,7 @@ pokemon = {
 	},
 	"Dubwool": {
 		"number": 832,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 159, "defense": 198, "hp": 176},
 		"max_cp": 2478,
 		"fast_moves": ['Tackle', 'Take Down', 'Double Kick'],
@@ -7903,7 +7903,7 @@ pokemon = {
 	},
 	"Chewtle": {
 		"number": 833,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 114, "defense": 85, "hp": 137},
 		"max_cp": 1123,
 		"fast_moves": ['Water Gun', 'Bite'],
@@ -7921,7 +7921,7 @@ pokemon = {
 	},
 	"Yamper": {
 		"number": 835,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 80, "defense": 90, "hp": 153},
 		"max_cp": 890,
 		"fast_moves": ['Spark', 'Bite'],
@@ -7930,7 +7930,7 @@ pokemon = {
 	},
 	"Boltund": {
 		"number": 836,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 197, "defense": 131, "hp": 170},
 		"max_cp": 2460,
 		"fast_moves": ['Spark', 'Bite'],
@@ -7939,7 +7939,7 @@ pokemon = {
 	},
 	"Rolycoly": {
 		"number": 837,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 73, "defense": 91, "hp": 102},
 		"max_cp": 691,
 		"fast_moves": ['Smack Down', 'Tackle'],
@@ -7993,7 +7993,7 @@ pokemon = {
 	},
 	"Silicobra": {
 		"number": 843,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 103, "defense": 123, "hp": 141},
 		"max_cp": 1222,
 		"fast_moves": ['Mud-Slap', 'Mud Shot'],
@@ -8002,7 +8002,7 @@ pokemon = {
 	},
 	"Sandaconda": {
 		"number": 844,
-		"type": ["Ground", "null"],
+		"type": ["Ground", "none"],
 		"stats": {"attack": 202, "defense": 207, "hp": 176},
 		"max_cp": 3155,
 		"fast_moves": ['Mud-Slap', 'Mud Shot'],
@@ -8020,7 +8020,7 @@ pokemon = {
 	},
 	"Arrokuda": {
 		"number": 846,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 118, "defense": 72, "hp": 121},
 		"max_cp": 1021,
 		"fast_moves": ['Waterfall', 'Bite', 'Peck'],
@@ -8029,7 +8029,7 @@ pokemon = {
 	},
 	"Barraskewda": {
 		"number": 847,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 258, "defense": 127, "hp": 156},
 		"max_cp": 3003,
 		"fast_moves": ['Waterfall', 'Bite', 'Peck'],
@@ -8074,7 +8074,7 @@ pokemon = {
 	},
 	"Clobbopus": {
 		"number": 852,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 121, "defense": 103, "hp": 137},
 		"max_cp": 1286,
 		"fast_moves": ['Rock Smash'],
@@ -8083,7 +8083,7 @@ pokemon = {
 	},
 	"Grapploct": {
 		"number": 853,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 209, "defense": 162, "hp": 190},
 		"max_cp": 3012,
 		"fast_moves": ['Rock Smash', 'Waterfall'],
@@ -8092,7 +8092,7 @@ pokemon = {
 	},
 	"Sinistea": {
 		"number": 854,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 134, "defense": 96, "hp": 120},
 		"max_cp": 1287,
 		"fast_moves": ['Astonish', 'Sucker Punch'],
@@ -8101,7 +8101,7 @@ pokemon = {
 	},
 	"Polteageist": {
 		"number": 855,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 248, "defense": 189, "hp": 155},
 		"max_cp": 3458,
 		"fast_moves": ['Astonish', 'Sucker Punch', 'Hex'],
@@ -8110,7 +8110,7 @@ pokemon = {
 	},
 	"Hatenna": {
 		"number": 856,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 98, "defense": 93, "hp": 123},
 		"max_cp": 974,
 		"fast_moves": ['Confusion', 'Charm'],
@@ -8119,7 +8119,7 @@ pokemon = {
 	},
 	"Hattrem": {
 		"number": 857,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 153, "defense": 133, "hp": 149},
 		"max_cp": 1848,
 		"fast_moves": ['Confusion', 'Charm'],
@@ -8173,7 +8173,7 @@ pokemon = {
 	},
 	"Perrserker": {
 		"number": 863,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 195, "defense": 162, "hp": 172},
 		"max_cp": 2697,
 		"fast_moves": ['Metal Claw', 'Shadow Claw'],
@@ -8182,7 +8182,7 @@ pokemon = {
 	},
 	"Cursola": {
 		"number": 864,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 253, "defense": 182, "hp": 155},
 		"max_cp": 3463,
 		"fast_moves": ['Astonish', 'Hex'],
@@ -8191,7 +8191,7 @@ pokemon = {
 	},
 	"Sirfetch'd": {
 		"number": 865,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 248, "defense": 176, "hp": 158},
 		"max_cp": 3375,
 		"fast_moves": ['Counter', 'Fury Cutter'],
@@ -8218,7 +8218,7 @@ pokemon = {
 	},
 	"Milcery": {
 		"number": 868,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 90, "defense": 97, "hp": 128},
 		"max_cp": 938,
 		"fast_moves": ['Tackle', 'Charm'],
@@ -8227,7 +8227,7 @@ pokemon = {
 	},
 	"Alcremie": {
 		"number": 869,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 203, "defense": 203, "hp": 163},
 		"max_cp": 3032,
 		"fast_moves": ['Tackle', 'Charm'],
@@ -8236,7 +8236,7 @@ pokemon = {
 	},
 	"Falinks": {
 		"number": 870,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 193, "defense": 170, "hp": 163},
 		"max_cp": 2665,
 		"fast_moves": ['Rock Smash', 'Counter'],
@@ -8245,7 +8245,7 @@ pokemon = {
 	},
 	"Pincurchin": {
 		"number": 871,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 176, "defense": 161, "hp": 134},
 		"max_cp": 2183,
 		"fast_moves": ['Thunder Shock', 'Water Gun', 'Poison Jab'],
@@ -8272,7 +8272,7 @@ pokemon = {
 	},
 	"Stonjourner": {
 		"number": 874,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 222, "defense": 182, "hp": 225},
 		"max_cp": 3638,
 		"fast_moves": ['Rock Throw'],
@@ -8281,7 +8281,7 @@ pokemon = {
 	},
 	"Eiscue": {
 		"number": 875,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 148, "defense": 195, "hp": 181},
 		"max_cp": 2335,
 		"fast_moves": ['Powder Snow'],
@@ -8308,7 +8308,7 @@ pokemon = {
 	},
 	"Cufant": {
 		"number": 878,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 140, "defense": 91, "hp": 176},
 		"max_cp": 1557,
 		"fast_moves": ['Tackle', 'Rock Smash'],
@@ -8317,7 +8317,7 @@ pokemon = {
 	},
 	"Copperajah": {
 		"number": 879,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 226, "defense": 126, "hp": 263},
 		"max_cp": 3369,
 		"fast_moves": ['Tackle', 'Rock Smash'],
@@ -8425,7 +8425,7 @@ pokemon = {
 	},
 	"Kubfu": {
 		"number": 891,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 170, "defense": 112, "hp": 155},
 		"max_cp": 1919,
 		"fast_moves": ['Rock Smash', 'Counter'],
@@ -8434,7 +8434,7 @@ pokemon = {
 	},
 	"Urshifu": {
 		"number": 892,
-		"type": ["Fighting", "null"],
+		"type": ["Fighting", "none"],
 		"stats": {"attack": 254, "defense": 177, "hp": 225},
 		"max_cp": 4077,
 		"fast_moves": ['Rock Smash', 'Counter'],
@@ -8452,7 +8452,7 @@ pokemon = {
 	},
 	"Regieleki": {
 		"number": 894,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 250, "defense": 125, "hp": 190},
 		"max_cp": 3169,
 		"fast_moves": ['Thunder Shock', 'Lock-On', 'Volt Switch'],
@@ -8461,7 +8461,7 @@ pokemon = {
 	},
 	"Regidrago": {
 		"number": 895,
-		"type": ["Dragon", "null"],
+		"type": ["Dragon", "none"],
 		"stats": {"attack": 202, "defense": 101, "hp": 400},
 		"max_cp": 3361,
 		"fast_moves": ['Bite'],
@@ -8470,7 +8470,7 @@ pokemon = {
 	},
 	"Glastrier": {
 		"number": 896,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 246, "defense": 223, "hp": 225},
 		"max_cp": 4404,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -8479,7 +8479,7 @@ pokemon = {
 	},
 	"Spectrier": {
 		"number": 897,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 273, "defense": 146, "hp": 205},
 		"max_cp": 3827,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -8551,7 +8551,7 @@ pokemon = {
 	},
 	"Sprigatito": {
 		"number": 906,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 116, "defense": 99, "hp": 120},
 		"max_cp": 1147,
 		"fast_moves": ['Leafage', 'Charm'],
@@ -8560,7 +8560,7 @@ pokemon = {
 	},
 	"Floragato": {
 		"number": 907,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 157, "defense": 128, "hp": 156},
 		"max_cp": 1899,
 		"fast_moves": ['Leafage', 'Charm'],
@@ -8578,7 +8578,7 @@ pokemon = {
 	},
 	"Fuecoco": {
 		"number": 909,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 112, "defense": 96, "hp": 167},
 		"max_cp": 1274,
 		"fast_moves": ['Incinerate', 'Bite'],
@@ -8587,7 +8587,7 @@ pokemon = {
 	},
 	"Crocalor": {
 		"number": 910,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 162, "defense": 134, "hp": 191},
 		"max_cp": 2189,
 		"fast_moves": ['Incinerate', 'Bite'],
@@ -8605,7 +8605,7 @@ pokemon = {
 	},
 	"Quaxly": {
 		"number": 912,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 120, "defense": 86, "hp": 146},
 		"max_cp": 1215,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
@@ -8614,7 +8614,7 @@ pokemon = {
 	},
 	"Quaxwell": {
 		"number": 913,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 162, "defense": 123, "hp": 172},
 		"max_cp": 2007,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
@@ -8632,7 +8632,7 @@ pokemon = {
 	},
 	"Lechonk": {
 		"number": 915,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 81, "defense": 79, "hp": 144},
 		"max_cp": 828,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -8641,7 +8641,7 @@ pokemon = {
 	},
 	"Oinkologne": {
 		"number": 916,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 186, "defense": 153, "hp": 242},
 		"max_cp": 2949,
 		"fast_moves": ['Tackle', 'Take Down'],
@@ -8650,7 +8650,7 @@ pokemon = {
 	},
 	"Tarountula": {
 		"number": 917,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 70, "defense": 77, "hp": 111},
 		"max_cp": 646,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
@@ -8659,7 +8659,7 @@ pokemon = {
 	},
 	"Spidops": {
 		"number": 918,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 139, "defense": 166, "hp": 155},
 		"max_cp": 1907,
 		"fast_moves": ['Bug Bite', 'Counter'],
@@ -8668,7 +8668,7 @@ pokemon = {
 	},
 	"Nymble": {
 		"number": 919,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 81, "defense": 65, "hp": 107},
 		"max_cp": 669,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
@@ -8686,7 +8686,7 @@ pokemon = {
 	},
 	"Pawmi": {
 		"number": 921,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 95, "defense": 45, "hp": 128},
 		"max_cp": 719,
 		"fast_moves": ['Spark', 'Charge Beam'],
@@ -8713,7 +8713,7 @@ pokemon = {
 	},
 	"Tandemaus": {
 		"number": 924,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 98, "defense": 90, "hp": 137},
 		"max_cp": 1008,
 		"fast_moves": ['Take Down', 'Mud Shot', 'Bullet Seed'],
@@ -8722,7 +8722,7 @@ pokemon = {
 	},
 	"Maushold": {
 		"number": 925,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 159, "defense": 157, "hp": 179},
 		"max_cp": 2244,
 		"fast_moves": ['Take Down', 'Mud Shot', 'Bullet Seed'],
@@ -8731,7 +8731,7 @@ pokemon = {
 	},
 	"Fidough": {
 		"number": 926,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 102, "defense": 126, "hp": 114},
 		"max_cp": 1114,
 		"fast_moves": ['Charm', 'Bite'],
@@ -8740,7 +8740,7 @@ pokemon = {
 	},
 	"Dachsbun": {
 		"number": 927,
-		"type": ["Fairy", "null"],
+		"type": ["Fairy", "none"],
 		"stats": {"attack": 159, "defense": 212, "hp": 149},
 		"max_cp": 2370,
 		"fast_moves": ['Charm', 'Bite'],
@@ -8785,7 +8785,7 @@ pokemon = {
 	},
 	"Nacli": {
 		"number": 932,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 95, "defense": 108, "hp": 146},
 		"max_cp": 1093,
 		"fast_moves": ['Rock Throw', 'Mud Shot'],
@@ -8794,7 +8794,7 @@ pokemon = {
 	},
 	"Naclstack": {
 		"number": 933,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 105, "defense": 160, "hp": 155},
 		"max_cp": 1461,
 		"fast_moves": ['Smack Down', 'Mud Shot'],
@@ -8803,7 +8803,7 @@ pokemon = {
 	},
 	"Garganacl": {
 		"number": 934,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 171, "defense": 212, "hp": 225},
 		"max_cp": 3065,
 		"fast_moves": ['Smack Down', 'Mud Shot'],
@@ -8812,7 +8812,7 @@ pokemon = {
 	},
 	"Charcadet": {
 		"number": 935,
-		"type": ["Fire", "null"],
+		"type": ["Fire", "none"],
 		"stats": {"attack": 92, "defense": 74, "hp": 120},
 		"max_cp": 828,
 		"fast_moves": ['Ember', 'Incinerate'],
@@ -8839,7 +8839,7 @@ pokemon = {
 	},
 	"Tadbulb": {
 		"number": 938,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 104, "defense": 73, "hp": 156},
 		"max_cp": 1030,
 		"fast_moves": ['Thunder Shock', 'Water Gun'],
@@ -8848,7 +8848,7 @@ pokemon = {
 	},
 	"Bellibolt": {
 		"number": 939,
-		"type": ["Electric", "null"],
+		"type": ["Electric", "none"],
 		"stats": {"attack": 184, "defense": 165, "hp": 240},
 		"max_cp": 3010,
 		"fast_moves": ['Thunder Shock', 'Water Gun'],
@@ -8875,7 +8875,7 @@ pokemon = {
 	},
 	"Maschiff": {
 		"number": 942,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 140, "defense": 108, "hp": 155},
 		"max_cp": 1582,
 		"fast_moves": ['Snarl', 'Bite'],
@@ -8884,7 +8884,7 @@ pokemon = {
 	},
 	"Mabosstiff": {
 		"number": 943,
-		"type": ["Dark", "null"],
+		"type": ["Dark", "none"],
 		"stats": {"attack": 230, "defense": 168, "hp": 190},
 		"max_cp": 3350,
 		"fast_moves": ['Snarl', 'Bite'],
@@ -8947,7 +8947,7 @@ pokemon = {
 	},
 	"Klawf": {
 		"number": 950,
-		"type": ["Rock", "null"],
+		"type": ["Rock", "none"],
 		"stats": {"attack": 184, "defense": 185, "hp": 172},
 		"max_cp": 2717,
 		"fast_moves": ['Rock Throw', 'Mud-Slap'],
@@ -8956,7 +8956,7 @@ pokemon = {
 	},
 	"Capsakid": {
 		"number": 951,
-		"type": ["Grass", "null"],
+		"type": ["Grass", "none"],
 		"stats": {"attack": 118, "defense": 76, "hp": 137},
 		"max_cp": 1104,
 		"fast_moves": ['Leafage', 'Razor Leaf'],
@@ -8974,7 +8974,7 @@ pokemon = {
 	},
 	"Rellor": {
 		"number": 953,
-		"type": ["Bug", "null"],
+		"type": ["Bug", "none"],
 		"stats": {"attack": 86, "defense": 108, "hp": 121},
 		"max_cp": 922,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
@@ -8992,7 +8992,7 @@ pokemon = {
 	},
 	"Flittle": {
 		"number": 955,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 105, "defense": 60, "hp": 102},
 		"max_cp": 793,
 		"fast_moves": ['Peck', 'Confusion'],
@@ -9001,7 +9001,7 @@ pokemon = {
 	},
 	"Espathra": {
 		"number": 956,
-		"type": ["Psychic", "null"],
+		"type": ["Psychic", "none"],
 		"stats": {"attack": 204, "defense": 127, "hp": 216},
 		"max_cp": 2800,
 		"fast_moves": ['Peck', 'Confusion'],
@@ -9037,7 +9037,7 @@ pokemon = {
 	},
 	"Wiglett": {
 		"number": 960,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 109, "defense": 52, "hp": 67},
 		"max_cp": 648,
 		"fast_moves": ['Water Gun', 'Mud-Slap'],
@@ -9046,7 +9046,7 @@ pokemon = {
 	},
 	"Wugtrio": {
 		"number": 961,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 205, "defense": 136, "hp": 111},
 		"max_cp": 2142,
 		"fast_moves": ['Water Gun', 'Mud-Slap'],
@@ -9064,7 +9064,7 @@ pokemon = {
 	},
 	"Finizen": {
 		"number": 963,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 90, "defense": 80, "hp": 172},
 		"max_cp": 988,
 		"fast_moves": ['Waterfall', 'Charm'],
@@ -9073,7 +9073,7 @@ pokemon = {
 	},
 	"Palafin": {
 		"number": 964,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 143, "defense": 144, "hp": 225},
 		"max_cp": 2179,
 		"fast_moves": ['Waterfall', 'Charm', 'Counter'],
@@ -9109,7 +9109,7 @@ pokemon = {
 	},
 	"Orthworm": {
 		"number": 968,
-		"type": ["Steel", "null"],
+		"type": ["Steel", "none"],
 		"stats": {"attack": 161, "defense": 219, "hp": 172},
 		"max_cp": 2599,
 		"fast_moves": ['Iron Tail', 'Mud-Slap'],
@@ -9136,7 +9136,7 @@ pokemon = {
 	},
 	"Greavard": {
 		"number": 971,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 105, "defense": 106, "hp": 137},
 		"max_cp": 1149,
 		"fast_moves": ['Lick', 'Bite'],
@@ -9145,7 +9145,7 @@ pokemon = {
 	},
 	"Houndstone": {
 		"number": 972,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 186, "defense": 195, "hp": 176},
 		"max_cp": 2842,
 		"fast_moves": ['Lick', 'Bite'],
@@ -9163,7 +9163,7 @@ pokemon = {
 	},
 	"Cetoddle": {
 		"number": 974,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 119, "defense": 80, "hp": 239},
 		"max_cp": 1469,
 		"fast_moves": ['Ice Shard', 'Tackle'],
@@ -9172,7 +9172,7 @@ pokemon = {
 	},
 	"Cetitan": {
 		"number": 975,
-		"type": ["Ice", "null"],
+		"type": ["Ice", "none"],
 		"stats": {"attack": 208, "defense": 123, "hp": 347},
 		"max_cp": 3519,
 		"fast_moves": ['Ice Shard', 'Tackle'],
@@ -9190,7 +9190,7 @@ pokemon = {
 	},
 	"Dondozo": {
 		"number": 977,
-		"type": ["Water", "null"],
+		"type": ["Water", "none"],
 		"stats": {"attack": 176, "defense": 178, "hp": 312},
 		"max_cp": 3388,
 		"fast_moves": ['Waterfall', 'Water Gun'],
@@ -9235,7 +9235,7 @@ pokemon = {
 	},
 	"Dudunsparce": {
 		"number": 982,
-		"type": ["Normal", "null"],
+		"type": ["Normal", "none"],
 		"stats": {"attack": 188, "defense": 150, "hp": 268},
 		"max_cp": 3097,
 		"fast_moves": ['Bite', 'Astonish', 'Rollout'],
@@ -9388,7 +9388,7 @@ pokemon = {
 	},
 	"Gimmighoul": {
 		"number": 999,
-		"type": ["Ghost", "null"],
+		"type": ["Ghost", "none"],
 		"stats": {"attack": 140, "defense": 76, "hp": 128},
 		"max_cp": 1248,
 		"fast_moves": ['Astonish'],

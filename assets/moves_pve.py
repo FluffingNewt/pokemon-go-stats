@@ -1,356 +1,1734 @@
-# pwr = base pwr
-# e = e gained
-# dpt = damage per turn
-# ept = e per turn
-# cd = cooldown
 fast_moves_pve = {
-    "Bug Bite"                 : {"type": "Bug",        "pwr": 5,    "e": 6,    "dpt": 10.00,   "ept": 12.00,   "cd": 0.50 },
-    "Fury Cutter"              : {"type": "Bug",        "pwr": 3,    "e": 6,    "dpt": 7.500,   "ept": 15.00,   "cd": 0.40 },
-    "Infestation"              : {"type": "Bug",        "pwr": 10,   "e": 14,   "dpt": 9.090,   "ept": 12.73,   "cd": 1.10 },
-    "Struggle Bug"             : {"type": "Bug",        "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-    "Hidden Power (Bug)"       : {"type": "Bug",        "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Bite"                     : {"type": "Dark",       "pwr": 6,    "e": 4,    "dpt": 12.00,   "ept": 8.000,   "cd": 0.50 },
-    "Feint Attack"             : {"type": "Dark",       "pwr": 10,   "e": 9,    "dpt": 11.11,   "ept": 10.00,   "cd": 0.90 },
-    "Sucker Punch"             : {"type": "Dark",       "pwr": 7,    "e": 8,    "dpt": 10.00,   "ept": 11.43,   "cd": 0.70 },
-    "Snarl"                    : {"type": "Dark",       "pwr": 12,   "e": 14,   "dpt": 10.91,   "ept": 12.73,   "cd": 1.10 },
-    "Hidden Power (Dark)"      : {"type": "Dark",       "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Dragon Breath"            : {"type": "Dragon",     "pwr": 6,    "e": 4,    "dpt": 12.00,   "ept": 8.000,   "cd": 0.50 },
-    "Dragon Tail"              : {"type": "Dragon",     "pwr": 15,   "e": 9,    "dpt": 13.64,   "ept": 8.180,   "cd": 1.10 },
-    "Hidden Power (Dragon)"    : {"type": "Dragon",     "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Charge Beam"              : {"type": "Electric",   "pwr": 8,    "e": 15,   "dpt": 7.270,   "ept": 13.64,   "cd": 1.10 },
-    "Spark"                    : {"type": "Electric",   "pwr": 6,    "e": 9,    "dpt": 8.570,   "ept": 12.86,   "cd": 0.70 },
-    "Thunder Fang"             : {"type": "Electric",   "pwr": 12,   "e": 16,   "dpt": 10.00,   "ept": 13.33,   "cd": 1.20 },
-    "Thunder Shock"            : {"type": "Electric",   "pwr": 5,    "e": 8,    "dpt": 8.330,   "ept": 13.33,   "cd": 0.60 },
-    "Volt Switch"              : {"type": "Electric",   "pwr": 14,   "e": 21,   "dpt": 8.750,   "ept": 13.13,   "cd": 1.60 },
-    "Hidden Power (Electric)"  : {"type": "Electric",   "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Charm"                    : {"type": "Fairy",      "pwr": 20,   "e": 11,   "dpt": 13.33,   "ept": 7.330,   "cd": 1.50 },
-    "Fairy Wind"               : {"type": "Fairy",      "pwr": 9,    "e": 13,   "dpt": 9.280,   "ept": 13.40,   "cd": 0.97 },
-    "Geomancy"                 : {"type": "Fairy",      "pwr": 20,   "e": 14,   "dpt": 13.33,   "ept": 9.330,   "cd": 1.50 },
-
-    "Karate Chop"              : {"type": "Fighting",   "pwr": 8,    "e": 10,   "dpt": 10.00,   "ept": 12.50,   "cd": 0.80 },
-    "Low Kick"                 : {"type": "Fighting",   "pwr": 6,    "e": 6,    "dpt": 10.00,   "ept": 10.00,   "cd": 0.60 },
-    "Rock Smash"               : {"type": "Fighting",   "pwr": 15,   "e": 10,   "dpt": 11.54,   "ept": 7.690,   "cd": 1.30 },
-    "Counter"                  : {"type": "Fighting",   "pwr": 12,   "e": 8,    "dpt": 13.33,   "ept": 8.890,   "cd": 0.90 },
-    "Double Kick"              : {"type": "Fighting",   "pwr": 10,   "e": 13,   "dpt": 10.00,   "ept": 13.00,   "cd": 1.00 },
-    "Hidden Power (Fighting)"  : {"type": "Fighting",   "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Ember"                    : {"type": "Fire",       "pwr": 10,   "e": 10,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.00 },
-    "Fire Fang"                : {"type": "Fire",       "pwr": 12,   "e": 8,    "dpt": 13.33,   "ept": 8.890,   "cd": 0.90 },
-    "Fire Spin"                : {"type": "Fire",       "pwr": 14,   "e": 10,   "dpt": 12.73,   "ept": 9.090,   "cd": 1.10 },
-    "Incinerate"               : {"type": "Fire",       "pwr": 29,   "e": 20,   "dpt": 12.61,   "ept": 8.700,   "cd": 2.30 },
-    "Hidden Power (Fire)"      : {"type": "Fire",       "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Peck"                     : {"type": "Flying",     "pwr": 10,   "e": 10,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.00 },
-    "Wing Attack"              : {"type": "Flying",     "pwr": 8,    "e": 9,    "dpt": 10.00,   "ept": 11.25,   "cd": 0.80 },
-    "Air Slash"                : {"type": "Flying",     "pwr": 14,   "e": 10,   "dpt": 11.67,   "ept": 8.330,   "cd": 1.20 },
-    "Gust"                     : {"type": "Flying",     "pwr": 25,   "e": 20,   "dpt": 12.50,   "ept": 10.00,   "cd": 2.00 },
-    "Hidden Power (Flying)"    : {"type": "Flying",     "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Lick"                     : {"type": "Ghost",      "pwr": 5,    "e": 6,    "dpt": 10.00,   "ept": 12.00,   "cd": 0.50 },
-    "Shadow Claw"              : {"type": "Ghost",      "pwr": 9,    "e": 6,    "dpt": 12.86,   "ept": 8.570,   "cd": 0.70 },
-    "Astonish"                 : {"type": "Ghost",      "pwr": 8,    "e": 14,   "dpt": 7.270,   "ept": 12.73,   "cd": 1.10 },
-    "Hex"                      : {"type": "Ghost",      "pwr": 10,   "e": 16,   "dpt": 8.330,   "ept": 13.33,   "cd": 1.20 },
-    "Hidden Power (Ghost)"     : {"type": "Ghost",      "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Razor Leaf"               : {"type": "Grass",      "pwr": 13,   "e": 7,    "dpt": 13.00,   "ept": 7.000,   "cd": 1.00 },
-    "Vine Whip"                : {"type": "Grass",      "pwr": 7,    "e": 6,    "dpt": 11.67,   "ept": 10.00,   "cd": 0.60 },
-    "Bullet Seed"              : {"type": "Grass",      "pwr": 8,    "e": 14,   "dpt": 7.270,   "ept": 12.73,   "cd": 1.10 },
-    "Magical Leaf"             : {"type": "Grass",      "pwr": 16,   "e": 16,   "dpt": 11.43,   "ept": 11.43,   "cd": 1.40 },
-    "Leafage"                  : {"type": "Grass",      "pwr": 9,    "e": 6,    "dpt": 12.86,   "ept": 8.570,   "cd": 0.70 },
-    "Hidden Power (Grass)"     : {"type": "Grass",      "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Mud Shot"                 : {"type": "Ground",     "pwr": 5,    "e": 7,    "dpt": 8.330,   "ept": 11.67,   "cd": 0.60 },
-    "Mud Slap"                 : {"type": "Ground",     "pwr": 18,   "e": 12,   "dpt": 12.86,   "ept": 8.570,   "cd": 1.40 },
-    "Sand Attack"              : {"type": "Ground",     "pwr": 4,    "e": 7,    "dpt": 8.000,   "ept": 14.00,   "cd": 0.50 },
-    "Hidden Power (Ground)"    : {"type": "Ground",     "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Frost Breath"             : {"type": "Ice",        "pwr": 9,    "e": 8,    "dpt": 11.11,   "ept": 8.890,   "cd": 0.90 },
-    "Ice Shard"                : {"type": "Ice",        "pwr": 10,   "e": 12,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.20 },
-    "Powder Snow"              : {"type": "Ice",        "pwr": 6,    "e": 15,   "dpt": 6.000,   "ept": 15.00,   "cd": 1.00 },
-    "Ice Fang"                 : {"type": "Ice",        "pwr": 12,   "e": 20,   "dpt": 8.000,   "ept": 13.33,   "cd": 1.50 },
-    "Hidden Power (Ice)"       : {"type": "Ice",        "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Tackle"                   : {"type": "Normal",     "pwr": 5,    "e": 5,    "dpt": 10.00,   "ept": 10.00,   "cd": 0.50 },
-    "Pound"                    : {"type": "Normal",     "pwr": 7,    "e": 6,    "dpt": 11.67,   "ept": 10.00,   "cd": 0.60 },
-    "Quick Attack"             : {"type": "Normal",     "pwr": 8,    "e": 10,   "dpt": 10.00,   "ept": 12.50,   "cd": 0.80 },
-    "Scratch"                  : {"type": "Normal",     "pwr": 6,    "e": 4,    "dpt": 12.00,   "ept": 8.000,   "cd": 0.50 },
-    "Cut"                      : {"type": "Normal",     "pwr": 5,    "e": 5,    "dpt": 10.00,   "ept": 10.00,   "cd": 0.50 },
-    "Transform"                : {"type": "Normal",     "pwr": 0,    "e": 0,    "dpt": 0.000,   "ept": 0.000,   "cd": 2.23 },
-    "Present"                  : {"type": "Normal",     "pwr": 5,    "e": 20,   "dpt": 3.850,   "ept": 15.38,   "cd": 1.30 },
-    "Yawn"                     : {"type": "Normal",     "pwr": 0,    "e": 15,   "dpt": 0.000,   "ept": 8.820,   "cd": 1.70 },
-    "Take Down"                : {"type": "Normal",     "pwr": 8,    "e": 10,   "dpt": 6.670,   "ept": 8.330,   "cd": 1.20 },
-    "Lock-On"                  : {"type": "Normal",     "pwr": 1,    "e": 5,    "dpt": 3.330,   "ept": 16.67,   "cd": 0.30 },
-    "Hidden Power"             : {"type": "Normal",     "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Acid"                     : {"type": "Poison",     "pwr": 9,    "e": 8,    "dpt": 11.25,   "ept": 10.00,   "cd": 0.80 },
-    "Poison Sting"             : {"type": "Poison",     "pwr": 5,    "e": 7,    "dpt": 8.330,   "ept": 11.67,   "cd": 0.60 },
-    "Poison Jab"               : {"type": "Poison",     "pwr": 10,   "e": 7,    "dpt": 12.50,   "ept": 8.750,   "cd": 0.80 },
-    "Hidden Power (Poison)"    : {"type": "Poison",     "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Confusion"                : {"type": "Psychic",    "pwr": 20,   "e": 15,   "dpt": 12.50,   "ept": 9.380,   "cd": 1.60 },
-    "Psycho Cut"               : {"type": "Psychic",    "pwr": 5,    "e": 8,    "dpt": 8.330,   "ept": 13.33,   "cd": 0.60 },
-    "Zen Headbutt"             : {"type": "Psychic",    "pwr": 12,   "e": 10,   "dpt": 10.91,   "ept": 9.090,   "cd": 1.10 },
-    "Extrasensory"             : {"type": "Psychic",    "pwr": 12,   "e": 12,   "dpt": 10.91,   "ept": 10.91,   "cd": 1.10 },
-    "Psywave"                  : {"type": "Psychic",    "pwr": 4,    "e": 7,    "dpt": 8.000,   "ept": 14.00,   "cd": 0.50 },
-    "Hidden Power (Psychic)"   : {"type": "Psychic",    "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Rock Throw"               : {"type": "Rock",       "pwr": 12,   "e": 7,    "dpt": 13.33,   "ept": 7.780,   "cd": 0.90 },
-    "Smack Down"               : {"type": "Rock",       "pwr": 16,   "e": 8,    "dpt": 13.33,   "ept": 6.670,   "cd": 1.20 },
-    "Rollout"                  : {"type": "Rock",       "pwr": 14,   "e": 18,   "dpt": 10.00,   "ept": 12.86,   "cd": 1.40 },
-    "Hidden Power (Rock)"      : {"type": "Rock",       "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Bullet Punch"             : {"type": "Steel",      "pwr": 9,    "e": 10,   "dpt": 10.00,   "ept": 11.11,   "cd": 0.90 },
-    "Metal Claw"               : {"type": "Steel",      "pwr": 8,    "e": 7,    "dpt": 11.43,   "ept": 10.00,   "cd": 0.70 },
-    "Steel Wing"               : {"type": "Steel",      "pwr": 11,   "e": 6,    "dpt": 13.75,   "ept": 7.500,   "cd": 0.80 },
-    "Iron Tail"                : {"type": "Steel",      "pwr": 15,   "e": 7,    "dpt": 13.64,   "ept": 6.360,   "cd": 1.10 },
-    "Metal Sound"              : {"type": "Steel",      "pwr": 6,    "e": 9,    "dpt": 8.570,   "ept": 12.86,   "cd": 0.70 },
-    "Hidden Power (Steel)"     : {"type": "Steel",      "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
-
-    "Bubble"                   : {"type": "Water",      "pwr": 12,   "e": 14,   "dpt": 10.00,   "ept": 11.67,   "cd": 1.20 },
-    "Water Gun"                : {"type": "Water",      "pwr": 5,    "e": 5,    "dpt": 10.00,   "ept": 10.00,   "cd": 0.50 },
-    "Splash"                   : {"type": "Water",      "pwr": 0,    "e": 20,   "dpt": 0.000,   "ept": 11.56,   "cd": 1.73 },
-    "Waterfall"                : {"type": "Water",      "pwr": 16,   "e": 8,    "dpt": 13.33,   "ept": 6.670,   "cd": 1.20 },
-    "Water Shuriken"           : {"type": "Water",      "pwr": 10,   "e": 15,   "dpt": 9.090,   "ept": 13.64,   "cd": 1.10 },
-    "Hidden Power (Water)"     : {"type": "Water",      "pwr": 15,   "e": 15,   "dpt": 10.00,   "ept": 10.00,   "cd": 1.50 },
+	"Fury Cutter": {
+		"type": "Bug",
+		"pwr": 3,
+		"energy_delta": 6,
+		"duration": 400
+	},
+	"Bug Bite": {
+		"type": "Bug",
+		"pwr": 5,
+		"energy_delta": 6,
+		"duration": 500
+	},
+	"Bite": {
+		"type": "Dark",
+		"pwr": 6,
+		"energy_delta": 4,
+		"duration": 500
+	},
+	"Sucker Punch": {
+		"type": "Dark",
+		"pwr": 7,
+		"energy_delta": 8,
+		"duration": 700
+	},
+	"Dragon Breath": {
+		"type": "Dragon",
+		"pwr": 6,
+		"energy_delta": 4,
+		"duration": 500
+	},
+	"Thunder Shock": {
+		"type": "Electric",
+		"pwr": 5,
+		"energy_delta": 8,
+		"duration": 600
+	},
+	"Spark": {
+		"type": "Electric",
+		"pwr": 6,
+		"energy_delta": 9,
+		"duration": 700
+	},
+	"Low Kick": {
+		"type": "Fighting",
+		"pwr": 6,
+		"energy_delta": 6,
+		"duration": 600
+	},
+	"Karate Chop": {
+		"type": "Fighting",
+		"pwr": 8,
+		"energy_delta": 10,
+		"duration": 800
+	},
+	"Ember": {
+		"type": "Fire",
+		"pwr": 10,
+		"energy_delta": 10,
+		"duration": 1000
+	},
+	"Wing Attack": {
+		"type": "Flying",
+		"pwr": 8,
+		"energy_delta": 9,
+		"duration": 800
+	},
+	"Peck": {
+		"type": "Flying",
+		"pwr": 10,
+		"energy_delta": 10,
+		"duration": 1000
+	},
+	"Lick": {
+		"type": "Ghost",
+		"pwr": 5,
+		"energy_delta": 6,
+		"duration": 500
+	},
+	"Shadow Claw": {
+		"type": "Ghost",
+		"pwr": 9,
+		"energy_delta": 6,
+		"duration": 700
+	},
+	"Vine Whip": {
+		"type": "Grass",
+		"pwr": 7,
+		"energy_delta": 6,
+		"duration": 600
+	},
+	"Razor Leaf": {
+		"type": "Grass",
+		"pwr": 13,
+		"energy_delta": 7,
+		"duration": 1000
+	},
+	"Mud Shot": {
+		"type": "Ground",
+		"pwr": 5,
+		"energy_delta": 7,
+		"duration": 600
+	},
+	"Ice Shard": {
+		"type": "Ice",
+		"pwr": 12,
+		"energy_delta": 12,
+		"duration": 1200
+	},
+	"Frost Breath": {
+		"type": "Ice",
+		"pwr": 10,
+		"energy_delta": 8,
+		"duration": 900
+	},
+	"Quick Attack": {
+		"type": "Normal",
+		"pwr": 8,
+		"energy_delta": 10,
+		"duration": 800
+	},
+	"Scratch": {
+		"type": "Normal",
+		"pwr": 6,
+		"energy_delta": 4,
+		"duration": 500
+	},
+	"Tackle": {
+		"type": "Normal",
+		"pwr": 5,
+		"energy_delta": 5,
+		"duration": 500
+	},
+	"Pound": {
+		"type": "Normal",
+		"pwr": 7,
+		"energy_delta": 6,
+		"duration": 600
+	},
+	"Cut": {
+		"type": "Normal",
+		"pwr": 5,
+		"energy_delta": 5,
+		"duration": 500
+	},
+	"Poison Jab": {
+		"type": "Poison",
+		"pwr": 10,
+		"energy_delta": 7,
+		"duration": 800
+	},
+	"Acid": {
+		"type": "Poison",
+		"pwr": 9,
+		"energy_delta": 8,
+		"duration": 800
+	},
+	"Psycho Cut": {
+		"type": "Psychic",
+		"pwr": 5,
+		"energy_delta": 8,
+		"duration": 600
+	},
+	"Rock Throw": {
+		"type": "Rock",
+		"pwr": 12,
+		"energy_delta": 7,
+		"duration": 900
+	},
+	"Metal Claw": {
+		"type": "Steel",
+		"pwr": 8,
+		"energy_delta": 7,
+		"duration": 700
+	},
+	"Bullet Punch": {
+		"type": "Steel",
+		"pwr": 9,
+		"energy_delta": 10,
+		"duration": 900
+	},
+	"Water Gun": {
+		"type": "Water",
+		"pwr": 5,
+		"energy_delta": 5,
+		"duration": 500
+	},
+	"Splash": {
+		"type": "Water",
+		"pwr": 0,
+		"energy_delta": 20,
+		"duration": 1730
+	},
+	"Mud Slap": {
+		"type": "Ground",
+		"pwr": 18,
+		"energy_delta": 12,
+		"duration": 1400
+	},
+	"Zen Headbutt": {
+		"type": "Psychic",
+		"pwr": 12,
+		"energy_delta": 10,
+		"duration": 1100
+	},
+	"Confusion": {
+		"type": "Psychic",
+		"pwr": 20,
+		"energy_delta": 15,
+		"duration": 1600
+	},
+	"Poison Sting": {
+		"type": "Poison",
+		"pwr": 5,
+		"energy_delta": 7,
+		"duration": 600
+	},
+	"Bubble": {
+		"type": "Water",
+		"pwr": 12,
+		"energy_delta": 14,
+		"duration": 1200
+	},
+	"Feint Attack": {
+		"type": "Dark",
+		"pwr": 10,
+		"energy_delta": 9,
+		"duration": 900
+	},
+	"Steel Wing": {
+		"type": "Steel",
+		"pwr": 11,
+		"energy_delta": 6,
+		"duration": 800
+	},
+	"Fire Fang": {
+		"type": "Fire",
+		"pwr": 12,
+		"energy_delta": 8,
+		"duration": 900
+	},
+	"Rock Smash": {
+		"type": "Fighting",
+		"pwr": 15,
+		"energy_delta": 10,
+		"duration": 1300
+	},
+	"Transform": {
+		"type": "Normal",
+		"pwr": 0,
+		"energy_delta": 0,
+		"duration": 2230
+	},
+	"Counter": {
+		"type": "Fighting",
+		"pwr": 12,
+		"energy_delta": 8,
+		"duration": 900
+	},
+	"Powder Snow": {
+		"type": "Ice",
+		"pwr": 6,
+		"energy_delta": 15,
+		"duration": 1000
+	},
+	"Charge Beam": {
+		"type": "Electric",
+		"pwr": 8,
+		"energy_delta": 15,
+		"duration": 1100
+	},
+	"Volt Switch": {
+		"type": "Electric",
+		"pwr": 14,
+		"energy_delta": 21,
+		"duration": 1600
+	},
+	"Dragon Tail": {
+		"type": "Dragon",
+		"pwr": 15,
+		"energy_delta": 9,
+		"duration": 1100
+	},
+	"Air Slash": {
+		"type": "Flying",
+		"pwr": 14,
+		"energy_delta": 10,
+		"duration": 1200
+	},
+	"Infestation": {
+		"type": "Bug",
+		"pwr": 10,
+		"energy_delta": 14,
+		"duration": 1100
+	},
+	"Struggle Bug": {
+		"type": "Bug",
+		"pwr": 15,
+		"energy_delta": 15,
+		"duration": 1500
+	},
+	"Astonish": {
+		"type": "Ghost",
+		"pwr": 8,
+		"energy_delta": 14,
+		"duration": 1100
+	},
+	"Hex": {
+		"type": "Ghost",
+		"pwr": 10,
+		"energy_delta": 16,
+		"duration": 1200
+	},
+	"Iron Tail": {
+		"type": "Steel",
+		"pwr": 15,
+		"energy_delta": 7,
+		"duration": 1100
+	},
+	"Fire Spin": {
+		"type": "Fire",
+		"pwr": 14,
+		"energy_delta": 10,
+		"duration": 1100
+	},
+	"Bullet Seed": {
+		"type": "Grass",
+		"pwr": 8,
+		"energy_delta": 14,
+		"duration": 1100
+	},
+	"Extrasensory": {
+		"type": "Psychic",
+		"pwr": 12,
+		"energy_delta": 12,
+		"duration": 1100
+	},
+	"Snarl": {
+		"type": "Dark",
+		"pwr": 12,
+		"energy_delta": 14,
+		"duration": 1100
+	},
+	"Hidden Power": {
+		"type": "Normal",
+		"pwr": 15,
+		"energy_delta": 15,
+		"duration": 1500
+	},
+	"Take Down": {
+		"type": "Normal",
+		"pwr": 8,
+		"energy_delta": 10,
+		"duration": 1200
+	},
+	"Waterfall": {
+		"type": "Water",
+		"pwr": 16,
+		"energy_delta": 8,
+		"duration": 1200
+	},
+	"Yawn": {
+		"type": "Normal",
+		"pwr": 0,
+		"energy_delta": 15,
+		"duration": 1700
+	},
+	"Present": {
+		"type": "Normal",
+		"pwr": 5,
+		"energy_delta": 20,
+		"duration": 1300
+	},
+	"Smack Down": {
+		"type": "Rock",
+		"pwr": 16,
+		"energy_delta": 8,
+		"duration": 1200
+	},
+	"Charm": {
+		"type": "Fairy",
+		"pwr": 20,
+		"energy_delta": 11,
+		"duration": 1500
+	},
+	"Lock On": {
+		"type": "Normal",
+		"pwr": 1,
+		"energy_delta": 6,
+		"duration": 300
+	},
+	"Thunder Fang": {
+		"type": "Electric",
+		"pwr": 12,
+		"energy_delta": 16,
+		"duration": 1200
+	},
+	"Ice Fang": {
+		"type": "Ice",
+		"pwr": 12,
+		"energy_delta": 20,
+		"duration": 1500
+	},
+	"Gust": {
+		"type": "Flying",
+		"pwr": 25,
+		"energy_delta": 20,
+		"duration": 2000
+	},
+	"Incinerate": {
+		"type": "Fire",
+		"pwr": 29,
+		"energy_delta": 20,
+		"duration": 2300
+	},
+	"Fairy Wind": {
+		"type": "Fairy",
+		"pwr": 9,
+		"energy_delta": 13,
+		"duration": 970
+	},
+	"Double Kick": {
+		"type": "Fighting",
+		"pwr": 10,
+		"energy_delta": 13,
+		"duration": 1000
+	},
+	"Magical Leaf": {
+		"type": "Grass",
+		"pwr": 16,
+		"energy_delta": 16,
+		"duration": 1400
+	},
+	"Rollout": {
+		"type": "Rock",
+		"pwr": 14,
+		"energy_delta": 18,
+		"duration": 1400
+	},
+	"Water Shuriken": {
+		"type": "Water",
+		"pwr": 10,
+		"energy_delta": 15,
+		"duration": 1100
+	},
+	"Leafage": {
+		"type": "Grass",
+		"pwr": 9,
+		"energy_delta": 6,
+		"duration": 700
+	},
+	"Geomancy": {
+		"type": "Fairy",
+		"pwr": 20,
+		"energy_delta": 14,
+		"duration": 1500
+	},
 }
 
 
-# active = time it takes to get charged
-# active how long the animation lasts
-# dps_dpe = damage per second * damage per energy
 charged_moves_pve = {
-    "Bug Buzz"              : {"type": "Bug",       "time": 3.70,   "pwr": 100,   "active": 3.70,   "dps_dpe": 54.06  },
-    "Megahorn"              : {"type": "Bug",       "time": 2.20,   "pwr": 110,   "active": 2.20,   "dps_dpe": 55.00  },
-    "Signal Beam"           : {"type": "Bug",       "time": 2.90,   "pwr": 75,    "active": 2.90,   "dps_dpe": 38.79  },
-    "X-Scissor"             : {"type": "Bug",       "time": 1.60,   "pwr": 45,    "active": 1.60,   "dps_dpe": 38.36  },
-    "Silver Wind"           : {"type": "Bug",       "time": 3.70,   "pwr": 70,    "active": 3.70,   "dps_dpe": 40.13  },
-    "Fell Stinger"          : {"type": "Bug",       "time": 2.20,   "pwr": 50,    "active": 2.20,   "dps_dpe": 34.44  },
-    "Lunge"                 : {"type": "Bug",       "time": 2.90,   "pwr": 55,    "active": 2.90,   "dps_dpe": 31.62  },
-
-    "Dark Pulse"            : {"type": "Dark",      "time": 3.00,   "pwr": 80,    "active": 1.40,   "dps_dpe": 42.67  },
-    "Night Slash"           : {"type": "Dark",      "time": 2.20,   "pwr": 50,    "active": 1.30,   "dps_dpe": 34.44  },
-    "Crunch"                : {"type": "Dark",      "time": 3.20,   "pwr": 70,    "active": 1.30,   "dps_dpe": 46.41  },
-    "Foul Play"             : {"type": "Dark",      "time": 2.00,   "pwr": 70,    "active": 1.70,   "dps_dpe": 49.00  },
-    "Payback"               : {"type": "Dark",      "time": 2.20,   "pwr": 100,   "active": 1.10,   "dps_dpe": 45.45  },
-    "Brutal Swing"          : {"type": "Dark",      "time": 1.90,   "pwr": 65,    "active": 1.20,   "dps_dpe": 67.38  },
-    "Obstruct"              : {"type": "Dark",      "time": 1.70,   "pwr": 20,    "active": 0.50,   "dps_dpe": 7.13   },
-    "Darkest Lariat"        : {"type": "Dark",      "time": 2.00,   "pwr": 80,    "active": 1.20,   "dps_dpe": 64.00  },
-
-    "Dragon Claw"           : {"type": "Dragon",    "time": 1.70,   "pwr": 50,    "active": 1.10,   "dps_dpe": 44.56  },
-    "Dragon Pulse"          : {"type": "Dragon",    "time": 3.60,   "pwr": 90,    "active": 2.15,   "dps_dpe": 45.00  },
-    "Twister"               : {"type": "Dragon",    "time": 2.80,   "pwr": 45,    "active": 0.95,   "dps_dpe": 21.91  },
-    "Outrage"               : {"type": "Dragon",    "time": 3.90,   "pwr": 110,   "active": 2.50,   "dps_dpe": 62.06  },
-    "Draco Meteor"          : {"type": "Dragon",    "time": 3.60,   "pwr": 150,   "active": 3.00,   "dps_dpe": 62.51  },
-    "Breaking Swipe"        : {"type": "Dragon",    "time": 0.80,   "pwr": 35,    "active": 0.27,   "dps_dpe": 46.40  },
-    "Roar of Time"          : {"type": "Dragon",    "time": 2.20,   "pwr": 160,   "active": 1.10,   "dps_dpe": 116.37 },
-    "Spacial Rend"          : {"type": "Dragon",    "time": 2.50,   "pwr": 160,   "active": 1.40,   "dps_dpe": 102.40 },
-
-    "Discharge"             : {"type": "Electric",  "time": 2.50,   "pwr": 65,    "active": 1.70,   "dps_dpe": 51.21  },
-    "Thunder"               : {"type": "Electric",  "time": 2.40,   "pwr": 100,   "active": 1.20,   "dps_dpe": 41.67  },
-    "Thunder Punch"         : {"type": "Electric",  "time": 1.80,   "pwr": 45,    "active": 1.70,   "dps_dpe": 34.09  },
-    "Thunderbolt"           : {"type": "Electric",  "time": 2.50,   "pwr": 80,    "active": 1.80,   "dps_dpe": 51.20  },
-    "Wild Charge"           : {"type": "Electric",  "time": 2.60,   "pwr": 90,    "active": 1.70,   "dps_dpe": 62.32  },
-    "Zap Cannon"            : {"type": "Electric",  "time": 3.70,   "pwr": 140,   "active": 3.00,   "dps_dpe": 52.98  },
-    "Parabolic Charge"      : {"type": "Electric",  "time": 2.80,   "pwr": 65,    "active": 1.20,   "dps_dpe": 30.17  },
-    "Techno Blast (Shock)"  : {"type": "Electric",  "time": 2.00,   "pwr": 120,   "active": 1.60,   "dps_dpe": 72.00  },
-    "Fusion Bolt"           : {"type": "Electric",  "time": 2.00,   "pwr": 140,   "active": 1.25,   "dps_dpe": 98.00  },
-    "Wildbolt Storm"        : {"type": "Electric",  "time": 2.30,   "pwr": 140,   "active": 1.80,   "dps_dpe": 85.22  },
-    "Volt Tackle"           : {"type": "Electric",  "time": 3.40,   "pwr": 90,    "active": 2.00,   "dps_dpe": 72.19  },
-
-    "Dazzling Gleam"        : {"type": "Fairy",     "time": 3.50,   "pwr": 100,   "active": 2.10,   "dps_dpe": 57.14  },
-    "Disarming Voice"       : {"type": "Fairy",     "time": 3.90,   "pwr": 70,    "active": 3.20,   "dps_dpe": 38.08  },
-    "Draining Kiss"         : {"type": "Fairy",     "time": 2.60,   "pwr": 60,    "active": 1.00,   "dps_dpe": 27.70  },
-    "Moonblast"             : {"type": "Fairy",     "time": 3.90,   "pwr": 130,   "active": 2.20,   "dps_dpe": 43.33  },
-    "Play Rough"            : {"type": "Fairy",     "time": 2.90,   "pwr": 90,    "active": 1.30,   "dps_dpe": 55.85  },
-    "Nature's Madness"      : {"type": "Fairy",     "time": 2.10,   "pwr": 90,    "active": 1.40,   "dps_dpe": 77.15  },
-
-    "Brick Break"           : {"type": "Fighting",  "time": 1.60,   "pwr": 40,    "active": 0.80,   "dps_dpe": 30.30  },
-    "Cross Chop"            : {"type": "Fighting",  "time": 1.50,   "pwr": 50,    "active": 0.80,   "dps_dpe": 33.33  },
-    "Low Sweep"             : {"type": "Fighting",  "time": 1.90,   "pwr": 40,    "active": 1.30,   "dps_dpe": 25.52  },
-    "Submission"            : {"type": "Fighting",  "time": 2.20,   "pwr": 60,    "active": 1.80,   "dps_dpe": 32.72  },
-    "Close Combat"          : {"type": "Fighting",  "time": 2.30,   "pwr": 100,   "active": 1.00,   "dps_dpe": 43.48  },
-    "Dynamic Punch"         : {"type": "Fighting",  "time": 2.70,   "pwr": 90,    "active": 1.20,   "dps_dpe": 59.99  },
-    "Focus Blast"           : {"type": "Fighting",  "time": 3.50,   "pwr": 140,   "active": 3.00,   "dps_dpe": 56.00  },
-    "Power-Up Punch"        : {"type": "Fighting",  "time": 2.00,   "pwr": 50,    "active": 1.70,   "dps_dpe": 37.88  },
-    "Aura Sphere"           : {"type": "Fighting",  "time": 1.80,   "pwr": 90,    "active": 1.00,   "dps_dpe": 90.00  },
-    "Superpower"            : {"type": "Fighting",  "time": 3.00,   "pwr": 85,    "active": 2.10,   "dps_dpe": 48.16  },
-    "Flying Press"          : {"type": "Fighting",  "time": 2.30,   "pwr": 110,   "active": 1.00,   "dps_dpe": 105.23 },
-    "Sacred Sword"          : {"type": "Fighting",  "time": 1.20,   "pwr": 55,    "active": 0.50,   "dps_dpe": 76.38  },
-    "Drain Punch"           : {"type": "Fighting",  "time": 2.40,   "pwr": 50,    "active": 1.00,   "dps_dpe": 31.56  },
-    "High Jump Kick"        : {"type": "Fighting",  "time": 1.50,   "pwr": 90,    "active": 0.45,   "dps_dpe": 54.00  },
-
-    "Fire Blast"            : {"type": "Fire",      "time": 4.20,   "pwr": 140,   "active": 3.10,   "dps_dpe": 46.66  },
-    "Fire Punch"            : {"type": "Fire",      "time": 2.20,   "pwr": 55,    "active": 1.50,   "dps_dpe": 41.67  },
-    "Flame Burst"           : {"type": "Fire",      "time": 2.60,   "pwr": 70,    "active": 1.00,   "dps_dpe": 37.69  },
-    "Flame Wheel"           : {"type": "Fire",      "time": 2.70,   "pwr": 60,    "active": 2.10,   "dps_dpe": 26.66  },
-    "Flamethrower"          : {"type": "Fire",      "time": 2.20,   "pwr": 70,    "active": 1.50,   "dps_dpe": 44.55  },
-    "Heat Wave"             : {"type": "Fire",      "time": 3.00,   "pwr": 95,    "active": 1.70,   "dps_dpe": 30.09  },
-    "Flame Charge"          : {"type": "Fire",      "time": 3.80,   "pwr": 70,    "active": 2.90,   "dps_dpe": 39.07  },
-    "Overheat"              : {"type": "Fire",      "time": 4.00,   "pwr": 160,   "active": 2.60,   "dps_dpe": 64.00  },
-    "Blast Burn"            : {"type": "Fire",      "time": 3.30,   "pwr": 110,   "active": 2.75,   "dps_dpe": 73.33  },
-    "Weather Ball Fire"     : {"type": "Fire",      "time": 1.60,   "pwr": 55,    "active": 1.35,   "dps_dpe": 57.30  },
-    "Blaze Kick"            : {"type": "Fire",      "time": 1.20,   "pwr": 45,    "active": 0.45,   "dps_dpe": 51.14  },
-    "V-create"              : {"type": "Fire",      "time": 2.80,   "pwr": 95,    "active": 1.70,   "dps_dpe": 97.68  },
-    "Techno Blast (Burn)"   : {"type": "Fire",      "time": 2.00,   "pwr": 120,   "active": 1.60,   "dps_dpe": 72.00  },
-    "Sacred Fire"           : {"type": "Fire",      "time": 2.60,   "pwr": 120,   "active": 1.20,   "dps_dpe": 55.38  },
-    "Sacred Fire+"          : {"type": "Fire",      "time": 2.60,   "pwr": 135,   "active": 1.20,   "dps_dpe": 70.09  },
-    "Sacred Fire++"         : {"type": "Fire",      "time": 2.60,   "pwr": 155,   "active": 1.20,   "dps_dpe": 92.41  },
-    "Fusion Flare"          : {"type": "Fire",      "time": 2.20,   "pwr": 140,   "active": 1.50,   "dps_dpe": 89.10  },
-    "Mystical Fire"         : {"type": "Fire",      "time": 2.00,   "pwr": 60,    "active": 1.30,   "dps_dpe": 54.55  },
-    "Magma Storm"           : {"type": "Fire",      "time": 2.50,   "pwr": 75,    "active": 1.30,   "dps_dpe": 68.18  },
-
-    "Aerial Ace"            : {"type": "Flying",    "time": 2.40,   "pwr": 55,    "active": 1.90,   "dps_dpe": 38.20  },
-    "Air Cutter"            : {"type": "Flying",    "time": 2.70,   "pwr": 60,    "active": 1.80,   "dps_dpe": 26.66  },
-    "Drill Peck"            : {"type": "Flying",    "time": 2.30,   "pwr": 65,    "active": 1.70,   "dps_dpe": 55.66  },
-    "Hurricane"             : {"type": "Flying",    "time": 2.70,   "pwr": 110,   "active": 1.20,   "dps_dpe": 44.81  },
-    "Brave Bird"            : {"type": "Flying",    "time": 2.00,   "pwr": 130,   "active": 1.00,   "dps_dpe": 84.50  },
-    "Sky Attack"            : {"type": "Flying",    "time": 2.00,   "pwr": 80,    "active": 1.50,   "dps_dpe": 64.00  },
-    "Fly"                   : {"type": "Flying",    "time": 1.80,   "pwr": 80,    "active": 1.20,   "dps_dpe": 71.10  },
-    "Aeroblast"             : {"type": "Flying",    "time": 3.40,   "pwr": 180,   "active": 3.20,   "dps_dpe": 95.29  },
-    "Feather Dance"         : {"type": "Flying",    "time": 2.80,   "pwr": 35,    "active": 1.70,   "dps_dpe": 8.75   },
-    "Acrobatics"            : {"type": "Flying",    "time": 2.00,   "pwr": 100,   "active": 0.60,   "dps_dpe": 50.00  },
-    "Aeroblast+"            : {"type": "Flying",    "time": 3.40,   "pwr": 200,   "active": 3.20,   "dps_dpe": 117.64 },
-    "Aeroblast++"           : {"type": "Flying",    "time": 3.40,   "pwr": 225,   "active": 3.20,   "dps_dpe": 148.91 },
-    "Dragon Ascent"         : {"type": "Flying",    "time": 3.50,   "pwr": 140,   "active": 3.20,   "dps_dpe": 112.00 },
-    "Oblivion Wing"         : {"type": "Flying",    "time": 2.00,   "pwr": 85,    "active": 1.50,   "dps_dpe": 72.25  },
-    "Bleakwind Storm"       : {"type": "Flying",    "time": 2.30,   "pwr": 140,   "active": 1.80,   "dps_dpe": 85.22  },
-
-    "Shadow Ball"           : {"type": "Ghost",     "time": 3.00,   "pwr": 100,   "active": 2.40,   "dps_dpe": 66.66  },
-    "Ominous Wind"          : {"type": "Ghost",     "time": 2.30,   "pwr": 50,    "active": 1.85,   "dps_dpe": 32.94  },
-    "Night Shade"           : {"type": "Ghost",     "time": 2.60,   "pwr": 60,    "active": 2.10,   "dps_dpe": 27.70  },
-    "Shadow Sneak"          : {"type": "Ghost",     "time": 2.90,   "pwr": 50,    "active": 2.20,   "dps_dpe": 26.12  },
-    "Shadow Punch"          : {"type": "Ghost",     "time": 1.70,   "pwr": 40,    "active": 1.30,   "dps_dpe": 28.52  },
-    "Shadow Bone"           : {"type": "Ghost",     "time": 2.80,   "pwr": 80,    "active": 2.25,   "dps_dpe": 45.71  },
-    "Poltergeist"           : {"type": "Ghost",     "time": 3.60,   "pwr": 140,   "active": 2.80,   "dps_dpe": 54.45  },
-    "Shadow Force"          : {"type": "Ghost",     "time": 1.90,   "pwr": 140,   "active": 1.70,   "dps_dpe": 103.15 },
-    "Spirit Shackle"        : {"type": "Ghost",     "time": 2.50,   "pwr": 70,    "active": 2.00,   "dps_dpe": 59.39  },
-    "Moongeist Beam"        : {"type": "Ghost",     "time": 3.10,   "pwr": 230,   "active": 2.30,   "dps_dpe": 170.64 },
-
-    "Petal Blizzard"        : {"type": "Grass",     "time": 2.60,   "pwr": 110,   "active": 1.70,   "dps_dpe": 46.54  },
-    "Power Whip"            : {"type": "Grass",     "time": 2.60,   "pwr": 90,    "active": 1.25,   "dps_dpe": 62.32  },
-    "Seed Bomb"             : {"type": "Grass",     "time": 2.10,   "pwr": 55,    "active": 1.20,   "dps_dpe": 43.65  },
-    "Solar Beam"            : {"type": "Grass",     "time": 4.90,   "pwr": 180,   "active": 2.70,   "dps_dpe": 66.11  },
-    "Leaf Blade"            : {"type": "Grass",     "time": 2.40,   "pwr": 70,    "active": 1.25,   "dps_dpe": 61.88  },
-    "Grass Knot"            : {"type": "Grass",     "time": 2.60,   "pwr": 90,    "active": 1.70,   "dps_dpe": 62.32  },
-    "Energy Ball"           : {"type": "Grass",     "time": 3.90,   "pwr": 90,    "active": 3.00,   "dps_dpe": 41.54  },
-    "Mega Drain"            : {"type": "Grass",     "time": 2.60,   "pwr": 25,    "active": 0.95,   "dps_dpe": 4.81   },
-    "Frenzy Plant"          : {"type": "Grass",     "time": 2.60,   "pwr": 100,   "active": 2.15,   "dps_dpe": 76.92  },
-    "Leaf Tornado"          : {"type": "Grass",     "time": 3.10,   "pwr": 45,    "active": 2.00,   "dps_dpe": 19.80  },
-    "Leaf Storm"            : {"type": "Grass",     "time": 2.50,   "pwr": 130,   "active": 1.10,   "dps_dpe": 67.60  },
-    "Seed Flare"            : {"type": "Grass",     "time": 2.70,   "pwr": 120,   "active": 2.50,   "dps_dpe": 53.33  },
-    "Giga Drain"            : {"type": "Grass",     "time": 3.90,   "pwr": 50,    "active": 1.20,   "dps_dpe": 12.82  },
-    "Trailblaze"            : {"type": "Grass",     "time": 2.00,   "pwr": 65,    "active": 1.20,   "dps_dpe": 42.25  },
-
-    "Bone Club"             : {"type": "Ground",    "time": 1.60,   "pwr": 40,    "active": 1.00,   "dps_dpe": 30.30  },
-    "Bulldoze"              : {"type": "Ground",    "time": 3.50,   "pwr": 80,    "active": 2.60,   "dps_dpe": 36.58  },
-    "Dig"                   : {"type": "Ground",    "time": 4.70,   "pwr": 100,   "active": 2.80,   "dps_dpe": 42.56  },
-    "Earthquake"            : {"type": "Ground",    "time": 3.60,   "pwr": 140,   "active": 2.70,   "dps_dpe": 54.45  },
-    "Mud Bomb"              : {"type": "Ground",    "time": 2.30,   "pwr": 55,    "active": 1.70,   "dps_dpe": 39.85  },
-    "Drill Run"             : {"type": "Ground",    "time": 2.80,   "pwr": 80,    "active": 1.70,   "dps_dpe": 45.71  },
-    "Sand Tomb"             : {"type": "Ground",    "time": 4.00,   "pwr": 60,    "active": 1.70,   "dps_dpe": 27.27  },
-    "Precipice Blades"      : {"type": "Ground",    "time": 1.70,   "pwr": 130,   "active": 1.40,   "dps_dpe": 99.41  },
-    "Earth Power"           : {"type": "Ground",    "time": 3.60,   "pwr": 100,   "active": 2.70,   "dps_dpe": 55.56  },
-    "High Horsepower"       : {"type": "Ground",    "time": 1.60,   "pwr": 110,   "active": 1.00,   "dps_dpe": 75.63  },
-    "Scorching Sands"       : {"type": "Ground",    "time": 3.20,   "pwr": 95,    "active": 1.60,   "dps_dpe": 56.41  },
-    "Sandsear Storm"        : {"type": "Ground",    "time": 2.30,   "pwr": 140,   "active": 1.80,   "dps_dpe": 85.22  },
-
-    "Blizzard"              : {"type": "Ice",       "time": 3.10,   "pwr": 130,   "active": 1.50,   "dps_dpe": 54.52  },
-    "Ice Beam"              : {"type": "Ice",       "time": 3.30,   "pwr": 90,    "active": 1.30,   "dps_dpe": 49.09  },
-    "Ice Punch"             : {"type": "Ice",       "time": 1.90,   "pwr": 50,    "active": 1.30,   "dps_dpe": 39.88  },
-    "Icy Wind"              : {"type": "Ice",       "time": 3.30,   "pwr": 60,    "active": 2.00,   "dps_dpe": 33.05  },
-    "Aurora Beam"           : {"type": "Ice",       "time": 3.55,   "pwr": 80,    "active": 3.35,   "dps_dpe": 36.06  },
-    "Avalanche"             : {"type": "Ice",       "time": 2.70,   "pwr": 90,    "active": 1.70,   "dps_dpe": 59.99  },
-    "Weather Ball Ice"      : {"type": "Ice",       "time": 1.60,   "pwr": 55,    "active": 1.35,   "dps_dpe": 57.30  },
-    "Techno Blast (Chill)"  : {"type": "Ice",       "time": 2.00,   "pwr": 120,   "active": 1.60,   "dps_dpe": 72.00  },
-    "Icicle Spear"          : {"type": "Ice",       "time": 2.20,   "pwr": 60,    "active": 1.20,   "dps_dpe": 49.58  },
-    "Glaciate"              : {"type": "Ice",       "time": 2.50,   "pwr": 160,   "active": 1.50,   "dps_dpe": 102.40 },
-    "Triple Axel"           : {"type": "Ice",       "time": 2.00,   "pwr": 60,    "active": 1.50,   "dps_dpe": 54.55  },
-
-    "Body Slam"             : {"type": "Normal",    "time": 1.90,   "pwr": 50,    "active": 1.20,   "dps_dpe": 39.88  },
-    "Horn Attack"           : {"type": "Normal",    "time": 1.85,   "pwr": 40,    "active": 0.80,   "dps_dpe": 26.21  },
-    "Hyper Beam"            : {"type": "Normal",    "time": 3.80,   "pwr": 150,   "active": 3.30,   "dps_dpe": 59.21  },
-    "Hyper Fang"            : {"type": "Normal",    "time": 2.50,   "pwr": 80,    "active": 1.50,   "dps_dpe": 51.20  },
-    "Stomp"                 : {"type": "Normal",    "time": 1.70,   "pwr": 55,    "active": 1.10,   "dps_dpe": 35.59  },
-    "Struggle"              : {"type": "Normal",    "time": 2.20,   "pwr": 35,    "active": 1.20,   "dps_dpe": 16.87  },
-    "Swift"                 : {"type": "Normal",    "time": 2.80,   "pwr": 60,    "active": 2.00,   "dps_dpe": 25.72  },
-    "Vise Grip"             : {"type": "Normal",    "time": 1.90,   "pwr": 35,    "active": 1.10,   "dps_dpe": 19.54  },
-    "Wrap"                  : {"type": "Normal",    "time": 2.90,   "pwr": 60,    "active": 2.05,   "dps_dpe": 37.62  },
-    "Rest"                  : {"type": "Normal",    "time": 1.90,   "pwr": 50,    "active": 1.50,   "dps_dpe": 39.88  },
-    "Wrap (Green/Pink)"     : {"type": "Normal",    "time": 2.90,   "pwr": 25,    "active": 2.05,   "dps_dpe": 6.53   },
-    "Last Resort"           : {"type": "Normal",    "time": 2.90,   "pwr": 90,    "active": 2.70,   "dps_dpe": 55.85  },
-    "Skull Bash"            : {"type": "Normal",    "time": 3.10,   "pwr": 130,   "active": 1.80,   "dps_dpe": 54.52  },
-    "Return"                : {"type": "Normal",    "time": 0.70,   "pwr": 35,    "active": 0.10,   "dps_dpe": 53.03  },
-    "Frustration"           : {"type": "Normal",    "time": 2.00,   "pwr": 10,    "active": 1.00,   "dps_dpe": 1.52   },
-    "Giga Impact"           : {"type": "Normal",    "time": 4.70,   "pwr": 200,   "active": 1.00,   "dps_dpe": 85.10  },
-    "Tri-Attack"            : {"type": "Normal",    "time": 2.50,   "pwr": 75,    "active": 1.30,   "dps_dpe": 45.00  },
-    "Techno Blast (Normal)" : {"type": "Normal",    "time": 2.00,   "pwr": 120,   "active": 1.60,   "dps_dpe": 72.00  },
-    "Weather Ball"          : {"type": "Normal",    "time": 1.60,   "pwr": 55,    "active": 1.35,   "dps_dpe": 57.30  },
-    "Crush Claw"            : {"type": "Normal",    "time": 3.00,   "pwr": 1,     "active": 3000.00,"dps_dpe": 0.00   },
-    "Boomburst"             : {"type": "Normal",    "time": 2.30,   "pwr": 140,   "active": 1.00,   "dps_dpe": 85.22  },
-
-    "Cross Poison"          : {"type": "Poison",    "time": 1.50,   "pwr": 40,    "active": 0.90,   "dps_dpe": 32.33  },
-    "Gunk Shot"             : {"type": "Poison",    "time": 3.10,   "pwr": 130,   "active": 1.70,   "dps_dpe": 54.52  },
-    "Poison Fang"           : {"type": "Poison",    "time": 1.70,   "pwr": 35,    "active": 0.90,   "dps_dpe": 21.84  },
-    "Sludge"                : {"type": "Poison",    "time": 2.10,   "pwr": 50,    "active": 1.20,   "dps_dpe": 36.08  },
-    "Sludge Bomb"           : {"type": "Poison",    "time": 2.30,   "pwr": 80,    "active": 1.10,   "dps_dpe": 55.65  },
-    "Sludge Wave"           : {"type": "Poison",    "time": 3.20,   "pwr": 110,   "active": 2.00,   "dps_dpe": 37.82  },
-    "Acid Spray"            : {"type": "Poison",    "time": 3.00,   "pwr": 20,    "active": 2.10,   "dps_dpe": 2.67   },
-
-    "Psybeam"               : {"type": "Psychic",   "time": 3.20,   "pwr": 70,    "active": 1.30,   "dps_dpe": 30.63  },
-    "Psychic"               : {"type": "Psychic",   "time": 2.80,   "pwr": 90,    "active": 1.30,   "dps_dpe": 57.85  },
-    "Psyshock"              : {"type": "Psychic",   "time": 2.70,   "pwr": 65,    "active": 2.00,   "dps_dpe": 47.41  },
-    "Psystrike"             : {"type": "Psychic",   "time": 2.30,   "pwr": 90,    "active": 1.00,   "dps_dpe": 70.43  },
-    "Heart Stamp"           : {"type": "Psychic",   "time": 1.90,   "pwr": 40,    "active": 1.10,   "dps_dpe": 25.52  },
-    "Future Sight"          : {"type": "Psychic",   "time": 2.70,   "pwr": 120,   "active": 1.40,   "dps_dpe": 53.33  },
-    "Mirror Coat"           : {"type": "Psychic",   "time": 2.60,   "pwr": 60,    "active": 2.30,   "dps_dpe": 27.70  },
-    "Psycho Boost"          : {"type": "Psychic",   "time": 4.00,   "pwr": 70,    "active": 3.50,   "dps_dpe": 24.50  },
-    "Synchronoise"          : {"type": "Psychic",   "time": 2.60,   "pwr": 80,    "active": 0.85,   "dps_dpe": 49.23  },
-    "Psychic Fangs"         : {"type": "Psychic",   "time": 1.20,   "pwr": 30,    "active": 0.40,   "dps_dpe": 22.73  },
-    "Luster Purge"          : {"type": "Psychic",   "time": 1.50,   "pwr": 100,   "active": 0.50,   "dps_dpe": 66.67  },
-    "Mist Ball"             : {"type": "Psychic",   "time": 2.00,   "pwr": 105,   "active": 1.20,   "dps_dpe": 55.13  },
-
-    "Ancient Power"         : {"type": "Rock",      "time": 3.50,   "pwr": 70,    "active": 2.85,   "dps_dpe": 42.42  },
-    "Power Gem"             : {"type": "Rock",      "time": 2.90,   "pwr": 80,    "active": 1.95,   "dps_dpe": 44.14  },
-    "Rock Slide"            : {"type": "Rock",      "time": 2.70,   "pwr": 80,    "active": 1.50,   "dps_dpe": 47.41  },
-    "Rock Tomb"             : {"type": "Rock",      "time": 3.20,   "pwr": 70,    "active": 2.25,   "dps_dpe": 30.63  },
-    "Stone Edge"            : {"type": "Rock",      "time": 2.30,   "pwr": 100,   "active": 0.70,   "dps_dpe": 43.48  },
-    "Rock Blast"            : {"type": "Rock",      "time": 2.10,   "pwr": 50,    "active": 1.60,   "dps_dpe": 36.08  },
-    "Weather Ball Rock"     : {"type": "Rock",      "time": 1.60,   "pwr": 60,    "active": 1.35,   "dps_dpe": 68.18  },
-    "Rock Wrecker"          : {"type": "Rock",      "time": 3.60,   "pwr": 110,   "active": 2.00,   "dps_dpe": 67.23  },
-    "Meteor Beam"           : {"type": "Rock",      "time": 1.90,   "pwr": 140,   "active": 1.00,   "dps_dpe": 103.15 },
-
-    "Flash Cannon"          : {"type": "Steel",     "time": 2.70,   "pwr": 100,   "active": 1.60,   "dps_dpe": 37.04  },
-    "Iron Head"             : {"type": "Steel",     "time": 1.90,   "pwr": 60,    "active": 1.30,   "dps_dpe": 37.90  },
-    "Magnet Bomb"           : {"type": "Steel",     "time": 2.80,   "pwr": 70,    "active": 2.20,   "dps_dpe": 53.03  },
-    "Gyro Ball"             : {"type": "Steel",     "time": 3.30,   "pwr": 80,    "active": 3.00,   "dps_dpe": 38.78  },
-    "Heavy Slam"            : {"type": "Steel",     "time": 2.10,   "pwr": 70,    "active": 1.50,   "dps_dpe": 46.66  },
-    "Doom Desire"           : {"type": "Steel",     "time": 1.70,   "pwr": 70,    "active": 1.40,   "dps_dpe": 87.35  },
-    "Meteor Mash"           : {"type": "Steel",     "time": 2.60,   "pwr": 100,   "active": 2.30,   "dps_dpe": 76.92  },
-    "Mirror Shot"           : {"type": "Steel",     "time": 2.40,   "pwr": 50,    "active": 1.80,   "dps_dpe": 31.56  },
-    "Double Iron Bash"      : {"type": "Steel",     "time": 2.00,   "pwr": 70,    "active": 1.30,   "dps_dpe": 74.24  },
-    "Sunsteel Strike"       : {"type": "Steel",     "time": 3.10,   "pwr": 230,   "active": 2.30,   "dps_dpe": 170.64 },
-
-    "Aqua Jet"              : {"type": "Water",     "time": 2.60,   "pwr": 45,    "active": 1.70,   "dps_dpe": 23.60  },
-    "Aqua Tail"             : {"type": "Water",     "time": 1.90,   "pwr": 50,    "active": 1.20,   "dps_dpe": 39.88  },
-    "Bubble Beam"           : {"type": "Water",     "time": 1.90,   "pwr": 45,    "active": 1.45,   "dps_dpe": 32.29  },
-    "Hydro Pump"            : {"type": "Water",     "time": 3.30,   "pwr": 130,   "active": 0.90,   "dps_dpe": 51.21  },
-    "Scald"                 : {"type": "Water",     "time": 3.70,   "pwr": 80,    "active": 1.30,   "dps_dpe": 34.59  },
-    "Water Pulse"           : {"type": "Water",     "time": 3.20,   "pwr": 70,    "active": 2.20,   "dps_dpe": 30.63  },
-    "Brine"                 : {"type": "Water",     "time": 2.30,   "pwr": 60,    "active": 1.50,   "dps_dpe": 31.31  },
-    "Scald (Blastoise)"     : {"type": "Water",     "time": 4.70,   "pwr": 50,    "active": 2.50,   "dps_dpe": 5.32   },
-    "Hydro Pump (Blastoise)": {"type": "Water",     "time": 4.50,   "pwr": 90,    "active": 2.20,   "dps_dpe": 18.00  },
-    "Surf"                  : {"type": "Water",     "time": 1.70,   "pwr": 65,    "active": 1.40,   "dps_dpe": 49.71  },
-    "Origin Pulse"          : {"type": "Water",     "time": 1.70,   "pwr": 130,   "active": 1.40,   "dps_dpe": 99.41  },
-    "Hydro Cannon"          : {"type": "Water",     "time": 1.90,   "pwr": 90,    "active": 0.50,   "dps_dpe": 85.27  },
-    "Weather Ball Water"    : {"type": "Water",     "time": 1.60,   "pwr": 55,    "active": 1.35,   "dps_dpe": 57.30  },
-    "Muddy Water"           : {"type": "Water",     "time": 2.20,   "pwr": 50,    "active": 1.20,   "dps_dpe": 34.44  },
-    "Crabhammer"            : {"type": "Water",     "time": 1.90,   "pwr": 85,    "active": 1.50,   "dps_dpe": 76.06  },
-    "Octazooka"             : {"type": "Water",     "time": 2.30,   "pwr": 50,    "active": 1.30,   "dps_dpe": 21.74  },
-    "Techno Blast (Douse)"  : {"type": "Water",     "time": 2.00,   "pwr": 120,   "active": 1.60,   "dps_dpe": 72.00  },
-    "Razor Shell"           : {"type": "Water",     "time": 1.30,   "pwr": 45,    "active": 0.65,   "dps_dpe": 47.21  },
-    "Liquidation"           : {"type": "Water",     "time": 3.00,   "pwr": 70,    "active": 2.00,   "dps_dpe": 49.49  },
+	"Wrap": {
+		"type": "Normal",
+		"pwr": 60,
+		"energy_delta": -33,
+		"duration": 2900
+	},
+	"Hyper Beam": {
+		"type": "Normal",
+		"pwr": 150,
+		"energy_delta": -100,
+		"duration": 3800
+	},
+	"Dark Pulse": {
+		"type": "Dark",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 3000
+	},
+	"Sludge": {
+		"type": "Poison",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2100
+	},
+	"Vice Grip": {
+		"type": "Normal",
+		"pwr": 35,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Flame Wheel": {
+		"type": "Fire",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2700
+	},
+	"Megahorn": {
+		"type": "Bug",
+		"pwr": 110,
+		"energy_delta": -100,
+		"duration": 2200
+	},
+	"Flamethrower": {
+		"type": "Fire",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 2200
+	},
+	"Dig": {
+		"type": "Ground",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 4700
+	},
+	"Cross Chop": {
+		"type": "Fighting",
+		"pwr": 50,
+		"energy_delta": -50,
+		"duration": 1500
+	},
+	"Psybeam": {
+		"type": "Psychic",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 3200
+	},
+	"Earthquake": {
+		"type": "Ground",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 3600
+	},
+	"Stone Edge": {
+		"type": "Rock",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 2300
+	},
+	"Ice Punch": {
+		"type": "Ice",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Heart Stamp": {
+		"type": "Psychic",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Discharge": {
+		"type": "Electric",
+		"pwr": 65,
+		"energy_delta": -33,
+		"duration": 2500
+	},
+	"Flash Cannon": {
+		"type": "Steel",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 2700
+	},
+	"Drill Peck": {
+		"type": "Flying",
+		"pwr": 65,
+		"energy_delta": -33,
+		"duration": 2300
+	},
+	"Ice Beam": {
+		"type": "Ice",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 3300
+	},
+	"Blizzard": {
+		"type": "Ice",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 3100
+	},
+	"Heat Wave": {
+		"type": "Fire",
+		"pwr": 95,
+		"energy_delta": -100,
+		"duration": 3000
+	},
+	"Aerial Ace": {
+		"type": "Flying",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 2400
+	},
+	"Drill Run": {
+		"type": "Ground",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2800
+	},
+	"Petal Blizzard": {
+		"type": "Grass",
+		"pwr": 110,
+		"energy_delta": -100,
+		"duration": 2600
+	},
+	"Mega Drain": {
+		"type": "Grass",
+		"pwr": 25,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Bug Buzz": {
+		"type": "Bug",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 3700
+	},
+	"Poison Fang": {
+		"type": "Poison",
+		"pwr": 35,
+		"energy_delta": -33,
+		"duration": 1700
+	},
+	"Night Slash": {
+		"type": "Dark",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2200
+	},
+	"Bubble Beam": {
+		"type": "Water",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Submission": {
+		"type": "Fighting",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2200
+	},
+	"Low Sweep": {
+		"type": "Fighting",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Aqua Jet": {
+		"type": "Water",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 2600
+	},
+	"Aqua Tail": {
+		"type": "Water",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Seed Bomb": {
+		"type": "Grass",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 2100
+	},
+	"Psyshock": {
+		"type": "Psychic",
+		"pwr": 65,
+		"energy_delta": -33,
+		"duration": 2700
+	},
+	"Ancient Power": {
+		"type": "Rock",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 3500
+	},
+	"Rock Tomb": {
+		"type": "Rock",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 3200
+	},
+	"Rock Slide": {
+		"type": "Rock",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2700
+	},
+	"Power Gem": {
+		"type": "Rock",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2900
+	},
+	"Shadow Sneak": {
+		"type": "Ghost",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2900
+	},
+	"Shadow Punch": {
+		"type": "Ghost",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1700
+	},
+	"Ominous Wind": {
+		"type": "Ghost",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2300
+	},
+	"Shadow Ball": {
+		"type": "Ghost",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 3000
+	},
+	"Magnet Bomb": {
+		"type": "Steel",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 2800
+	},
+	"Iron Head": {
+		"type": "Steel",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 1900
+	},
+	"Parabolic Charge": {
+		"type": "Electric",
+		"pwr": 65,
+		"energy_delta": -50,
+		"duration": 2800
+	},
+	"Thunder Punch": {
+		"type": "Electric",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 1800
+	},
+	"Thunder": {
+		"type": "Electric",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 2400
+	},
+	"Thunderbolt": {
+		"type": "Electric",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2500
+	},
+	"Twister": {
+		"type": "Dragon",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 2800
+	},
+	"Dragon Pulse": {
+		"type": "Dragon",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 3600
+	},
+	"Dragon Claw": {
+		"type": "Dragon",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 1700
+	},
+	"Disarming Voice": {
+		"type": "Fairy",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 3900
+	},
+	"Draining Kiss": {
+		"type": "Fairy",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Dazzling Gleam": {
+		"type": "Fairy",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 3500
+	},
+	"Moonblast": {
+		"type": "Fairy",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 3900
+	},
+	"Play Rough": {
+		"type": "Fairy",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2900
+	},
+	"Cross Poison": {
+		"type": "Poison",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1500
+	},
+	"Sludge Bomb": {
+		"type": "Poison",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2300
+	},
+	"Sludge Wave": {
+		"type": "Poison",
+		"pwr": 110,
+		"energy_delta": -100,
+		"duration": 3200
+	},
+	"Gunk Shot": {
+		"type": "Poison",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 3100
+	},
+	"Bone Club": {
+		"type": "Ground",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Bulldoze": {
+		"type": "Ground",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 3500
+	},
+	"Mud Bomb": {
+		"type": "Ground",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 2300
+	},
+	"Signal Beam": {
+		"type": "Bug",
+		"pwr": 75,
+		"energy_delta": -50,
+		"duration": 2900
+	},
+	"X Scissor": {
+		"type": "Bug",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Flame Charge": {
+		"type": "Fire",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 3800
+	},
+	"Flame Burst": {
+		"type": "Fire",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Fire Blast": {
+		"type": "Fire",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 4200
+	},
+	"Brine": {
+		"type": "Water",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2300
+	},
+	"Water Pulse": {
+		"type": "Water",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 3200
+	},
+	"Scald": {
+		"type": "Water",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 3700
+	},
+	"Hydro Pump": {
+		"type": "Water",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 3300
+	},
+	"Psychic": {
+		"type": "Psychic",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2800
+	},
+	"Psystrike": {
+		"type": "Psychic",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2300
+	},
+	"Icy Wind": {
+		"type": "Ice",
+		"pwr": 60,
+		"energy_delta": -33,
+		"duration": 3300
+	},
+	"Giga Drain": {
+		"type": "Grass",
+		"pwr": 50,
+		"energy_delta": -100,
+		"duration": 3900
+	},
+	"Fire Punch": {
+		"type": "Fire",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 2200
+	},
+	"Solar Beam": {
+		"type": "Grass",
+		"pwr": 180,
+		"energy_delta": -100,
+		"duration": 4900
+	},
+	"Leaf Blade": {
+		"type": "Grass",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 2400
+	},
+	"Power Whip": {
+		"type": "Grass",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Air Cutter": {
+		"type": "Flying",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2700
+	},
+	"Hurricane": {
+		"type": "Flying",
+		"pwr": 110,
+		"energy_delta": -100,
+		"duration": 2700
+	},
+	"Brick Break": {
+		"type": "Fighting",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Swift": {
+		"type": "Normal",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2800
+	},
+	"Horn Attack": {
+		"type": "Normal",
+		"pwr": 40,
+		"energy_delta": -33,
+		"duration": 1850
+	},
+	"Stomp": {
+		"type": "Normal",
+		"pwr": 55,
+		"energy_delta": -50,
+		"duration": 1700
+	},
+	"Hyper Fang": {
+		"type": "Normal",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2500
+	},
+	"Body Slam": {
+		"type": "Normal",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Rest": {
+		"type": "Normal",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Struggle": {
+		"type": "Normal",
+		"pwr": 35,
+		"energy_delta": 0,
+		"duration": 2200
+	},
+	"Scald Blastoise": {
+		"type": "Water",
+		"pwr": 50,
+		"energy_delta": -100,
+		"duration": 4700
+	},
+	"Hydro Pump Blastoise": {
+		"type": "Water",
+		"pwr": 90,
+		"energy_delta": -100,
+		"duration": 4500
+	},
+	"Wrap Green": {
+		"type": "Normal",
+		"pwr": 25,
+		"energy_delta": -33,
+		"duration": 2900
+	},
+	"Wrap Pink": {
+		"type": "Normal",
+		"pwr": 25,
+		"energy_delta": -33,
+		"duration": 2900
+	},
+	"Water Gun Blastoise": {
+		"type": "Water",
+		"pwr": 10,
+		"energy_delta": 6,
+		"duration": 1000
+	},
+	"Close Combat": {
+		"type": "Fighting",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 2300
+	},
+	"Dynamic Punch": {
+		"type": "Fighting",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2700
+	},
+	"Focus Blast": {
+		"type": "Fighting",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 3500
+	},
+	"Aurora Beam": {
+		"type": "Ice",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 3550
+	},
+	"Wild Charge": {
+		"type": "Electric",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Zap Cannon": {
+		"type": "Electric",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 3700
+	},
+	"Avalanche": {
+		"type": "Ice",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2700
+	},
+	"Brave Bird": {
+		"type": "Flying",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Sky Attack": {
+		"type": "Flying",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2000
+	},
+	"Sand Tomb": {
+		"type": "Ground",
+		"pwr": 60,
+		"energy_delta": -33,
+		"duration": 4000
+	},
+	"Rock Blast": {
+		"type": "Rock",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2100
+	},
+	"Silver Wind": {
+		"type": "Bug",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 3700
+	},
+	"Night Shade": {
+		"type": "Ghost",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Gyro Ball": {
+		"type": "Steel",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 3300
+	},
+	"Heavy Slam": {
+		"type": "Steel",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 2100
+	},
+	"Overheat": {
+		"type": "Fire",
+		"pwr": 160,
+		"energy_delta": -100,
+		"duration": 4000
+	},
+	"Grass Knot": {
+		"type": "Grass",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Energy Ball": {
+		"type": "Grass",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 3900
+	},
+	"Futuresight": {
+		"type": "Psychic",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2700
+	},
+	"Mirror Coat": {
+		"type": "Psychic",
+		"pwr": 60,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Outrage": {
+		"type": "Dragon",
+		"pwr": 110,
+		"energy_delta": -50,
+		"duration": 3900
+	},
+	"Crunch": {
+		"type": "Dark",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 3200
+	},
+	"Foul Play": {
+		"type": "Dark",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 2000
+	},
+	"Surf": {
+		"type": "Water",
+		"pwr": 65,
+		"energy_delta": -50,
+		"duration": 1700
+	},
+	"Draco Meteor": {
+		"type": "Dragon",
+		"pwr": 150,
+		"energy_delta": -100,
+		"duration": 3600
+	},
+	"Doom Desire": {
+		"type": "Steel",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 1700
+	},
+	"Psycho Boost": {
+		"type": "Psychic",
+		"pwr": 70,
+		"energy_delta": -50,
+		"duration": 4000
+	},
+	"Origin Pulse": {
+		"type": "Water",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 1700
+	},
+	"Precipice Blades": {
+		"type": "Ground",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 1700
+	},
+	"Weather Ball Fire": {
+		"type": "Fire",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Weather Ball Ice": {
+		"type": "Ice",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Weather Ball Rock": {
+		"type": "Rock",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Weather Ball Water": {
+		"type": "Water",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Frenzy Plant": {
+		"type": "Grass",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Blast Burn": {
+		"type": "Fire",
+		"pwr": 110,
+		"energy_delta": -50,
+		"duration": 3300
+	},
+	"Hydro Cannon": {
+		"type": "Water",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 1900
+	},
+	"Last Resort": {
+		"type": "Normal",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 2900
+	},
+	"Meteor Mash": {
+		"type": "Steel",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Skull Bash": {
+		"type": "Normal",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 3100
+	},
+	"Acid Spray": {
+		"type": "Poison",
+		"pwr": 20,
+		"energy_delta": -50,
+		"duration": 3000
+	},
+	"Earth Power": {
+		"type": "Ground",
+		"pwr": 100,
+		"energy_delta": -50,
+		"duration": 3600
+	},
+	"Crabhammer": {
+		"type": "Water",
+		"pwr": 85,
+		"energy_delta": -50,
+		"duration": 1900
+	},
+	"Lunge": {
+		"type": "Bug",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 2900
+	},
+	"Crush Claw": {
+		"type": "Normal",
+		"pwr": 0,
+		"energy_delta": 0,
+		"duration": 1900
+	},
+	"Octazooka": {
+		"type": "Water",
+		"pwr": 50,
+		"energy_delta": -50,
+		"duration": 2300
+	},
+	"Mirror Shot": {
+		"type": "Steel",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2400
+	},
+	"Super Power": {
+		"type": "Fighting",
+		"pwr": 85,
+		"energy_delta": -50,
+		"duration": 3000
+	},
+	"Fell Stinger": {
+		"type": "Bug",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2200
+	},
+	"Leaf Tornado": {
+		"type": "Grass",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 3100
+	},
+	"Leech Life": {
+		"type": "Bug",
+		"pwr": 0,
+		"energy_delta": 0,
+		"duration": 2500
+	},
+	"Drain Punch": {
+		"type": "Fighting",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2400
+	},
+	"Shadow Bone": {
+		"type": "Ghost",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2800
+	},
+	"Muddy Water": {
+		"type": "Water",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2200
+	},
+	"Blaze Kick": {
+		"type": "Fire",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 1200
+	},
+	"Razor Shell": {
+		"type": "Water",
+		"pwr": 45,
+		"energy_delta": -33,
+		"duration": 1300
+	},
+	"Power Up Punch": {
+		"type": "Fighting",
+		"pwr": 50,
+		"energy_delta": -33,
+		"duration": 2000
+	},
+	"Giga Impact": {
+		"type": "Normal",
+		"pwr": 200,
+		"energy_delta": -100,
+		"duration": 4700
+	},
+	"Frustration": {
+		"type": "Normal",
+		"pwr": 10,
+		"energy_delta": -33,
+		"duration": 2000
+	},
+	"Return": {
+		"type": "Normal",
+		"pwr": 35,
+		"energy_delta": -33,
+		"duration": 700
+	},
+	"Synchronoise": {
+		"type": "Psychic",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 2600
+	},
+	"Horn Drill": {
+		"type": "Normal",
+		"pwr": 9000,
+		"energy_delta": -25,
+		"duration": 1900
+	},
+	"Fissure": {
+		"type": "Ground",
+		"pwr": 9001,
+		"energy_delta": -25,
+		"duration": 2800
+	},
+	"Sacred Sword": {
+		"type": "Fighting",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 1200
+	},
+	"Flying Press": {
+		"type": "Fighting",
+		"pwr": 110,
+		"energy_delta": -50,
+		"duration": 2300
+	},
+	"Aura Sphere": {
+		"type": "Fighting",
+		"pwr": 90,
+		"energy_delta": -50,
+		"duration": 1800
+	},
+	"Payback": {
+		"type": "Dark",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 2200
+	},
+	"Rock Wrecker": {
+		"type": "Rock",
+		"pwr": 110,
+		"energy_delta": -50,
+		"duration": 3600
+	},
+	"Aeroblast": {
+		"type": "Flying",
+		"pwr": 180,
+		"energy_delta": -100,
+		"duration": 3400
+	},
+	"Techno Blast Normal": {
+		"type": "Normal",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Techno Blast Burn": {
+		"type": "Fire",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Techno Blast Chill": {
+		"type": "Ice",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Techno Blast Water": {
+		"type": "Water",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Techno Blast Shock": {
+		"type": "Electric",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Fly": {
+		"type": "Flying",
+		"pwr": 80,
+		"energy_delta": -50,
+		"duration": 1800
+	},
+	"V Create": {
+		"type": "Fire",
+		"pwr": 95,
+		"energy_delta": -33,
+		"duration": 2800
+	},
+	"Leaf Storm": {
+		"type": "Grass",
+		"pwr": 130,
+		"energy_delta": -100,
+		"duration": 2500
+	},
+	"Tri Attack": {
+		"type": "Normal",
+		"pwr": 75,
+		"energy_delta": -50,
+		"duration": 2500
+	},
+	"Feather Dance": {
+		"type": "Flying",
+		"pwr": 35,
+		"energy_delta": -50,
+		"duration": 2800
+	},
+	"Weather Ball Normal": {
+		"type": "Normal",
+		"pwr": 55,
+		"energy_delta": -33,
+		"duration": 1600
+	},
+	"Psychic Fangs": {
+		"type": "Psychic",
+		"pwr": 30,
+		"energy_delta": -33,
+		"duration": 1200
+	},
+	"Sacred Fire": {
+		"type": "Fire",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2600
+	},
+	"Icicle Spear": {
+		"type": "Ice",
+		"pwr": 60,
+		"energy_delta": -33,
+		"duration": 2200
+	},
+	"Aeroblast": {
+		"type": "Flying",
+		"pwr": 200,
+		"energy_delta": -100,
+		"duration": 3400
+	},
+	"Aeroblast": {
+		"type": "Flying",
+		"pwr": 225,
+		"energy_delta": -100,
+		"duration": 3400
+	},
+	"Sacred Fire": {
+		"type": "Fire",
+		"pwr": 135,
+		"energy_delta": -100,
+		"duration": 2600
+	},
+	"Sacred Fire": {
+		"type": "Fire",
+		"pwr": 155,
+		"energy_delta": -100,
+		"duration": 2600
+	},
+	"Acrobatics": {
+		"type": "Flying",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Luster Purge": {
+		"type": "Psychic",
+		"pwr": 100,
+		"energy_delta": -100,
+		"duration": 1500
+	},
+	"Mist Ball": {
+		"type": "Psychic",
+		"pwr": 105,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Brutal Swing": {
+		"type": "Dark",
+		"pwr": 65,
+		"energy_delta": -33,
+		"duration": 1900
+	},
+	"Seed Flare": {
+		"type": "Grass",
+		"pwr": 120,
+		"energy_delta": -100,
+		"duration": 2700
+	},
+	"Obstruct": {
+		"type": "Dark",
+		"pwr": 20,
+		"energy_delta": -33,
+		"duration": 1700
+	},
+	"Shadow Force": {
+		"type": "Ghost",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 1900
+	},
+	"Meteor Beam": {
+		"type": "Rock",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 1900
+	},
+	"Fusion Bolt": {
+		"type": "Electric",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 2000
+	},
+	"Fusion Flare": {
+		"type": "Fire",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 2200
+	},
+	"Poltergeist": {
+		"type": "Ghost",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 3600
+	},
+	"High Horsepower": {
+		"type": "Ground",
+		"pwr": 110,
+		"energy_delta": -100,
+		"duration": 1600
+	},
+	"Glaciate": {
+		"type": "Ice",
+		"pwr": 160,
+		"energy_delta": -100,
+		"duration": 2500
+	},
+	"Breaking Swipe": {
+		"type": "Dragon",
+		"pwr": 35,
+		"energy_delta": -33,
+		"duration": 800
+	},
+	"Boomburst": {
+		"type": "Normal",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 2300
+	},
+	"Double Iron Bash": {
+		"type": "Steel",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 2000
+	},
+	"Myst Fire": {
+		"type": "Fire",
+		"pwr": 60,
+		"energy_delta": -33,
+		"duration": 2000
+	},
+	"Liquidation": {
+		"type": "Water",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 3000
+	},
+	"Dragon Ascent": {
+		"type": "Flying",
+		"pwr": 140,
+		"energy_delta": -50,
+		"duration": 3500
+	},
+	"Magma Storm": {
+		"type": "Fire",
+		"pwr": 75,
+		"energy_delta": -33,
+		"duration": 2500
+	},
+	"Spacial Rend": {
+		"type": "Dragon",
+		"pwr": 160,
+		"energy_delta": -100,
+		"duration": 2500
+	},
+	"Oblivion Wing": {
+		"type": "Flying",
+		"pwr": 85,
+		"energy_delta": -50,
+		"duration": 2000
+	},
+	"Triple Axel": {
+		"type": "Ice",
+		"pwr": 60,
+		"energy_delta": -33,
+		"duration": 2000
+	},
+	"Trailblaze": {
+		"type": "Grass",
+		"pwr": 65,
+		"energy_delta": -50,
+		"duration": 2000
+	},
+	"Scorching Sands": {
+		"type": "Ground",
+		"pwr": 95,
+		"energy_delta": -50,
+		"duration": 3200
+	},
+	"Roar Of Time": {
+		"type": "Dragon",
+		"pwr": 160,
+		"energy_delta": -100,
+		"duration": 2200
+	},
+	"Bleakwind Storm": {
+		"type": "Flying",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 2300
+	},
+	"Sandsear Storm": {
+		"type": "Ground",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 2300
+	},
+	"Wildbold Storm": {
+		"type": "Electric",
+		"pwr": 140,
+		"energy_delta": -100,
+		"duration": 2300
+	},
+	"Spirit Shackle": {
+		"type": "Ghost",
+		"pwr": 70,
+		"energy_delta": -33,
+		"duration": 2500
+	},
 }
