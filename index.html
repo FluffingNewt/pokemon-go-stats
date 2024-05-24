@@ -1,1 +1,87 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<head>
+    <title>Pokemon GO Damage Stats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./src/tablesort.css">
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 50%;
+          margin: auto; /* Center the table horizontally */
+        }
+        tbody {
+            pointer-events: none; /* Disable pointer events for the whole body */
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+          text-align: left; /* Centering text horizontally */
+          vertical-align: top; /* Vertical alignment */
+        }
+        th:focus, td:focus {
+            outline: none; /* Remove outline on focus */
+        }
+        img {
+          vertical-align: middle; /* Align the image with the text */
+          margin-right: 10px; /* Add some space between the image and the text */
+        }
+      </style>
+</head>
+
+<body>
+    <table class="table-sortable">
+		<thead>
+			<tr>
+				<th style="width: 200px;">Pokemon</th>
+				<th style="width: 200px;">Fast Move</th>
+				<th style="width: 200px;">Charged Move</th>
+				<th style="width: 50px;">DPS</th>
+                <th style="width: 50px;">TDO</th>
+                <th style="width: 50px;">ER</th>
+                <th style="width: 50px;">Max CP</th>
+			</tr>
+		</thead>
+		<tbody class="inactive-cells">
+			<tr>
+				<td>
+                    <img src="./assets/sprites/3-mega.png">
+                    Mega Venusaur
+                </td>
+				<td>Blah</td>
+				<td>Blah</td>
+				<td>Blah</td>
+                <td>Blah</td>
+                <td>Blah</td>
+                <td>Blah</td>
+			</tr>
+            <tr>
+				<td>
+                    <img src="./assets/sprites/384-mega.png">
+                    Mega Rayquaza
+                </td>
+				<td>Blah</td>
+				<td>Blah</td>
+				<td>Blah</td>
+                <td>Blah</td>
+                <td>Blah</td>
+                <td>Blah</td>
+			</tr>
+            <tr>
+				<td>
+                    <img src="./assets/sprites/3.png">
+                    Venusaur
+                </td>
+				<td>Blah</td>
+				<td>Blah</td>
+				<td>Blah</td>
+                <td>Blah</td>
+                <td>Blah</td>
+                <td>Blah</td>
+			</tr>
+		</tbody>
+	</table>
+
+    <script src="./src/tablesort.js"></script>
+</body>
+</html>
