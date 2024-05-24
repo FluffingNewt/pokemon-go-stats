@@ -28,7 +28,7 @@ class Pokemon:
             for move in pokemon_dict["eliteCinematicMoves"]
         ]
         
-        self.image = f"./assets/sprites/{str}.png" if region == "" else f"./assets/sprites/{self.number}-{region.lower()}.png"
+        self.image = f"./assets/sprites/{self.number}.png" if region == "" else f"./assets/sprites/{self.number}-{region.lower()}.png"
 
         self.max_cp = formulas.calc_max_cp(self.stats["attack"], self.stats["defense"], self.stats["stamina"])
 

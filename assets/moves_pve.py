@@ -458,6 +458,7 @@ fast_moves_pve = {
 }
 
 
+
 charged_moves_pve = {
 	"Wrap": {
 		"type": "Normal",

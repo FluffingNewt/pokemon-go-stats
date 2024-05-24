@@ -6,7 +6,7 @@ pokemon = {
 		"max_cp": 1260,
 		"fast_moves": ['Vine Whip', 'Tackle'],
 		"charged_moves": ['Sludge Bomb', 'Seed Bomb', 'Power Whip'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1.png"
 	},
 	"Ivysaur": {
 		"number": 2,
@@ -15,7 +15,7 @@ pokemon = {
 		"max_cp": 1921,
 		"fast_moves": ['Razor Leaf', 'Vine Whip'],
 		"charged_moves": ['Sludge Bomb', 'Solar Beam', 'Power Whip'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/2.png"
 	},
 	"Venusaur": {
 		"number": 3,
@@ -24,7 +24,7 @@ pokemon = {
 		"max_cp": 3075,
 		"fast_moves": ['Razor Leaf', 'Vine Whip'],
 		"charged_moves": ['Sludge Bomb', 'Petal Blizzard', 'Solar Beam', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/3.png"
 	},
 	"Charmander": {
 		"number": 4,
@@ -33,7 +33,7 @@ pokemon = {
 		"max_cp": 1108,
 		"fast_moves": ['Ember', 'Scratch'],
 		"charged_moves": ['Flame Charge', 'Flame Burst', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/4.png"
 	},
 	"Charmeleon": {
 		"number": 5,
@@ -42,7 +42,7 @@ pokemon = {
 		"max_cp": 1868,
 		"fast_moves": ['Ember', 'Fire Fang', 'Scratch'],
 		"charged_moves": ['Fire Punch', 'Flame Burst', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/5.png"
 	},
 	"Charizard": {
 		"number": 6,
@@ -51,7 +51,7 @@ pokemon = {
 		"max_cp": 3266,
 		"fast_moves": ['Fire Spin', 'Air Slash', 'Ember', 'Wing Attack', 'Dragon Breath'],
 		"charged_moves": ['Fire Blast', 'Dragon Claw', 'Overheat', 'Blast Burn', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/6.png"
 	},
 	"Squirtle": {
 		"number": 7,
@@ -60,7 +60,7 @@ pokemon = {
 		"max_cp": 1069,
 		"fast_moves": ['Bubble', 'Tackle'],
 		"charged_moves": ['Aqua Jet', 'Aqua Tail', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/7.png"
 	},
 	"Wartortle": {
 		"number": 8,
@@ -69,7 +69,7 @@ pokemon = {
 		"max_cp": 1682,
 		"fast_moves": ['Water Gun', 'Bite'],
 		"charged_moves": ['Aqua Jet', 'Ice Beam', 'Hydro Pump'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/8.png"
 	},
 	"Blastoise": {
 		"number": 9,
@@ -78,7 +78,7 @@ pokemon = {
 		"max_cp": 2788,
 		"fast_moves": ['Water Gun', 'Bite'],
 		"charged_moves": ['Flash Cannon', 'Ice Beam', 'Hydro Pump', 'Skull Bash', 'Hydro Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/9.png"
 	},
 	"Caterpie": {
 		"number": 10,
@@ -87,7 +87,7 @@ pokemon = {
 		"max_cp": 494,
 		"fast_moves": ['Bug Bite', 'Tackle'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/10.png"
 	},
 	"Metapod": {
 		"number": 11,
@@ -96,7 +96,7 @@ pokemon = {
 		"max_cp": 509,
 		"fast_moves": ['Bug Bite', 'Tackle'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/11.png"
 	},
 	"Butterfree": {
 		"number": 12,
@@ -105,7 +105,7 @@ pokemon = {
 		"max_cp": 2065,
 		"fast_moves": ['Struggle Bug', 'Confusion', 'Bug Bite'],
 		"charged_moves": ['Bug Buzz', 'Psychic', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/12.png"
 	},
 	"Weedle": {
 		"number": 13,
@@ -114,7 +114,7 @@ pokemon = {
 		"max_cp": 515,
 		"fast_moves": ['Bug Bite', 'Poison Sting'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/13.png"
 	},
 	"Kakuna": {
 		"number": 14,
@@ -123,7 +123,7 @@ pokemon = {
 		"max_cp": 488,
 		"fast_moves": ['Bug Bite', 'Poison Sting'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/14.png"
 	},
 	"Beedrill": {
 		"number": 15,
@@ -132,7 +132,7 @@ pokemon = {
 		"max_cp": 2087,
 		"fast_moves": ['Infestation', 'Poison Jab', 'Bug Bite'],
 		"charged_moves": ['Sludge Bomb', 'Aerial Ace', 'X-Scissor', 'Fell Stinger', 'Drill Run'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/15.png"
 	},
 	"Pidgey": {
 		"number": 16,
@@ -141,7 +141,7 @@ pokemon = {
 		"max_cp": 769,
 		"fast_moves": ['Quick Attack', 'Tackle'],
 		"charged_moves": ['Twister', 'Aerial Ace', 'Air Cutter'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/16.png"
 	},
 	"Pidgeotto": {
 		"number": 17,
@@ -150,7 +150,7 @@ pokemon = {
 		"max_cp": 1350,
 		"fast_moves": ['Wing Attack', 'Steel Wing'],
 		"charged_moves": ['Twister', 'Aerial Ace', 'Air Cutter'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/17.png"
 	},
 	"Pidgeot": {
 		"number": 18,
@@ -159,7 +159,7 @@ pokemon = {
 		"max_cp": 2407,
 		"fast_moves": ['Air Slash', 'Steel Wing', 'Wing Attack', 'Gust'],
 		"charged_moves": ['Hurricane', 'Aerial Ace', 'Brave Bird', 'Feather Dance', 'Air Cutter'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/18.png"
 	},
 	"Rattata": {
 		"number": 19,
@@ -168,7 +168,7 @@ pokemon = {
 		"max_cp": 830,
 		"fast_moves": ['Tackle', 'Quick Attack'],
 		"charged_moves": ['Dig', 'Hyper Fang', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/19.png"
 	},
 	"Alolan Rattata": {
 		"number": 19,
@@ -186,7 +186,7 @@ pokemon = {
 		"max_cp": 1956,
 		"fast_moves": ['Bite', 'Quick Attack'],
 		"charged_moves": ['Dig', 'Hyper Fang', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/20.png"
 	},
 	"Alolan Raticate": {
 		"number": 20,
@@ -204,7 +204,7 @@ pokemon = {
 		"max_cp": 902,
 		"fast_moves": ['Peck', 'Quick Attack'],
 		"charged_moves": ['Aerial Ace', 'Drill Peck', 'Sky Attack', 'Twister'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/21.png"
 	},
 	"Fearow": {
 		"number": 22,
@@ -213,7 +213,7 @@ pokemon = {
 		"max_cp": 2257,
 		"fast_moves": ['Peck', 'Steel Wing'],
 		"charged_moves": ['Aerial Ace', 'Drill Run', 'Sky Attack', 'Twister'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/22.png"
 	},
 	"Ekans": {
 		"number": 23,
@@ -222,7 +222,7 @@ pokemon = {
 		"max_cp": 1048,
 		"fast_moves": ['Poison Sting', 'Acid'],
 		"charged_moves": ['Wrap', 'Poison Fang', 'Sludge Bomb', 'Gunk Shot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/23.png"
 	},
 	"Arbok": {
 		"number": 24,
@@ -231,7 +231,7 @@ pokemon = {
 		"max_cp": 2171,
 		"fast_moves": ['Bite', 'Acid', 'Dragon Tail'],
 		"charged_moves": ['Dark Pulse', 'Sludge Wave', 'Gunk Shot', 'Acid Spray'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/24.png"
 	},
 	"Pikachu": {
 		"number": 25,
@@ -240,7 +240,7 @@ pokemon = {
 		"max_cp": 1060,
 		"fast_moves": ['Thunder Shock', 'Quick Attack', 'Present'],
 		"charged_moves": ['Discharge', 'Thunderbolt', 'Wild Charge', 'Surf', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/25.png"
 	},
 	"Raichu": {
 		"number": 26,
@@ -249,7 +249,7 @@ pokemon = {
 		"max_cp": 2467,
 		"fast_moves": ['Volt Switch', 'Spark', 'Charm', 'Thunder Shock'],
 		"charged_moves": ['Brick Break', 'Thunder Punch', 'Wild Charge', 'Skull Bash', 'Trailblaze', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/26.png"
 	},
 	"Alolan Raichu": {
 		"number": 26,
@@ -267,7 +267,7 @@ pokemon = {
 		"max_cp": 1426,
 		"fast_moves": ['Scratch', 'Mud Shot', 'Sand Attack'],
 		"charged_moves": ['Dig', 'Rock Slide', 'Sand Tomb', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/27.png"
 	},
 	"Alolan Sandshrew": {
 		"number": 27,
@@ -285,7 +285,7 @@ pokemon = {
 		"max_cp": 2684,
 		"fast_moves": ['Metal Claw', 'Mud Shot', 'Sand Attack'],
 		"charged_moves": ['Earthquake', 'Rock Tomb', 'Bulldoze', 'Scorching Sands', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/28.png"
 	},
 	"Alolan Sandslash": {
 		"number": 28,
@@ -303,7 +303,7 @@ pokemon = {
 		"max_cp": 922,
 		"fast_moves": ['Bite', 'Poison Sting'],
 		"charged_moves": ['Poison Fang', 'Body Slam', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/29.png"
 	},
 	"Nidorina": {
 		"number": 30,
@@ -312,7 +312,7 @@ pokemon = {
 		"max_cp": 1480,
 		"fast_moves": ['Bite', 'Poison Sting'],
 		"charged_moves": ['Poison Fang', 'Dig', 'Sludge Bomb', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/30.png"
 	},
 	"Nidoqueen": {
 		"number": 31,
@@ -321,7 +321,7 @@ pokemon = {
 		"max_cp": 2812,
 		"fast_moves": ['Poison Jab', 'Bite'],
 		"charged_moves": ['Earthquake', 'Sludge Wave', 'Stone Edge', 'Earth Power', 'Poison Fang'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/31.png"
 	},
 	"Nidoran♂": {
 		"number": 32,
@@ -330,7 +330,7 @@ pokemon = {
 		"max_cp": 973,
 		"fast_moves": ['Peck', 'Poison Sting'],
 		"charged_moves": ['Horn Attack', 'Body Slam', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/32.png"
 	},
 	"Nidorino": {
 		"number": 33,
@@ -339,7 +339,7 @@ pokemon = {
 		"max_cp": 1575,
 		"fast_moves": ['Poison Jab', 'Poison Sting'],
 		"charged_moves": ['Horn Attack', 'Dig', 'Sludge Bomb', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/33.png"
 	},
 	"Nidoking": {
 		"number": 34,
@@ -348,7 +348,7 @@ pokemon = {
 		"max_cp": 2902,
 		"fast_moves": ['Poison Jab', 'Iron Tail', 'Double Kick', 'Fury Cutter'],
 		"charged_moves": ['Earthquake', 'Sludge Wave', 'Megahorn', 'Earth Power', 'Sand Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/34.png"
 	},
 	"Clefairy": {
 		"number": 35,
@@ -357,7 +357,7 @@ pokemon = {
 		"max_cp": 1306,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
 		"charged_moves": ['Disarming Voice', 'Body Slam', 'Moonblast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/35.png"
 	},
 	"Clefable": {
 		"number": 36,
@@ -366,7 +366,7 @@ pokemon = {
 		"max_cp": 2755,
 		"fast_moves": ['Charge Beam', 'Zen Headbutt', 'Charm', 'Fairy Wind', 'Pound'],
 		"charged_moves": ['Dazzling Gleam', 'Psychic', 'Moonblast', 'Meteor Mash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/36.png"
 	},
 	"Vulpix": {
 		"number": 37,
@@ -375,7 +375,7 @@ pokemon = {
 		"max_cp": 998,
 		"fast_moves": ['Quick Attack', 'Ember'],
 		"charged_moves": ['Body Slam', 'Flamethrower', 'Flame Charge', 'Weather Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/37.png"
 	},
 	"Alolan Vulpix": {
 		"number": 37,
@@ -393,7 +393,7 @@ pokemon = {
 		"max_cp": 2577,
 		"fast_moves": ['Feint Attack', 'Fire Spin', 'Ember'],
 		"charged_moves": ['Heat Wave', 'Overheat', 'Solar Beam', 'Psyshock', 'Weather Ball', 'Scorching Sands', 'Fire Blast', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/38.png"
 	},
 	"Alolan Ninetales": {
 		"number": 38,
@@ -411,7 +411,7 @@ pokemon = {
 		"max_cp": 818,
 		"fast_moves": ['Pound', 'Feint Attack'],
 		"charged_moves": ['Disarming Voice', 'Gyro Ball', 'Dazzling Gleam', 'Play Rough', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/39.png"
 	},
 	"Wigglytuff": {
 		"number": 40,
@@ -420,7 +420,7 @@ pokemon = {
 		"max_cp": 2178,
 		"fast_moves": ['Pound', 'Feint Attack', 'Charm'],
 		"charged_moves": ['Dazzling Gleam', 'Hyper Beam', 'Play Rough', 'Ice Beam', 'Disarming Voice', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/40.png"
 	},
 	"Zubat": {
 		"number": 41,
@@ -429,7 +429,7 @@ pokemon = {
 		"max_cp": 754,
 		"fast_moves": ['Quick Attack', 'Bite'],
 		"charged_moves": ['Poison Fang', 'Air Cutter', 'Swift', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/41.png"
 	},
 	"Golbat": {
 		"number": 42,
@@ -438,7 +438,7 @@ pokemon = {
 		"max_cp": 2234,
 		"fast_moves": ['Wing Attack', 'Bite'],
 		"charged_moves": ['Shadow Ball', 'Air Cutter', 'Poison Fang', 'Ominous Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/42.png"
 	},
 	"Oddish": {
 		"number": 43,
@@ -447,7 +447,7 @@ pokemon = {
 		"max_cp": 1389,
 		"fast_moves": ['Razor Leaf', 'Acid'],
 		"charged_moves": ['Seed Bomb', 'Sludge Bomb', 'Moonblast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/43.png"
 	},
 	"Gloom": {
 		"number": 44,
@@ -456,7 +456,7 @@ pokemon = {
 		"max_cp": 1900,
 		"fast_moves": ['Razor Leaf', 'Acid'],
 		"charged_moves": ['Petal Blizzard', 'Sludge Bomb', 'Moonblast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/44.png"
 	},
 	"Vileplume": {
 		"number": 45,
@@ -465,7 +465,7 @@ pokemon = {
 		"max_cp": 2893,
 		"fast_moves": ['Razor Leaf', 'Acid'],
 		"charged_moves": ['Petal Blizzard', 'Solar Beam', 'Moonblast', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/45.png"
 	},
 	"Paras": {
 		"number": 46,
@@ -474,7 +474,7 @@ pokemon = {
 		"max_cp": 1150,
 		"fast_moves": ['Scratch', 'Bug Bite'],
 		"charged_moves": ['Cross Poison', 'X-Scissor', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/46.png"
 	},
 	"Parasect": {
 		"number": 47,
@@ -483,7 +483,7 @@ pokemon = {
 		"max_cp": 2102,
 		"fast_moves": ['Struggle Bug', 'Fury Cutter', 'Bug Bite'],
 		"charged_moves": ['Cross Poison', 'X-Scissor', 'Solar Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/47.png"
 	},
 	"Venonat": {
 		"number": 48,
@@ -492,7 +492,7 @@ pokemon = {
 		"max_cp": 1135,
 		"fast_moves": ['Bug Bite', 'Confusion'],
 		"charged_moves": ['Poison Fang', 'Psybeam', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/48.png"
 	},
 	"Venomoth": {
 		"number": 49,
@@ -501,7 +501,7 @@ pokemon = {
 		"max_cp": 2354,
 		"fast_moves": ['Infestation', 'Confusion', 'Bug Bite'],
 		"charged_moves": ['Silver Wind', 'Psychic', 'Bug Buzz', 'Poison Fang'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/49.png"
 	},
 	"Diglett": {
 		"number": 50,
@@ -510,7 +510,7 @@ pokemon = {
 		"max_cp": 764,
 		"fast_moves": ['Mud-Slap', 'Scratch', 'Mud Shot'],
 		"charged_moves": ['Dig', 'Mud Bomb', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/50.png"
 	},
 	"Alolan Diglett": {
 		"number": 50,
@@ -528,7 +528,7 @@ pokemon = {
 		"max_cp": 1760,
 		"fast_moves": ['Sucker Punch', 'Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Earthquake', 'Mud Bomb', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/51.png"
 	},
 	"Alolan Dugtrio": {
 		"number": 51,
@@ -546,7 +546,7 @@ pokemon = {
 		"max_cp": 846,
 		"fast_moves": ['Scratch', 'Bite'],
 		"charged_moves": ['Night Slash', 'Dark Pulse', 'Foul Play', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/52.png"
 	},
 	"Alolan Meowth": {
 		"number": 52,
@@ -573,7 +573,7 @@ pokemon = {
 		"max_cp": 1910,
 		"fast_moves": ['Scratch', 'Feint Attack'],
 		"charged_moves": ['Foul Play', 'Power Gem', 'Play Rough', 'Payback', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/53.png"
 	},
 	"Alolan Persian": {
 		"number": 53,
@@ -591,7 +591,7 @@ pokemon = {
 		"max_cp": 1250,
 		"fast_moves": ['Water Gun', 'Zen Headbutt'],
 		"charged_moves": ['Psybeam', 'Aqua Tail', 'Cross Chop'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/54.png"
 	},
 	"Golduck": {
 		"number": 55,
@@ -600,7 +600,7 @@ pokemon = {
 		"max_cp": 2770,
 		"fast_moves": ['Water Gun', 'Confusion'],
 		"charged_moves": ['Psychic', 'Hydro Pump', 'Ice Beam', 'Bubble Beam', 'Synchronoise', 'Cross Chop', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/55.png"
 	},
 	"Mankey": {
 		"number": 56,
@@ -609,7 +609,7 @@ pokemon = {
 		"max_cp": 1317,
 		"fast_moves": ['Karate Chop', 'Scratch'],
 		"charged_moves": ['Cross Chop', 'Low Sweep', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/56.png"
 	},
 	"Primeape": {
 		"number": 57,
@@ -618,7 +618,7 @@ pokemon = {
 		"max_cp": 2586,
 		"fast_moves": ['Low Kick', 'Counter', 'Karate Chop'],
 		"charged_moves": ['Close Combat', 'Low Sweep', 'Night Slash', 'Ice Punch', 'Cross Chop'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/57.png"
 	},
 	"Growlithe": {
 		"number": 58,
@@ -627,7 +627,7 @@ pokemon = {
 		"max_cp": 1405,
 		"fast_moves": ['Ember', 'Bite'],
 		"charged_moves": ['Flame Wheel', 'Body Slam', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/58.png"
 	},
 	"Growlithe": {
 		"number": 58,
@@ -645,7 +645,7 @@ pokemon = {
 		"max_cp": 3425,
 		"fast_moves": ['Fire Fang', 'Snarl', 'Thunder Fang', 'Bite'],
 		"charged_moves": ['Fire Blast', 'Wild Charge', 'Crunch', 'Flamethrower', 'Psychic Fangs', 'Scorching Sands', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/59.png"
 	},
 	"Arcanine": {
 		"number": 59,
@@ -663,7 +663,7 @@ pokemon = {
 		"max_cp": 937,
 		"fast_moves": ['Bubble', 'Mud Shot'],
 		"charged_moves": ['Bubble Beam', 'Mud Bomb', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/60.png"
 	},
 	"Poliwhirl": {
 		"number": 61,
@@ -672,7 +672,7 @@ pokemon = {
 		"max_cp": 1604,
 		"fast_moves": ['Bubble', 'Mud Shot'],
 		"charged_moves": ['Water Pulse', 'Mud Bomb', 'Bubble Beam', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/61.png"
 	},
 	"Poliwrath": {
 		"number": 62,
@@ -681,7 +681,7 @@ pokemon = {
 		"max_cp": 2923,
 		"fast_moves": ['Bubble', 'Rock Smash', 'Mud Shot', 'Counter'],
 		"charged_moves": ['Hydro Pump', 'Dynamic Punch', 'Ice Punch', 'Power-Up Punch', 'Scald', 'Icy Wind', 'Submission'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/62.png"
 	},
 	"Abra": {
 		"number": 63,
@@ -690,7 +690,7 @@ pokemon = {
 		"max_cp": 1517,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
 		"charged_moves": ['Psyshock', 'Signal Beam', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/63.png"
 	},
 	"Kadabra": {
 		"number": 64,
@@ -699,7 +699,7 @@ pokemon = {
 		"max_cp": 2328,
 		"fast_moves": ['Psycho Cut', 'Confusion'],
 		"charged_moves": ['Psybeam', 'Dazzling Gleam', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/64.png"
 	},
 	"Alakazam": {
 		"number": 65,
@@ -708,7 +708,7 @@ pokemon = {
 		"max_cp": 3456,
 		"fast_moves": ['Psycho Cut', 'Confusion', 'Counter'],
 		"charged_moves": ['Future Sight', 'Focus Blast', 'Shadow Ball', 'Fire Punch', 'Dazzling Gleam', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/65.png"
 	},
 	"Machop": {
 		"number": 66,
@@ -717,7 +717,7 @@ pokemon = {
 		"max_cp": 1445,
 		"fast_moves": ['Rock Smash', 'Karate Chop', 'Low Kick'],
 		"charged_moves": ['Low Sweep', 'Brick Break', 'Cross Chop'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/66.png"
 	},
 	"Machoke": {
 		"number": 67,
@@ -726,7 +726,7 @@ pokemon = {
 		"max_cp": 2296,
 		"fast_moves": ['Low Kick', 'Karate Chop'],
 		"charged_moves": ['Submission', 'Brick Break', 'Dynamic Punch', 'Cross Chop'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/67.png"
 	},
 	"Machamp": {
 		"number": 68,
@@ -735,7 +735,7 @@ pokemon = {
 		"max_cp": 3455,
 		"fast_moves": ['Bullet Punch', 'Counter', 'Karate Chop'],
 		"charged_moves": ['Heavy Slam', 'Dynamic Punch', 'Close Combat', 'Rock Slide', 'Cross Chop', 'Stone Edge', 'Submission', 'Payback'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/68.png"
 	},
 	"Bellsprout": {
 		"number": 69,
@@ -744,7 +744,7 @@ pokemon = {
 		"max_cp": 1168,
 		"fast_moves": ['Vine Whip', 'Acid'],
 		"charged_moves": ['Power Whip', 'Sludge Bomb', 'Wrap'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/69.png"
 	},
 	"Weepinbell": {
 		"number": 70,
@@ -753,7 +753,7 @@ pokemon = {
 		"max_cp": 1822,
 		"fast_moves": ['Bullet Seed', 'Acid', 'Razor Leaf'],
 		"charged_moves": ['Power Whip', 'Sludge Bomb', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/70.png"
 	},
 	"Victreebel": {
 		"number": 71,
@@ -762,7 +762,7 @@ pokemon = {
 		"max_cp": 2748,
 		"fast_moves": ['Razor Leaf', 'Acid', 'Magical Leaf'],
 		"charged_moves": ['Leaf Blade', 'Sludge Bomb', 'Solar Beam', 'Leaf Tornado', 'Acid Spray'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/71.png"
 	},
 	"Tentacool": {
 		"number": 72,
@@ -771,7 +771,7 @@ pokemon = {
 		"max_cp": 1176,
 		"fast_moves": ['Bubble', 'Poison Sting'],
 		"charged_moves": ['Bubble Beam', 'Water Pulse', 'Wrap'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/72.png"
 	},
 	"Tentacruel": {
 		"number": 73,
@@ -780,7 +780,7 @@ pokemon = {
 		"max_cp": 2738,
 		"fast_moves": ['Acid', 'Poison Jab'],
 		"charged_moves": ['Hydro Pump', 'Sludge Wave', 'Blizzard', 'Acid Spray', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/73.png"
 	},
 	"Geodude": {
 		"number": 74,
@@ -789,7 +789,7 @@ pokemon = {
 		"max_cp": 1462,
 		"fast_moves": ['Rock Throw', 'Tackle'],
 		"charged_moves": ['Rock Slide', 'Rock Tomb', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/74.png"
 	},
 	"Alolan Geodude": {
 		"number": 74,
@@ -807,7 +807,7 @@ pokemon = {
 		"max_cp": 2145,
 		"fast_moves": ['Rock Throw', 'Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Dig', 'Stone Edge', 'Rock Blast', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/75.png"
 	},
 	"Alolan Graveler": {
 		"number": 75,
@@ -825,7 +825,7 @@ pokemon = {
 		"max_cp": 3334,
 		"fast_moves": ['Rock Throw', 'Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Stone Edge', 'Rock Blast', 'Earthquake', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/76.png"
 	},
 	"Alolan Golem": {
 		"number": 76,
@@ -843,7 +843,7 @@ pokemon = {
 		"max_cp": 1919,
 		"fast_moves": ['Tackle', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flame Wheel', 'Stomp', 'Fire Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/77.png"
 	},
 	"Galarian Ponyta": {
 		"number": 77,
@@ -861,7 +861,7 @@ pokemon = {
 		"max_cp": 2782,
 		"fast_moves": ['Low Kick', 'Fire Spin', 'Incinerate', 'Ember'],
 		"charged_moves": ['Fire Blast', 'Drill Run', 'Heat Wave', 'Flame Charge', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/78.png"
 	},
 	"Galarian Rapidash": {
 		"number": 78,
@@ -879,7 +879,7 @@ pokemon = {
 		"max_cp": 1386,
 		"fast_moves": ['Water Gun', 'Confusion'],
 		"charged_moves": ['Water Pulse', 'Psyshock', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/79.png"
 	},
 	"Galarian Slowpoke": {
 		"number": 79,
@@ -897,7 +897,7 @@ pokemon = {
 		"max_cp": 2877,
 		"fast_moves": ['Water Gun', 'Confusion'],
 		"charged_moves": ['Water Pulse', 'Psychic', 'Ice Beam', 'Scald', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/80.png"
 	},
 	"Galarian Slowbro": {
 		"number": 80,
@@ -915,7 +915,7 @@ pokemon = {
 		"max_cp": 1540,
 		"fast_moves": ['Spark', 'Thunder Shock', 'Volt Switch', 'Metal Sound'],
 		"charged_moves": ['Discharge', 'Magnet Bomb', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/81.png"
 	},
 	"Magneton": {
 		"number": 82,
@@ -924,7 +924,7 @@ pokemon = {
 		"max_cp": 2810,
 		"fast_moves": ['Spark', 'Charge Beam', 'Thunder Shock', 'Volt Switch', 'Metal Sound'],
 		"charged_moves": ['Zap Cannon', 'Magnet Bomb', 'Flash Cannon', 'Discharge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/82.png"
 	},
 	"Farfetch'd": {
 		"number": 83,
@@ -933,7 +933,7 @@ pokemon = {
 		"max_cp": 1397,
 		"fast_moves": ['Air Slash', 'Fury Cutter', 'Cut'],
 		"charged_moves": ['Aerial Ace', 'Air Cutter', 'Leaf Blade'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/83.png"
 	},
 	"Galarian Farfetch'd": {
 		"number": 83,
@@ -951,7 +951,7 @@ pokemon = {
 		"max_cp": 1357,
 		"fast_moves": ['Peck', 'Quick Attack'],
 		"charged_moves": ['Drill Peck', 'Aerial Ace', 'Brave Bird', 'Swift'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/84.png"
 	},
 	"Dodrio": {
 		"number": 85,
@@ -960,7 +960,7 @@ pokemon = {
 		"max_cp": 2670,
 		"fast_moves": ['Feint Attack', 'Steel Wing'],
 		"charged_moves": ['Drill Peck', 'Aerial Ace', 'Brave Bird', 'Air Cutter'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/85.png"
 	},
 	"Seel": {
 		"number": 86,
@@ -969,7 +969,7 @@ pokemon = {
 		"max_cp": 1098,
 		"fast_moves": ['Ice Shard', 'Lick', 'Water Gun'],
 		"charged_moves": ['Aurora Beam', 'Icy Wind', 'Aqua Tail', 'Aqua Jet'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/86.png"
 	},
 	"Dewgong": {
 		"number": 87,
@@ -978,7 +978,7 @@ pokemon = {
 		"max_cp": 2245,
 		"fast_moves": ['Frost Breath', 'Iron Tail', 'Ice Shard'],
 		"charged_moves": ['Aurora Beam', 'Water Pulse', 'Blizzard', 'Drill Run', 'Liquidation', 'Aqua Jet', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/87.png"
 	},
 	"Grimer": {
 		"number": 88,
@@ -987,7 +987,7 @@ pokemon = {
 		"max_cp": 1553,
 		"fast_moves": ['Poison Jab', 'Mud-Slap'],
 		"charged_moves": ['Sludge', 'Mud Bomb', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/88.png"
 	},
 	"Alolan Grimer": {
 		"number": 88,
@@ -1005,7 +1005,7 @@ pokemon = {
 		"max_cp": 3117,
 		"fast_moves": ['Infestation', 'Poison Jab', 'Lick'],
 		"charged_moves": ['Dark Pulse', 'Gunk Shot', 'Sludge Wave', 'Thunder Punch', 'Acid Spray'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/89.png"
 	},
 	"Alolan Muk": {
 		"number": 89,
@@ -1023,7 +1023,7 @@ pokemon = {
 		"max_cp": 1221,
 		"fast_moves": ['Ice Shard', 'Tackle'],
 		"charged_moves": ['Bubble Beam', 'Water Pulse', 'Icy Wind', 'Razor Shell'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/90.png"
 	},
 	"Cloyster": {
 		"number": 91,
@@ -1032,7 +1032,7 @@ pokemon = {
 		"max_cp": 2880,
 		"fast_moves": ['Frost Breath', 'Ice Shard'],
 		"charged_moves": ['Aurora Beam', 'Hydro Pump', 'Avalanche', 'Icy Wind', 'Liquidation', 'Razor Shell', 'Blizzard'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/91.png"
 	},
 	"Gastly": {
 		"number": 92,
@@ -1041,7 +1041,7 @@ pokemon = {
 		"max_cp": 1390,
 		"fast_moves": ['Lick', 'Astonish', 'Sucker Punch'],
 		"charged_moves": ['Night Shade', 'Dark Pulse', 'Sludge Bomb', 'Ominous Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/92.png"
 	},
 	"Haunter": {
 		"number": 93,
@@ -1050,7 +1050,7 @@ pokemon = {
 		"max_cp": 2219,
 		"fast_moves": ['Shadow Claw', 'Astonish', 'Lick'],
 		"charged_moves": ['Shadow Punch', 'Dark Pulse', 'Sludge Bomb', 'Shadow Ball', 'Ice Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/93.png"
 	},
 	"Gengar": {
 		"number": 94,
@@ -1059,7 +1059,7 @@ pokemon = {
 		"max_cp": 3254,
 		"fast_moves": ['Sucker Punch', 'Hex', 'Shadow Claw', 'Lick'],
 		"charged_moves": ['Shadow Ball', 'Focus Blast', 'Sludge Bomb', 'Sludge Wave', 'Dark Pulse', 'Psychic', 'Shadow Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/94.png"
 	},
 	"Onix": {
 		"number": 95,
@@ -1068,7 +1068,7 @@ pokemon = {
 		"max_cp": 1245,
 		"fast_moves": ['Rock Throw', 'Tackle'],
 		"charged_moves": ['Sand Tomb', 'Stone Edge', 'Heavy Slam', 'Breaking Swipe', 'Iron Head', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/95.png"
 	},
 	"Drowzee": {
 		"number": 96,
@@ -1077,7 +1077,7 @@ pokemon = {
 		"max_cp": 1176,
 		"fast_moves": ['Pound', 'Confusion'],
 		"charged_moves": ['Psybeam', 'Psyshock', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/96.png"
 	},
 	"Hypno": {
 		"number": 97,
@@ -1086,7 +1086,7 @@ pokemon = {
 		"max_cp": 2363,
 		"fast_moves": ['Zen Headbutt', 'Confusion'],
 		"charged_moves": ['Future Sight', 'Psychic', 'Focus Blast', 'Fire Punch', 'Ice Punch', 'Thunder Punch', 'Shadow Ball', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/97.png"
 	},
 	"Krabby": {
 		"number": 98,
@@ -1095,7 +1095,7 @@ pokemon = {
 		"max_cp": 1764,
 		"fast_moves": ['Bubble', 'Mud Shot'],
 		"charged_moves": ['Vise Grip', 'Bubble Beam', 'Water Pulse', 'Razor Shell'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/98.png"
 	},
 	"Kingler": {
 		"number": 99,
@@ -1104,7 +1104,7 @@ pokemon = {
 		"max_cp": 3198,
 		"fast_moves": ['Bubble', 'Metal Claw', 'Mud Shot'],
 		"charged_moves": ['Vise Grip', 'X-Scissor', 'Water Pulse', 'Crabhammer', 'Razor Shell'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/99.png"
 	},
 	"Voltorb": {
 		"number": 100,
@@ -1113,7 +1113,7 @@ pokemon = {
 		"max_cp": 1141,
 		"fast_moves": ['Spark', 'Tackle'],
 		"charged_moves": ['Discharge', 'Thunderbolt', 'Gyro Ball', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/100.png"
 	},
 	"Voltorb": {
 		"number": 100,
@@ -1131,7 +1131,7 @@ pokemon = {
 		"max_cp": 2373,
 		"fast_moves": ['Spark', 'Volt Switch', 'Tackle'],
 		"charged_moves": ['Discharge', 'Thunderbolt', 'Hyper Beam', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/101.png"
 	},
 	"Electrode": {
 		"number": 101,
@@ -1149,7 +1149,7 @@ pokemon = {
 		"max_cp": 1328,
 		"fast_moves": ['Confusion', 'Bullet Seed'],
 		"charged_moves": ['Seed Bomb', 'Psychic', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/102.png"
 	},
 	"Exeggutor": {
 		"number": 103,
@@ -1158,7 +1158,7 @@ pokemon = {
 		"max_cp": 3408,
 		"fast_moves": ['Bullet Seed', 'Extrasensory', 'Confusion', 'Zen Headbutt'],
 		"charged_moves": ['Seed Bomb', 'Psychic', 'Solar Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/103.png"
 	},
 	"Alolan Exeggutor": {
 		"number": 103,
@@ -1176,7 +1176,7 @@ pokemon = {
 		"max_cp": 1152,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
 		"charged_moves": ['Bone Club', 'Dig', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/104.png"
 	},
 	"Marowak": {
 		"number": 105,
@@ -1185,7 +1185,7 @@ pokemon = {
 		"max_cp": 2075,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
 		"charged_moves": ['Bone Club', 'Dig', 'Earthquake', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/105.png"
 	},
 	"Alolan Marowak": {
 		"number": 105,
@@ -1203,7 +1203,7 @@ pokemon = {
 		"max_cp": 2912,
 		"fast_moves": ['Low Kick', 'Rock Smash', 'Double Kick'],
 		"charged_moves": ['Close Combat', 'Low Sweep', 'Stone Edge', 'Blaze Kick', 'Stomp', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/106.png"
 	},
 	"Hitmonchan": {
 		"number": 107,
@@ -1212,7 +1212,7 @@ pokemon = {
 		"max_cp": 2636,
 		"fast_moves": ['Bullet Punch', 'Counter', 'Rock Smash'],
 		"charged_moves": ['Fire Punch', 'Ice Punch', 'Thunder Punch', 'Close Combat', 'Power-Up Punch', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/107.png"
 	},
 	"Lickitung": {
 		"number": 108,
@@ -1221,7 +1221,7 @@ pokemon = {
 		"max_cp": 1595,
 		"fast_moves": ['Lick', 'Zen Headbutt'],
 		"charged_moves": ['Hyper Beam', 'Stomp', 'Power Whip', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/108.png"
 	},
 	"Koffing": {
 		"number": 109,
@@ -1230,7 +1230,7 @@ pokemon = {
 		"max_cp": 1373,
 		"fast_moves": ['Tackle', 'Infestation'],
 		"charged_moves": ['Sludge', 'Sludge Bomb', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/109.png"
 	},
 	"Weezing": {
 		"number": 110,
@@ -1239,7 +1239,7 @@ pokemon = {
 		"max_cp": 2592,
 		"fast_moves": ['Tackle', 'Infestation'],
 		"charged_moves": ['Sludge Bomb', 'Shadow Ball', 'Dark Pulse', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/110.png"
 	},
 	"Galarian Weezing": {
 		"number": 110,
@@ -1257,7 +1257,7 @@ pokemon = {
 		"max_cp": 1867,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
 		"charged_moves": ['Bulldoze', 'Horn Attack', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/111.png"
 	},
 	"Rhydon": {
 		"number": 112,
@@ -1266,7 +1266,7 @@ pokemon = {
 		"max_cp": 3594,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
 		"charged_moves": ['Surf', 'Earthquake', 'Stone Edge', 'Breaking Swipe', 'Megahorn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/112.png"
 	},
 	"Chansey": {
 		"number": 113,
@@ -1275,7 +1275,7 @@ pokemon = {
 		"max_cp": 1418,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
 		"charged_moves": ['Psychic', 'Hyper Beam', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/113.png"
 	},
 	"Tangela": {
 		"number": 114,
@@ -1284,7 +1284,7 @@ pokemon = {
 		"max_cp": 2530,
 		"fast_moves": ['Vine Whip', 'Infestation'],
 		"charged_moves": ['Grass Knot', 'Sludge Bomb', 'Solar Beam', 'Power Whip'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/114.png"
 	},
 	"Kangaskhan": {
 		"number": 115,
@@ -1293,7 +1293,7 @@ pokemon = {
 		"max_cp": 2924,
 		"fast_moves": ['Mud-Slap', 'Low Kick'],
 		"charged_moves": ['Crunch', 'Earthquake', 'Outrage', 'Power-Up Punch', 'Brick Break', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/115.png"
 	},
 	"Horsea": {
 		"number": 116,
@@ -1302,7 +1302,7 @@ pokemon = {
 		"max_cp": 1194,
 		"fast_moves": ['Water Gun', 'Bubble'],
 		"charged_moves": ['Bubble Beam', 'Dragon Pulse', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/116.png"
 	},
 	"Seadra": {
 		"number": 117,
@@ -1311,7 +1311,7 @@ pokemon = {
 		"max_cp": 2366,
 		"fast_moves": ['Water Gun', 'Dragon Breath'],
 		"charged_moves": ['Aurora Beam', 'Dragon Pulse', 'Hydro Pump', 'Blizzard'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/117.png"
 	},
 	"Goldeen": {
 		"number": 118,
@@ -1320,7 +1320,7 @@ pokemon = {
 		"max_cp": 1302,
 		"fast_moves": ['Peck', 'Mud Shot'],
 		"charged_moves": ['Water Pulse', 'Horn Attack', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/118.png"
 	},
 	"Seaking": {
 		"number": 119,
@@ -1329,7 +1329,7 @@ pokemon = {
 		"max_cp": 2444,
 		"fast_moves": ['Peck', 'Waterfall', 'Poison Jab'],
 		"charged_moves": ['Ice Beam', 'Water Pulse', 'Megahorn', 'Icy Wind', 'Drill Run'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/119.png"
 	},
 	"Staryu": {
 		"number": 120,
@@ -1338,7 +1338,7 @@ pokemon = {
 		"max_cp": 1308,
 		"fast_moves": ['Tackle', 'Water Gun'],
 		"charged_moves": ['Swift', 'Bubble Beam', 'Power Gem'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/120.png"
 	},
 	"Starmie": {
 		"number": 121,
@@ -1347,7 +1347,7 @@ pokemon = {
 		"max_cp": 2922,
 		"fast_moves": ['Hidden Power', 'Water Gun', 'Tackle'],
 		"charged_moves": ['Hydro Pump', 'Power Gem', 'Psychic', 'Thunder', 'Ice Beam', 'Psybeam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/121.png"
 	},
 	"Mr. Mime": {
 		"number": 122,
@@ -1356,7 +1356,7 @@ pokemon = {
 		"max_cp": 2518,
 		"fast_moves": ['Confusion', 'Zen Headbutt', 'Magical Leaf', 'Psywave'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/122.png"
 	},
 	"Galarian Mr. Mime": {
 		"number": 122,
@@ -1374,7 +1374,7 @@ pokemon = {
 		"max_cp": 3060,
 		"fast_moves": ['Fury Cutter', 'Air Slash', 'Steel Wing'],
 		"charged_moves": ['Night Slash', 'X-Scissor', 'Aerial Ace', 'Trailblaze', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/123.png"
 	},
 	"Jynx": {
 		"number": 124,
@@ -1383,7 +1383,7 @@ pokemon = {
 		"max_cp": 2888,
 		"fast_moves": ['Frost Breath', 'Confusion', 'Pound'],
 		"charged_moves": ['Draining Kiss', 'Avalanche', 'Psyshock', 'Focus Blast', 'Ice Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/124.png"
 	},
 	"Electabuzz": {
 		"number": 125,
@@ -1392,7 +1392,7 @@ pokemon = {
 		"max_cp": 2639,
 		"fast_moves": ['Thunder Shock', 'Low Kick'],
 		"charged_moves": ['Thunder Punch', 'Thunderbolt', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/125.png"
 	},
 	"Magmar": {
 		"number": 126,
@@ -1401,7 +1401,7 @@ pokemon = {
 		"max_cp": 2706,
 		"fast_moves": ['Ember', 'Karate Chop'],
 		"charged_moves": ['Fire Blast', 'Fire Punch', 'Flamethrower', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/126.png"
 	},
 	"Pinsir": {
 		"number": 127,
@@ -1410,7 +1410,7 @@ pokemon = {
 		"max_cp": 3345,
 		"fast_moves": ['Rock Smash', 'Bug Bite', 'Fury Cutter'],
 		"charged_moves": ['Vise Grip', 'X-Scissor', 'Close Combat', 'Superpower', 'Submission'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/127.png"
 	},
 	"Tauros": {
 		"number": 128,
@@ -1419,7 +1419,7 @@ pokemon = {
 		"max_cp": 2962,
 		"fast_moves": ['Tackle', 'Zen Headbutt'],
 		"charged_moves": ['Horn Attack', 'Iron Head', 'Earthquake', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/128.png"
 	},
 	"Magikarp": {
 		"number": 129,
@@ -1428,7 +1428,7 @@ pokemon = {
 		"max_cp": 310,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/129.png"
 	},
 	"Gyarados": {
 		"number": 130,
@@ -1437,7 +1437,7 @@ pokemon = {
 		"max_cp": 3834,
 		"fast_moves": ['Bite', 'Waterfall', 'Dragon Breath', 'Dragon Tail'],
 		"charged_moves": ['Hydro Pump', 'Crunch', 'Outrage', 'Twister', 'Dragon Pulse', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/130.png"
 	},
 	"Lapras": {
 		"number": 131,
@@ -1446,7 +1446,7 @@ pokemon = {
 		"max_cp": 2985,
 		"fast_moves": ['Frost Breath', 'Water Gun', 'Ice Shard'],
 		"charged_moves": ['Hydro Pump', 'Surf', 'Blizzard', 'Skull Bash', 'Dragon Pulse', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/131.png"
 	},
 	"Ditto": {
 		"number": 132,
@@ -1455,7 +1455,7 @@ pokemon = {
 		"max_cp": 940,
 		"fast_moves": ['Transform'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/132.png"
 	},
 	"Eevee": {
 		"number": 133,
@@ -1464,7 +1464,7 @@ pokemon = {
 		"max_cp": 1210,
 		"fast_moves": ['Quick Attack', 'Tackle'],
 		"charged_moves": ['Dig', 'Swift', 'Last Resort', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/133.png"
 	},
 	"Vaporeon": {
 		"number": 134,
@@ -1473,7 +1473,7 @@ pokemon = {
 		"max_cp": 3521,
 		"fast_moves": ['Water Gun'],
 		"charged_moves": ['Water Pulse', 'Hydro Pump', 'Aqua Tail', 'Liquidation', 'Last Resort', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/134.png"
 	},
 	"Jolteon": {
 		"number": 135,
@@ -1482,7 +1482,7 @@ pokemon = {
 		"max_cp": 3265,
 		"fast_moves": ['Thunder Shock', 'Volt Switch'],
 		"charged_moves": ['Discharge', 'Thunderbolt', 'Thunder', 'Last Resort', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/135.png"
 	},
 	"Flareon": {
 		"number": 136,
@@ -1491,7 +1491,7 @@ pokemon = {
 		"max_cp": 3424,
 		"fast_moves": ['Ember', 'Fire Spin'],
 		"charged_moves": ['Fire Blast', 'Flamethrower', 'Overheat', 'Last Resort', 'Heat Wave', 'Superpower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/136.png"
 	},
 	"Porygon": {
 		"number": 137,
@@ -1500,7 +1500,7 @@ pokemon = {
 		"max_cp": 1944,
 		"fast_moves": ['Charge Beam', 'Hidden Power', 'Tackle', 'Zen Headbutt'],
 		"charged_moves": ['Solar Beam', 'Hyper Beam', 'Zap Cannon', 'Signal Beam', 'Psybeam', 'Discharge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/137.png"
 	},
 	"Omanyte": {
 		"number": 138,
@@ -1509,7 +1509,7 @@ pokemon = {
 		"max_cp": 1746,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
 		"charged_moves": ['Ancient Power', 'Bubble Beam', 'Rock Blast', 'Rock Tomb', 'Brine'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/138.png"
 	},
 	"Omastar": {
 		"number": 139,
@@ -1518,7 +1518,7 @@ pokemon = {
 		"max_cp": 3150,
 		"fast_moves": ['Mud Shot', 'Water Gun', 'Rock Throw'],
 		"charged_moves": ['Ancient Power', 'Hydro Pump', 'Rock Blast', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/139.png"
 	},
 	"Kabuto": {
 		"number": 140,
@@ -1527,7 +1527,7 @@ pokemon = {
 		"max_cp": 1549,
 		"fast_moves": ['Scratch', 'Mud Shot'],
 		"charged_moves": ['Ancient Power', 'Aqua Jet', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/140.png"
 	},
 	"Kabutops": {
 		"number": 141,
@@ -1536,7 +1536,7 @@ pokemon = {
 		"max_cp": 3067,
 		"fast_moves": ['Mud Shot', 'Rock Smash', 'Waterfall', 'Fury Cutter'],
 		"charged_moves": ['Ancient Power', 'Water Pulse', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/141.png"
 	},
 	"Aerodactyl": {
 		"number": 142,
@@ -1545,7 +1545,7 @@ pokemon = {
 		"max_cp": 3147,
 		"fast_moves": ['Steel Wing', 'Bite', 'Rock Throw'],
 		"charged_moves": ['Ancient Power', 'Iron Head', 'Hyper Beam', 'Rock Slide', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/142.png"
 	},
 	"Snorlax": {
 		"number": 143,
@@ -1554,7 +1554,7 @@ pokemon = {
 		"max_cp": 3647,
 		"fast_moves": ['Zen Headbutt', 'Lick', 'Yawn'],
 		"charged_moves": ['Heavy Slam', 'Hyper Beam', 'Earthquake', 'Outrage', 'Skull Bash', 'Body Slam', 'Superpower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/143.png"
 	},
 	"Articuno": {
 		"number": 144,
@@ -1563,7 +1563,7 @@ pokemon = {
 		"max_cp": 3450,
 		"fast_moves": ['Frost Breath', 'Ice Shard'],
 		"charged_moves": ['Ice Beam', 'Icy Wind', 'Blizzard', 'Ancient Power', 'Triple Axel', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/144.png"
 	},
 	"Galarian Articuno": {
 		"number": 144,
@@ -1581,7 +1581,7 @@ pokemon = {
 		"max_cp": 3987,
 		"fast_moves": ['Charge Beam', 'Thunder Shock'],
 		"charged_moves": ['Zap Cannon', 'Thunderbolt', 'Thunder', 'Ancient Power', 'Drill Peck'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/145.png"
 	},
 	"Galarian Zapdos": {
 		"number": 145,
@@ -1599,7 +1599,7 @@ pokemon = {
 		"max_cp": 3917,
 		"fast_moves": ['Fire Spin', 'Wing Attack'],
 		"charged_moves": ['Fire Blast', 'Heat Wave', 'Overheat', 'Ancient Power', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/146.png"
 	},
 	"Galarian Moltres": {
 		"number": 146,
@@ -1617,7 +1617,7 @@ pokemon = {
 		"max_cp": 1136,
 		"fast_moves": ['Dragon Breath', 'Iron Tail'],
 		"charged_moves": ['Wrap', 'Twister', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/147.png"
 	},
 	"Dragonair": {
 		"number": 148,
@@ -1626,7 +1626,7 @@ pokemon = {
 		"max_cp": 2012,
 		"fast_moves": ['Dragon Breath', 'Iron Tail'],
 		"charged_moves": ['Wrap', 'Aqua Tail', 'Dragon Pulse', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/148.png"
 	},
 	"Dragonite": {
 		"number": 149,
@@ -1635,7 +1635,7 @@ pokemon = {
 		"max_cp": 4287,
 		"fast_moves": ['Dragon Tail', 'Steel Wing', 'Dragon Breath'],
 		"charged_moves": ['Hurricane', 'Hyper Beam', 'Outrage', 'Dragon Claw', 'Superpower', 'Draco Meteor', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/149.png"
 	},
 	"Mewtwo": {
 		"number": 150,
@@ -1644,7 +1644,7 @@ pokemon = {
 		"max_cp": 4724,
 		"fast_moves": ['Psycho Cut', 'Confusion'],
 		"charged_moves": ['Psychic', 'Thunderbolt', 'Ice Beam', 'Focus Blast', 'Flamethrower', 'Psystrike', 'Shadow Ball', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/150.png"
 	},
 	"Mew": {
 		"number": 151,
@@ -1653,7 +1653,7 @@ pokemon = {
 		"max_cp": 3691,
 		"fast_moves": ['Pound', 'Steel Wing', 'Charge Beam', 'Shadow Claw', 'Volt Switch', 'Struggle Bug', 'Frost Breath', 'Dragon Tail', 'Infestation', 'Poison Jab', 'Rock Smash', 'Snarl', 'Cut', 'Waterfall'],
 		"charged_moves": ['Psychic', 'Ancient Power', 'Dragon Claw', 'Psyshock', 'Ice Beam', 'Blizzard', 'Hyper Beam', 'Solar Beam', 'Thunderbolt', 'Thunder', 'Flame Charge', 'Low Sweep', 'Overheat', 'Focus Blast', 'Energy Ball', 'Stone Edge', 'Gyro Ball', 'Bulldoze', 'Rock Slide', 'Grass Knot', 'Flash Cannon', 'Wild Charge', 'Dark Pulse', 'Dazzling Gleam', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/151.png"
 	},
 	"Chikorita": {
 		"number": 152,
@@ -1662,7 +1662,7 @@ pokemon = {
 		"max_cp": 1057,
 		"fast_moves": ['Vine Whip', 'Tackle', 'Magical Leaf'],
 		"charged_moves": ['Energy Ball', 'Grass Knot', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/152.png"
 	},
 	"Bayleef": {
 		"number": 153,
@@ -1671,7 +1671,7 @@ pokemon = {
 		"max_cp": 1644,
 		"fast_moves": ['Razor Leaf', 'Tackle', 'Magical Leaf'],
 		"charged_moves": ['Energy Ball', 'Grass Knot', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/153.png"
 	},
 	"Meganium": {
 		"number": 154,
@@ -1680,7 +1680,7 @@ pokemon = {
 		"max_cp": 2725,
 		"fast_moves": ['Razor Leaf', 'Vine Whip', 'Magical Leaf'],
 		"charged_moves": ['Petal Blizzard', 'Solar Beam', 'Earthquake', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/154.png"
 	},
 	"Cyndaquil": {
 		"number": 155,
@@ -1689,7 +1689,7 @@ pokemon = {
 		"max_cp": 1108,
 		"fast_moves": ['Ember', 'Tackle'],
 		"charged_moves": ['Flame Charge', 'Swift', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/155.png"
 	},
 	"Quilava": {
 		"number": 156,
@@ -1698,7 +1698,7 @@ pokemon = {
 		"max_cp": 1868,
 		"fast_moves": ['Ember', 'Tackle'],
 		"charged_moves": ['Flame Charge', 'Dig', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/156.png"
 	},
 	"Typhlosion": {
 		"number": 157,
@@ -1707,7 +1707,7 @@ pokemon = {
 		"max_cp": 3266,
 		"fast_moves": ['Ember', 'Shadow Claw', 'Incinerate'],
 		"charged_moves": ['Fire Blast', 'Overheat', 'Solar Beam', 'Blast Burn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/157.png"
 	},
 	"Typhlosion": {
 		"number": 157,
@@ -1725,7 +1725,7 @@ pokemon = {
 		"max_cp": 1279,
 		"fast_moves": ['Water Gun', 'Scratch'],
 		"charged_moves": ['Crunch', 'Aqua Jet', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/158.png"
 	},
 	"Croconaw": {
 		"number": 159,
@@ -1734,7 +1734,7 @@ pokemon = {
 		"max_cp": 1947,
 		"fast_moves": ['Water Gun', 'Scratch'],
 		"charged_moves": ['Crunch', 'Ice Punch', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/159.png"
 	},
 	"Feraligatr": {
 		"number": 160,
@@ -1743,7 +1743,7 @@ pokemon = {
 		"max_cp": 3230,
 		"fast_moves": ['Waterfall', 'Bite', 'Ice Fang', 'Shadow Claw', 'Water Gun'],
 		"charged_moves": ['Crunch', 'Hydro Pump', 'Ice Beam', 'Hydro Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/160.png"
 	},
 	"Sentret": {
 		"number": 161,
@@ -1752,7 +1752,7 @@ pokemon = {
 		"max_cp": 698,
 		"fast_moves": ['Scratch', 'Quick Attack'],
 		"charged_moves": ['Dig', 'Brick Break', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/161.png"
 	},
 	"Furret": {
 		"number": 162,
@@ -1761,7 +1761,7 @@ pokemon = {
 		"max_cp": 1987,
 		"fast_moves": ['Quick Attack', 'Sucker Punch'],
 		"charged_moves": ['Dig', 'Brick Break', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/162.png"
 	},
 	"Hoothoot": {
 		"number": 163,
@@ -1770,7 +1770,7 @@ pokemon = {
 		"max_cp": 766,
 		"fast_moves": ['Feint Attack', 'Peck'],
 		"charged_moves": ['Aerial Ace', 'Sky Attack', 'Night Shade'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/163.png"
 	},
 	"Noctowl": {
 		"number": 164,
@@ -1779,7 +1779,7 @@ pokemon = {
 		"max_cp": 2288,
 		"fast_moves": ['Wing Attack', 'Extrasensory'],
 		"charged_moves": ['Psychic', 'Sky Attack', 'Night Shade', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/164.png"
 	},
 	"Ledyba": {
 		"number": 165,
@@ -1788,7 +1788,7 @@ pokemon = {
 		"max_cp": 823,
 		"fast_moves": ['Tackle', 'Bug Bite'],
 		"charged_moves": ['Silver Wind', 'Swift', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/165.png"
 	},
 	"Ledian": {
 		"number": 166,
@@ -1797,7 +1797,7 @@ pokemon = {
 		"max_cp": 1522,
 		"fast_moves": ['Struggle Bug', 'Bug Bite'],
 		"charged_moves": ['Bug Buzz', 'Silver Wind', 'Aerial Ace', 'Dynamic Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/166.png"
 	},
 	"Spinarak": {
 		"number": 167,
@@ -1806,7 +1806,7 @@ pokemon = {
 		"max_cp": 923,
 		"fast_moves": ['Poison Sting', 'Bug Bite'],
 		"charged_moves": ['Night Slash', 'Signal Beam', 'Cross Poison'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/167.png"
 	},
 	"Ariados": {
 		"number": 168,
@@ -1815,7 +1815,7 @@ pokemon = {
 		"max_cp": 2003,
 		"fast_moves": ['Poison Sting', 'Infestation'],
 		"charged_moves": ['Shadow Sneak', 'Megahorn', 'Cross Poison', 'Lunge', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/168.png"
 	},
 	"Crobat": {
 		"number": 169,
@@ -1824,7 +1824,7 @@ pokemon = {
 		"max_cp": 2992,
 		"fast_moves": ['Air Slash', 'Bite'],
 		"charged_moves": ['Shadow Ball', 'Air Cutter', 'Sludge Bomb', 'Poison Fang', 'Cross Poison'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/169.png"
 	},
 	"Chinchou": {
 		"number": 170,
@@ -1833,7 +1833,7 @@ pokemon = {
 		"max_cp": 1265,
 		"fast_moves": ['Bubble', 'Spark'],
 		"charged_moves": ['Water Pulse', 'Thunderbolt', 'Bubble Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/170.png"
 	},
 	"Lanturn": {
 		"number": 171,
@@ -1842,7 +1842,7 @@ pokemon = {
 		"max_cp": 2357,
 		"fast_moves": ['Water Gun', 'Charge Beam', 'Spark'],
 		"charged_moves": ['Hydro Pump', 'Thunderbolt', 'Thunder', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/171.png"
 	},
 	"Pichu": {
 		"number": 172,
@@ -1851,7 +1851,7 @@ pokemon = {
 		"max_cp": 535,
 		"fast_moves": ['Thunder Shock'],
 		"charged_moves": ['Thunderbolt', 'Disarming Voice', 'Thunder Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/172.png"
 	},
 	"Cleffa": {
 		"number": 173,
@@ -1860,7 +1860,7 @@ pokemon = {
 		"max_cp": 759,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
 		"charged_moves": ['Grass Knot', 'Psyshock', 'Signal Beam', 'Psychic', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/173.png"
 	},
 	"Igglybuff": {
 		"number": 174,
@@ -1869,7 +1869,7 @@ pokemon = {
 		"max_cp": 605,
 		"fast_moves": ['Pound', 'Feint Attack'],
 		"charged_moves": ['Wild Charge', 'Shadow Ball', 'Psychic', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/174.png"
 	},
 	"Togepi": {
 		"number": 175,
@@ -1878,7 +1878,7 @@ pokemon = {
 		"max_cp": 743,
 		"fast_moves": ['Hidden Power', 'Peck', 'Zen Headbutt'],
 		"charged_moves": ['Ancient Power', 'Psyshock', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/175.png"
 	},
 	"Togetic": {
 		"number": 176,
@@ -1887,7 +1887,7 @@ pokemon = {
 		"max_cp": 1931,
 		"fast_moves": ['Extrasensory', 'Hidden Power', 'Fairy Wind', 'Steel Wing', 'Zen Headbutt'],
 		"charged_moves": ['Ancient Power', 'Dazzling Gleam', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/176.png"
 	},
 	"Natu": {
 		"number": 177,
@@ -1896,7 +1896,7 @@ pokemon = {
 		"max_cp": 1246,
 		"fast_moves": ['Peck', 'Quick Attack'],
 		"charged_moves": ['Night Shade', 'Psyshock', 'Drill Peck'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/177.png"
 	},
 	"Xatu": {
 		"number": 178,
@@ -1905,7 +1905,7 @@ pokemon = {
 		"max_cp": 2474,
 		"fast_moves": ['Air Slash', 'Feint Attack'],
 		"charged_moves": ['Ominous Wind', 'Future Sight', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/178.png"
 	},
 	"Mareep": {
 		"number": 179,
@@ -1914,7 +1914,7 @@ pokemon = {
 		"max_cp": 1120,
 		"fast_moves": ['Tackle', 'Thunder Shock'],
 		"charged_moves": ['Body Slam', 'Thunderbolt', 'Discharge', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/179.png"
 	},
 	"Flaaffy": {
 		"number": 180,
@@ -1923,7 +1923,7 @@ pokemon = {
 		"max_cp": 1720,
 		"fast_moves": ['Tackle', 'Charge Beam'],
 		"charged_moves": ['Power Gem', 'Thunderbolt', 'Discharge', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/180.png"
 	},
 	"Ampharos": {
 		"number": 181,
@@ -1932,7 +1932,7 @@ pokemon = {
 		"max_cp": 3225,
 		"fast_moves": ['Charge Beam', 'Volt Switch'],
 		"charged_moves": ['Zap Cannon', 'Focus Blast', 'Thunder', 'Power Gem', 'Thunder Punch', 'Brutal Swing', 'Trailblaze', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/181.png"
 	},
 	"Bellossom": {
 		"number": 182,
@@ -1941,7 +1941,7 @@ pokemon = {
 		"max_cp": 2578,
 		"fast_moves": ['Razor Leaf', 'Acid', 'Bullet Seed', 'Magical Leaf'],
 		"charged_moves": ['Leaf Blade', 'Petal Blizzard', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/182.png"
 	},
 	"Marill": {
 		"number": 183,
@@ -1950,7 +1950,7 @@ pokemon = {
 		"max_cp": 521,
 		"fast_moves": ['Tackle', 'Bubble'],
 		"charged_moves": ['Bubble Beam', 'Aqua Tail', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/183.png"
 	},
 	"Azumarill": {
 		"number": 184,
@@ -1959,7 +1959,7 @@ pokemon = {
 		"max_cp": 1795,
 		"fast_moves": ['Rock Smash', 'Bubble'],
 		"charged_moves": ['Play Rough', 'Hydro Pump', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/184.png"
 	},
 	"Sudowoodo": {
 		"number": 185,
@@ -1968,7 +1968,7 @@ pokemon = {
 		"max_cp": 2428,
 		"fast_moves": ['Rock Throw', 'Counter'],
 		"charged_moves": ['Stone Edge', 'Earthquake', 'Rock Slide', 'Rock Tomb', 'Meteor Beam', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/185.png"
 	},
 	"Politoed": {
 		"number": 186,
@@ -1977,7 +1977,7 @@ pokemon = {
 		"max_cp": 2769,
 		"fast_moves": ['Mud Shot', 'Bubble'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Surf', 'Weather Ball', 'Scald', 'Earthquake', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/186.png"
 	},
 	"Hoppip": {
 		"number": 187,
@@ -1986,7 +1986,7 @@ pokemon = {
 		"max_cp": 678,
 		"fast_moves": ['Tackle', 'Bullet Seed'],
 		"charged_moves": ['Grass Knot', 'Dazzling Gleam', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/187.png"
 	},
 	"Skiploom": {
 		"number": 188,
@@ -1995,7 +1995,7 @@ pokemon = {
 		"max_cp": 1103,
 		"fast_moves": ['Tackle', 'Bullet Seed'],
 		"charged_moves": ['Grass Knot', 'Dazzling Gleam', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/188.png"
 	},
 	"Jumpluff": {
 		"number": 189,
@@ -2004,7 +2004,7 @@ pokemon = {
 		"max_cp": 1850,
 		"fast_moves": ['Infestation', 'Bullet Seed', 'Fairy Wind'],
 		"charged_moves": ['Energy Ball', 'Dazzling Gleam', 'Solar Beam', 'Aerial Ace', 'Acrobatics'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/189.png"
 	},
 	"Aipom": {
 		"number": 190,
@@ -2013,7 +2013,7 @@ pokemon = {
 		"max_cp": 1524,
 		"fast_moves": ['Scratch', 'Astonish'],
 		"charged_moves": ['Low Sweep', 'Swift', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/190.png"
 	},
 	"Sunkern": {
 		"number": 191,
@@ -2022,7 +2022,7 @@ pokemon = {
 		"max_cp": 447,
 		"fast_moves": ['Razor Leaf', 'Cut'],
 		"charged_moves": ['Energy Ball', 'Grass Knot', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/191.png"
 	},
 	"Sunflora": {
 		"number": 192,
@@ -2031,7 +2031,7 @@ pokemon = {
 		"max_cp": 2421,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
 		"charged_moves": ['Solar Beam', 'Petal Blizzard', 'Sludge Bomb', 'Leaf Storm'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/192.png"
 	},
 	"Yanma": {
 		"number": 193,
@@ -2040,7 +2040,7 @@ pokemon = {
 		"max_cp": 1662,
 		"fast_moves": ['Quick Attack', 'Wing Attack'],
 		"charged_moves": ['Ancient Power', 'Aerial Ace', 'Silver Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/193.png"
 	},
 	"Wooper": {
 		"number": 194,
@@ -2049,7 +2049,7 @@ pokemon = {
 		"max_cp": 725,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
 		"charged_moves": ['Mud Bomb', 'Dig', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/194.png"
 	},
 	"Wooper": {
 		"number": 194,
@@ -2067,7 +2067,7 @@ pokemon = {
 		"max_cp": 2252,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
 		"charged_moves": ['Sludge Bomb', 'Earthquake', 'Stone Edge', 'Acid Spray', 'Mud Bomb', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/195.png"
 	},
 	"Espeon": {
 		"number": 196,
@@ -2076,7 +2076,7 @@ pokemon = {
 		"max_cp": 3583,
 		"fast_moves": ['Confusion', 'Zen Headbutt'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Future Sight', 'Psychic Fangs', 'Last Resort', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/196.png"
 	},
 	"Umbreon": {
 		"number": 197,
@@ -2085,7 +2085,7 @@ pokemon = {
 		"max_cp": 2416,
 		"fast_moves": ['Feint Attack', 'Snarl'],
 		"charged_moves": ['Dark Pulse', 'Foul Play', 'Last Resort', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/197.png"
 	},
 	"Murkrow": {
 		"number": 198,
@@ -2094,7 +2094,7 @@ pokemon = {
 		"max_cp": 1766,
 		"fast_moves": ['Peck', 'Feint Attack'],
 		"charged_moves": ['Drill Peck', 'Foul Play', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/198.png"
 	},
 	"Slowking": {
 		"number": 199,
@@ -2103,7 +2103,7 @@ pokemon = {
 		"max_cp": 2877,
 		"fast_moves": ['Water Gun', 'Confusion'],
 		"charged_moves": ['Blizzard', 'Psychic', 'Fire Blast', 'Scald', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/199.png"
 	},
 	"Galarian Slowking": {
 		"number": 199,
@@ -2121,7 +2121,7 @@ pokemon = {
 		"max_cp": 2178,
 		"fast_moves": ['Astonish', 'Hex', 'Psywave'],
 		"charged_moves": ['Shadow Sneak', 'Dark Pulse', 'Ominous Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/200.png"
 	},
 	"Unown": {
 		"number": 201,
@@ -2130,7 +2130,7 @@ pokemon = {
 		"max_cp": 1339,
 		"fast_moves": ['Hidden Power'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/201.png"
 	},
 	"Wobbuffet": {
 		"number": 202,
@@ -2139,7 +2139,7 @@ pokemon = {
 		"max_cp": 1160,
 		"fast_moves": ['Counter', 'Splash', 'Charm'],
 		"charged_moves": ['Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/202.png"
 	},
 	"Girafarig": {
 		"number": 203,
@@ -2148,7 +2148,7 @@ pokemon = {
 		"max_cp": 2314,
 		"fast_moves": ['Tackle', 'Confusion', 'Double Kick'],
 		"charged_moves": ['Psychic', 'Thunderbolt', 'Mirror Coat', 'Psychic Fangs', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/203.png"
 	},
 	"Pineco": {
 		"number": 204,
@@ -2157,7 +2157,7 @@ pokemon = {
 		"max_cp": 1253,
 		"fast_moves": ['Tackle', 'Bug Bite'],
 		"charged_moves": ['Gyro Ball', 'Rock Tomb', 'Sand Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/204.png"
 	},
 	"Forretress": {
 		"number": 205,
@@ -2166,7 +2166,7 @@ pokemon = {
 		"max_cp": 2580,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
 		"charged_moves": ['Heavy Slam', 'Earthquake', 'Rock Tomb', 'Sand Tomb', 'Mirror Shot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/205.png"
 	},
 	"Dunsparce": {
 		"number": 206,
@@ -2175,7 +2175,7 @@ pokemon = {
 		"max_cp": 1909,
 		"fast_moves": ['Bite', 'Astonish', 'Rollout'],
 		"charged_moves": ['Dig', 'Rock Slide', 'Drill Run'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/206.png"
 	},
 	"Gligar": {
 		"number": 207,
@@ -2184,7 +2184,7 @@ pokemon = {
 		"max_cp": 2099,
 		"fast_moves": ['Fury Cutter', 'Wing Attack'],
 		"charged_moves": ['Dig', 'Aerial Ace', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/207.png"
 	},
 	"Steelix": {
 		"number": 208,
@@ -2193,7 +2193,7 @@ pokemon = {
 		"max_cp": 2729,
 		"fast_moves": ['Iron Tail', 'Dragon Tail', 'Thunder Fang'],
 		"charged_moves": ['Earthquake', 'Heavy Slam', 'Crunch', 'Psychic Fangs', 'Breaking Swipe'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/208.png"
 	},
 	"Snubbull": {
 		"number": 209,
@@ -2202,7 +2202,7 @@ pokemon = {
 		"max_cp": 1399,
 		"fast_moves": ['Tackle', 'Bite'],
 		"charged_moves": ['Crunch', 'Dazzling Gleam', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/209.png"
 	},
 	"Granbull": {
 		"number": 210,
@@ -2211,7 +2211,7 @@ pokemon = {
 		"max_cp": 2885,
 		"fast_moves": ['Bite', 'Snarl', 'Charm'],
 		"charged_moves": ['Crunch', 'Play Rough', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/210.png"
 	},
 	"Qwilfish": {
 		"number": 211,
@@ -2220,7 +2220,7 @@ pokemon = {
 		"max_cp": 2318,
 		"fast_moves": ['Poison Sting', 'Water Gun'],
 		"charged_moves": ['Aqua Tail', 'Ice Beam', 'Sludge Wave', 'Acid Spray', 'Fell Stinger', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/211.png"
 	},
 	"Qwilfish": {
 		"number": 211,
@@ -2238,7 +2238,7 @@ pokemon = {
 		"max_cp": 3393,
 		"fast_moves": ['Bullet Punch', 'Fury Cutter'],
 		"charged_moves": ['X-Scissor', 'Iron Head', 'Night Slash', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/212.png"
 	},
 	"Shuckle": {
 		"number": 213,
@@ -2247,7 +2247,7 @@ pokemon = {
 		"max_cp": 458,
 		"fast_moves": ['Struggle Bug', 'Rock Throw'],
 		"charged_moves": ['Rock Blast', 'Stone Edge', 'Gyro Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/213.png"
 	},
 	"Heracross": {
 		"number": 214,
@@ -2256,7 +2256,7 @@ pokemon = {
 		"max_cp": 3506,
 		"fast_moves": ['Counter', 'Struggle Bug'],
 		"charged_moves": ['Megahorn', 'Close Combat', 'Earthquake', 'Rock Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/214.png"
 	},
 	"Sneasel": {
 		"number": 215,
@@ -2265,7 +2265,7 @@ pokemon = {
 		"max_cp": 2319,
 		"fast_moves": ['Ice Shard', 'Feint Attack'],
 		"charged_moves": ['Avalanche', 'Ice Punch', 'Foul Play', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/215.png"
 	},
 	"Sneasel": {
 		"number": 215,
@@ -2283,7 +2283,7 @@ pokemon = {
 		"max_cp": 1502,
 		"fast_moves": ['Scratch', 'Lick'],
 		"charged_moves": ['Cross Chop', 'Crunch', 'Play Rough', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/216.png"
 	},
 	"Ursaring": {
 		"number": 217,
@@ -2292,7 +2292,7 @@ pokemon = {
 		"max_cp": 3329,
 		"fast_moves": ['Metal Claw', 'Counter', 'Shadow Claw'],
 		"charged_moves": ['Close Combat', 'Hyper Beam', 'Play Rough', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/217.png"
 	},
 	"Slugma": {
 		"number": 218,
@@ -2301,7 +2301,7 @@ pokemon = {
 		"max_cp": 1011,
 		"fast_moves": ['Ember', 'Rock Throw'],
 		"charged_moves": ['Flame Burst', 'Flame Charge', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/218.png"
 	},
 	"Magcargo": {
 		"number": 219,
@@ -2310,7 +2310,7 @@ pokemon = {
 		"max_cp": 1924,
 		"fast_moves": ['Ember', 'Rock Throw', 'Incinerate'],
 		"charged_moves": ['Heat Wave', 'Overheat', 'Stone Edge', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/219.png"
 	},
 	"Swinub": {
 		"number": 220,
@@ -2319,7 +2319,7 @@ pokemon = {
 		"max_cp": 837,
 		"fast_moves": ['Tackle', 'Powder Snow'],
 		"charged_moves": ['Icy Wind', 'Body Slam', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/220.png"
 	},
 	"Piloswine": {
 		"number": 221,
@@ -2328,7 +2328,7 @@ pokemon = {
 		"max_cp": 2652,
 		"fast_moves": ['Ice Shard', 'Powder Snow'],
 		"charged_moves": ['Avalanche', 'Bulldoze', 'Stone Edge', 'High Horsepower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/221.png"
 	},
 	"Corsola": {
 		"number": 222,
@@ -2337,7 +2337,7 @@ pokemon = {
 		"max_cp": 1558,
 		"fast_moves": ['Tackle', 'Bubble'],
 		"charged_moves": ['Rock Blast', 'Power Gem', 'Bubble Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/222.png"
 	},
 	"Remoraid": {
 		"number": 223,
@@ -2346,7 +2346,7 @@ pokemon = {
 		"max_cp": 1031,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
 		"charged_moves": ['Aurora Beam', 'Water Pulse', 'Rock Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/223.png"
 	},
 	"Octillery": {
 		"number": 224,
@@ -2355,7 +2355,7 @@ pokemon = {
 		"max_cp": 2617,
 		"fast_moves": ['Water Gun', 'Mud Shot', 'Lock-On'],
 		"charged_moves": ['Gunk Shot', 'Water Pulse', 'Aurora Beam', 'Acid Spray', 'Octazooka'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/224.png"
 	},
 	"Delibird": {
 		"number": 225,
@@ -2364,7 +2364,7 @@ pokemon = {
 		"max_cp": 1237,
 		"fast_moves": ['Present'],
 		"charged_moves": ['Ice Punch', 'Icy Wind', 'Aerial Ace', 'Fly', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/225.png"
 	},
 	"Mantine": {
 		"number": 226,
@@ -2373,7 +2373,7 @@ pokemon = {
 		"max_cp": 2383,
 		"fast_moves": ['Bubble', 'Wing Attack', 'Bullet Seed'],
 		"charged_moves": ['Water Pulse', 'Ice Beam', 'Aerial Ace', 'Bubble Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/226.png"
 	},
 	"Skarmory": {
 		"number": 227,
@@ -2382,7 +2382,7 @@ pokemon = {
 		"max_cp": 2383,
 		"fast_moves": ['Steel Wing', 'Air Slash'],
 		"charged_moves": ['Brave Bird', 'Sky Attack', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/227.png"
 	},
 	"Houndour": {
 		"number": 228,
@@ -2391,7 +2391,7 @@ pokemon = {
 		"max_cp": 1395,
 		"fast_moves": ['Feint Attack', 'Ember'],
 		"charged_moves": ['Crunch', 'Flamethrower', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/228.png"
 	},
 	"Houndoom": {
 		"number": 229,
@@ -2400,7 +2400,7 @@ pokemon = {
 		"max_cp": 2979,
 		"fast_moves": ['Snarl', 'Fire Fang'],
 		"charged_moves": ['Crunch', 'Fire Blast', 'Foul Play', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/229.png"
 	},
 	"Kingdra": {
 		"number": 230,
@@ -2409,7 +2409,7 @@ pokemon = {
 		"max_cp": 2986,
 		"fast_moves": ['Waterfall', 'Dragon Breath', 'Water Gun'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Outrage', 'Octazooka'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/230.png"
 	},
 	"Phanpy": {
 		"number": 231,
@@ -2418,7 +2418,7 @@ pokemon = {
 		"max_cp": 1364,
 		"fast_moves": ['Tackle', 'Rock Smash'],
 		"charged_moves": ['Bulldoze', 'Rock Slide', 'Body Slam', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/231.png"
 	},
 	"Donphan": {
 		"number": 232,
@@ -2427,7 +2427,7 @@ pokemon = {
 		"max_cp": 3407,
 		"fast_moves": ['Tackle', 'Counter', 'Mud-Slap', 'Charm'],
 		"charged_moves": ['Earthquake', 'Heavy Slam', 'Play Rough', 'Body Slam', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/232.png"
 	},
 	"Porygon2": {
 		"number": 233,
@@ -2436,7 +2436,7 @@ pokemon = {
 		"max_cp": 3065,
 		"fast_moves": ['Hidden Power', 'Charge Beam', 'Lock-On'],
 		"charged_moves": ['Solar Beam', 'Hyper Beam', 'Zap Cannon', 'Tri Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/233.png"
 	},
 	"Stantler": {
 		"number": 234,
@@ -2445,7 +2445,7 @@ pokemon = {
 		"max_cp": 2447,
 		"fast_moves": ['Tackle', 'Zen Headbutt'],
 		"charged_moves": ['Stomp', 'Wild Charge', 'Megahorn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/234.png"
 	},
 	"Smeargle": {
 		"number": 235,
@@ -2454,7 +2454,7 @@ pokemon = {
 		"max_cp": 487,
 		"fast_moves": [],
 		"charged_moves": [],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/235.png"
 	},
 	"Tyrogue": {
 		"number": 236,
@@ -2463,7 +2463,7 @@ pokemon = {
 		"max_cp": 556,
 		"fast_moves": ['Rock Smash', 'Tackle'],
 		"charged_moves": ['Brick Break', 'Rock Slide', 'Low Sweep'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/236.png"
 	},
 	"Hitmontop": {
 		"number": 237,
@@ -2472,7 +2472,7 @@ pokemon = {
 		"max_cp": 2438,
 		"fast_moves": ['Rock Smash', 'Counter'],
 		"charged_moves": ['Close Combat', 'Gyro Ball', 'Stone Edge', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/237.png"
 	},
 	"Smoochum": {
 		"number": 238,
@@ -2481,7 +2481,7 @@ pokemon = {
 		"max_cp": 1460,
 		"fast_moves": ['Powder Snow', 'Pound', 'Frost Breath'],
 		"charged_moves": ['Ice Beam', 'Ice Punch', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/238.png"
 	},
 	"Elekid": {
 		"number": 239,
@@ -2490,7 +2490,7 @@ pokemon = {
 		"max_cp": 1364,
 		"fast_moves": ['Thunder Shock', 'Low Kick'],
 		"charged_moves": ['Thunder Punch', 'Brick Break', 'Discharge', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/239.png"
 	},
 	"Magby": {
 		"number": 240,
@@ -2499,7 +2499,7 @@ pokemon = {
 		"max_cp": 1496,
 		"fast_moves": ['Ember', 'Karate Chop'],
 		"charged_moves": ['Brick Break', 'Fire Punch', 'Flame Burst', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/240.png"
 	},
 	"Miltank": {
 		"number": 241,
@@ -2508,7 +2508,7 @@ pokemon = {
 		"max_cp": 2662,
 		"fast_moves": ['Tackle', 'Zen Headbutt', 'Rollout'],
 		"charged_moves": ['Stomp', 'Body Slam', 'Gyro Ball', 'Thunderbolt', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/241.png"
 	},
 	"Blissey": {
 		"number": 242,
@@ -2517,7 +2517,7 @@ pokemon = {
 		"max_cp": 3117,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
 		"charged_moves": ['Psychic', 'Hyper Beam', 'Dazzling Gleam', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/242.png"
 	},
 	"Raikou": {
 		"number": 243,
@@ -2526,7 +2526,7 @@ pokemon = {
 		"max_cp": 3902,
 		"fast_moves": ['Thunder Shock', 'Volt Switch'],
 		"charged_moves": ['Thunder', 'Thunderbolt', 'Wild Charge', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/243.png"
 	},
 	"Entei": {
 		"number": 244,
@@ -2535,7 +2535,7 @@ pokemon = {
 		"max_cp": 3926,
 		"fast_moves": ['Fire Spin', 'Fire Fang'],
 		"charged_moves": ['Flamethrower', 'Fire Blast', 'Overheat', 'Iron Head', 'Flame Charge', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/244.png"
 	},
 	"Suicune": {
 		"number": 245,
@@ -2544,7 +2544,7 @@ pokemon = {
 		"max_cp": 3372,
 		"fast_moves": ['Extrasensory', 'Snarl', 'Ice Fang', 'Hidden Power'],
 		"charged_moves": ['Hydro Pump', 'Bubble Beam', 'Water Pulse', 'Ice Beam', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/245.png"
 	},
 	"Larvitar": {
 		"number": 246,
@@ -2553,7 +2553,7 @@ pokemon = {
 		"max_cp": 1176,
 		"fast_moves": ['Bite', 'Rock Smash'],
 		"charged_moves": ['Stomp', 'Crunch', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/246.png"
 	},
 	"Pupitar": {
 		"number": 247,
@@ -2562,7 +2562,7 @@ pokemon = {
 		"max_cp": 1996,
 		"fast_moves": ['Bite', 'Rock Smash'],
 		"charged_moves": ['Dig', 'Crunch', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/247.png"
 	},
 	"Tyranitar": {
 		"number": 248,
@@ -2571,7 +2571,7 @@ pokemon = {
 		"max_cp": 4335,
 		"fast_moves": ['Bite', 'Iron Tail', 'Smack Down'],
 		"charged_moves": ['Fire Blast', 'Crunch', 'Stone Edge', 'Brutal Swing'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/248.png"
 	},
 	"Lugia": {
 		"number": 249,
@@ -2580,7 +2580,7 @@ pokemon = {
 		"max_cp": 4186,
 		"fast_moves": ['Extrasensory', 'Dragon Tail'],
 		"charged_moves": ['Sky Attack', 'Hydro Pump', 'Future Sight', 'Aeroblast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/249.png"
 	},
 	"Ho-Oh": {
 		"number": 250,
@@ -2589,7 +2589,7 @@ pokemon = {
 		"max_cp": 4367,
 		"fast_moves": ['Extrasensory', 'Steel Wing', 'Hidden Power', 'Incinerate'],
 		"charged_moves": ['Brave Bird', 'Fire Blast', 'Solar Beam', 'Earthquake', 'Sacred Fire'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/250.png"
 	},
 	"Celebi": {
 		"number": 251,
@@ -2598,7 +2598,7 @@ pokemon = {
 		"max_cp": 3691,
 		"fast_moves": ['Confusion', 'Charge Beam', 'Magical Leaf'],
 		"charged_moves": ['Hyper Beam', 'Psychic', 'Dazzling Gleam', 'Seed Bomb', 'Leaf Storm'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/251.png"
 	},
 	"Treecko": {
 		"number": 252,
@@ -2607,7 +2607,7 @@ pokemon = {
 		"max_cp": 1190,
 		"fast_moves": ['Pound', 'Bullet Seed'],
 		"charged_moves": ['Energy Ball', 'Aerial Ace', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/252.png"
 	},
 	"Grovyle": {
 		"number": 253,
@@ -2616,7 +2616,7 @@ pokemon = {
 		"max_cp": 1891,
 		"fast_moves": ['Quick Attack', 'Bullet Seed'],
 		"charged_moves": ['Leaf Blade', 'Aerial Ace', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/253.png"
 	},
 	"Sceptile": {
 		"number": 254,
@@ -2625,7 +2625,7 @@ pokemon = {
 		"max_cp": 3117,
 		"fast_moves": ['Fury Cutter', 'Bullet Seed'],
 		"charged_moves": ['Leaf Blade', 'Aerial Ace', 'Earthquake', 'Dragon Claw', 'Breaking Swipe', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/254.png"
 	},
 	"Torchic": {
 		"number": 255,
@@ -2634,7 +2634,7 @@ pokemon = {
 		"max_cp": 1236,
 		"fast_moves": ['Scratch', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/255.png"
 	},
 	"Combusken": {
 		"number": 256,
@@ -2643,7 +2643,7 @@ pokemon = {
 		"max_cp": 1868,
 		"fast_moves": ['Peck', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/256.png"
 	},
 	"Blaziken": {
 		"number": 257,
@@ -2652,7 +2652,7 @@ pokemon = {
 		"max_cp": 3219,
 		"fast_moves": ['Counter', 'Fire Spin'],
 		"charged_moves": ['Focus Blast', 'Overheat', 'Brave Bird', 'Blaze Kick', 'Blast Burn', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/257.png"
 	},
 	"Mudkip": {
 		"number": 258,
@@ -2661,7 +2661,7 @@ pokemon = {
 		"max_cp": 1275,
 		"fast_moves": ['Tackle', 'Water Gun'],
 		"charged_moves": ['Dig', 'Sludge', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/258.png"
 	},
 	"Marshtomp": {
 		"number": 259,
@@ -2670,7 +2670,7 @@ pokemon = {
 		"max_cp": 2008,
 		"fast_moves": ['Mud Shot', 'Water Gun'],
 		"charged_moves": ['Mud Bomb', 'Sludge', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/259.png"
 	},
 	"Swampert": {
 		"number": 260,
@@ -2679,7 +2679,7 @@ pokemon = {
 		"max_cp": 3362,
 		"fast_moves": ['Mud Shot', 'Water Gun'],
 		"charged_moves": ['Earthquake', 'Sludge Wave', 'Surf', 'Muddy Water', 'Hydro Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/260.png"
 	},
 	"Poochyena": {
 		"number": 261,
@@ -2688,7 +2688,7 @@ pokemon = {
 		"max_cp": 766,
 		"fast_moves": ['Tackle', 'Snarl'],
 		"charged_moves": ['Crunch', 'Dig', 'Poison Fang'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/261.png"
 	},
 	"Mightyena": {
 		"number": 262,
@@ -2697,7 +2697,7 @@ pokemon = {
 		"max_cp": 2177,
 		"fast_moves": ['Bite', 'Fire Fang', 'Thunder Fang', 'Ice Fang'],
 		"charged_moves": ['Crunch', 'Play Rough', 'Poison Fang'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/262.png"
 	},
 	"Zigzagoon": {
 		"number": 263,
@@ -2706,7 +2706,7 @@ pokemon = {
 		"max_cp": 575,
 		"fast_moves": ['Tackle', 'Rock Smash', 'Sand Attack'],
 		"charged_moves": ['Dig', 'Grass Knot', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/263.png"
 	},
 	"Galarian Zigzagoon": {
 		"number": 263,
@@ -2724,7 +2724,7 @@ pokemon = {
 		"max_cp": 1879,
 		"fast_moves": ['Shadow Claw', 'Tackle', 'Sand Attack'],
 		"charged_moves": ['Dig', 'Grass Knot', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/264.png"
 	},
 	"Galarian Linoone": {
 		"number": 264,
@@ -2742,7 +2742,7 @@ pokemon = {
 		"max_cp": 653,
 		"fast_moves": ['Tackle', 'Bug Bite'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/265.png"
 	},
 	"Silcoon": {
 		"number": 266,
@@ -2751,7 +2751,7 @@ pokemon = {
 		"max_cp": 626,
 		"fast_moves": ['Poison Sting', 'Bug Bite'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/266.png"
 	},
 	"Beautifly": {
 		"number": 267,
@@ -2760,7 +2760,7 @@ pokemon = {
 		"max_cp": 1996,
 		"fast_moves": ['Struggle Bug', 'Infestation'],
 		"charged_moves": ['Silver Wind', 'Air Cutter', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/267.png"
 	},
 	"Cascoon": {
 		"number": 268,
@@ -2769,7 +2769,7 @@ pokemon = {
 		"max_cp": 626,
 		"fast_moves": ['Poison Sting', 'Bug Bite'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/268.png"
 	},
 	"Dustox": {
 		"number": 269,
@@ -2778,7 +2778,7 @@ pokemon = {
 		"max_cp": 1384,
 		"fast_moves": ['Struggle Bug', 'Confusion'],
 		"charged_moves": ['Silver Wind', 'Sludge Bomb', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/269.png"
 	},
 	"Lotad": {
 		"number": 270,
@@ -2787,7 +2787,7 @@ pokemon = {
 		"max_cp": 676,
 		"fast_moves": ['Water Gun', 'Razor Leaf'],
 		"charged_moves": ['Bubble Beam', 'Energy Ball', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/270.png"
 	},
 	"Lombre": {
 		"number": 271,
@@ -2796,7 +2796,7 @@ pokemon = {
 		"max_cp": 1353,
 		"fast_moves": ['Bubble', 'Razor Leaf'],
 		"charged_moves": ['Bubble Beam', 'Ice Beam', 'Grass Knot', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/271.png"
 	},
 	"Ludicolo": {
 		"number": 272,
@@ -2805,7 +2805,7 @@ pokemon = {
 		"max_cp": 2626,
 		"fast_moves": ['Bubble', 'Razor Leaf'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Solar Beam', 'Ice Beam', 'Energy Ball', 'Leaf Storm', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/272.png"
 	},
 	"Seedot": {
 		"number": 273,
@@ -2814,7 +2814,7 @@ pokemon = {
 		"max_cp": 676,
 		"fast_moves": ['Bullet Seed', 'Quick Attack'],
 		"charged_moves": ['Energy Ball', 'Grass Knot', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/273.png"
 	},
 	"Nuzleaf": {
 		"number": 274,
@@ -2823,7 +2823,7 @@ pokemon = {
 		"max_cp": 1387,
 		"fast_moves": ['Razor Leaf', 'Feint Attack'],
 		"charged_moves": ['Leaf Blade', 'Grass Knot', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/274.png"
 	},
 	"Shiftry": {
 		"number": 275,
@@ -2832,7 +2832,7 @@ pokemon = {
 		"max_cp": 2637,
 		"fast_moves": ['Razor Leaf', 'Feint Attack', 'Snarl', 'Bullet Seed'],
 		"charged_moves": ['Leaf Blade', 'Hurricane', 'Foul Play', 'Leaf Tornado'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/275.png"
 	},
 	"Taillow": {
 		"number": 276,
@@ -2841,7 +2841,7 @@ pokemon = {
 		"max_cp": 865,
 		"fast_moves": ['Peck', 'Quick Attack'],
 		"charged_moves": ['Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/276.png"
 	},
 	"Swellow": {
 		"number": 277,
@@ -2850,7 +2850,7 @@ pokemon = {
 		"max_cp": 2170,
 		"fast_moves": ['Wing Attack', 'Steel Wing'],
 		"charged_moves": ['Aerial Ace', 'Brave Bird', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/277.png"
 	},
 	"Wingull": {
 		"number": 278,
@@ -2859,7 +2859,7 @@ pokemon = {
 		"max_cp": 865,
 		"fast_moves": ['Water Gun', 'Quick Attack'],
 		"charged_moves": ['Water Pulse', 'Air Cutter', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/278.png"
 	},
 	"Pelipper": {
 		"number": 279,
@@ -2868,7 +2868,7 @@ pokemon = {
 		"max_cp": 2404,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
 		"charged_moves": ['Hydro Pump', 'Hurricane', 'Blizzard', 'Weather Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/279.png"
 	},
 	"Ralts": {
 		"number": 280,
@@ -2877,7 +2877,7 @@ pokemon = {
 		"max_cp": 609,
 		"fast_moves": ['Confusion', 'Charge Beam'],
 		"charged_moves": ['Psyshock', 'Disarming Voice', 'Shadow Sneak'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/280.png"
 	},
 	"Kirlia": {
 		"number": 281,
@@ -2886,7 +2886,7 @@ pokemon = {
 		"max_cp": 1093,
 		"fast_moves": ['Confusion', 'Charge Beam', 'Magical Leaf'],
 		"charged_moves": ['Psychic', 'Disarming Voice', 'Shadow Sneak', 'Triple Axel', 'Draining Kiss'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/281.png"
 	},
 	"Gardevoir": {
 		"number": 282,
@@ -2895,7 +2895,7 @@ pokemon = {
 		"max_cp": 3497,
 		"fast_moves": ['Confusion', 'Charge Beam', 'Charm', 'Magical Leaf'],
 		"charged_moves": ['Psychic', 'Dazzling Gleam', 'Shadow Ball', 'Triple Axel', 'Synchronoise'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/282.png"
 	},
 	"Surskit": {
 		"number": 283,
@@ -2904,7 +2904,7 @@ pokemon = {
 		"max_cp": 894,
 		"fast_moves": ['Bubble', 'Bug Bite'],
 		"charged_moves": ['Aqua Jet', 'Bubble Beam', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/283.png"
 	},
 	"Masquerain": {
 		"number": 284,
@@ -2913,7 +2913,7 @@ pokemon = {
 		"max_cp": 2567,
 		"fast_moves": ['Infestation', 'Air Slash'],
 		"charged_moves": ['Air Cutter', 'Ominous Wind', 'Silver Wind', 'Bubble Beam', 'Lunge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/284.png"
 	},
 	"Shroomish": {
 		"number": 285,
@@ -2922,7 +2922,7 @@ pokemon = {
 		"max_cp": 916,
 		"fast_moves": ['Tackle', 'Bullet Seed'],
 		"charged_moves": ['Seed Bomb', 'Grass Knot', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/285.png"
 	},
 	"Breloom": {
 		"number": 286,
@@ -2931,7 +2931,7 @@ pokemon = {
 		"max_cp": 2971,
 		"fast_moves": ['Counter', 'Bullet Seed'],
 		"charged_moves": ['Dynamic Punch', 'Seed Bomb', 'Sludge Bomb', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/286.png"
 	},
 	"Slakoth": {
 		"number": 287,
@@ -2940,7 +2940,7 @@ pokemon = {
 		"max_cp": 1133,
 		"fast_moves": ['Yawn'],
 		"charged_moves": ['Body Slam', 'Night Slash', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/287.png"
 	},
 	"Vigoroth": {
 		"number": 288,
@@ -2949,7 +2949,7 @@ pokemon = {
 		"max_cp": 2225,
 		"fast_moves": ['Scratch', 'Counter'],
 		"charged_moves": ['Body Slam', 'Bulldoze', 'Brick Break', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/288.png"
 	},
 	"Slaking": {
 		"number": 289,
@@ -2958,7 +2958,7 @@ pokemon = {
 		"max_cp": 5010,
 		"fast_moves": ['Yawn'],
 		"charged_moves": ['Hyper Beam', 'Play Rough', 'Earthquake', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/289.png"
 	},
 	"Nincada": {
 		"number": 290,
@@ -2967,7 +2967,7 @@ pokemon = {
 		"max_cp": 868,
 		"fast_moves": ['Scratch', 'Bug Bite'],
 		"charged_moves": ['Night Slash', 'Bug Buzz', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/290.png"
 	},
 	"Ninjask": {
 		"number": 291,
@@ -2976,7 +2976,7 @@ pokemon = {
 		"max_cp": 2226,
 		"fast_moves": ['Fury Cutter', 'Metal Claw'],
 		"charged_moves": ['Shadow Ball', 'Bug Buzz', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/291.png"
 	},
 	"Shedinja": {
 		"number": 292,
@@ -2985,7 +2985,7 @@ pokemon = {
 		"max_cp": 445,
 		"fast_moves": ['Bug Bite', 'Shadow Claw', 'Struggle Bug'],
 		"charged_moves": ['Shadow Sneak', 'Aerial Ace', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/292.png"
 	},
 	"Whismur": {
 		"number": 293,
@@ -2994,7 +2994,7 @@ pokemon = {
 		"max_cp": 758,
 		"fast_moves": ['Pound', 'Astonish'],
 		"charged_moves": ['Stomp', 'Disarming Voice', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/293.png"
 	},
 	"Loudred": {
 		"number": 294,
@@ -3003,7 +3003,7 @@ pokemon = {
 		"max_cp": 1500,
 		"fast_moves": ['Bite', 'Rock Smash'],
 		"charged_moves": ['Stomp', 'Disarming Voice', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/294.png"
 	},
 	"Exploud": {
 		"number": 295,
@@ -3012,7 +3012,7 @@ pokemon = {
 		"max_cp": 2654,
 		"fast_moves": ['Bite', 'Astonish'],
 		"charged_moves": ['Crunch', 'Disarming Voice', 'Fire Blast', 'Boomburst'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/295.png"
 	},
 	"Makuhita": {
 		"number": 296,
@@ -3021,7 +3021,7 @@ pokemon = {
 		"max_cp": 924,
 		"fast_moves": ['Rock Smash', 'Tackle'],
 		"charged_moves": ['Heavy Slam', 'Low Sweep', 'Cross Chop'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/296.png"
 	},
 	"Hariyama": {
 		"number": 297,
@@ -3030,7 +3030,7 @@ pokemon = {
 		"max_cp": 3198,
 		"fast_moves": ['Counter', 'Bullet Punch'],
 		"charged_moves": ['Heavy Slam', 'Close Combat', 'Dynamic Punch', 'Superpower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/297.png"
 	},
 	"Azurill": {
 		"number": 298,
@@ -3039,7 +3039,7 @@ pokemon = {
 		"max_cp": 411,
 		"fast_moves": ['Splash', 'Bubble'],
 		"charged_moves": ['Bubble Beam', 'Ice Beam', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/298.png"
 	},
 	"Nosepass": {
 		"number": 299,
@@ -3048,7 +3048,7 @@ pokemon = {
 		"max_cp": 1123,
 		"fast_moves": ['Rock Throw', 'Spark'],
 		"charged_moves": ['Rock Blast', 'Rock Slide', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/299.png"
 	},
 	"Skitty": {
 		"number": 300,
@@ -3057,7 +3057,7 @@ pokemon = {
 		"max_cp": 835,
 		"fast_moves": ['Feint Attack', 'Tackle'],
 		"charged_moves": ['Dig', 'Disarming Voice', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/300.png"
 	},
 	"Delcatty": {
 		"number": 301,
@@ -3066,7 +3066,7 @@ pokemon = {
 		"max_cp": 1691,
 		"fast_moves": ['Feint Attack', 'Zen Headbutt', 'Charm'],
 		"charged_moves": ['Play Rough', 'Disarming Voice', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/301.png"
 	},
 	"Sableye": {
 		"number": 302,
@@ -3075,7 +3075,7 @@ pokemon = {
 		"max_cp": 1668,
 		"fast_moves": ['Shadow Claw', 'Feint Attack'],
 		"charged_moves": ['Power Gem', 'Foul Play', 'Shadow Sneak'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/302.png"
 	},
 	"Mawile": {
 		"number": 303,
@@ -3084,7 +3084,7 @@ pokemon = {
 		"max_cp": 1848,
 		"fast_moves": ['Bite', 'Astonish', 'Ice Fang', 'Fire Fang', 'Fairy Wind'],
 		"charged_moves": ['Play Rough', 'Vise Grip', 'Iron Head', 'Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/303.png"
 	},
 	"Aron": {
 		"number": 304,
@@ -3093,7 +3093,7 @@ pokemon = {
 		"max_cp": 1478,
 		"fast_moves": ['Tackle', 'Metal Claw'],
 		"charged_moves": ['Iron Head', 'Rock Tomb', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/304.png"
 	},
 	"Lairon": {
 		"number": 305,
@@ -3102,7 +3102,7 @@ pokemon = {
 		"max_cp": 2324,
 		"fast_moves": ['Metal Claw', 'Iron Tail'],
 		"charged_moves": ['Body Slam', 'Rock Slide', 'Heavy Slam', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/305.png"
 	},
 	"Aggron": {
 		"number": 306,
@@ -3111,7 +3111,7 @@ pokemon = {
 		"max_cp": 3391,
 		"fast_moves": ['Dragon Tail', 'Iron Tail', 'Smack Down'],
 		"charged_moves": ['Thunder', 'Stone Edge', 'Heavy Slam', 'Rock Tomb', 'Meteor Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/306.png"
 	},
 	"Meditite": {
 		"number": 307,
@@ -3120,7 +3120,7 @@ pokemon = {
 		"max_cp": 784,
 		"fast_moves": ['Confusion', 'Rock Smash'],
 		"charged_moves": ['Ice Punch', 'Psyshock', 'Low Sweep'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/307.png"
 	},
 	"Medicham": {
 		"number": 308,
@@ -3129,7 +3129,7 @@ pokemon = {
 		"max_cp": 1618,
 		"fast_moves": ['Psycho Cut', 'Counter'],
 		"charged_moves": ['Ice Punch', 'Psychic', 'Dynamic Punch', 'Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/308.png"
 	},
 	"Electrike": {
 		"number": 309,
@@ -3138,7 +3138,7 @@ pokemon = {
 		"max_cp": 1091,
 		"fast_moves": ['Quick Attack', 'Spark'],
 		"charged_moves": ['Thunderbolt', 'Discharge', 'Swift'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/309.png"
 	},
 	"Manectric": {
 		"number": 310,
@@ -3147,7 +3147,7 @@ pokemon = {
 		"max_cp": 2646,
 		"fast_moves": ['Snarl', 'Charge Beam', 'Thunder Fang'],
 		"charged_moves": ['Thunder', 'Wild Charge', 'Flame Burst', 'Overheat', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/310.png"
 	},
 	"Plusle": {
 		"number": 311,
@@ -3156,7 +3156,7 @@ pokemon = {
 		"max_cp": 2010,
 		"fast_moves": ['Spark', 'Quick Attack'],
 		"charged_moves": ['Thunderbolt', 'Discharge', 'Swift', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/311.png"
 	},
 	"Minun": {
 		"number": 312,
@@ -3165,7 +3165,7 @@ pokemon = {
 		"max_cp": 1915,
 		"fast_moves": ['Spark', 'Quick Attack'],
 		"charged_moves": ['Thunderbolt', 'Discharge', 'Swift', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/312.png"
 	},
 	"Volbeat": {
 		"number": 313,
@@ -3174,7 +3174,7 @@ pokemon = {
 		"max_cp": 2002,
 		"fast_moves": ['Struggle Bug', 'Tackle'],
 		"charged_moves": ['Signal Beam', 'Bug Buzz', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/313.png"
 	},
 	"Illumise": {
 		"number": 314,
@@ -3183,7 +3183,7 @@ pokemon = {
 		"max_cp": 2002,
 		"fast_moves": ['Struggle Bug', 'Tackle'],
 		"charged_moves": ['Silver Wind', 'Bug Buzz', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/314.png"
 	},
 	"Roselia": {
 		"number": 315,
@@ -3192,7 +3192,7 @@ pokemon = {
 		"max_cp": 2114,
 		"fast_moves": ['Poison Jab', 'Razor Leaf', 'Magical Leaf'],
 		"charged_moves": ['Petal Blizzard', 'Sludge Bomb', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/315.png"
 	},
 	"Gulpin": {
 		"number": 316,
@@ -3201,7 +3201,7 @@ pokemon = {
 		"max_cp": 979,
 		"fast_moves": ['Pound', 'Rock Smash'],
 		"charged_moves": ['Sludge', 'Gunk Shot', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/316.png"
 	},
 	"Swalot": {
 		"number": 317,
@@ -3210,7 +3210,7 @@ pokemon = {
 		"max_cp": 2236,
 		"fast_moves": ['Rock Smash', 'Infestation', 'Mud Shot'],
 		"charged_moves": ['Gunk Shot', 'Sludge Bomb', 'Ice Beam', 'Acid Spray'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/317.png"
 	},
 	"Carvanha": {
 		"number": 318,
@@ -3219,7 +3219,7 @@ pokemon = {
 		"max_cp": 1154,
 		"fast_moves": ['Bite', 'Snarl'],
 		"charged_moves": ['Aqua Jet', 'Crunch', 'Poison Fang'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/318.png"
 	},
 	"Sharpedo": {
 		"number": 319,
@@ -3228,7 +3228,7 @@ pokemon = {
 		"max_cp": 2466,
 		"fast_moves": ['Bite', 'Waterfall'],
 		"charged_moves": ['Hydro Pump', 'Crunch', 'Poison Fang'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/319.png"
 	},
 	"Wailmer": {
 		"number": 320,
@@ -3237,7 +3237,7 @@ pokemon = {
 		"max_cp": 1659,
 		"fast_moves": ['Splash', 'Water Gun'],
 		"charged_moves": ['Heavy Slam', 'Water Pulse', 'Body Slam', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/320.png"
 	},
 	"Wailord": {
 		"number": 321,
@@ -3246,7 +3246,7 @@ pokemon = {
 		"max_cp": 2577,
 		"fast_moves": ['Zen Headbutt', 'Water Gun'],
 		"charged_moves": ['Surf', 'Blizzard', 'Hyper Beam', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/321.png"
 	},
 	"Numel": {
 		"number": 322,
@@ -3255,7 +3255,7 @@ pokemon = {
 		"max_cp": 1196,
 		"fast_moves": ['Ember', 'Tackle'],
 		"charged_moves": ['Bulldoze', 'Heat Wave', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/322.png"
 	},
 	"Camerupt": {
 		"number": 323,
@@ -3264,7 +3264,7 @@ pokemon = {
 		"max_cp": 2479,
 		"fast_moves": ['Ember', 'Rock Smash', 'Incinerate'],
 		"charged_moves": ['Earthquake', 'Overheat', 'Solar Beam', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/323.png"
 	},
 	"Torkoal": {
 		"number": 324,
@@ -3273,7 +3273,7 @@ pokemon = {
 		"max_cp": 2366,
 		"fast_moves": ['Fire Spin', 'Ember'],
 		"charged_moves": ['Overheat', 'Solar Beam', 'Earthquake'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/324.png"
 	},
 	"Spoink": {
 		"number": 325,
@@ -3282,7 +3282,7 @@ pokemon = {
 		"max_cp": 1508,
 		"fast_moves": ['Splash', 'Zen Headbutt'],
 		"charged_moves": ['Psybeam', 'Shadow Ball', 'Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/325.png"
 	},
 	"Grumpig": {
 		"number": 326,
@@ -3291,7 +3291,7 @@ pokemon = {
 		"max_cp": 2679,
 		"fast_moves": ['Charge Beam', 'Extrasensory'],
 		"charged_moves": ['Psychic', 'Shadow Ball', 'Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/326.png"
 	},
 	"Spinda": {
 		"number": 327,
@@ -3300,7 +3300,7 @@ pokemon = {
 		"max_cp": 1380,
 		"fast_moves": ['Sucker Punch', 'Psycho Cut'],
 		"charged_moves": ['Dig', 'Rock Tomb', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/327.png"
 	},
 	"Trapinch": {
 		"number": 328,
@@ -3309,7 +3309,7 @@ pokemon = {
 		"max_cp": 1441,
 		"fast_moves": ['Mud Shot', 'Struggle Bug', 'Sand Attack'],
 		"charged_moves": ['Sand Tomb', 'Dig', 'Crunch', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/328.png"
 	},
 	"Vibrava": {
 		"number": 329,
@@ -3318,7 +3318,7 @@ pokemon = {
 		"max_cp": 1384,
 		"fast_moves": ['Mud Shot', 'Dragon Breath', 'Sand Attack'],
 		"charged_moves": ['Sand Tomb', 'Bulldoze', 'Bug Buzz', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/329.png"
 	},
 	"Flygon": {
 		"number": 330,
@@ -3327,7 +3327,7 @@ pokemon = {
 		"max_cp": 3008,
 		"fast_moves": ['Mud Shot', 'Dragon Tail', 'Sand Attack'],
 		"charged_moves": ['Earthquake', 'Dragon Claw', 'Stone Edge', 'Boomburst', 'Scorching Sands', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/330.png"
 	},
 	"Cacnea": {
 		"number": 331,
@@ -3336,7 +3336,7 @@ pokemon = {
 		"max_cp": 1404,
 		"fast_moves": ['Poison Sting', 'Sucker Punch', 'Sand Attack'],
 		"charged_moves": ['Grass Knot', 'Brick Break', 'Seed Bomb', 'Payback', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/331.png"
 	},
 	"Cacturne": {
 		"number": 332,
@@ -3345,7 +3345,7 @@ pokemon = {
 		"max_cp": 2598,
 		"fast_moves": ['Poison Jab', 'Sucker Punch', 'Sand Attack'],
 		"charged_moves": ['Dark Pulse', 'Dynamic Punch', 'Grass Knot', 'Payback', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/332.png"
 	},
 	"Swablu": {
 		"number": 333,
@@ -3354,7 +3354,7 @@ pokemon = {
 		"max_cp": 931,
 		"fast_moves": ['Peck', 'Astonish'],
 		"charged_moves": ['Disarming Voice', 'Aerial Ace', 'Ice Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/333.png"
 	},
 	"Altaria": {
 		"number": 334,
@@ -3363,7 +3363,7 @@ pokemon = {
 		"max_cp": 2266,
 		"fast_moves": ['Peck', 'Dragon Breath'],
 		"charged_moves": ['Sky Attack', 'Dazzling Gleam', 'Dragon Pulse', 'Moonblast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/334.png"
 	},
 	"Zangoose": {
 		"number": 335,
@@ -3372,7 +3372,7 @@ pokemon = {
 		"max_cp": 2733,
 		"fast_moves": ['Fury Cutter', 'Shadow Claw'],
 		"charged_moves": ['Close Combat', 'Night Slash', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/335.png"
 	},
 	"Seviper": {
 		"number": 336,
@@ -3381,7 +3381,7 @@ pokemon = {
 		"max_cp": 2380,
 		"fast_moves": ['Poison Jab', 'Iron Tail'],
 		"charged_moves": ['Poison Fang', 'Crunch', 'Wrap'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/336.png"
 	},
 	"Lunatone": {
 		"number": 337,
@@ -3390,7 +3390,7 @@ pokemon = {
 		"max_cp": 2631,
 		"fast_moves": ['Rock Throw', 'Confusion', 'Psywave'],
 		"charged_moves": ['Psychic', 'Rock Slide', 'Moonblast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/337.png"
 	},
 	"Solrock": {
 		"number": 338,
@@ -3399,7 +3399,7 @@ pokemon = {
 		"max_cp": 2631,
 		"fast_moves": ['Rock Throw', 'Confusion', 'Psywave'],
 		"charged_moves": ['Psychic', 'Rock Slide', 'Solar Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/338.png"
 	},
 	"Barboach": {
 		"number": 339,
@@ -3408,7 +3408,7 @@ pokemon = {
 		"max_cp": 925,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
 		"charged_moves": ['Aqua Tail', 'Ice Beam', 'Mud Bomb', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/339.png"
 	},
 	"Whiscash": {
 		"number": 340,
@@ -3417,7 +3417,7 @@ pokemon = {
 		"max_cp": 2346,
 		"fast_moves": ['Water Gun', 'Mud Shot'],
 		"charged_moves": ['Water Pulse', 'Blizzard', 'Mud Bomb', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/340.png"
 	},
 	"Corphish": {
 		"number": 341,
@@ -3426,7 +3426,7 @@ pokemon = {
 		"max_cp": 1391,
 		"fast_moves": ['Bubble', 'Rock Smash'],
 		"charged_moves": ['Vise Grip', 'Bubble Beam', 'Aqua Jet', 'Razor Shell', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/341.png"
 	},
 	"Crawdaunt": {
 		"number": 342,
@@ -3435,7 +3435,7 @@ pokemon = {
 		"max_cp": 2797,
 		"fast_moves": ['Waterfall', 'Snarl'],
 		"charged_moves": ['Vise Grip', 'Bubble Beam', 'Night Slash', 'Crabhammer', 'Razor Shell', 'Scald'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/342.png"
 	},
 	"Baltoy": {
 		"number": 343,
@@ -3444,7 +3444,7 @@ pokemon = {
 		"max_cp": 889,
 		"fast_moves": ['Confusion', 'Extrasensory'],
 		"charged_moves": ['Gyro Ball', 'Psybeam', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/343.png"
 	},
 	"Claydol": {
 		"number": 344,
@@ -3453,7 +3453,7 @@ pokemon = {
 		"max_cp": 2229,
 		"fast_moves": ['Extrasensory', 'Confusion', 'Mud-Slap'],
 		"charged_moves": ['Gyro Ball', 'Psychic', 'Earthquake', 'Earth Power', 'Ice Beam', 'Shadow Ball', 'Rock Tomb', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/344.png"
 	},
 	"Lileep": {
 		"number": 345,
@@ -3462,7 +3462,7 @@ pokemon = {
 		"max_cp": 1460,
 		"fast_moves": ['Acid', 'Infestation', 'Bullet Seed'],
 		"charged_moves": ['Grass Knot', 'Mirror Coat', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/345.png"
 	},
 	"Cradily": {
 		"number": 346,
@@ -3471,7 +3471,7 @@ pokemon = {
 		"max_cp": 2499,
 		"fast_moves": ['Acid', 'Infestation', 'Bullet Seed'],
 		"charged_moves": ['Grass Knot', 'Bulldoze', 'Stone Edge', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/346.png"
 	},
 	"Anorith": {
 		"number": 347,
@@ -3480,7 +3480,7 @@ pokemon = {
 		"max_cp": 1729,
 		"fast_moves": ['Struggle Bug', 'Scratch'],
 		"charged_moves": ['Cross Poison', 'Aqua Jet', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/347.png"
 	},
 	"Armaldo": {
 		"number": 348,
@@ -3489,7 +3489,7 @@ pokemon = {
 		"max_cp": 3220,
 		"fast_moves": ['Fury Cutter', 'Struggle Bug'],
 		"charged_moves": ['Cross Poison', 'Water Pulse', 'Rock Blast', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/348.png"
 	},
 	"Feebas": {
 		"number": 349,
@@ -3498,7 +3498,7 @@ pokemon = {
 		"max_cp": 310,
 		"fast_moves": ['Splash', 'Tackle'],
 		"charged_moves": ['Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/349.png"
 	},
 	"Milotic": {
 		"number": 350,
@@ -3507,7 +3507,7 @@ pokemon = {
 		"max_cp": 3398,
 		"fast_moves": ['Waterfall', 'Dragon Tail'],
 		"charged_moves": ['Surf', 'Blizzard', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/350.png"
 	},
 	"Castform": {
 		"number": 351,
@@ -3516,7 +3516,7 @@ pokemon = {
 		"max_cp": 1845,
 		"fast_moves": ['Tackle', 'Hex'],
 		"charged_moves": ['Hurricane', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/351.png"
 	},
 	"Kecleon": {
 		"number": 352,
@@ -3525,7 +3525,7 @@ pokemon = {
 		"max_cp": 2314,
 		"fast_moves": ['Lick', 'Sucker Punch'],
 		"charged_moves": ['Foul Play', 'Flamethrower', 'Thunder', 'Ice Beam', 'Aerial Ace', 'Shadow Sneak'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/352.png"
 	},
 	"Shuppet": {
 		"number": 353,
@@ -3534,7 +3534,7 @@ pokemon = {
 		"max_cp": 1151,
 		"fast_moves": ['Feint Attack', 'Astonish'],
 		"charged_moves": ['Ominous Wind', 'Night Shade', 'Shadow Sneak'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/353.png"
 	},
 	"Banette": {
 		"number": 354,
@@ -3543,7 +3543,7 @@ pokemon = {
 		"max_cp": 2599,
 		"fast_moves": ['Hex', 'Shadow Claw'],
 		"charged_moves": ['Shadow Ball', 'Dazzling Gleam', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/354.png"
 	},
 	"Duskull": {
 		"number": 355,
@@ -3552,7 +3552,7 @@ pokemon = {
 		"max_cp": 798,
 		"fast_moves": ['Hex', 'Astonish'],
 		"charged_moves": ['Ominous Wind', 'Night Shade', 'Shadow Sneak'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/355.png"
 	},
 	"Dusclops": {
 		"number": 356,
@@ -3561,7 +3561,7 @@ pokemon = {
 		"max_cp": 1799,
 		"fast_moves": ['Hex', 'Feint Attack'],
 		"charged_moves": ['Shadow Punch', 'Ice Punch', 'Fire Punch', 'Poltergeist'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/356.png"
 	},
 	"Tropius": {
 		"number": 357,
@@ -3570,7 +3570,7 @@ pokemon = {
 		"max_cp": 2194,
 		"fast_moves": ['Air Slash', 'Razor Leaf'],
 		"charged_moves": ['Stomp', 'Aerial Ace', 'Leaf Blade'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/357.png"
 	},
 	"Chimecho": {
 		"number": 358,
@@ -3579,7 +3579,7 @@ pokemon = {
 		"max_cp": 2554,
 		"fast_moves": ['Extrasensory', 'Astonish'],
 		"charged_moves": ['Energy Ball', 'Shadow Ball', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/358.png"
 	},
 	"Absol": {
 		"number": 359,
@@ -3588,7 +3588,7 @@ pokemon = {
 		"max_cp": 2856,
 		"fast_moves": ['Psycho Cut', 'Snarl'],
 		"charged_moves": ['Dark Pulse', 'Thunder', 'Megahorn', 'Payback'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/359.png"
 	},
 	"Wynaut": {
 		"number": 360,
@@ -3597,7 +3597,7 @@ pokemon = {
 		"max_cp": 603,
 		"fast_moves": ['Splash', 'Counter'],
 		"charged_moves": ['Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/360.png"
 	},
 	"Snorunt": {
 		"number": 361,
@@ -3606,7 +3606,7 @@ pokemon = {
 		"max_cp": 1004,
 		"fast_moves": ['Powder Snow', 'Hex'],
 		"charged_moves": ['Avalanche', 'Icy Wind', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/361.png"
 	},
 	"Glalie": {
 		"number": 362,
@@ -3615,7 +3615,7 @@ pokemon = {
 		"max_cp": 2380,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
 		"charged_moves": ['Avalanche', 'Gyro Ball', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/362.png"
 	},
 	"Spheal": {
 		"number": 363,
@@ -3624,7 +3624,7 @@ pokemon = {
 		"max_cp": 1088,
 		"fast_moves": ['Water Gun', 'Rock Smash'],
 		"charged_moves": ['Aurora Beam', 'Body Slam', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/363.png"
 	},
 	"Sealeo": {
 		"number": 364,
@@ -3633,7 +3633,7 @@ pokemon = {
 		"max_cp": 1938,
 		"fast_moves": ['Water Gun', 'Powder Snow'],
 		"charged_moves": ['Aurora Beam', 'Body Slam', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/364.png"
 	},
 	"Walrein": {
 		"number": 365,
@@ -3642,7 +3642,7 @@ pokemon = {
 		"max_cp": 3081,
 		"fast_moves": ['Waterfall', 'Frost Breath', 'Powder Snow'],
 		"charged_moves": ['Blizzard', 'Earthquake', 'Water Pulse', 'Icicle Spear'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/365.png"
 	},
 	"Clamperl": {
 		"number": 366,
@@ -3651,7 +3651,7 @@ pokemon = {
 		"max_cp": 1436,
 		"fast_moves": ['Water Gun'],
 		"charged_moves": ['Body Slam', 'Ice Beam', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/366.png"
 	},
 	"Huntail": {
 		"number": 367,
@@ -3660,7 +3660,7 @@ pokemon = {
 		"max_cp": 2645,
 		"fast_moves": ['Water Gun', 'Bite'],
 		"charged_moves": ['Crunch', 'Ice Beam', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/367.png"
 	},
 	"Gorebyss": {
 		"number": 368,
@@ -3669,7 +3669,7 @@ pokemon = {
 		"max_cp": 2820,
 		"fast_moves": ['Water Gun', 'Confusion'],
 		"charged_moves": ['Draining Kiss', 'Psychic', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/368.png"
 	},
 	"Relicanth": {
 		"number": 369,
@@ -3678,7 +3678,7 @@ pokemon = {
 		"max_cp": 2858,
 		"fast_moves": ['Water Gun', 'Zen Headbutt'],
 		"charged_moves": ['Ancient Power', 'Aqua Tail', 'Hydro Pump'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/369.png"
 	},
 	"Luvdisc": {
 		"number": 370,
@@ -3687,7 +3687,7 @@ pokemon = {
 		"max_cp": 959,
 		"fast_moves": ['Water Gun', 'Splash'],
 		"charged_moves": ['Draining Kiss', 'Water Pulse', 'Aqua Jet'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/370.png"
 	},
 	"Bagon": {
 		"number": 371,
@@ -3696,7 +3696,7 @@ pokemon = {
 		"max_cp": 1307,
 		"fast_moves": ['Bite', 'Ember'],
 		"charged_moves": ['Flamethrower', 'Twister', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/371.png"
 	},
 	"Shelgon": {
 		"number": 372,
@@ -3705,7 +3705,7 @@ pokemon = {
 		"max_cp": 2296,
 		"fast_moves": ['Ember', 'Dragon Breath'],
 		"charged_moves": ['Flamethrower', 'Dragon Pulse', 'Twister'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/372.png"
 	},
 	"Salamence": {
 		"number": 373,
@@ -3714,7 +3714,7 @@ pokemon = {
 		"max_cp": 4239,
 		"fast_moves": ['Dragon Tail', 'Fire Fang', 'Bite'],
 		"charged_moves": ['Fire Blast', 'Hydro Pump', 'Draco Meteor', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/373.png"
 	},
 	"Beldum": {
 		"number": 374,
@@ -3723,7 +3723,7 @@ pokemon = {
 		"max_cp": 1104,
 		"fast_moves": ['Take Down'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/374.png"
 	},
 	"Metang": {
 		"number": 375,
@@ -3732,7 +3732,7 @@ pokemon = {
 		"max_cp": 1946,
 		"fast_moves": ['Zen Headbutt', 'Metal Claw'],
 		"charged_moves": ['Psychic', 'Gyro Ball', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/375.png"
 	},
 	"Metagross": {
 		"number": 376,
@@ -3741,7 +3741,7 @@ pokemon = {
 		"max_cp": 4286,
 		"fast_moves": ['Bullet Punch', 'Zen Headbutt'],
 		"charged_moves": ['Psychic', 'Flash Cannon', 'Earthquake', 'Meteor Mash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/376.png"
 	},
 	"Regirock": {
 		"number": 377,
@@ -3750,7 +3750,7 @@ pokemon = {
 		"max_cp": 3530,
 		"fast_moves": ['Rock Throw', 'Rock Smash', 'Lock-On'],
 		"charged_moves": ['Stone Edge', 'Zap Cannon', 'Focus Blast', 'Earthquake'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/377.png"
 	},
 	"Regice": {
 		"number": 378,
@@ -3759,7 +3759,7 @@ pokemon = {
 		"max_cp": 3530,
 		"fast_moves": ['Frost Breath', 'Rock Smash', 'Lock-On'],
 		"charged_moves": ['Blizzard', 'Earthquake', 'Focus Blast', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/378.png"
 	},
 	"Registeel": {
 		"number": 379,
@@ -3768,7 +3768,7 @@ pokemon = {
 		"max_cp": 2766,
 		"fast_moves": ['Metal Claw', 'Rock Smash', 'Lock-On'],
 		"charged_moves": ['Flash Cannon', 'Hyper Beam', 'Focus Blast', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/379.png"
 	},
 	"Latias": {
 		"number": 380,
@@ -3777,7 +3777,7 @@ pokemon = {
 		"max_cp": 3968,
 		"fast_moves": ['Dragon Breath', 'Zen Headbutt', 'Charm'],
 		"charged_moves": ['Psychic', 'Outrage', 'Thunder', 'Mist Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/380.png"
 	},
 	"Latios": {
 		"number": 381,
@@ -3786,7 +3786,7 @@ pokemon = {
 		"max_cp": 4310,
 		"fast_moves": ['Dragon Breath', 'Zen Headbutt'],
 		"charged_moves": ['Psychic', 'Dragon Claw', 'Solar Beam', 'Luster Purge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/381.png"
 	},
 	"Kyogre": {
 		"number": 382,
@@ -3795,7 +3795,7 @@ pokemon = {
 		"max_cp": 4652,
 		"fast_moves": ['Waterfall'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Thunder', 'Surf', 'Origin Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/382.png"
 	},
 	"Groudon": {
 		"number": 383,
@@ -3804,7 +3804,7 @@ pokemon = {
 		"max_cp": 4652,
 		"fast_moves": ['Mud Shot', 'Dragon Tail'],
 		"charged_moves": ['Earthquake', 'Fire Blast', 'Solar Beam', 'Fire Punch', 'Precipice Blades'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/383.png"
 	},
 	"Rayquaza": {
 		"number": 384,
@@ -3813,7 +3813,7 @@ pokemon = {
 		"max_cp": 4336,
 		"fast_moves": ['Air Slash', 'Dragon Tail'],
 		"charged_moves": ['Outrage', 'Aerial Ace', 'Ancient Power', 'Hurricane', 'Breaking Swipe'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/384.png"
 	},
 	"Jirachi": {
 		"number": 385,
@@ -3822,7 +3822,7 @@ pokemon = {
 		"max_cp": 3691,
 		"fast_moves": ['Confusion', 'Charge Beam'],
 		"charged_moves": ['Dazzling Gleam', 'Psychic', 'Doom Desire'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/385.png"
 	},
 	"Deoxys": {
 		"number": 386,
@@ -3831,7 +3831,7 @@ pokemon = {
 		"max_cp": 3573,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
 		"charged_moves": ['Psycho Boost', 'Zap Cannon', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/386.png"
 	},
 	"Turtwig": {
 		"number": 387,
@@ -3840,7 +3840,7 @@ pokemon = {
 		"max_cp": 1342,
 		"fast_moves": ['Tackle', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/387.png"
 	},
 	"Grotle": {
 		"number": 388,
@@ -3849,7 +3849,7 @@ pokemon = {
 		"max_cp": 2137,
 		"fast_moves": ['Bite', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Solar Beam', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/388.png"
 	},
 	"Torterra": {
 		"number": 389,
@@ -3858,7 +3858,7 @@ pokemon = {
 		"max_cp": 3318,
 		"fast_moves": ['Bite', 'Razor Leaf'],
 		"charged_moves": ['Stone Edge', 'Solar Beam', 'Earthquake', 'Sand Tomb', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/389.png"
 	},
 	"Chimchar": {
 		"number": 390,
@@ -3867,7 +3867,7 @@ pokemon = {
 		"max_cp": 1082,
 		"fast_moves": ['Ember', 'Scratch'],
 		"charged_moves": ['Flame Wheel', 'Flamethrower', 'Flame Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/390.png"
 	},
 	"Monferno": {
 		"number": 391,
@@ -3876,7 +3876,7 @@ pokemon = {
 		"max_cp": 1780,
 		"fast_moves": ['Ember', 'Rock Smash'],
 		"charged_moves": ['Flame Wheel', 'Flamethrower', 'Low Sweep'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/391.png"
 	},
 	"Infernape": {
 		"number": 392,
@@ -3885,7 +3885,7 @@ pokemon = {
 		"max_cp": 3033,
 		"fast_moves": ['Fire Spin', 'Rock Smash'],
 		"charged_moves": ['Solar Beam', 'Flamethrower', 'Close Combat', 'Blast Burn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/392.png"
 	},
 	"Piplup": {
 		"number": 393,
@@ -3894,7 +3894,7 @@ pokemon = {
 		"max_cp": 1215,
 		"fast_moves": ['Bubble', 'Pound'],
 		"charged_moves": ['Bubble Beam', 'Drill Peck', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/393.png"
 	},
 	"Prinplup": {
 		"number": 394,
@@ -3903,7 +3903,7 @@ pokemon = {
 		"max_cp": 1923,
 		"fast_moves": ['Bubble', 'Metal Claw'],
 		"charged_moves": ['Bubble Beam', 'Hydro Pump', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/394.png"
 	},
 	"Empoleon": {
 		"number": 395,
@@ -3912,7 +3912,7 @@ pokemon = {
 		"max_cp": 3279,
 		"fast_moves": ['Waterfall', 'Metal Claw', 'Steel Wing'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Flash Cannon', 'Drill Peck', 'Hydro Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/395.png"
 	},
 	"Starly": {
 		"number": 396,
@@ -3921,7 +3921,7 @@ pokemon = {
 		"max_cp": 813,
 		"fast_moves": ['Tackle', 'Quick Attack', 'Sand Attack'],
 		"charged_moves": ['Aerial Ace', 'Brave Bird', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/396.png"
 	},
 	"Staravia": {
 		"number": 397,
@@ -3930,7 +3930,7 @@ pokemon = {
 		"max_cp": 1468,
 		"fast_moves": ['Wing Attack', 'Quick Attack', 'Sand Attack'],
 		"charged_moves": ['Aerial Ace', 'Brave Bird', 'Heat Wave', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/397.png"
 	},
 	"Staraptor": {
 		"number": 398,
@@ -3939,7 +3939,7 @@ pokemon = {
 		"max_cp": 3194,
 		"fast_moves": ['Wing Attack', 'Quick Attack', 'Sand Attack', 'Gust'],
 		"charged_moves": ['Brave Bird', 'Heat Wave', 'Close Combat', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/398.png"
 	},
 	"Bidoof": {
 		"number": 399,
@@ -3948,7 +3948,7 @@ pokemon = {
 		"max_cp": 815,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Hyper Fang', 'Crunch', 'Grass Knot', 'Shadow Ball', 'Thunderbolt', 'Ice Beam', 'Superpower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/399.png"
 	},
 	"Bibarel": {
 		"number": 400,
@@ -3957,7 +3957,7 @@ pokemon = {
 		"max_cp": 2061,
 		"fast_moves": ['Water Gun', 'Take Down'],
 		"charged_moves": ['Hyper Fang', 'Hyper Beam', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/400.png"
 	},
 	"Kricketot": {
 		"number": 401,
@@ -3966,7 +3966,7 @@ pokemon = {
 		"max_cp": 453,
 		"fast_moves": ['Struggle Bug', 'Bug Bite'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/401.png"
 	},
 	"Kricketune": {
 		"number": 402,
@@ -3975,7 +3975,7 @@ pokemon = {
 		"max_cp": 1869,
 		"fast_moves": ['Struggle Bug', 'Fury Cutter'],
 		"charged_moves": ['Bug Buzz', 'X-Scissor', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/402.png"
 	},
 	"Shinx": {
 		"number": 403,
@@ -3984,7 +3984,7 @@ pokemon = {
 		"max_cp": 990,
 		"fast_moves": ['Tackle', 'Spark'],
 		"charged_moves": ['Discharge', 'Thunderbolt', 'Swift'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/403.png"
 	},
 	"Luxio": {
 		"number": 404,
@@ -3993,7 +3993,7 @@ pokemon = {
 		"max_cp": 1680,
 		"fast_moves": ['Spark', 'Bite'],
 		"charged_moves": ['Thunderbolt', 'Wild Charge', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/404.png"
 	},
 	"Luxray": {
 		"number": 405,
@@ -4002,7 +4002,7 @@ pokemon = {
 		"max_cp": 3265,
 		"fast_moves": ['Spark', 'Snarl', 'Hidden Power'],
 		"charged_moves": ['Hyper Beam', 'Wild Charge', 'Crunch', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/405.png"
 	},
 	"Budew": {
 		"number": 406,
@@ -4011,7 +4011,7 @@ pokemon = {
 		"max_cp": 968,
 		"fast_moves": ['Hidden Power', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/406.png"
 	},
 	"Roserade": {
 		"number": 407,
@@ -4020,7 +4020,7 @@ pokemon = {
 		"max_cp": 3359,
 		"fast_moves": ['Poison Jab', 'Razor Leaf', 'Magical Leaf', 'Bullet Seed'],
 		"charged_moves": ['Solar Beam', 'Sludge Bomb', 'Dazzling Gleam', 'Grass Knot', 'Leaf Storm', 'Weather Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/407.png"
 	},
 	"Cranidos": {
 		"number": 408,
@@ -4029,7 +4029,7 @@ pokemon = {
 		"max_cp": 2058,
 		"fast_moves": ['Zen Headbutt', 'Take Down'],
 		"charged_moves": ['Rock Tomb', 'Ancient Power', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/408.png"
 	},
 	"Rampardos": {
 		"number": 409,
@@ -4038,7 +4038,7 @@ pokemon = {
 		"max_cp": 3728,
 		"fast_moves": ['Zen Headbutt', 'Smack Down'],
 		"charged_moves": ['Rock Slide', 'Outrage', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/409.png"
 	},
 	"Shieldon": {
 		"number": 410,
@@ -4047,7 +4047,7 @@ pokemon = {
 		"max_cp": 1007,
 		"fast_moves": ['Tackle', 'Iron Tail'],
 		"charged_moves": ['Rock Tomb', 'Ancient Power', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/410.png"
 	},
 	"Bastiodon": {
 		"number": 411,
@@ -4056,7 +4056,7 @@ pokemon = {
 		"max_cp": 1741,
 		"fast_moves": ['Smack Down', 'Iron Tail'],
 		"charged_moves": ['Stone Edge', 'Flamethrower', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/411.png"
 	},
 	"Burmy": {
 		"number": 412,
@@ -4065,7 +4065,7 @@ pokemon = {
 		"max_cp": 552,
 		"fast_moves": ['Tackle', 'Bug Bite'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/412.png"
 	},
 	"Wormadam": {
 		"number": 413,
@@ -4074,7 +4074,7 @@ pokemon = {
 		"max_cp": 2005,
 		"fast_moves": ['Tackle', 'Bug Bite'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/413.png"
 	},
 	"Mothim": {
 		"number": 414,
@@ -4083,7 +4083,7 @@ pokemon = {
 		"max_cp": 2052,
 		"fast_moves": ['Air Slash', 'Bug Bite'],
 		"charged_moves": ['Psybeam', 'Aerial Ace', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/414.png"
 	},
 	"Combee": {
 		"number": 415,
@@ -4092,7 +4092,7 @@ pokemon = {
 		"max_cp": 559,
 		"fast_moves": ['Bug Bite'],
 		"charged_moves": ['Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/415.png"
 	},
 	"Vespiquen": {
 		"number": 416,
@@ -4101,7 +4101,7 @@ pokemon = {
 		"max_cp": 2267,
 		"fast_moves": ['Bug Bite', 'Poison Sting', 'Fury Cutter', 'Air Slash'],
 		"charged_moves": ['Bug Buzz', 'Power Gem', 'X-Scissor', 'Fell Stinger', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/416.png"
 	},
 	"Pachirisu": {
 		"number": 417,
@@ -4110,7 +4110,7 @@ pokemon = {
 		"max_cp": 1372,
 		"fast_moves": ['Spark', 'Volt Switch'],
 		"charged_moves": ['Thunder', 'Thunderbolt', 'Thunder Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/417.png"
 	},
 	"Buizel": {
 		"number": 418,
@@ -4119,7 +4119,7 @@ pokemon = {
 		"max_cp": 1192,
 		"fast_moves": ['Water Gun', 'Quick Attack'],
 		"charged_moves": ['Aqua Jet', 'Water Pulse', 'Swift'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/418.png"
 	},
 	"Floatzel": {
 		"number": 419,
@@ -4128,7 +4128,7 @@ pokemon = {
 		"max_cp": 2762,
 		"fast_moves": ['Water Gun', 'Waterfall'],
 		"charged_moves": ['Aqua Jet', 'Hydro Pump', 'Swift', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/419.png"
 	},
 	"Cherubi": {
 		"number": 420,
@@ -4137,7 +4137,7 @@ pokemon = {
 		"max_cp": 1074,
 		"fast_moves": ['Tackle', 'Bullet Seed'],
 		"charged_moves": ['Dazzling Gleam', 'Petal Blizzard', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/420.png"
 	},
 	"Cherrim": {
 		"number": 421,
@@ -4146,7 +4146,7 @@ pokemon = {
 		"max_cp": 2315,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
 		"charged_moves": ['Dazzling Gleam', 'Hyper Beam', 'Solar Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/421.png"
 	},
 	"Shellos": {
 		"number": 422,
@@ -4155,7 +4155,7 @@ pokemon = {
 		"max_cp": 1284,
 		"fast_moves": ['Mud-Slap', 'Hidden Power'],
 		"charged_moves": ['Water Pulse', 'Mud Bomb', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/422.png"
 	},
 	"Gastrodon": {
 		"number": 423,
@@ -4164,7 +4164,7 @@ pokemon = {
 		"max_cp": 2628,
 		"fast_moves": ['Mud-Slap', 'Hidden Power'],
 		"charged_moves": ['Water Pulse', 'Earth Power', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/423.png"
 	},
 	"Ambipom": {
 		"number": 424,
@@ -4173,7 +4173,7 @@ pokemon = {
 		"max_cp": 2733,
 		"fast_moves": ['Scratch', 'Astonish'],
 		"charged_moves": ['Low Sweep', 'Hyper Beam', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/424.png"
 	},
 	"Drifloon": {
 		"number": 425,
@@ -4182,7 +4182,7 @@ pokemon = {
 		"max_cp": 1353,
 		"fast_moves": ['Hex', 'Astonish'],
 		"charged_moves": ['Ominous Wind', 'Icy Wind', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/425.png"
 	},
 	"Drifblim": {
 		"number": 426,
@@ -4191,7 +4191,7 @@ pokemon = {
 		"max_cp": 2693,
 		"fast_moves": ['Hex', 'Astonish'],
 		"charged_moves": ['Ominous Wind', 'Icy Wind', 'Shadow Ball', 'Mystical Fire'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/426.png"
 	},
 	"Buneary": {
 		"number": 427,
@@ -4200,7 +4200,7 @@ pokemon = {
 		"max_cp": 1423,
 		"fast_moves": ['Pound', 'Quick Attack'],
 		"charged_moves": ['Fire Punch', 'Swift'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/427.png"
 	},
 	"Lopunny": {
 		"number": 428,
@@ -4209,7 +4209,7 @@ pokemon = {
 		"max_cp": 2328,
 		"fast_moves": ['Pound', 'Low Kick', 'Double Kick'],
 		"charged_moves": ['Fire Punch', 'Hyper Beam', 'Focus Blast', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/428.png"
 	},
 	"Mismagius": {
 		"number": 429,
@@ -4218,7 +4218,7 @@ pokemon = {
 		"max_cp": 2957,
 		"fast_moves": ['Sucker Punch', 'Hex', 'Magical Leaf', 'Psywave'],
 		"charged_moves": ['Shadow Ball', 'Dark Pulse', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/429.png"
 	},
 	"Honchkrow": {
 		"number": 430,
@@ -4227,7 +4227,7 @@ pokemon = {
 		"max_cp": 3065,
 		"fast_moves": ['Peck', 'Snarl'],
 		"charged_moves": ['Brave Bird', 'Psychic', 'Dark Pulse', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/430.png"
 	},
 	"Glameow": {
 		"number": 431,
@@ -4236,7 +4236,7 @@ pokemon = {
 		"max_cp": 1056,
 		"fast_moves": ['Scratch', 'Quick Attack'],
 		"charged_moves": ['Play Rough', 'Thunderbolt', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/431.png"
 	},
 	"Purugly": {
 		"number": 432,
@@ -4245,7 +4245,7 @@ pokemon = {
 		"max_cp": 2208,
 		"fast_moves": ['Scratch', 'Shadow Claw'],
 		"charged_moves": ['Play Rough', 'Thunder', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/432.png"
 	},
 	"Chingling": {
 		"number": 433,
@@ -4254,7 +4254,7 @@ pokemon = {
 		"max_cp": 1137,
 		"fast_moves": ['Zen Headbutt', 'Astonish'],
 		"charged_moves": ['Wrap', 'Shadow Ball', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/433.png"
 	},
 	"Stunky": {
 		"number": 434,
@@ -4263,7 +4263,7 @@ pokemon = {
 		"max_cp": 1301,
 		"fast_moves": ['Scratch', 'Bite'],
 		"charged_moves": ['Crunch', 'Flamethrower', 'Sludge Bomb', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/434.png"
 	},
 	"Skuntank": {
 		"number": 435,
@@ -4272,7 +4272,7 @@ pokemon = {
 		"max_cp": 2666,
 		"fast_moves": ['Poison Jab', 'Bite'],
 		"charged_moves": ['Crunch', 'Flamethrower', 'Sludge Bomb', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/435.png"
 	},
 	"Bronzor": {
 		"number": 436,
@@ -4281,7 +4281,7 @@ pokemon = {
 		"max_cp": 681,
 		"fast_moves": ['Tackle', 'Confusion'],
 		"charged_moves": ['Gyro Ball', 'Psyshock', 'Heavy Slam', 'Payback'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/436.png"
 	},
 	"Bronzong": {
 		"number": 437,
@@ -4290,7 +4290,7 @@ pokemon = {
 		"max_cp": 2531,
 		"fast_moves": ['Feint Attack', 'Confusion', 'Metal Sound'],
 		"charged_moves": ['Flash Cannon', 'Psychic', 'Heavy Slam', 'Bulldoze', 'Psyshock', 'Payback'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/437.png"
 	},
 	"Bonsly": {
 		"number": 438,
@@ -4299,7 +4299,7 @@ pokemon = {
 		"max_cp": 1472,
 		"fast_moves": ['Rock Throw', 'Counter'],
 		"charged_moves": ['Rock Tomb', 'Earthquake', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/438.png"
 	},
 	"Mime Jr.": {
 		"number": 439,
@@ -4308,7 +4308,7 @@ pokemon = {
 		"max_cp": 1238,
 		"fast_moves": ['Confusion', 'Pound'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/439.png"
 	},
 	"Happiny": {
 		"number": 440,
@@ -4317,7 +4317,7 @@ pokemon = {
 		"max_cp": 419,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
 		"charged_moves": ['Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/440.png"
 	},
 	"Chatot": {
 		"number": 441,
@@ -4326,7 +4326,7 @@ pokemon = {
 		"max_cp": 2025,
 		"fast_moves": ['Peck', 'Steel Wing'],
 		"charged_moves": ['Night Shade', 'Sky Attack', 'Heat Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/441.png"
 	},
 	"Spiritomb": {
 		"number": 442,
@@ -4335,7 +4335,7 @@ pokemon = {
 		"max_cp": 2343,
 		"fast_moves": ['Feint Attack', 'Sucker Punch'],
 		"charged_moves": ['Shadow Sneak', 'Ominous Wind', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/442.png"
 	},
 	"Gible": {
 		"number": 443,
@@ -4344,7 +4344,7 @@ pokemon = {
 		"max_cp": 1258,
 		"fast_moves": ['Take Down', 'Mud Shot'],
 		"charged_moves": ['Dig', 'Twister', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/443.png"
 	},
 	"Gabite": {
 		"number": 444,
@@ -4353,7 +4353,7 @@ pokemon = {
 		"max_cp": 2119,
 		"fast_moves": ['Take Down', 'Mud Shot'],
 		"charged_moves": ['Dig', 'Twister', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/444.png"
 	},
 	"Garchomp": {
 		"number": 445,
@@ -4362,7 +4362,7 @@ pokemon = {
 		"max_cp": 4479,
 		"fast_moves": ['Dragon Tail', 'Mud Shot'],
 		"charged_moves": ['Outrage', 'Earthquake', 'Fire Blast', 'Sand Tomb', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/445.png"
 	},
 	"Munchlax": {
 		"number": 446,
@@ -4371,7 +4371,7 @@ pokemon = {
 		"max_cp": 2139,
 		"fast_moves": ['Tackle', 'Lick'],
 		"charged_moves": ['Gunk Shot', 'Body Slam', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/446.png"
 	},
 	"Riolu": {
 		"number": 447,
@@ -4380,7 +4380,7 @@ pokemon = {
 		"max_cp": 1123,
 		"fast_moves": ['Counter', 'Quick Attack'],
 		"charged_moves": ['Brick Break', 'Low Sweep', 'Cross Chop', 'Blaze Kick'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/447.png"
 	},
 	"Lucario": {
 		"number": 448,
@@ -4389,7 +4389,7 @@ pokemon = {
 		"max_cp": 3056,
 		"fast_moves": ['Counter', 'Bullet Punch'],
 		"charged_moves": ['Flash Cannon', 'Shadow Ball', 'Close Combat', 'Power-Up Punch', 'Aura Sphere', 'Blaze Kick'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/448.png"
 	},
 	"Hippopotas": {
 		"number": 449,
@@ -4398,7 +4398,7 @@ pokemon = {
 		"max_cp": 1535,
 		"fast_moves": ['Tackle', 'Bite', 'Sand Attack'],
 		"charged_moves": ['Dig', 'Rock Tomb', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/449.png"
 	},
 	"Hippowdon": {
 		"number": 450,
@@ -4407,7 +4407,7 @@ pokemon = {
 		"max_cp": 3488,
 		"fast_moves": ['Fire Fang', 'Bite', 'Thunder Fang', 'Ice Fang', 'Sand Attack'],
 		"charged_moves": ['Earthquake', 'Stone Edge', 'Body Slam', 'Earth Power', 'Weather Ball', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/450.png"
 	},
 	"Skorupi": {
 		"number": 451,
@@ -4416,7 +4416,7 @@ pokemon = {
 		"max_cp": 1141,
 		"fast_moves": ['Poison Sting', 'Infestation'],
 		"charged_moves": ['Cross Poison', 'Aqua Tail', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/451.png"
 	},
 	"Drapion": {
 		"number": 452,
@@ -4425,7 +4425,7 @@ pokemon = {
 		"max_cp": 2773,
 		"fast_moves": ['Poison Sting', 'Infestation', 'Bite', 'Ice Fang'],
 		"charged_moves": ['Crunch', 'Aqua Tail', 'Sludge Bomb', 'Fell Stinger'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/452.png"
 	},
 	"Croagunk": {
 		"number": 453,
@@ -4434,7 +4434,7 @@ pokemon = {
 		"max_cp": 1077,
 		"fast_moves": ['Poison Sting', 'Poison Jab', 'Mud Shot'],
 		"charged_moves": ['Brick Break', 'Low Sweep', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/453.png"
 	},
 	"Toxicroak": {
 		"number": 454,
@@ -4443,7 +4443,7 @@ pokemon = {
 		"max_cp": 2813,
 		"fast_moves": ['Poison Jab', 'Counter', 'Mud Shot'],
 		"charged_moves": ['Dynamic Punch', 'Mud Bomb', 'Sludge Bomb', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/454.png"
 	},
 	"Carnivine": {
 		"number": 455,
@@ -4452,7 +4452,7 @@ pokemon = {
 		"max_cp": 2441,
 		"fast_moves": ['Bite', 'Vine Whip'],
 		"charged_moves": ['Power Whip', 'Energy Ball', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/455.png"
 	},
 	"Finneon": {
 		"number": 456,
@@ -4461,7 +4461,7 @@ pokemon = {
 		"max_cp": 1098,
 		"fast_moves": ['Pound', 'Water Gun'],
 		"charged_moves": ['Water Pulse', 'Ice Beam', 'Silver Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/456.png"
 	},
 	"Lumineon": {
 		"number": 457,
@@ -4470,7 +4470,7 @@ pokemon = {
 		"max_cp": 2050,
 		"fast_moves": ['Waterfall', 'Water Gun'],
 		"charged_moves": ['Water Pulse', 'Blizzard', 'Silver Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/457.png"
 	},
 	"Mantyke": {
 		"number": 458,
@@ -4479,7 +4479,7 @@ pokemon = {
 		"max_cp": 1411,
 		"fast_moves": ['Bubble', 'Tackle'],
 		"charged_moves": ['Water Pulse', 'Ice Beam', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/458.png"
 	},
 	"Snover": {
 		"number": 459,
@@ -4488,7 +4488,7 @@ pokemon = {
 		"max_cp": 1311,
 		"fast_moves": ['Powder Snow', 'Ice Shard', 'Leafage'],
 		"charged_moves": ['Ice Beam', 'Energy Ball', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/459.png"
 	},
 	"Abomasnow": {
 		"number": 460,
@@ -4497,7 +4497,7 @@ pokemon = {
 		"max_cp": 2670,
 		"fast_moves": ['Powder Snow', 'Razor Leaf', 'Leafage'],
 		"charged_moves": ['Blizzard', 'Energy Ball', 'Outrage', 'Weather Ball', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/460.png"
 	},
 	"Weavile": {
 		"number": 461,
@@ -4506,7 +4506,7 @@ pokemon = {
 		"max_cp": 3397,
 		"fast_moves": ['Ice Shard', 'Feint Attack', 'Snarl'],
 		"charged_moves": ['Avalanche', 'Focus Blast', 'Foul Play', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/461.png"
 	},
 	"Magnezone": {
 		"number": 462,
@@ -4515,7 +4515,7 @@ pokemon = {
 		"max_cp": 3623,
 		"fast_moves": ['Spark', 'Charge Beam', 'Volt Switch', 'Metal Sound'],
 		"charged_moves": ['Zap Cannon', 'Wild Charge', 'Flash Cannon', 'Mirror Shot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/462.png"
 	},
 	"Lickilicky": {
 		"number": 463,
@@ -4524,7 +4524,7 @@ pokemon = {
 		"max_cp": 2789,
 		"fast_moves": ['Lick', 'Zen Headbutt'],
 		"charged_moves": ['Hyper Beam', 'Earthquake', 'Solar Beam', 'Shadow Ball', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/463.png"
 	},
 	"Rhyperior": {
 		"number": 464,
@@ -4533,7 +4533,7 @@ pokemon = {
 		"max_cp": 4221,
 		"fast_moves": ['Mud-Slap', 'Smack Down'],
 		"charged_moves": ['Surf', 'Earthquake', 'Stone Edge', 'Skull Bash', 'Superpower', 'Breaking Swipe', 'Rock Wrecker'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/464.png"
 	},
 	"Tangrowth": {
 		"number": 465,
@@ -4542,7 +4542,7 @@ pokemon = {
 		"max_cp": 3425,
 		"fast_moves": ['Vine Whip', 'Infestation'],
 		"charged_moves": ['Ancient Power', 'Sludge Bomb', 'Solar Beam', 'Power Whip', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/465.png"
 	},
 	"Electivire": {
 		"number": 466,
@@ -4551,7 +4551,7 @@ pokemon = {
 		"max_cp": 3481,
 		"fast_moves": ['Thunder Shock', 'Low Kick'],
 		"charged_moves": ['Thunder Punch', 'Wild Charge', 'Thunder', 'Ice Punch', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/466.png"
 	},
 	"Magmortar": {
 		"number": 467,
@@ -4560,7 +4560,7 @@ pokemon = {
 		"max_cp": 3541,
 		"fast_moves": ['Fire Spin', 'Karate Chop'],
 		"charged_moves": ['Brick Break', 'Fire Punch', 'Fire Blast', 'Psychic', 'Scorching Sands', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/467.png"
 	},
 	"Togekiss": {
 		"number": 468,
@@ -4569,7 +4569,7 @@ pokemon = {
 		"max_cp": 3767,
 		"fast_moves": ['Air Slash', 'Hidden Power', 'Charm'],
 		"charged_moves": ['Ancient Power', 'Dazzling Gleam', 'Aerial Ace', 'Flamethrower', 'Aura Sphere'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/468.png"
 	},
 	"Yanmega": {
 		"number": 469,
@@ -4578,7 +4578,7 @@ pokemon = {
 		"max_cp": 3330,
 		"fast_moves": ['Bug Bite', 'Wing Attack'],
 		"charged_moves": ['Ancient Power', 'Aerial Ace', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/469.png"
 	},
 	"Leafeon": {
 		"number": 470,
@@ -4587,7 +4587,7 @@ pokemon = {
 		"max_cp": 3328,
 		"fast_moves": ['Razor Leaf', 'Quick Attack', 'Bullet Seed'],
 		"charged_moves": ['Solar Beam', 'Leaf Blade', 'Energy Ball', 'Last Resort'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/470.png"
 	},
 	"Glaceon": {
 		"number": 471,
@@ -4596,7 +4596,7 @@ pokemon = {
 		"max_cp": 3535,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
 		"charged_moves": ['Avalanche', 'Icy Wind', 'Ice Beam', 'Last Resort', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/471.png"
 	},
 	"Gliscor": {
 		"number": 472,
@@ -4605,7 +4605,7 @@ pokemon = {
 		"max_cp": 3043,
 		"fast_moves": ['Fury Cutter', 'Wing Attack'],
 		"charged_moves": ['Earthquake', 'Aerial Ace', 'Night Slash', 'Sand Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/472.png"
 	},
 	"Mamoswine": {
 		"number": 473,
@@ -4614,7 +4614,7 @@ pokemon = {
 		"max_cp": 3763,
 		"fast_moves": ['Mud-Slap', 'Powder Snow'],
 		"charged_moves": ['Avalanche', 'Bulldoze', 'Stone Edge', 'High Horsepower', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/473.png"
 	},
 	"Porygon-Z": {
 		"number": 474,
@@ -4623,7 +4623,7 @@ pokemon = {
 		"max_cp": 3693,
 		"fast_moves": ['Hidden Power', 'Charge Beam', 'Lock-On'],
 		"charged_moves": ['Solar Beam', 'Hyper Beam', 'Zap Cannon', 'Blizzard', 'Tri Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/474.png"
 	},
 	"Gallade": {
 		"number": 475,
@@ -4632,7 +4632,7 @@ pokemon = {
 		"max_cp": 3497,
 		"fast_moves": ['Confusion', 'Low Kick', 'Charm', 'Psycho Cut'],
 		"charged_moves": ['Close Combat', 'Psychic', 'Leaf Blade', 'Synchronoise'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/475.png"
 	},
 	"Probopass": {
 		"number": 476,
@@ -4641,7 +4641,7 @@ pokemon = {
 		"max_cp": 2351,
 		"fast_moves": ['Rock Throw', 'Spark'],
 		"charged_moves": ['Magnet Bomb', 'Rock Slide', 'Thunderbolt', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/476.png"
 	},
 	"Dusknoir": {
 		"number": 477,
@@ -4650,7 +4650,7 @@ pokemon = {
 		"max_cp": 2700,
 		"fast_moves": ['Hex', 'Astonish'],
 		"charged_moves": ['Ominous Wind', 'Psychic', 'Dark Pulse', 'Poltergeist', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/477.png"
 	},
 	"Froslass": {
 		"number": 478,
@@ -4659,7 +4659,7 @@ pokemon = {
 		"max_cp": 2306,
 		"fast_moves": ['Powder Snow', 'Hex'],
 		"charged_moves": ['Avalanche', 'Crunch', 'Shadow Ball', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/478.png"
 	},
 	"Rotom": {
 		"number": 479,
@@ -4668,7 +4668,7 @@ pokemon = {
 		"max_cp": 2296,
 		"fast_moves": ['Astonish', 'Thunder Shock'],
 		"charged_moves": ['Ominous Wind', 'Thunderbolt', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/479.png"
 	},
 	"Uxie": {
 		"number": 480,
@@ -4677,7 +4677,7 @@ pokemon = {
 		"max_cp": 2853,
 		"fast_moves": ['Confusion', 'Extrasensory'],
 		"charged_moves": ['Future Sight', 'Swift', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/480.png"
 	},
 	"Mesprit": {
 		"number": 481,
@@ -4686,7 +4686,7 @@ pokemon = {
 		"max_cp": 3457,
 		"fast_moves": ['Confusion', 'Extrasensory'],
 		"charged_moves": ['Future Sight', 'Swift', 'Blizzard'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/481.png"
 	},
 	"Azelf": {
 		"number": 482,
@@ -4695,7 +4695,7 @@ pokemon = {
 		"max_cp": 3629,
 		"fast_moves": ['Confusion', 'Extrasensory'],
 		"charged_moves": ['Future Sight', 'Swift', 'Fire Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/482.png"
 	},
 	"Dialga": {
 		"number": 483,
@@ -4704,7 +4704,7 @@ pokemon = {
 		"max_cp": 4565,
 		"fast_moves": ['Dragon Breath', 'Metal Claw'],
 		"charged_moves": ['Draco Meteor', 'Iron Head', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/483.png"
 	},
 	"Palkia": {
 		"number": 484,
@@ -4713,7 +4713,7 @@ pokemon = {
 		"max_cp": 4512,
 		"fast_moves": ['Dragon Breath', 'Dragon Tail'],
 		"charged_moves": ['Draco Meteor', 'Fire Blast', 'Hydro Pump', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/484.png"
 	},
 	"Heatran": {
 		"number": 485,
@@ -4722,7 +4722,7 @@ pokemon = {
 		"max_cp": 4244,
 		"fast_moves": ['Fire Spin', 'Bug Bite'],
 		"charged_moves": ['Fire Blast', 'Iron Head', 'Stone Edge', 'Flamethrower', 'Earth Power', 'Magma Storm'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/485.png"
 	},
 	"Regigigas": {
 		"number": 486,
@@ -4731,7 +4731,7 @@ pokemon = {
 		"max_cp": 4913,
 		"fast_moves": ['Zen Headbutt', 'Hidden Power'],
 		"charged_moves": ['Giga Impact', 'Focus Blast', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/486.png"
 	},
 	"Giratina": {
 		"number": 487,
@@ -4740,7 +4740,7 @@ pokemon = {
 		"max_cp": 3820,
 		"fast_moves": ['Dragon Breath', 'Shadow Claw'],
 		"charged_moves": ['Dragon Claw', 'Ancient Power', 'Shadow Sneak', 'Shadow Force'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/487.png"
 	},
 	"Cresselia": {
 		"number": 488,
@@ -4749,7 +4749,7 @@ pokemon = {
 		"max_cp": 3230,
 		"fast_moves": ['Psycho Cut', 'Confusion'],
 		"charged_moves": ['Aurora Beam', 'Moonblast', 'Future Sight', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/488.png"
 	},
 	"Phione": {
 		"number": 489,
@@ -4758,7 +4758,7 @@ pokemon = {
 		"max_cp": 2380,
 		"fast_moves": ['Waterfall', 'Bubble'],
 		"charged_moves": ['Bubble Beam', 'Water Pulse', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/489.png"
 	},
 	"Manaphy": {
 		"number": 490,
@@ -4767,7 +4767,7 @@ pokemon = {
 		"max_cp": 3691,
 		"fast_moves": ['Waterfall', 'Bubble'],
 		"charged_moves": ['Bubble Beam', 'Psychic', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/490.png"
 	},
 	"Darkrai": {
 		"number": 491,
@@ -4776,7 +4776,7 @@ pokemon = {
 		"max_cp": 4227,
 		"fast_moves": ['Snarl', 'Feint Attack'],
 		"charged_moves": ['Focus Blast', 'Shadow Ball', 'Dark Pulse', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/491.png"
 	},
 	"Shaymin": {
 		"number": 492,
@@ -4785,7 +4785,7 @@ pokemon = {
 		"max_cp": 3691,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
 		"charged_moves": ['Energy Ball', 'Grass Knot', 'Solar Beam', 'Seed Flare'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/492.png"
 	},
 	"Arceus": {
 		"number": 493,
@@ -4794,7 +4794,7 @@ pokemon = {
 		"max_cp": 4510,
 		"fast_moves": ['Iron Tail', 'Shadow Claw'],
 		"charged_moves": ['Future Sight', 'Hyper Beam', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/493.png"
 	},
 	"Victini": {
 		"number": 494,
@@ -4803,7 +4803,7 @@ pokemon = {
 		"max_cp": 3691,
 		"fast_moves": ['Confusion', 'Quick Attack'],
 		"charged_moves": ['Overheat', 'Focus Blast', 'Psychic', 'V-create'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/494.png"
 	},
 	"Snivy": {
 		"number": 495,
@@ -4812,7 +4812,7 @@ pokemon = {
 		"max_cp": 960,
 		"fast_moves": ['Tackle', 'Vine Whip'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb', 'Wrap'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/495.png"
 	},
 	"Servine": {
 		"number": 496,
@@ -4821,7 +4821,7 @@ pokemon = {
 		"max_cp": 1629,
 		"fast_moves": ['Iron Tail', 'Vine Whip'],
 		"charged_moves": ['Grass Knot', 'Leaf Tornado', 'Wrap'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/496.png"
 	},
 	"Serperior": {
 		"number": 497,
@@ -4830,7 +4830,7 @@ pokemon = {
 		"max_cp": 2574,
 		"fast_moves": ['Iron Tail', 'Vine Whip'],
 		"charged_moves": ['Grass Knot', 'Leaf Tornado', 'Aerial Ace', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/497.png"
 	},
 	"Tepig": {
 		"number": 498,
@@ -4839,7 +4839,7 @@ pokemon = {
 		"max_cp": 1224,
 		"fast_moves": ['Tackle', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/498.png"
 	},
 	"Pignite": {
 		"number": 499,
@@ -4848,7 +4848,7 @@ pokemon = {
 		"max_cp": 2175,
 		"fast_moves": ['Tackle', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/499.png"
 	},
 	"Emboar": {
 		"number": 500,
@@ -4857,7 +4857,7 @@ pokemon = {
 		"max_cp": 3372,
 		"fast_moves": ['Low Kick', 'Ember'],
 		"charged_moves": ['Heat Wave', 'Rock Slide', 'Focus Blast', 'Flame Charge', 'Blast Burn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/500.png"
 	},
 	"Oshawott": {
 		"number": 501,
@@ -4866,7 +4866,7 @@ pokemon = {
 		"max_cp": 1182,
 		"fast_moves": ['Tackle', 'Water Gun'],
 		"charged_moves": ['Aqua Tail', 'Water Pulse', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/501.png"
 	},
 	"Dewott": {
 		"number": 502,
@@ -4875,7 +4875,7 @@ pokemon = {
 		"max_cp": 1968,
 		"fast_moves": ['Fury Cutter', 'Water Gun'],
 		"charged_moves": ['Aqua Tail', 'Water Pulse', 'X-Scissor'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/502.png"
 	},
 	"Samurott": {
 		"number": 503,
@@ -4884,7 +4884,7 @@ pokemon = {
 		"max_cp": 3194,
 		"fast_moves": ['Fury Cutter', 'Waterfall'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Megahorn', 'Razor Shell', 'Liquidation', 'Hydro Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/503.png"
 	},
 	"Samurott": {
 		"number": 503,
@@ -4902,7 +4902,7 @@ pokemon = {
 		"max_cp": 895,
 		"fast_moves": ['Tackle', 'Bite'],
 		"charged_moves": ['Dig', 'Hyper Fang', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/504.png"
 	},
 	"Watchog": {
 		"number": 505,
@@ -4911,7 +4911,7 @@ pokemon = {
 		"max_cp": 2056,
 		"fast_moves": ['Low Kick', 'Bite'],
 		"charged_moves": ['Crunch', 'Hyper Fang', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/505.png"
 	},
 	"Lillipup": {
 		"number": 506,
@@ -4920,7 +4920,7 @@ pokemon = {
 		"max_cp": 1035,
 		"fast_moves": ['Tackle', 'Take Down', 'Sand Attack'],
 		"charged_moves": ['Thunderbolt', 'Rock Tomb', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/506.png"
 	},
 	"Herdier": {
 		"number": 507,
@@ -4929,7 +4929,7 @@ pokemon = {
 		"max_cp": 1789,
 		"fast_moves": ['Lick', 'Take Down', 'Sand Attack'],
 		"charged_moves": ['Thunderbolt', 'Play Rough', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/507.png"
 	},
 	"Stoutland": {
 		"number": 508,
@@ -4938,7 +4938,7 @@ pokemon = {
 		"max_cp": 3196,
 		"fast_moves": ['Lick', 'Take Down', 'Ice Fang', 'Sand Attack'],
 		"charged_moves": ['Wild Charge', 'Play Rough', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/508.png"
 	},
 	"Purrloin": {
 		"number": 509,
@@ -4947,7 +4947,7 @@ pokemon = {
 		"max_cp": 872,
 		"fast_moves": ['Scratch', 'Sucker Punch'],
 		"charged_moves": ['Night Slash', 'Play Rough', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/509.png"
 	},
 	"Liepard": {
 		"number": 510,
@@ -4956,7 +4956,7 @@ pokemon = {
 		"max_cp": 2087,
 		"fast_moves": ['Charm', 'Snarl'],
 		"charged_moves": ['Gunk Shot', 'Play Rough', 'Dark Pulse', 'Payback'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/510.png"
 	},
 	"Pansage": {
 		"number": 511,
@@ -4965,7 +4965,7 @@ pokemon = {
 		"max_cp": 1081,
 		"fast_moves": ['Scratch', 'Vine Whip'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/511.png"
 	},
 	"Simisage": {
 		"number": 512,
@@ -4974,7 +4974,7 @@ pokemon = {
 		"max_cp": 2657,
 		"fast_moves": ['Bite', 'Vine Whip'],
 		"charged_moves": ['Solar Beam', 'Grass Knot', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/512.png"
 	},
 	"Pansear": {
 		"number": 513,
@@ -4983,7 +4983,7 @@ pokemon = {
 		"max_cp": 1081,
 		"fast_moves": ['Scratch', 'Fire Spin'],
 		"charged_moves": ['Flame Burst', 'Flame Charge', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/513.png"
 	},
 	"Simisear": {
 		"number": 514,
@@ -4992,7 +4992,7 @@ pokemon = {
 		"max_cp": 2657,
 		"fast_moves": ['Bite', 'Fire Spin'],
 		"charged_moves": ['Flamethrower', 'Fire Blast', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/514.png"
 	},
 	"Panpour": {
 		"number": 515,
@@ -5001,7 +5001,7 @@ pokemon = {
 		"max_cp": 1081,
 		"fast_moves": ['Scratch', 'Water Gun'],
 		"charged_moves": ['Surf', 'Water Pulse', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/515.png"
 	},
 	"Simipour": {
 		"number": 516,
@@ -5010,7 +5010,7 @@ pokemon = {
 		"max_cp": 2657,
 		"fast_moves": ['Bite', 'Water Gun'],
 		"charged_moves": ['Surf', 'Hydro Pump', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/516.png"
 	},
 	"Munna": {
 		"number": 517,
@@ -5019,7 +5019,7 @@ pokemon = {
 		"max_cp": 1294,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
 		"charged_moves": ['Psybeam', 'Dazzling Gleam', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/517.png"
 	},
 	"Musharna": {
 		"number": 518,
@@ -5028,7 +5028,7 @@ pokemon = {
 		"max_cp": 3079,
 		"fast_moves": ['Zen Headbutt', 'Charge Beam'],
 		"charged_moves": ['Future Sight', 'Dazzling Gleam', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/518.png"
 	},
 	"Pidove": {
 		"number": 519,
@@ -5037,7 +5037,7 @@ pokemon = {
 		"max_cp": 958,
 		"fast_moves": ['Quick Attack', 'Air Slash'],
 		"charged_moves": ['Heat Wave', 'Aerial Ace', 'Air Cutter'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/519.png"
 	},
 	"Tranquill": {
 		"number": 520,
@@ -5046,7 +5046,7 @@ pokemon = {
 		"max_cp": 1631,
 		"fast_moves": ['Air Slash', 'Steel Wing'],
 		"charged_moves": ['Heat Wave', 'Aerial Ace', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/520.png"
 	},
 	"Unfezant": {
 		"number": 521,
@@ -5055,7 +5055,7 @@ pokemon = {
 		"max_cp": 3091,
 		"fast_moves": ['Air Slash', 'Steel Wing'],
 		"charged_moves": ['Heat Wave', 'Hyper Beam', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/521.png"
 	},
 	"Blitzle": {
 		"number": 522,
@@ -5064,7 +5064,7 @@ pokemon = {
 		"max_cp": 998,
 		"fast_moves": ['Quick Attack', 'Spark'],
 		"charged_moves": ['Flame Charge', 'Discharge', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/522.png"
 	},
 	"Zebstrika": {
 		"number": 523,
@@ -5073,7 +5073,7 @@ pokemon = {
 		"max_cp": 2745,
 		"fast_moves": ['Low Kick', 'Spark'],
 		"charged_moves": ['Flame Charge', 'Discharge', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/523.png"
 	},
 	"Roggenrola": {
 		"number": 524,
@@ -5082,7 +5082,7 @@ pokemon = {
 		"max_cp": 1362,
 		"fast_moves": ['Tackle', 'Smack Down'],
 		"charged_moves": ['Bulldoze', 'Rock Blast', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/524.png"
 	},
 	"Boldore": {
 		"number": 525,
@@ -5091,7 +5091,7 @@ pokemon = {
 		"max_cp": 2293,
 		"fast_moves": ['Mud-Slap', 'Smack Down'],
 		"charged_moves": ['Rock Slide', 'Bulldoze', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/525.png"
 	},
 	"Gigalith": {
 		"number": 526,
@@ -5100,7 +5100,7 @@ pokemon = {
 		"max_cp": 3650,
 		"fast_moves": ['Mud-Slap', 'Smack Down'],
 		"charged_moves": ['Rock Slide', 'Solar Beam', 'Superpower', 'Heavy Slam', 'Meteor Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/526.png"
 	},
 	"Woobat": {
 		"number": 527,
@@ -5109,7 +5109,7 @@ pokemon = {
 		"max_cp": 1149,
 		"fast_moves": ['Confusion', 'Air Slash'],
 		"charged_moves": ['Air Cutter', 'Aerial Ace', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/527.png"
 	},
 	"Swoobat": {
 		"number": 528,
@@ -5118,7 +5118,7 @@ pokemon = {
 		"max_cp": 1940,
 		"fast_moves": ['Confusion', 'Air Slash'],
 		"charged_moves": ['Psychic', 'Aerial Ace', 'Future Sight', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/528.png"
 	},
 	"Drilbur": {
 		"number": 529,
@@ -5127,7 +5127,7 @@ pokemon = {
 		"max_cp": 1555,
 		"fast_moves": ['Scratch', 'Mud-Slap'],
 		"charged_moves": ['Rock Tomb', 'Dig', 'Drill Run'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/529.png"
 	},
 	"Excadrill": {
 		"number": 530,
@@ -5136,7 +5136,7 @@ pokemon = {
 		"max_cp": 3667,
 		"fast_moves": ['Metal Claw', 'Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Rock Slide', 'Earthquake', 'Drill Run', 'Iron Head', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/530.png"
 	},
 	"Audino": {
 		"number": 531,
@@ -5145,7 +5145,7 @@ pokemon = {
 		"max_cp": 1902,
 		"fast_moves": ['Pound', 'Zen Headbutt'],
 		"charged_moves": ['Disarming Voice', 'Dazzling Gleam', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/531.png"
 	},
 	"Timburr": {
 		"number": 532,
@@ -5154,7 +5154,7 @@ pokemon = {
 		"max_cp": 1487,
 		"fast_moves": ['Low Kick', 'Pound'],
 		"charged_moves": ['Low Sweep', 'Brick Break', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/532.png"
 	},
 	"Gurdurr": {
 		"number": 533,
@@ -5163,7 +5163,7 @@ pokemon = {
 		"max_cp": 2452,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
 		"charged_moves": ['Low Sweep', 'Brick Break', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/533.png"
 	},
 	"Conkeldurr": {
 		"number": 534,
@@ -5172,7 +5172,7 @@ pokemon = {
 		"max_cp": 3773,
 		"fast_moves": ['Counter', 'Poison Jab'],
 		"charged_moves": ['Dynamic Punch', 'Focus Blast', 'Stone Edge', 'Brutal Swing'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/534.png"
 	},
 	"Tympole": {
 		"number": 535,
@@ -5181,7 +5181,7 @@ pokemon = {
 		"max_cp": 948,
 		"fast_moves": ['Mud Shot', 'Bubble'],
 		"charged_moves": ['Water Pulse', 'Mud Bomb', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/535.png"
 	},
 	"Palpitoad": {
 		"number": 536,
@@ -5190,7 +5190,7 @@ pokemon = {
 		"max_cp": 1574,
 		"fast_moves": ['Mud Shot', 'Bubble'],
 		"charged_moves": ['Water Pulse', 'Earth Power', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/536.png"
 	},
 	"Seismitoad": {
 		"number": 537,
@@ -5199,7 +5199,7 @@ pokemon = {
 		"max_cp": 2899,
 		"fast_moves": ['Mud Shot', 'Bubble'],
 		"charged_moves": ['Muddy Water', 'Earth Power', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/537.png"
 	},
 	"Throh": {
 		"number": 538,
@@ -5208,7 +5208,7 @@ pokemon = {
 		"max_cp": 2896,
 		"fast_moves": ['Low Kick', 'Zen Headbutt'],
 		"charged_moves": ['Focus Blast', 'Low Sweep', 'Body Slam', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/538.png"
 	},
 	"Sawk": {
 		"number": 539,
@@ -5217,7 +5217,7 @@ pokemon = {
 		"max_cp": 3152,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
 		"charged_moves": ['Focus Blast', 'Low Sweep', 'Body Slam', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/539.png"
 	},
 	"Sewaddle": {
 		"number": 540,
@@ -5226,7 +5226,7 @@ pokemon = {
 		"max_cp": 1105,
 		"fast_moves": ['Struggle Bug', 'Bug Bite'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb', 'Silver Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/540.png"
 	},
 	"Swadloon": {
 		"number": 541,
@@ -5235,7 +5235,7 @@ pokemon = {
 		"max_cp": 1549,
 		"fast_moves": ['Struggle Bug', 'Bug Bite'],
 		"charged_moves": ['Energy Ball', 'Bug Buzz', 'Silver Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/541.png"
 	},
 	"Leavanny": {
 		"number": 542,
@@ -5244,7 +5244,7 @@ pokemon = {
 		"max_cp": 2917,
 		"fast_moves": ['Razor Leaf', 'Bug Bite'],
 		"charged_moves": ['Leaf Blade', 'X-Scissor', 'Silver Wind', 'Leaf Storm'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/542.png"
 	},
 	"Venipede": {
 		"number": 543,
@@ -5253,7 +5253,7 @@ pokemon = {
 		"max_cp": 799,
 		"fast_moves": ['Bug Bite', 'Poison Sting'],
 		"charged_moves": ['Signal Beam', 'Sludge Bomb', 'Gyro Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/543.png"
 	},
 	"Whirlipede": {
 		"number": 544,
@@ -5262,7 +5262,7 @@ pokemon = {
 		"max_cp": 1293,
 		"fast_moves": ['Bug Bite', 'Poison Sting'],
 		"charged_moves": ['Signal Beam', 'Sludge Bomb', 'Gyro Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/544.png"
 	},
 	"Scolipede": {
 		"number": 545,
@@ -5271,7 +5271,7 @@ pokemon = {
 		"max_cp": 2766,
 		"fast_moves": ['Bug Bite', 'Poison Jab'],
 		"charged_moves": ['Megahorn', 'Sludge Bomb', 'Gyro Ball', 'X-Scissor'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/545.png"
 	},
 	"Cottonee": {
 		"number": 546,
@@ -5280,7 +5280,7 @@ pokemon = {
 		"max_cp": 791,
 		"fast_moves": ['Charm', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/546.png"
 	},
 	"Whimsicott": {
 		"number": 547,
@@ -5289,7 +5289,7 @@ pokemon = {
 		"max_cp": 2277,
 		"fast_moves": ['Charm', 'Razor Leaf', 'Fairy Wind'],
 		"charged_moves": ['Grass Knot', 'Hurricane', 'Moonblast', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/547.png"
 	},
 	"Petilil": {
 		"number": 548,
@@ -5298,7 +5298,7 @@ pokemon = {
 		"max_cp": 1164,
 		"fast_moves": ['Charm', 'Hidden Power'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/548.png"
 	},
 	"Lilligant": {
 		"number": 549,
@@ -5307,7 +5307,7 @@ pokemon = {
 		"max_cp": 2883,
 		"fast_moves": ['Charm', 'Hidden Power', 'Magical Leaf'],
 		"charged_moves": ['Petal Blizzard', 'Hyper Beam', 'Solar Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/549.png"
 	},
 	"Basculin": {
 		"number": 550,
@@ -5316,7 +5316,7 @@ pokemon = {
 		"max_cp": 2363,
 		"fast_moves": ['Tackle', 'Water Gun'],
 		"charged_moves": ['Aqua Jet', 'Aqua Tail', 'Muddy Water'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/550.png"
 	},
 	"Sandile": {
 		"number": 551,
@@ -5325,7 +5325,7 @@ pokemon = {
 		"max_cp": 1172,
 		"fast_moves": ['Bite', 'Mud-Slap'],
 		"charged_moves": ['Dig', 'Crunch', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/551.png"
 	},
 	"Krokorok": {
 		"number": 552,
@@ -5334,7 +5334,7 @@ pokemon = {
 		"max_cp": 1603,
 		"fast_moves": ['Bite', 'Mud-Slap'],
 		"charged_moves": ['Earthquake', 'Crunch', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/552.png"
 	},
 	"Krookodile": {
 		"number": 553,
@@ -5343,7 +5343,7 @@ pokemon = {
 		"max_cp": 3444,
 		"fast_moves": ['Snarl', 'Mud-Slap'],
 		"charged_moves": ['Earthquake', 'Crunch', 'Outrage', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/553.png"
 	},
 	"Darumaka": {
 		"number": 554,
@@ -5352,7 +5352,7 @@ pokemon = {
 		"max_cp": 1630,
 		"fast_moves": ['Tackle', 'Fire Fang'],
 		"charged_moves": ['Fire Punch', 'Flame Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/554.png"
 	},
 	"Galarian Darumaka": {
 		"number": 554,
@@ -5370,7 +5370,7 @@ pokemon = {
 		"max_cp": 3511,
 		"fast_moves": ['Tackle', 'Fire Fang', 'Incinerate'],
 		"charged_moves": ['Overheat', 'Focus Blast', 'Psychic', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/555.png"
 	},
 	"Darmanitan": {
 		"number": 555,
@@ -5397,7 +5397,7 @@ pokemon = {
 		"max_cp": 2571,
 		"fast_moves": ['Bullet Seed', 'Poison Jab'],
 		"charged_moves": ['Aerial Ace', 'Petal Blizzard', 'Solar Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/556.png"
 	},
 	"Dwebble": {
 		"number": 557,
@@ -5406,7 +5406,7 @@ pokemon = {
 		"max_cp": 1384,
 		"fast_moves": ['Cut', 'Smack Down'],
 		"charged_moves": ['Rock Blast', 'X-Scissor', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/557.png"
 	},
 	"Crustle": {
 		"number": 558,
@@ -5415,7 +5415,7 @@ pokemon = {
 		"max_cp": 2874,
 		"fast_moves": ['Fury Cutter', 'Smack Down'],
 		"charged_moves": ['Rock Blast', 'X-Scissor', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/558.png"
 	},
 	"Scraggy": {
 		"number": 559,
@@ -5424,7 +5424,7 @@ pokemon = {
 		"max_cp": 1551,
 		"fast_moves": ['Rock Smash', 'Feint Attack'],
 		"charged_moves": ['Acid Spray', 'Brick Break', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/559.png"
 	},
 	"Scrafty": {
 		"number": 560,
@@ -5433,7 +5433,7 @@ pokemon = {
 		"max_cp": 2581,
 		"fast_moves": ['Counter', 'Snarl'],
 		"charged_moves": ['Acid Spray', 'Power-Up Punch', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/560.png"
 	},
 	"Sigilyph": {
 		"number": 561,
@@ -5442,7 +5442,7 @@ pokemon = {
 		"max_cp": 2883,
 		"fast_moves": ['Air Slash', 'Zen Headbutt'],
 		"charged_moves": ['Air Cutter', 'Psybeam', 'Ancient Power', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/561.png"
 	},
 	"Yamask": {
 		"number": 562,
@@ -5451,7 +5451,7 @@ pokemon = {
 		"max_cp": 1110,
 		"fast_moves": ['Astonish', 'Zen Headbutt'],
 		"charged_moves": ['Shadow Ball', 'Dark Pulse', 'Ominous Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/562.png"
 	},
 	"Galarian Yamask": {
 		"number": 562,
@@ -5469,7 +5469,7 @@ pokemon = {
 		"max_cp": 2570,
 		"fast_moves": ['Astonish', 'Zen Headbutt', 'Shadow Claw'],
 		"charged_moves": ['Shadow Ball', 'Dark Pulse', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/563.png"
 	},
 	"Tirtouga": {
 		"number": 564,
@@ -5478,7 +5478,7 @@ pokemon = {
 		"max_cp": 1683,
 		"fast_moves": ['Water Gun', 'Bite'],
 		"charged_moves": ['Surf', 'Ancient Power', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/564.png"
 	},
 	"Carracosta": {
 		"number": 565,
@@ -5487,7 +5487,7 @@ pokemon = {
 		"max_cp": 2964,
 		"fast_moves": ['Water Gun', 'Rock Throw'],
 		"charged_moves": ['Surf', 'Ancient Power', 'Body Slam', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/565.png"
 	},
 	"Archen": {
 		"number": 566,
@@ -5496,7 +5496,7 @@ pokemon = {
 		"max_cp": 2083,
 		"fast_moves": ['Quick Attack', 'Wing Attack'],
 		"charged_moves": ['Dragon Claw', 'Ancient Power', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/566.png"
 	},
 	"Archeops": {
 		"number": 567,
@@ -5505,7 +5505,7 @@ pokemon = {
 		"max_cp": 3766,
 		"fast_moves": ['Steel Wing', 'Wing Attack'],
 		"charged_moves": ['Dragon Claw', 'Ancient Power', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/567.png"
 	},
 	"Trubbish": {
 		"number": 568,
@@ -5514,7 +5514,7 @@ pokemon = {
 		"max_cp": 1131,
 		"fast_moves": ['Pound', 'Take Down'],
 		"charged_moves": ['Gunk Shot', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/568.png"
 	},
 	"Garbodor": {
 		"number": 569,
@@ -5523,7 +5523,7 @@ pokemon = {
 		"max_cp": 2651,
 		"fast_moves": ['Infestation', 'Take Down'],
 		"charged_moves": ['Acid Spray', 'Seed Bomb', 'Gunk Shot', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/569.png"
 	},
 	"Zorua": {
 		"number": 570,
@@ -5532,7 +5532,7 @@ pokemon = {
 		"max_cp": 1329,
 		"fast_moves": ['Scratch', 'Feint Attack'],
 		"charged_moves": ['Foul Play', 'Aerial Ace', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/570.png"
 	},
 	"Zoroark": {
 		"number": 571,
@@ -5541,7 +5541,7 @@ pokemon = {
 		"max_cp": 2907,
 		"fast_moves": ['Shadow Claw', 'Snarl'],
 		"charged_moves": ['Foul Play', 'Sludge Bomb', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/571.png"
 	},
 	"Minccino": {
 		"number": 572,
@@ -5550,7 +5550,7 @@ pokemon = {
 		"max_cp": 986,
 		"fast_moves": ['Pound', 'Charm'],
 		"charged_moves": ['Swift', 'Thunderbolt', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/572.png"
 	},
 	"Cinccino": {
 		"number": 573,
@@ -5559,7 +5559,7 @@ pokemon = {
 		"max_cp": 2535,
 		"fast_moves": ['Pound', 'Charm'],
 		"charged_moves": ['Hyper Beam', 'Thunderbolt', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/573.png"
 	},
 	"Gothita": {
 		"number": 574,
@@ -5568,7 +5568,7 @@ pokemon = {
 		"max_cp": 1075,
 		"fast_moves": ['Pound', 'Confusion'],
 		"charged_moves": ['Psybeam', 'Psyshock', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/574.png"
 	},
 	"Gothorita": {
 		"number": 575,
@@ -5577,7 +5577,7 @@ pokemon = {
 		"max_cp": 1813,
 		"fast_moves": ['Pound', 'Confusion'],
 		"charged_moves": ['Psybeam', 'Future Sight', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/575.png"
 	},
 	"Gothitelle": {
 		"number": 576,
@@ -5586,7 +5586,7 @@ pokemon = {
 		"max_cp": 2735,
 		"fast_moves": ['Charm', 'Confusion'],
 		"charged_moves": ['Rock Slide', 'Future Sight', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/576.png"
 	},
 	"Solosis": {
 		"number": 577,
@@ -5595,7 +5595,7 @@ pokemon = {
 		"max_cp": 1546,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
 		"charged_moves": ['Psyshock', 'Night Shade', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/577.png"
 	},
 	"Duosion": {
 		"number": 578,
@@ -5604,7 +5604,7 @@ pokemon = {
 		"max_cp": 2282,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
 		"charged_moves": ['Psyshock', 'Night Shade', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/578.png"
 	},
 	"Reuniclus": {
 		"number": 579,
@@ -5613,7 +5613,7 @@ pokemon = {
 		"max_cp": 3309,
 		"fast_moves": ['Hidden Power', 'Zen Headbutt'],
 		"charged_moves": ['Future Sight', 'Shadow Ball', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/579.png"
 	},
 	"Ducklett": {
 		"number": 580,
@@ -5622,7 +5622,7 @@ pokemon = {
 		"max_cp": 968,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
 		"charged_moves": ['Aerial Ace', 'Bubble Beam', 'Brave Bird'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/580.png"
 	},
 	"Swanna": {
 		"number": 581,
@@ -5631,7 +5631,7 @@ pokemon = {
 		"max_cp": 2361,
 		"fast_moves": ['Water Gun', 'Air Slash'],
 		"charged_moves": ['Ice Beam', 'Bubble Beam', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/581.png"
 	},
 	"Vanillite": {
 		"number": 582,
@@ -5640,7 +5640,7 @@ pokemon = {
 		"max_cp": 1168,
 		"fast_moves": ['Powder Snow', 'Astonish'],
 		"charged_moves": ['Icy Wind', 'Ice Beam', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/582.png"
 	},
 	"Vanillish": {
 		"number": 583,
@@ -5649,7 +5649,7 @@ pokemon = {
 		"max_cp": 1799,
 		"fast_moves": ['Frost Breath', 'Astonish'],
 		"charged_moves": ['Icy Wind', 'Ice Beam', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/583.png"
 	},
 	"Vanilluxe": {
 		"number": 584,
@@ -5658,7 +5658,7 @@ pokemon = {
 		"max_cp": 3190,
 		"fast_moves": ['Frost Breath', 'Astonish'],
 		"charged_moves": ['Blizzard', 'Flash Cannon', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/584.png"
 	},
 	"Deerling": {
 		"number": 585,
@@ -5667,7 +5667,7 @@ pokemon = {
 		"max_cp": 1283,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Energy Ball', 'Seed Bomb', 'Wild Charge', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/585.png"
 	},
 	"Sawsbuck": {
 		"number": 586,
@@ -5676,7 +5676,7 @@ pokemon = {
 		"max_cp": 2732,
 		"fast_moves": ['Feint Attack', 'Take Down'],
 		"charged_moves": ['Megahorn', 'Solar Beam', 'Wild Charge', 'Hyper Beam', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/586.png"
 	},
 	"Emolga": {
 		"number": 587,
@@ -5685,7 +5685,7 @@ pokemon = {
 		"max_cp": 1847,
 		"fast_moves": ['Thunder Shock', 'Quick Attack'],
 		"charged_moves": ['Discharge', 'Aerial Ace', 'Thunderbolt', 'Acrobatics'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/587.png"
 	},
 	"Karrablast": {
 		"number": 588,
@@ -5694,7 +5694,7 @@ pokemon = {
 		"max_cp": 1336,
 		"fast_moves": ['Peck', 'Fury Cutter'],
 		"charged_moves": ['Signal Beam', 'X-Scissor', 'Drill Run', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/588.png"
 	},
 	"Escavalier": {
 		"number": 589,
@@ -5703,7 +5703,7 @@ pokemon = {
 		"max_cp": 3266,
 		"fast_moves": ['Counter', 'Bug Bite'],
 		"charged_moves": ['Megahorn', 'Acid Spray', 'Drill Run', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/589.png"
 	},
 	"Foongus": {
 		"number": 590,
@@ -5712,7 +5712,7 @@ pokemon = {
 		"max_cp": 1107,
 		"fast_moves": ['Astonish', 'Feint Attack'],
 		"charged_moves": ['Energy Ball', 'Body Slam', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/590.png"
 	},
 	"Amoonguss": {
 		"number": 591,
@@ -5721,7 +5721,7 @@ pokemon = {
 		"max_cp": 2420,
 		"fast_moves": ['Astonish', 'Feint Attack'],
 		"charged_moves": ['Foul Play', 'Sludge Bomb', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/591.png"
 	},
 	"Frillish": {
 		"number": 592,
@@ -5730,7 +5730,7 @@ pokemon = {
 		"max_cp": 1421,
 		"fast_moves": ['Bubble', 'Hex'],
 		"charged_moves": ['Night Shade', 'Ice Beam', 'Ominous Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/592.png"
 	},
 	"Jellicent": {
 		"number": 593,
@@ -5739,7 +5739,7 @@ pokemon = {
 		"max_cp": 2644,
 		"fast_moves": ['Bubble', 'Hex'],
 		"charged_moves": ['Shadow Ball', 'Ice Beam', 'Bubble Beam', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/593.png"
 	},
 	"Alomomola": {
 		"number": 594,
@@ -5748,7 +5748,7 @@ pokemon = {
 		"max_cp": 2452,
 		"fast_moves": ['Waterfall', 'Hidden Power'],
 		"charged_moves": ['Hydro Pump', 'Blizzard', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/594.png"
 	},
 	"Joltik": {
 		"number": 595,
@@ -5757,7 +5757,7 @@ pokemon = {
 		"max_cp": 1156,
 		"fast_moves": ['Charge Beam', 'Sucker Punch'],
 		"charged_moves": ['Cross Poison', 'Bug Buzz', 'Discharge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/595.png"
 	},
 	"Galvantula": {
 		"number": 596,
@@ -5766,7 +5766,7 @@ pokemon = {
 		"max_cp": 2494,
 		"fast_moves": ['Volt Switch', 'Fury Cutter'],
 		"charged_moves": ['Cross Poison', 'Bug Buzz', 'Discharge', 'Energy Ball', 'Lunge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/596.png"
 	},
 	"Ferroseed": {
 		"number": 597,
@@ -5775,7 +5775,7 @@ pokemon = {
 		"max_cp": 1064,
 		"fast_moves": ['Tackle', 'Metal Claw'],
 		"charged_moves": ['Gyro Ball', 'Flash Cannon', 'Iron Head'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/597.png"
 	},
 	"Ferrothorn": {
 		"number": 598,
@@ -5784,7 +5784,7 @@ pokemon = {
 		"max_cp": 2624,
 		"fast_moves": ['Bullet Seed', 'Metal Claw'],
 		"charged_moves": ['Power Whip', 'Flash Cannon', 'Acid Spray', 'Thunder', 'Mirror Shot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/598.png"
 	},
 	"Klink": {
 		"number": 599,
@@ -5793,7 +5793,7 @@ pokemon = {
 		"max_cp": 1081,
 		"fast_moves": ['Volt Switch', 'Charge Beam', 'Metal Sound'],
 		"charged_moves": ['Vise Grip', 'Discharge', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/599.png"
 	},
 	"Klang": {
 		"number": 600,
@@ -5802,7 +5802,7 @@ pokemon = {
 		"max_cp": 2088,
 		"fast_moves": ['Thunder Shock', 'Charge Beam', 'Metal Sound'],
 		"charged_moves": ['Vise Grip', 'Thunderbolt', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/600.png"
 	},
 	"Klinklang": {
 		"number": 601,
@@ -5811,7 +5811,7 @@ pokemon = {
 		"max_cp": 2981,
 		"fast_moves": ['Thunder Shock', 'Charge Beam', 'Metal Sound'],
 		"charged_moves": ['Hyper Beam', 'Flash Cannon', 'Zap Cannon', 'Mirror Shot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/601.png"
 	},
 	"Tynamo": {
 		"number": 602,
@@ -5820,7 +5820,7 @@ pokemon = {
 		"max_cp": 917,
 		"fast_moves": ['Tackle', 'Spark'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/602.png"
 	},
 	"Eelektrik": {
 		"number": 603,
@@ -5829,7 +5829,7 @@ pokemon = {
 		"max_cp": 1939,
 		"fast_moves": ['Acid', 'Spark'],
 		"charged_moves": ['Crunch', 'Thunderbolt', 'Discharge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/603.png"
 	},
 	"Eelektross": {
 		"number": 604,
@@ -5838,7 +5838,7 @@ pokemon = {
 		"max_cp": 3089,
 		"fast_moves": ['Acid', 'Spark'],
 		"charged_moves": ['Crunch', 'Thunderbolt', 'Acid Spray', 'Dragon Claw', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/604.png"
 	},
 	"Elgyem": {
 		"number": 605,
@@ -5847,7 +5847,7 @@ pokemon = {
 		"max_cp": 1566,
 		"fast_moves": ['Confusion', 'Astonish'],
 		"charged_moves": ['Psybeam', 'Dark Pulse', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/605.png"
 	},
 	"Beheeyem": {
 		"number": 606,
@@ -5856,7 +5856,7 @@ pokemon = {
 		"max_cp": 3112,
 		"fast_moves": ['Confusion', 'Astonish'],
 		"charged_moves": ['Rock Slide', 'Dark Pulse', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/606.png"
 	},
 	"Litwick": {
 		"number": 607,
@@ -5865,7 +5865,7 @@ pokemon = {
 		"max_cp": 1138,
 		"fast_moves": ['Astonish', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flame Burst', 'Heat Wave', 'Mystical Fire'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/607.png"
 	},
 	"Lampent": {
 		"number": 608,
@@ -5874,7 +5874,7 @@ pokemon = {
 		"max_cp": 1931,
 		"fast_moves": ['Astonish', 'Ember'],
 		"charged_moves": ['Energy Ball', 'Flame Burst', 'Heat Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/608.png"
 	},
 	"Chandelure": {
 		"number": 609,
@@ -5883,7 +5883,7 @@ pokemon = {
 		"max_cp": 3695,
 		"fast_moves": ['Hex', 'Fire Spin', 'Incinerate'],
 		"charged_moves": ['Energy Ball', 'Shadow Ball', 'Overheat', 'Flame Charge', 'Poltergeist'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/609.png"
 	},
 	"Axew": {
 		"number": 610,
@@ -5892,7 +5892,7 @@ pokemon = {
 		"max_cp": 1547,
 		"fast_moves": ['Scratch', 'Iron Tail'],
 		"charged_moves": ['Dragon Claw', 'Aqua Tail', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/610.png"
 	},
 	"Fraxure": {
 		"number": 611,
@@ -5901,7 +5901,7 @@ pokemon = {
 		"max_cp": 2526,
 		"fast_moves": ['Dragon Tail', 'Iron Tail'],
 		"charged_moves": ['Dragon Claw', 'Aqua Tail', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/611.png"
 	},
 	"Haxorus": {
 		"number": 612,
@@ -5910,7 +5910,7 @@ pokemon = {
 		"max_cp": 4062,
 		"fast_moves": ['Dragon Tail', 'Counter'],
 		"charged_moves": ['Dragon Claw', 'Surf', 'Night Slash', 'Earthquake', 'Breaking Swipe'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/612.png"
 	},
 	"Cubchoo": {
 		"number": 613,
@@ -5919,7 +5919,7 @@ pokemon = {
 		"max_cp": 1208,
 		"fast_moves": ['Powder Snow', 'Charm'],
 		"charged_moves": ['Ice Punch', 'Icy Wind', 'Play Rough'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/613.png"
 	},
 	"Beartic": {
 		"number": 614,
@@ -5928,7 +5928,7 @@ pokemon = {
 		"max_cp": 3439,
 		"fast_moves": ['Powder Snow', 'Charm'],
 		"charged_moves": ['Ice Punch', 'Surf', 'Play Rough', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/614.png"
 	},
 	"Cryogonal": {
 		"number": 615,
@@ -5937,7 +5937,7 @@ pokemon = {
 		"max_cp": 3163,
 		"fast_moves": ['Ice Shard', 'Frost Breath'],
 		"charged_moves": ['Aurora Beam', 'Night Slash', 'Solar Beam', 'Water Pulse', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/615.png"
 	},
 	"Shelmet": {
 		"number": 616,
@@ -5946,7 +5946,7 @@ pokemon = {
 		"max_cp": 942,
 		"fast_moves": ['Acid', 'Infestation'],
 		"charged_moves": ['Bug Buzz', 'Body Slam', 'Signal Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/616.png"
 	},
 	"Accelgor": {
 		"number": 617,
@@ -5955,7 +5955,7 @@ pokemon = {
 		"max_cp": 2760,
 		"fast_moves": ['Acid', 'Infestation', 'Water Shuriken'],
 		"charged_moves": ['Bug Buzz', 'Acid Spray', 'Signal Beam', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/617.png"
 	},
 	"Stunfisk": {
 		"number": 618,
@@ -5964,7 +5964,7 @@ pokemon = {
 		"max_cp": 2445,
 		"fast_moves": ['Thunder Shock', 'Mud Shot'],
 		"charged_moves": ['Mud Bomb', 'Discharge', 'Muddy Water'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/618.png"
 	},
 	"Galarian Stunfisk": {
 		"number": 618,
@@ -5982,7 +5982,7 @@ pokemon = {
 		"max_cp": 1570,
 		"fast_moves": ['Low Kick', 'Pound'],
 		"charged_moves": ['Brick Break', 'Low Sweep', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/619.png"
 	},
 	"Mienshao": {
 		"number": 620,
@@ -5991,7 +5991,7 @@ pokemon = {
 		"max_cp": 3064,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
 		"charged_moves": ['Brick Break', 'Grass Knot', 'Stone Edge', 'Blaze Kick'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/620.png"
 	},
 	"Druddigon": {
 		"number": 621,
@@ -6000,7 +6000,7 @@ pokemon = {
 		"max_cp": 3088,
 		"fast_moves": ['Dragon Tail', 'Bite'],
 		"charged_moves": ['Dragon Claw', 'Night Slash', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/621.png"
 	},
 	"Golett": {
 		"number": 622,
@@ -6009,7 +6009,7 @@ pokemon = {
 		"max_cp": 1344,
 		"fast_moves": ['Astonish', 'Mud-Slap'],
 		"charged_moves": ['Shadow Punch', 'Brick Break', 'Night Shade'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/622.png"
 	},
 	"Golurk": {
 		"number": 623,
@@ -6018,7 +6018,7 @@ pokemon = {
 		"max_cp": 3226,
 		"fast_moves": ['Astonish', 'Mud-Slap'],
 		"charged_moves": ['Shadow Punch', 'Dynamic Punch', 'Earth Power', 'Poltergeist'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/623.png"
 	},
 	"Pawniard": {
 		"number": 624,
@@ -6027,7 +6027,7 @@ pokemon = {
 		"max_cp": 1620,
 		"fast_moves": ['Scratch', 'Fury Cutter'],
 		"charged_moves": ['Night Slash', 'Iron Head', 'X-Scissor'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/624.png"
 	},
 	"Bisharp": {
 		"number": 625,
@@ -6036,7 +6036,7 @@ pokemon = {
 		"max_cp": 3215,
 		"fast_moves": ['Snarl', 'Metal Claw'],
 		"charged_moves": ['Dark Pulse', 'Iron Head', 'X-Scissor', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/625.png"
 	},
 	"Bouffalant": {
 		"number": 626,
@@ -6045,7 +6045,7 @@ pokemon = {
 		"max_cp": 3163,
 		"fast_moves": ['Zen Headbutt', 'Mud Shot'],
 		"charged_moves": ['Megahorn', 'Stomp', 'Skull Bash', 'Earthquake'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/626.png"
 	},
 	"Rufflet": {
 		"number": 627,
@@ -6054,7 +6054,7 @@ pokemon = {
 		"max_cp": 1686,
 		"fast_moves": ['Peck', 'Wing Attack'],
 		"charged_moves": ['Aerial Ace', 'Brave Bird', 'Rock Tomb', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/627.png"
 	},
 	"Braviary": {
 		"number": 628,
@@ -6063,7 +6063,7 @@ pokemon = {
 		"max_cp": 3491,
 		"fast_moves": ['Steel Wing', 'Air Slash'],
 		"charged_moves": ['Heat Wave', 'Brave Bird', 'Rock Slide', 'Close Combat', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/628.png"
 	},
 	"Braviary": {
 		"number": 628,
@@ -6081,7 +6081,7 @@ pokemon = {
 		"max_cp": 1437,
 		"fast_moves": ['Feint Attack', 'Air Slash'],
 		"charged_moves": ['Dark Pulse', 'Brave Bird', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/629.png"
 	},
 	"Mandibuzz": {
 		"number": 630,
@@ -6090,7 +6090,7 @@ pokemon = {
 		"max_cp": 2417,
 		"fast_moves": ['Snarl', 'Air Slash'],
 		"charged_moves": ['Dark Pulse', 'Aerial Ace', 'Foul Play', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/630.png"
 	},
 	"Heatmor": {
 		"number": 631,
@@ -6099,7 +6099,7 @@ pokemon = {
 		"max_cp": 2708,
 		"fast_moves": ['Lick', 'Fire Spin'],
 		"charged_moves": ['Flamethrower', 'Thunder Punch', 'Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/631.png"
 	},
 	"Durant": {
 		"number": 632,
@@ -6108,7 +6108,7 @@ pokemon = {
 		"max_cp": 3007,
 		"fast_moves": ['Bug Bite', 'Metal Claw'],
 		"charged_moves": ['X-Scissor', 'Iron Head', 'Stone Edge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/632.png"
 	},
 	"Deino": {
 		"number": 633,
@@ -6117,7 +6117,7 @@ pokemon = {
 		"max_cp": 1200,
 		"fast_moves": ['Tackle', 'Dragon Breath'],
 		"charged_moves": ['Dragon Pulse', 'Crunch', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/633.png"
 	},
 	"Zweilous": {
 		"number": 634,
@@ -6126,7 +6126,7 @@ pokemon = {
 		"max_cp": 2079,
 		"fast_moves": ['Bite', 'Dragon Breath'],
 		"charged_moves": ['Dragon Pulse', 'Dark Pulse', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/634.png"
 	},
 	"Hydreigon": {
 		"number": 635,
@@ -6135,7 +6135,7 @@ pokemon = {
 		"max_cp": 4098,
 		"fast_moves": ['Bite', 'Dragon Breath'],
 		"charged_moves": ['Dragon Pulse', 'Dark Pulse', 'Flash Cannon', 'Brutal Swing'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/635.png"
 	},
 	"Larvesta": {
 		"number": 636,
@@ -6144,7 +6144,7 @@ pokemon = {
 		"max_cp": 1692,
 		"fast_moves": ['Ember', 'Bug Bite'],
 		"charged_moves": ['Flame Charge', 'Bug Buzz', 'Flame Wheel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/636.png"
 	},
 	"Volcarona": {
 		"number": 637,
@@ -6153,7 +6153,7 @@ pokemon = {
 		"max_cp": 4106,
 		"fast_moves": ['Fire Spin', 'Bug Bite'],
 		"charged_moves": ['Overheat', 'Bug Buzz', 'Solar Beam', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/637.png"
 	},
 	"Cobalion": {
 		"number": 638,
@@ -6162,7 +6162,7 @@ pokemon = {
 		"max_cp": 3417,
 		"fast_moves": ['Metal Claw', 'Zen Headbutt', 'Double Kick'],
 		"charged_moves": ['Close Combat', 'Iron Head', 'Stone Edge', 'Sacred Sword'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/638.png"
 	},
 	"Terrakion": {
 		"number": 639,
@@ -6171,7 +6171,7 @@ pokemon = {
 		"max_cp": 4181,
 		"fast_moves": ['Smack Down', 'Zen Headbutt', 'Double Kick'],
 		"charged_moves": ['Close Combat', 'Earthquake', 'Rock Slide', 'Sacred Sword'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/639.png"
 	},
 	"Virizion": {
 		"number": 640,
@@ -6180,7 +6180,7 @@ pokemon = {
 		"max_cp": 3417,
 		"fast_moves": ['Quick Attack', 'Zen Headbutt', 'Double Kick'],
 		"charged_moves": ['Close Combat', 'Leaf Blade', 'Stone Edge', 'Sacred Sword'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/640.png"
 	},
 	"Tornadus": {
 		"number": 641,
@@ -6189,7 +6189,7 @@ pokemon = {
 		"max_cp": 3782,
 		"fast_moves": ['Bite', 'Air Slash'],
 		"charged_moves": ['Grass Knot', 'Dark Pulse', 'Hyper Beam', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/641.png"
 	},
 	"Thundurus": {
 		"number": 642,
@@ -6198,7 +6198,7 @@ pokemon = {
 		"max_cp": 3782,
 		"fast_moves": ['Astonish', 'Thunder Shock'],
 		"charged_moves": ['Crunch', 'Thunder', 'Brick Break', 'Thunder Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/642.png"
 	},
 	"Reshiram": {
 		"number": 643,
@@ -6207,7 +6207,7 @@ pokemon = {
 		"max_cp": 4565,
 		"fast_moves": ['Dragon Breath', 'Fire Fang'],
 		"charged_moves": ['Crunch', 'Overheat', 'Draco Meteor', 'Stone Edge', 'Fusion Flare'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/643.png"
 	},
 	"Zekrom": {
 		"number": 644,
@@ -6216,7 +6216,7 @@ pokemon = {
 		"max_cp": 4565,
 		"fast_moves": ['Dragon Breath', 'Charge Beam'],
 		"charged_moves": ['Outrage', 'Wild Charge', 'Flash Cannon', 'Crunch', 'Fusion Bolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/644.png"
 	},
 	"Landorus": {
 		"number": 645,
@@ -6225,7 +6225,7 @@ pokemon = {
 		"max_cp": 4057,
 		"fast_moves": ['Mud Shot', 'Rock Throw'],
 		"charged_moves": ['Earth Power', 'Outrage', 'Rock Slide', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/645.png"
 	},
 	"Kyurem": {
 		"number": 646,
@@ -6234,7 +6234,7 @@ pokemon = {
 		"max_cp": 4041,
 		"fast_moves": ['Dragon Breath', 'Steel Wing'],
 		"charged_moves": ['Dragon Claw', 'Blizzard', 'Draco Meteor', 'Glaciate'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/646.png"
 	},
 	"Keldeo": {
 		"number": 647,
@@ -6243,7 +6243,7 @@ pokemon = {
 		"max_cp": 4181,
 		"fast_moves": ['Poison Jab', 'Low Kick'],
 		"charged_moves": ['Aqua Jet', 'Close Combat', 'Hydro Pump', 'X-Scissor', 'Sacred Sword'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/647.png"
 	},
 	"Meloetta": {
 		"number": 648,
@@ -6252,7 +6252,7 @@ pokemon = {
 		"max_cp": 4490,
 		"fast_moves": ['Quick Attack', 'Low Kick'],
 		"charged_moves": ['Close Combat', 'Fire Punch', 'Ice Punch', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/648.png"
 	},
 	"Genesect": {
 		"number": 649,
@@ -6261,7 +6261,7 @@ pokemon = {
 		"max_cp": 3791,
 		"fast_moves": ['Metal Claw', 'Fury Cutter'],
 		"charged_moves": ['X-Scissor', 'Magnet Bomb', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/649.png"
 	},
 	"Chespin": {
 		"number": 650,
@@ -6270,7 +6270,7 @@ pokemon = {
 		"max_cp": 1239,
 		"fast_moves": ['Take Down', 'Vine Whip'],
 		"charged_moves": ['Gyro Ball', 'Seed Bomb', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/650.png"
 	},
 	"Quilladin": {
 		"number": 651,
@@ -6279,7 +6279,7 @@ pokemon = {
 		"max_cp": 1943,
 		"fast_moves": ['Low Kick', 'Vine Whip'],
 		"charged_moves": ['Gyro Ball', 'Energy Ball', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/651.png"
 	},
 	"Chesnaught": {
 		"number": 652,
@@ -6288,7 +6288,7 @@ pokemon = {
 		"max_cp": 3340,
 		"fast_moves": ['Low Kick', 'Vine Whip', 'Smack Down'],
 		"charged_moves": ['Gyro Ball', 'Energy Ball', 'Superpower', 'Solar Beam', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/652.png"
 	},
 	"Fennekin": {
 		"number": 653,
@@ -6297,7 +6297,7 @@ pokemon = {
 		"max_cp": 1162,
 		"fast_moves": ['Scratch', 'Ember'],
 		"charged_moves": ['Psyshock', 'Flamethrower', 'Flame Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/653.png"
 	},
 	"Braixen": {
 		"number": 654,
@@ -6306,7 +6306,7 @@ pokemon = {
 		"max_cp": 2049,
 		"fast_moves": ['Scratch', 'Ember'],
 		"charged_moves": ['Psyshock', 'Flamethrower', 'Flame Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/654.png"
 	},
 	"Delphox": {
 		"number": 655,
@@ -6315,7 +6315,7 @@ pokemon = {
 		"max_cp": 3459,
 		"fast_moves": ['Scratch', 'Fire Spin', 'Zen Headbutt'],
 		"charged_moves": ['Psychic', 'Flamethrower', 'Flame Charge', 'Fire Blast', 'Mystical Fire', 'Blast Burn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/655.png"
 	},
 	"Froakie": {
 		"number": 656,
@@ -6324,7 +6324,7 @@ pokemon = {
 		"max_cp": 1122,
 		"fast_moves": ['Pound', 'Bubble'],
 		"charged_moves": ['Water Pulse', 'Aerial Ace', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/656.png"
 	},
 	"Frogadier": {
 		"number": 657,
@@ -6333,7 +6333,7 @@ pokemon = {
 		"max_cp": 1850,
 		"fast_moves": ['Pound', 'Bubble'],
 		"charged_moves": ['Water Pulse', 'Aerial Ace', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/657.png"
 	},
 	"Greninja": {
 		"number": 658,
@@ -6342,7 +6342,7 @@ pokemon = {
 		"max_cp": 3001,
 		"fast_moves": ['Feint Attack', 'Bubble', 'Water Shuriken'],
 		"charged_moves": ['Night Slash', 'Aerial Ace', 'Surf', 'Hydro Pump', 'Hydro Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/658.png"
 	},
 	"Bunnelby": {
 		"number": 659,
@@ -6351,7 +6351,7 @@ pokemon = {
 		"max_cp": 625,
 		"fast_moves": ['Mud-Slap', 'Quick Attack'],
 		"charged_moves": ['Dig', 'Bulldoze', 'Earthquake'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/659.png"
 	},
 	"Diggersby": {
 		"number": 660,
@@ -6360,7 +6360,7 @@ pokemon = {
 		"max_cp": 1706,
 		"fast_moves": ['Mud Shot', 'Quick Attack'],
 		"charged_moves": ['Dig', 'Hyper Beam', 'Earthquake', 'Fire Punch', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/660.png"
 	},
 	"Fletchling": {
 		"number": 661,
@@ -6369,7 +6369,7 @@ pokemon = {
 		"max_cp": 905,
 		"fast_moves": ['Peck', 'Quick Attack'],
 		"charged_moves": ['Aerial Ace', 'Heat Wave', 'Swift', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/661.png"
 	},
 	"Fletchinder": {
 		"number": 662,
@@ -6378,7 +6378,7 @@ pokemon = {
 		"max_cp": 1661,
 		"fast_moves": ['Peck', 'Ember', 'Steel Wing'],
 		"charged_moves": ['Aerial Ace', 'Heat Wave', 'Flame Charge', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/662.png"
 	},
 	"Talonflame": {
 		"number": 663,
@@ -6387,7 +6387,7 @@ pokemon = {
 		"max_cp": 2493,
 		"fast_moves": ['Peck', 'Fire Spin', 'Steel Wing', 'Incinerate'],
 		"charged_moves": ['Brave Bird', 'Fire Blast', 'Flame Charge', 'Hurricane', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/663.png"
 	},
 	"Scatterbug": {
 		"number": 664,
@@ -6396,7 +6396,7 @@ pokemon = {
 		"max_cp": 556,
 		"fast_moves": ['Bug Bite', 'Tackle'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/664.png"
 	},
 	"Spewpa": {
 		"number": 665,
@@ -6405,7 +6405,7 @@ pokemon = {
 		"max_cp": 542,
 		"fast_moves": ['Struggle Bug'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/665.png"
 	},
 	"Vivillon": {
 		"number": 666,
@@ -6414,7 +6414,7 @@ pokemon = {
 		"max_cp": 2097,
 		"fast_moves": ['Gust', 'Struggle Bug'],
 		"charged_moves": ['Bug Buzz', 'Aerial Ace', 'Energy Ball', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/666.png"
 	},
 	"Litleo": {
 		"number": 667,
@@ -6423,7 +6423,7 @@ pokemon = {
 		"max_cp": 1611,
 		"fast_moves": ['Fire Fang', 'Tackle', 'Ember', 'Incinerate'],
 		"charged_moves": ['Flame Charge', 'Flamethrower', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/667.png"
 	},
 	"Pyroar": {
 		"number": 668,
@@ -6432,7 +6432,7 @@ pokemon = {
 		"max_cp": 3129,
 		"fast_moves": ['Fire Fang', 'Take Down', 'Ember', 'Incinerate'],
 		"charged_moves": ['Flame Charge', 'Solar Beam', 'Dark Pulse', 'Overheat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/668.png"
 	},
 	"Flabébé": {
 		"number": 669,
@@ -6441,7 +6441,7 @@ pokemon = {
 		"max_cp": 1202,
 		"fast_moves": ['Vine Whip', 'Tackle'],
 		"charged_moves": ['Dazzling Gleam', 'Petal Blizzard', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/669.png"
 	},
 	"Floette": {
 		"number": 670,
@@ -6450,7 +6450,7 @@ pokemon = {
 		"max_cp": 1732,
 		"fast_moves": ['Vine Whip', 'Tackle'],
 		"charged_moves": ['Dazzling Gleam', 'Petal Blizzard', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/670.png"
 	},
 	"Florges": {
 		"number": 671,
@@ -6459,7 +6459,7 @@ pokemon = {
 		"max_cp": 3657,
 		"fast_moves": ['Vine Whip', 'Tackle', 'Razor Leaf', 'Fairy Wind'],
 		"charged_moves": ['Moonblast', 'Petal Blizzard', 'Psychic', 'Disarming Voice'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/671.png"
 	},
 	"Skiddo": {
 		"number": 672,
@@ -6468,7 +6468,7 @@ pokemon = {
 		"max_cp": 1414,
 		"fast_moves": ['Zen Headbutt', 'Rock Smash'],
 		"charged_moves": ['Brick Break', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/672.png"
 	},
 	"Gogoat": {
 		"number": 673,
@@ -6477,7 +6477,7 @@ pokemon = {
 		"max_cp": 3163,
 		"fast_moves": ['Zen Headbutt', 'Rock Smash', 'Vine Whip'],
 		"charged_moves": ['Brick Break', 'Leaf Blade', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/673.png"
 	},
 	"Pancham": {
 		"number": 674,
@@ -6486,7 +6486,7 @@ pokemon = {
 		"max_cp": 1683,
 		"fast_moves": ['Low Kick', 'Tackle'],
 		"charged_moves": ['Low Sweep', 'Crunch', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/674.png"
 	},
 	"Pangoro": {
 		"number": 675,
@@ -6495,7 +6495,7 @@ pokemon = {
 		"max_cp": 3281,
 		"fast_moves": ['Low Kick', 'Snarl', 'Bullet Punch'],
 		"charged_moves": ['Close Combat', 'Night Slash', 'Iron Head', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/675.png"
 	},
 	"Furfrou": {
 		"number": 676,
@@ -6504,7 +6504,7 @@ pokemon = {
 		"max_cp": 2387,
 		"fast_moves": ['Take Down', 'Bite', 'Sucker Punch', 'Sand Attack'],
 		"charged_moves": ['Surf', 'Dark Pulse', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/676.png"
 	},
 	"Espurr": {
 		"number": 677,
@@ -6513,7 +6513,7 @@ pokemon = {
 		"max_cp": 1424,
 		"fast_moves": ['Confusion', 'Scratch'],
 		"charged_moves": ['Psyshock', 'Energy Ball', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/677.png"
 	},
 	"Meowstic": {
 		"number": 678,
@@ -6522,7 +6522,7 @@ pokemon = {
 		"max_cp": 2401,
 		"fast_moves": ['Confusion', 'Sucker Punch'],
 		"charged_moves": ['Psychic', 'Energy Ball', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/678.png"
 	},
 	"Spritzee": {
 		"number": 682,
@@ -6531,7 +6531,7 @@ pokemon = {
 		"max_cp": 1415,
 		"fast_moves": ['Charm', 'Charge Beam'],
 		"charged_moves": ['Draining Kiss', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/682.png"
 	},
 	"Aromatisse": {
 		"number": 683,
@@ -6540,7 +6540,7 @@ pokemon = {
 		"max_cp": 2647,
 		"fast_moves": ['Charm', 'Charge Beam'],
 		"charged_moves": ['Moonblast', 'Thunderbolt', 'Psychic', 'Draining Kiss'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/683.png"
 	},
 	"Swirlix": {
 		"number": 684,
@@ -6549,7 +6549,7 @@ pokemon = {
 		"max_cp": 1333,
 		"fast_moves": ['Tackle'],
 		"charged_moves": ['Draining Kiss', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/684.png"
 	},
 	"Slurpuff": {
 		"number": 685,
@@ -6558,7 +6558,7 @@ pokemon = {
 		"max_cp": 2486,
 		"fast_moves": ['Tackle', 'Charm', 'Fairy Wind'],
 		"charged_moves": ['Play Rough', 'Energy Ball', 'Flamethrower', 'Draining Kiss'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/685.png"
 	},
 	"Inkay": {
 		"number": 686,
@@ -6567,7 +6567,7 @@ pokemon = {
 		"max_cp": 1048,
 		"fast_moves": ['Peck', 'Tackle', 'Psywave'],
 		"charged_moves": ['Psybeam', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/686.png"
 	},
 	"Malamar": {
 		"number": 687,
@@ -6576,7 +6576,7 @@ pokemon = {
 		"max_cp": 2667,
 		"fast_moves": ['Peck', 'Psycho Cut', 'Psywave'],
 		"charged_moves": ['Psybeam', 'Foul Play', 'Superpower', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/687.png"
 	},
 	"Binacle": {
 		"number": 688,
@@ -6585,7 +6585,7 @@ pokemon = {
 		"max_cp": 1069,
 		"fast_moves": ['Scratch', 'Mud-Slap'],
 		"charged_moves": ['Ancient Power', 'Cross Chop', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/688.png"
 	},
 	"Barbaracle": {
 		"number": 689,
@@ -6594,7 +6594,7 @@ pokemon = {
 		"max_cp": 3025,
 		"fast_moves": ['Water Gun', 'Mud-Slap', 'Fury Cutter'],
 		"charged_moves": ['Skull Bash', 'Cross Chop', 'Stone Edge', 'Grass Knot', 'Razor Shell'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/689.png"
 	},
 	"Skrelp": {
 		"number": 690,
@@ -6603,7 +6603,7 @@ pokemon = {
 		"max_cp": 1202,
 		"fast_moves": ['Water Gun', 'Acid'],
 		"charged_moves": ['Aqua Tail', 'Water Pulse', 'Twister', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/690.png"
 	},
 	"Dragalge": {
 		"number": 691,
@@ -6612,7 +6612,7 @@ pokemon = {
 		"max_cp": 2694,
 		"fast_moves": ['Water Gun', 'Acid', 'Dragon Tail'],
 		"charged_moves": ['Hydro Pump', 'Aqua Tail', 'Outrage', 'Gunk Shot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/691.png"
 	},
 	"Clauncher": {
 		"number": 692,
@@ -6621,7 +6621,7 @@ pokemon = {
 		"max_cp": 1230,
 		"fast_moves": ['Water Gun', 'Smack Down'],
 		"charged_moves": ['Water Pulse', 'Crabhammer', 'Aqua Jet'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/692.png"
 	},
 	"Clawitzer": {
 		"number": 693,
@@ -6630,7 +6630,7 @@ pokemon = {
 		"max_cp": 3124,
 		"fast_moves": ['Water Gun', 'Smack Down'],
 		"charged_moves": ['Water Pulse', 'Dark Pulse', 'Ice Beam', 'Crabhammer'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/693.png"
 	},
 	"Helioptile": {
 		"number": 694,
@@ -6639,7 +6639,7 @@ pokemon = {
 		"max_cp": 1054,
 		"fast_moves": ['Quick Attack', 'Thunder Shock'],
 		"charged_moves": ['Parabolic Charge', 'Bulldoze', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/694.png"
 	},
 	"Heliolisk": {
 		"number": 695,
@@ -6648,7 +6648,7 @@ pokemon = {
 		"max_cp": 2939,
 		"fast_moves": ['Quick Attack', 'Volt Switch', 'Mud-Slap'],
 		"charged_moves": ['Parabolic Charge', 'Bulldoze', 'Thunderbolt', 'Grass Knot', 'Breaking Swipe'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/695.png"
 	},
 	"Tyrunt": {
 		"number": 696,
@@ -6657,7 +6657,7 @@ pokemon = {
 		"max_cp": 1848,
 		"fast_moves": ['Dragon Tail', 'Tackle'],
 		"charged_moves": ['Stomp', 'Ancient Power', 'Dragon Claw'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/696.png"
 	},
 	"Tyrantrum": {
 		"number": 697,
@@ -6666,7 +6666,7 @@ pokemon = {
 		"max_cp": 3537,
 		"fast_moves": ['Dragon Tail', 'Charm', 'Rock Throw'],
 		"charged_moves": ['Crunch', 'Stone Edge', 'Outrage', 'Earthquake', 'Meteor Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/697.png"
 	},
 	"Amaura": {
 		"number": 698,
@@ -6675,7 +6675,7 @@ pokemon = {
 		"max_cp": 1541,
 		"fast_moves": ['Powder Snow', 'Frost Breath'],
 		"charged_moves": ['Weather Ball', 'Ancient Power', 'Aurora Beam', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/698.png"
 	},
 	"Aurorus": {
 		"number": 699,
@@ -6684,7 +6684,7 @@ pokemon = {
 		"max_cp": 3168,
 		"fast_moves": ['Powder Snow', 'Frost Breath', 'Rock Throw'],
 		"charged_moves": ['Weather Ball', 'Ancient Power', 'Blizzard', 'Thunderbolt', 'Hyper Beam', 'Meteor Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/699.png"
 	},
 	"Sylveon": {
 		"number": 700,
@@ -6693,7 +6693,7 @@ pokemon = {
 		"max_cp": 3470,
 		"fast_moves": ['Charm', 'Quick Attack'],
 		"charged_moves": ['Moonblast', 'Dazzling Gleam', 'Draining Kiss', 'Last Resort', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/700.png"
 	},
 	"Hawlucha": {
 		"number": 701,
@@ -6702,7 +6702,7 @@ pokemon = {
 		"max_cp": 2724,
 		"fast_moves": ['Low Kick', 'Poison Jab'],
 		"charged_moves": ['Flying Press', 'Aerial Ace', 'X-Scissor', 'Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/701.png"
 	},
 	"Dedenne": {
 		"number": 702,
@@ -6711,7 +6711,7 @@ pokemon = {
 		"max_cp": 2081,
 		"fast_moves": ['Tackle', 'Thunder Shock'],
 		"charged_moves": ['Discharge', 'Play Rough', 'Parabolic Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/702.png"
 	},
 	"Carbink": {
 		"number": 703,
@@ -6720,7 +6720,7 @@ pokemon = {
 		"max_cp": 1658,
 		"fast_moves": ['Tackle', 'Rock Throw'],
 		"charged_moves": ['Rock Slide', 'Moonblast', 'Power Gem'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/703.png"
 	},
 	"Goomy": {
 		"number": 704,
@@ -6729,7 +6729,7 @@ pokemon = {
 		"max_cp": 1103,
 		"fast_moves": ['Water Gun', 'Tackle'],
 		"charged_moves": ['Dragon Pulse', 'Sludge Wave', 'Muddy Water'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/704.png"
 	},
 	"Sliggoo": {
 		"number": 705,
@@ -6738,7 +6738,7 @@ pokemon = {
 		"max_cp": 2303,
 		"fast_moves": ['Water Gun', 'Tackle'],
 		"charged_moves": ['Dragon Pulse', 'Sludge Wave', 'Muddy Water', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/705.png"
 	},
 	"Goodra": {
 		"number": 706,
@@ -6747,7 +6747,7 @@ pokemon = {
 		"max_cp": 3963,
 		"fast_moves": ['Water Gun', 'Dragon Breath'],
 		"charged_moves": ['Draco Meteor', 'Sludge Wave', 'Muddy Water', 'Power Whip', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/706.png"
 	},
 	"Klefki": {
 		"number": 707,
@@ -6756,7 +6756,7 @@ pokemon = {
 		"max_cp": 2204,
 		"fast_moves": ['Astonish', 'Tackle'],
 		"charged_moves": ['Flash Cannon', 'Play Rough', 'Draining Kiss', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/707.png"
 	},
 	"Phantump": {
 		"number": 708,
@@ -6765,7 +6765,7 @@ pokemon = {
 		"max_cp": 1270,
 		"fast_moves": ['Astonish', 'Tackle'],
 		"charged_moves": ['Seed Bomb', 'Shadow Ball', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/708.png"
 	},
 	"Trevenant": {
 		"number": 709,
@@ -6774,7 +6774,7 @@ pokemon = {
 		"max_cp": 2893,
 		"fast_moves": ['Shadow Claw', 'Sucker Punch'],
 		"charged_moves": ['Seed Bomb', 'Shadow Ball', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/709.png"
 	},
 	"Pumpkaboo": {
 		"number": 710,
@@ -6783,7 +6783,7 @@ pokemon = {
 		"max_cp": 1359,
 		"fast_moves": ['Astonish', 'Razor Leaf'],
 		"charged_moves": ['Grass Knot', 'Shadow Sneak', 'Foul Play'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/710.png"
 	},
 	"Gourgeist": {
 		"number": 711,
@@ -6792,7 +6792,7 @@ pokemon = {
 		"max_cp": 2549,
 		"fast_moves": ['Hex', 'Razor Leaf'],
 		"charged_moves": ['Seed Bomb', 'Shadow Ball', 'Foul Play', 'Fire Blast', 'Poltergeist'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/711.png"
 	},
 	"Bergmite": {
 		"number": 712,
@@ -6801,7 +6801,7 @@ pokemon = {
 		"max_cp": 1374,
 		"fast_moves": ['Bite', 'Tackle'],
 		"charged_moves": ['Crunch', 'Icy Wind', 'Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/712.png"
 	},
 	"Avalugg": {
 		"number": 713,
@@ -6810,7 +6810,7 @@ pokemon = {
 		"max_cp": 3615,
 		"fast_moves": ['Bite', 'Ice Fang'],
 		"charged_moves": ['Crunch', 'Avalanche', 'Earthquake', 'Body Slam', 'Mirror Coat', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/713.png"
 	},
 	"Avalugg": {
 		"number": 713,
@@ -6828,7 +6828,7 @@ pokemon = {
 		"max_cp": 754,
 		"fast_moves": ['Wing Attack', 'Bite'],
 		"charged_moves": ['Dragon Pulse', 'Air Cutter', 'Heat Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/714.png"
 	},
 	"Noivern": {
 		"number": 715,
@@ -6837,7 +6837,7 @@ pokemon = {
 		"max_cp": 3125,
 		"fast_moves": ['Air Slash', 'Bite'],
 		"charged_moves": ['Draco Meteor', 'Hurricane', 'Heat Wave', 'Psychic', 'Boomburst'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/715.png"
 	},
 	"Xerneas": {
 		"number": 716,
@@ -6846,7 +6846,7 @@ pokemon = {
 		"max_cp": 4275,
 		"fast_moves": ['Tackle', 'Zen Headbutt', 'Geomancy'],
 		"charged_moves": ['Moonblast', 'Megahorn', 'Close Combat', 'Giga Impact', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/716.png"
 	},
 	"Yveltal": {
 		"number": 717,
@@ -6855,7 +6855,7 @@ pokemon = {
 		"max_cp": 4275,
 		"fast_moves": ['Sucker Punch', 'Snarl', 'Gust'],
 		"charged_moves": ['Dark Pulse', 'Hurricane', 'Focus Blast', 'Hyper Beam', 'Psychic', 'Oblivion Wing'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/717.png"
 	},
 	"Zygarde": {
 		"number": 718,
@@ -6864,7 +6864,7 @@ pokemon = {
 		"max_cp": 3855,
 		"fast_moves": ['Dragon Tail', 'Bite', 'Zen Headbutt'],
 		"charged_moves": ['Outrage', 'Earthquake', 'Crunch', 'Hyper Beam', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/718.png"
 	},
 	"Diancie": {
 		"number": 719,
@@ -6873,7 +6873,7 @@ pokemon = {
 		"max_cp": 3091,
 		"fast_moves": ['Tackle', 'Rock Throw'],
 		"charged_moves": ['Rock Slide', 'Moonblast', 'Power Gem'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/719.png"
 	},
 	"Hoopa": {
 		"number": 720,
@@ -6882,7 +6882,7 @@ pokemon = {
 		"max_cp": 3797,
 		"fast_moves": ['Confusion', 'Astonish'],
 		"charged_moves": ['Shadow Ball', 'Psybeam', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/720.png"
 	},
 	"Volcanion": {
 		"number": 721,
@@ -6891,7 +6891,7 @@ pokemon = {
 		"max_cp": 4102,
 		"fast_moves": ['Incinerate', 'Water Gun', 'Take Down'],
 		"charged_moves": ['Hydro Pump', 'Overheat', 'Earth Power', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/721.png"
 	},
 	"Rowlet": {
 		"number": 722,
@@ -6900,7 +6900,7 @@ pokemon = {
 		"max_cp": 1196,
 		"fast_moves": ['Tackle', 'Razor Leaf', 'Leafage', 'Magical Leaf'],
 		"charged_moves": ['Seed Bomb', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/722.png"
 	},
 	"Dartrix": {
 		"number": 723,
@@ -6909,7 +6909,7 @@ pokemon = {
 		"max_cp": 1950,
 		"fast_moves": ['Peck', 'Razor Leaf', 'Leafage', 'Magical Leaf'],
 		"charged_moves": ['Seed Bomb', 'Energy Ball', 'Brave Bird'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/723.png"
 	},
 	"Decidueye": {
 		"number": 724,
@@ -6918,7 +6918,7 @@ pokemon = {
 		"max_cp": 3137,
 		"fast_moves": ['Astonish', 'Razor Leaf', 'Leafage', 'Magical Leaf'],
 		"charged_moves": ['Shadow Sneak', 'Energy Ball', 'Brave Bird', 'Spirit Shackle', 'Frenzy Plant'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/724.png"
 	},
 	"Decidueye": {
 		"number": 724,
@@ -6936,7 +6936,7 @@ pokemon = {
 		"max_cp": 1170,
 		"fast_moves": ['Scratch', 'Ember'],
 		"charged_moves": ['Flamethrower', 'Flame Charge', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/725.png"
 	},
 	"Torracat": {
 		"number": 726,
@@ -6945,7 +6945,7 @@ pokemon = {
 		"max_cp": 1934,
 		"fast_moves": ['Bite', 'Ember'],
 		"charged_moves": ['Flamethrower', 'Flame Charge', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/726.png"
 	},
 	"Incineroar": {
 		"number": 727,
@@ -6954,7 +6954,7 @@ pokemon = {
 		"max_cp": 3387,
 		"fast_moves": ['Snarl', 'Fire Fang', 'Double Kick'],
 		"charged_moves": ['Fire Blast', 'Flame Charge', 'Dark Pulse', 'Blaze Kick', 'Darkest Lariat', 'Blast Burn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/727.png"
 	},
 	"Popplio": {
 		"number": 728,
@@ -6963,7 +6963,7 @@ pokemon = {
 		"max_cp": 1276,
 		"fast_moves": ['Pound', 'Water Gun'],
 		"charged_moves": ['Aqua Jet', 'Water Pulse', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/728.png"
 	},
 	"Brionne": {
 		"number": 729,
@@ -6972,7 +6972,7 @@ pokemon = {
 		"max_cp": 2131,
 		"fast_moves": ['Charm', 'Water Gun'],
 		"charged_moves": ['Aqua Jet', 'Water Pulse', 'Disarming Voice'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/729.png"
 	},
 	"Primarina": {
 		"number": 730,
@@ -6981,7 +6981,7 @@ pokemon = {
 		"max_cp": 3618,
 		"fast_moves": ['Charm', 'Waterfall'],
 		"charged_moves": ['Psychic', 'Hydro Pump', 'Moonblast', 'Disarming Voice'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/730.png"
 	},
 	"Pikipek": {
 		"number": 731,
@@ -6990,7 +6990,7 @@ pokemon = {
 		"max_cp": 1029,
 		"fast_moves": ['Peck', 'Rock Smash'],
 		"charged_moves": ['Drill Peck', 'Aerial Ace', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/731.png"
 	},
 	"Trumbeak": {
 		"number": 732,
@@ -6999,7 +6999,7 @@ pokemon = {
 		"max_cp": 1671,
 		"fast_moves": ['Peck', 'Rock Smash'],
 		"charged_moves": ['Drill Peck', 'Rock Blast', 'Sky Attack'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/732.png"
 	},
 	"Toucannon": {
 		"number": 733,
@@ -7008,7 +7008,7 @@ pokemon = {
 		"max_cp": 3040,
 		"fast_moves": ['Peck', 'Rock Smash', 'Bullet Seed'],
 		"charged_moves": ['Drill Peck', 'Rock Blast', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/733.png"
 	},
 	"Yungoos": {
 		"number": 734,
@@ -7017,7 +7017,7 @@ pokemon = {
 		"max_cp": 994,
 		"fast_moves": ['Tackle', 'Bite'],
 		"charged_moves": ['Hyper Fang', 'Crunch', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/734.png"
 	},
 	"Gumshoos": {
 		"number": 735,
@@ -7026,7 +7026,7 @@ pokemon = {
 		"max_cp": 2470,
 		"fast_moves": ['Take Down', 'Bite'],
 		"charged_moves": ['Hyper Fang', 'Crunch', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/735.png"
 	},
 	"Grubbin": {
 		"number": 736,
@@ -7035,7 +7035,7 @@ pokemon = {
 		"max_cp": 1112,
 		"fast_moves": ['Bug Bite', 'Spark'],
 		"charged_moves": ['X-Scissor', 'Vise Grip', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/736.png"
 	},
 	"Charjabug": {
 		"number": 737,
@@ -7044,7 +7044,7 @@ pokemon = {
 		"max_cp": 1919,
 		"fast_moves": ['Bug Bite', 'Spark', 'Volt Switch'],
 		"charged_moves": ['X-Scissor', 'Discharge', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/737.png"
 	},
 	"Vikavolt": {
 		"number": 738,
@@ -7053,7 +7053,7 @@ pokemon = {
 		"max_cp": 3524,
 		"fast_moves": ['Bug Bite', 'Spark', 'Mud-Slap', 'Volt Switch'],
 		"charged_moves": ['X-Scissor', 'Discharge', 'Crunch', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/738.png"
 	},
 	"Crabrawler": {
 		"number": 739,
@@ -7062,7 +7062,7 @@ pokemon = {
 		"max_cp": 1540,
 		"fast_moves": ['Rock Smash', 'Bubble'],
 		"charged_moves": ['Power-Up Punch', 'Crabhammer', 'Payback', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/739.png"
 	},
 	"Crabominable": {
 		"number": 740,
@@ -7071,7 +7071,7 @@ pokemon = {
 		"max_cp": 3286,
 		"fast_moves": ['Rock Smash', 'Bubble'],
 		"charged_moves": ['Power-Up Punch', 'Crabhammer', 'Payback', 'Ice Punch', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/740.png"
 	},
 	"Oricorio": {
 		"number": 741,
@@ -7080,7 +7080,7 @@ pokemon = {
 		"max_cp": 2638,
 		"fast_moves": ['Pound', 'Air Slash'],
 		"charged_moves": ['Aerial Ace', 'Air Cutter', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/741.png"
 	},
 	"Cutiefly": {
 		"number": 742,
@@ -7089,7 +7089,7 @@ pokemon = {
 		"max_cp": 1004,
 		"fast_moves": ['Fairy Wind', 'Struggle Bug'],
 		"charged_moves": ['Dazzling Gleam', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/742.png"
 	},
 	"Ribombee": {
 		"number": 743,
@@ -7098,7 +7098,7 @@ pokemon = {
 		"max_cp": 2488,
 		"fast_moves": ['Fairy Wind', 'Struggle Bug'],
 		"charged_moves": ['Dazzling Gleam', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/743.png"
 	},
 	"Rockruff": {
 		"number": 744,
@@ -7107,7 +7107,7 @@ pokemon = {
 		"max_cp": 1074,
 		"fast_moves": ['Tackle', 'Rock Throw'],
 		"charged_moves": ['Stone Edge', 'Rock Tomb', 'Crunch', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/744.png"
 	},
 	"Lycanroc": {
 		"number": 745,
@@ -7116,7 +7116,7 @@ pokemon = {
 		"max_cp": 3027,
 		"fast_moves": ['Sucker Punch', 'Rock Throw'],
 		"charged_moves": ['Stone Edge', 'Drill Run', 'Crunch', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/745.png"
 	},
 	"Wishiwashi": {
 		"number": 746,
@@ -7125,7 +7125,7 @@ pokemon = {
 		"max_cp": 392,
 		"fast_moves": ['Water Gun', 'Waterfall', 'Iron Tail'],
 		"charged_moves": ['Brine', 'Surf', 'Aqua Tail'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/746.png"
 	},
 	"Mareanie": {
 		"number": 747,
@@ -7134,7 +7134,7 @@ pokemon = {
 		"max_cp": 1099,
 		"fast_moves": ['Poison Sting', 'Bite'],
 		"charged_moves": ['Brine', 'Gunk Shot', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/747.png"
 	},
 	"Toxapex": {
 		"number": 748,
@@ -7143,7 +7143,7 @@ pokemon = {
 		"max_cp": 1905,
 		"fast_moves": ['Poison Jab', 'Bite'],
 		"charged_moves": ['Brine', 'Gunk Shot', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/748.png"
 	},
 	"Mudbray": {
 		"number": 749,
@@ -7152,7 +7152,7 @@ pokemon = {
 		"max_cp": 2139,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
 		"charged_moves": ['Bulldoze', 'Body Slam', 'Earthquake'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/749.png"
 	},
 	"Mudsdale": {
 		"number": 750,
@@ -7161,7 +7161,7 @@ pokemon = {
 		"max_cp": 3443,
 		"fast_moves": ['Mud-Slap', 'Rock Smash'],
 		"charged_moves": ['Bulldoze', 'Body Slam', 'Earthquake', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/750.png"
 	},
 	"Dewpider": {
 		"number": 751,
@@ -7170,7 +7170,7 @@ pokemon = {
 		"max_cp": 807,
 		"fast_moves": ['Infestation', 'Bug Bite'],
 		"charged_moves": ['Water Pulse', 'Bubble Beam', 'Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/751.png"
 	},
 	"Araquanid": {
 		"number": 752,
@@ -7179,7 +7179,7 @@ pokemon = {
 		"max_cp": 2065,
 		"fast_moves": ['Infestation', 'Bug Bite'],
 		"charged_moves": ['Bug Buzz', 'Bubble Beam', 'Mirror Coat', 'Water Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/752.png"
 	},
 	"Fomantis": {
 		"number": 753,
@@ -7188,7 +7188,7 @@ pokemon = {
 		"max_cp": 838,
 		"fast_moves": ['Razor Leaf', 'Fury Cutter', 'Leafage'],
 		"charged_moves": ['Leaf Blade', 'Energy Ball', 'Grass Knot', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/753.png"
 	},
 	"Lurantis": {
 		"number": 754,
@@ -7197,7 +7197,7 @@ pokemon = {
 		"max_cp": 2711,
 		"fast_moves": ['Razor Leaf', 'Fury Cutter', 'Leafage'],
 		"charged_moves": ['Leaf Blade', 'Leaf Storm', 'Superpower', 'X-Scissor', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/754.png"
 	},
 	"Morelull": {
 		"number": 755,
@@ -7206,7 +7206,7 @@ pokemon = {
 		"max_cp": 1168,
 		"fast_moves": ['Astonish'],
 		"charged_moves": ['Dazzling Gleam', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/755.png"
 	},
 	"Shiinotic": {
 		"number": 756,
@@ -7215,7 +7215,7 @@ pokemon = {
 		"max_cp": 2104,
 		"fast_moves": ['Astonish'],
 		"charged_moves": ['Moonblast', 'Seed Bomb', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/756.png"
 	},
 	"Salandit": {
 		"number": 757,
@@ -7224,7 +7224,7 @@ pokemon = {
 		"max_cp": 1268,
 		"fast_moves": ['Ember', 'Poison Jab'],
 		"charged_moves": ['Poison Fang', 'Flamethrower', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/757.png"
 	},
 	"Salazzle": {
 		"number": 758,
@@ -7233,7 +7233,7 @@ pokemon = {
 		"max_cp": 2802,
 		"fast_moves": ['Incinerate', 'Poison Jab'],
 		"charged_moves": ['Poison Fang', 'Fire Blast', 'Dragon Pulse', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/758.png"
 	},
 	"Stufful": {
 		"number": 759,
@@ -7242,7 +7242,7 @@ pokemon = {
 		"max_cp": 1529,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Superpower', 'Brick Break', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/759.png"
 	},
 	"Bewear": {
 		"number": 760,
@@ -7251,7 +7251,7 @@ pokemon = {
 		"max_cp": 3524,
 		"fast_moves": ['Tackle', 'Low Kick', 'Shadow Claw'],
 		"charged_moves": ['Superpower', 'Payback', 'Stomp', 'Drain Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/760.png"
 	},
 	"Bounsweet": {
 		"number": 761,
@@ -7260,7 +7260,7 @@ pokemon = {
 		"max_cp": 532,
 		"fast_moves": ['Razor Leaf', 'Charm'],
 		"charged_moves": ['Energy Ball', 'Draining Kiss'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/761.png"
 	},
 	"Steenee": {
 		"number": 762,
@@ -7269,7 +7269,7 @@ pokemon = {
 		"max_cp": 856,
 		"fast_moves": ['Razor Leaf', 'Charm'],
 		"charged_moves": ['Energy Ball', 'Draining Kiss', 'Grass Knot', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/762.png"
 	},
 	"Tsareena": {
 		"number": 763,
@@ -7278,7 +7278,7 @@ pokemon = {
 		"max_cp": 3351,
 		"fast_moves": ['Razor Leaf', 'Charm', 'Magical Leaf'],
 		"charged_moves": ['Energy Ball', 'Draining Kiss', 'Grass Knot', 'Stomp', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/763.png"
 	},
 	"Comfey": {
 		"number": 764,
@@ -7287,7 +7287,7 @@ pokemon = {
 		"max_cp": 2392,
 		"fast_moves": ['Vine Whip', 'Hidden Power'],
 		"charged_moves": ['Petal Blizzard', 'Grass Knot', 'Draining Kiss'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/764.png"
 	},
 	"Oranguru": {
 		"number": 765,
@@ -7296,7 +7296,7 @@ pokemon = {
 		"max_cp": 2770,
 		"fast_moves": ['Confusion', 'Zen Headbutt', 'Yawn'],
 		"charged_moves": ['Psychic', 'Foul Play', 'Future Sight', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/765.png"
 	},
 	"Passimian": {
 		"number": 766,
@@ -7305,7 +7305,7 @@ pokemon = {
 		"max_cp": 3429,
 		"fast_moves": ['Counter', 'Rock Smash', 'Take Down'],
 		"charged_moves": ['Brick Break', 'Close Combat', 'Superpower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/766.png"
 	},
 	"Wimpod": {
 		"number": 767,
@@ -7314,7 +7314,7 @@ pokemon = {
 		"max_cp": 567,
 		"fast_moves": ['Struggle Bug'],
 		"charged_moves": ['Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/767.png"
 	},
 	"Golisopod": {
 		"number": 768,
@@ -7323,7 +7323,7 @@ pokemon = {
 		"max_cp": 3575,
 		"fast_moves": ['Fury Cutter', 'Metal Claw', 'Waterfall', 'Shadow Claw'],
 		"charged_moves": ['X-Scissor', 'Aqua Jet', 'Aerial Ace', 'Liquidation', 'Razor Shell'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/768.png"
 	},
 	"Sandygast": {
 		"number": 769,
@@ -7332,7 +7332,7 @@ pokemon = {
 		"max_cp": 1394,
 		"fast_moves": ['Astonish', 'Mud Shot', 'Sand Attack'],
 		"charged_moves": ['Sand Tomb', 'Shadow Ball', 'Earth Power', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/769.png"
 	},
 	"Palossand": {
 		"number": 770,
@@ -7341,7 +7341,7 @@ pokemon = {
 		"max_cp": 2763,
 		"fast_moves": ['Astonish', 'Mud Shot', 'Sand Attack'],
 		"charged_moves": ['Sand Tomb', 'Shadow Ball', 'Earth Power', 'Scorching Sands'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/770.png"
 	},
 	"Pyukumuku": {
 		"number": 771,
@@ -7350,7 +7350,7 @@ pokemon = {
 		"max_cp": 1551,
 		"fast_moves": ['Counter'],
 		"charged_moves": ['Mirror Coat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/771.png"
 	},
 	"Type: Null": {
 		"number": 772,
@@ -7359,7 +7359,7 @@ pokemon = {
 		"max_cp": 3012,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Tri Attack', 'Iron Head', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/772.png"
 	},
 	"Silvally": {
 		"number": 773,
@@ -7368,7 +7368,7 @@ pokemon = {
 		"max_cp": 3336,
 		"fast_moves": ['Tackle', 'Take Down', 'Bite'],
 		"charged_moves": ['Tri Attack', 'Iron Head', 'Aerial Ace', 'X-Scissor'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/773.png"
 	},
 	"Minior": {
 		"number": 774,
@@ -7377,7 +7377,7 @@ pokemon = {
 		"max_cp": 1743,
 		"fast_moves": ['Rollout', 'Take Down'],
 		"charged_moves": ['Power Gem', 'Ancient Power', 'Acrobatics'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/774.png"
 	},
 	"Komala": {
 		"number": 775,
@@ -7386,7 +7386,7 @@ pokemon = {
 		"max_cp": 2919,
 		"fast_moves": ['Rollout', 'Yawn'],
 		"charged_moves": ['Play Rough', 'Bulldoze', 'Payback'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/775.png"
 	},
 	"Turtonator": {
 		"number": 776,
@@ -7395,7 +7395,7 @@ pokemon = {
 		"max_cp": 2513,
 		"fast_moves": ['Ember', 'Fire Spin', 'Incinerate'],
 		"charged_moves": ['Overheat', 'Flamethrower', 'Dragon Pulse', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/776.png"
 	},
 	"Togedemaru": {
 		"number": 777,
@@ -7404,7 +7404,7 @@ pokemon = {
 		"max_cp": 2442,
 		"fast_moves": ['Thunder Shock', 'Spark'],
 		"charged_moves": ['Fell Stinger', 'Wild Charge', 'Gyro Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/777.png"
 	},
 	"Mimikyu": {
 		"number": 778,
@@ -7413,7 +7413,7 @@ pokemon = {
 		"max_cp": 2516,
 		"fast_moves": ['Shadow Claw', 'Charm'],
 		"charged_moves": ['Shadow Sneak', 'Play Rough', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/778.png"
 	},
 	"Bruxish": {
 		"number": 779,
@@ -7422,7 +7422,7 @@ pokemon = {
 		"max_cp": 2701,
 		"fast_moves": ['Water Gun', 'Confusion', 'Bite'],
 		"charged_moves": ['Psychic Fangs', 'Aqua Tail', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/779.png"
 	},
 	"Drampa": {
 		"number": 780,
@@ -7431,7 +7431,7 @@ pokemon = {
 		"max_cp": 3294,
 		"fast_moves": ['Dragon Breath', 'Extrasensory'],
 		"charged_moves": ['Outrage', 'Dragon Pulse', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/780.png"
 	},
 	"Dhelmise": {
 		"number": 781,
@@ -7440,7 +7440,7 @@ pokemon = {
 		"max_cp": 3335,
 		"fast_moves": ['Astonish', 'Shadow Claw'],
 		"charged_moves": ['Power Whip', 'Shadow Ball', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/781.png"
 	},
 	"Jangmo-o": {
 		"number": 782,
@@ -7449,7 +7449,7 @@ pokemon = {
 		"max_cp": 1095,
 		"fast_moves": ['Tackle', 'Dragon Tail'],
 		"charged_moves": ['Dragon Claw', 'Brick Break', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/782.png"
 	},
 	"Hakamo-o": {
 		"number": 783,
@@ -7458,7 +7458,7 @@ pokemon = {
 		"max_cp": 1907,
 		"fast_moves": ['Tackle', 'Dragon Tail'],
 		"charged_moves": ['Dragon Claw', 'Brick Break', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/783.png"
 	},
 	"Kommo-o": {
 		"number": 784,
@@ -7467,7 +7467,7 @@ pokemon = {
 		"max_cp": 3741,
 		"fast_moves": ['Poison Jab', 'Dragon Tail'],
 		"charged_moves": ['Dragon Claw', 'Close Combat', 'Flamethrower', 'Boomburst', 'Brick Break'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/784.png"
 	},
 	"Tapu Koko": {
 		"number": 785,
@@ -7476,7 +7476,7 @@ pokemon = {
 		"max_cp": 3582,
 		"fast_moves": ['Volt Switch', 'Quick Attack'],
 		"charged_moves": ['Thunderbolt', 'Dazzling Gleam', 'Brave Bird', 'Thunder', 'Nature’s Madness'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/785.png"
 	},
 	"Tapu Lele": {
 		"number": 786,
@@ -7485,7 +7485,7 @@ pokemon = {
 		"max_cp": 3950,
 		"fast_moves": ['Confusion', 'Astonish'],
 		"charged_moves": ['Psyshock', 'Moonblast', 'Focus Blast', 'Future Sight', 'Nature’s Madness'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/786.png"
 	},
 	"Tapu Bulu": {
 		"number": 787,
@@ -7494,7 +7494,7 @@ pokemon = {
 		"max_cp": 3865,
 		"fast_moves": ['Bullet Seed', 'Rock Smash'],
 		"charged_moves": ['Grass Knot', 'Dazzling Gleam', 'Megahorn', 'Solar Beam', 'Nature’s Madness'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/787.png"
 	},
 	"Tapu Fini": {
 		"number": 788,
@@ -7503,7 +7503,7 @@ pokemon = {
 		"max_cp": 3230,
 		"fast_moves": ['Water Gun', 'Hidden Power'],
 		"charged_moves": ['Surf', 'Moonblast', 'Ice Beam', 'Hydro Pump', 'Nature’s Madness'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/788.png"
 	},
 	"Cosmog": {
 		"number": 789,
@@ -7512,7 +7512,7 @@ pokemon = {
 		"max_cp": 489,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/789.png"
 	},
 	"Cosmoem": {
 		"number": 790,
@@ -7521,7 +7521,7 @@ pokemon = {
 		"max_cp": 924,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/790.png"
 	},
 	"Solgaleo": {
 		"number": 791,
@@ -7530,7 +7530,7 @@ pokemon = {
 		"max_cp": 4570,
 		"fast_moves": ['Zen Headbutt', 'Fire Spin'],
 		"charged_moves": ['Iron Head', 'Psychic Fangs', 'Solar Beam', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/791.png"
 	},
 	"Lunala": {
 		"number": 792,
@@ -7539,7 +7539,7 @@ pokemon = {
 		"max_cp": 4570,
 		"fast_moves": ['Confusion', 'Air Slash'],
 		"charged_moves": ['Shadow Ball', 'Psychic', 'Moonblast', 'Future Sight'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/792.png"
 	},
 	"Nihilego": {
 		"number": 793,
@@ -7548,7 +7548,7 @@ pokemon = {
 		"max_cp": 4465,
 		"fast_moves": ['Acid', 'Pound', 'Poison Jab'],
 		"charged_moves": ['Power Gem', 'Gunk Shot', 'Sludge Bomb', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/793.png"
 	},
 	"Buzzwole": {
 		"number": 794,
@@ -7557,7 +7557,7 @@ pokemon = {
 		"max_cp": 3912,
 		"fast_moves": ['Counter', 'Poison Jab'],
 		"charged_moves": ['Power-Up Punch', 'Fell Stinger', 'Lunge', 'Superpower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/794.png"
 	},
 	"Pheromosa": {
 		"number": 795,
@@ -7566,7 +7566,7 @@ pokemon = {
 		"max_cp": 3213,
 		"fast_moves": ['Bug Bite', 'Low Kick'],
 		"charged_moves": ['Focus Blast', 'Bug Buzz', 'Lunge', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/795.png"
 	},
 	"Xurkitree": {
 		"number": 796,
@@ -7575,7 +7575,7 @@ pokemon = {
 		"max_cp": 4451,
 		"fast_moves": ['Thunder Shock', 'Spark'],
 		"charged_moves": ['Discharge', 'Thunder', 'Power Whip', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/796.png"
 	},
 	"Celesteela": {
 		"number": 797,
@@ -7584,7 +7584,7 @@ pokemon = {
 		"max_cp": 3507,
 		"fast_moves": ['Air Slash', 'Smack Down'],
 		"charged_moves": ['Iron Head', 'Body Slam', 'Heavy Slam', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/797.png"
 	},
 	"Kartana": {
 		"number": 798,
@@ -7593,7 +7593,7 @@ pokemon = {
 		"max_cp": 4156,
 		"fast_moves": ['Air Slash', 'Razor Leaf'],
 		"charged_moves": ['Leaf Blade', 'X-Scissor', 'Night Slash', 'Aerial Ace'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/798.png"
 	},
 	"Guzzlord": {
 		"number": 799,
@@ -7602,7 +7602,7 @@ pokemon = {
 		"max_cp": 3264,
 		"fast_moves": ['Snarl', 'Dragon Tail'],
 		"charged_moves": ['Brutal Swing', 'Dragon Claw', 'Crunch', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/799.png"
 	},
 	"Necrozma": {
 		"number": 800,
@@ -7611,7 +7611,7 @@ pokemon = {
 		"max_cp": 4163,
 		"fast_moves": ['Metal Claw', 'Psycho Cut', 'Shadow Claw'],
 		"charged_moves": ['Dark Pulse', 'Future Sight', 'Iron Head', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/800.png"
 	},
 	"Magearna": {
 		"number": 801,
@@ -7620,7 +7620,7 @@ pokemon = {
 		"max_cp": 4087,
 		"fast_moves": ['Struggle'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/801.png"
 	},
 	"Marshadow": {
 		"number": 802,
@@ -7629,7 +7629,7 @@ pokemon = {
 		"max_cp": 4217,
 		"fast_moves": ['Sucker Punch', 'Counter', 'Poison Jab'],
 		"charged_moves": ['Close Combat', 'Fire Punch', 'Thunder Punch', 'Ice Punch', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/802.png"
 	},
 	"Poipole": {
 		"number": 803,
@@ -7638,7 +7638,7 @@ pokemon = {
 		"max_cp": 1854,
 		"fast_moves": ['Poison Jab', 'Peck'],
 		"charged_moves": ['Sludge Bomb', 'Sludge Wave', 'Fell Stinger'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/803.png"
 	},
 	"Naganadel": {
 		"number": 804,
@@ -7647,7 +7647,7 @@ pokemon = {
 		"max_cp": 3587,
 		"fast_moves": ['Poison Jab', 'Air Slash'],
 		"charged_moves": ['Sludge Bomb', 'Acrobatics', 'Fell Stinger', 'Dragon Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/804.png"
 	},
 	"Stakataka": {
 		"number": 805,
@@ -7656,7 +7656,7 @@ pokemon = {
 		"max_cp": 3724,
 		"fast_moves": ['Rock Throw', 'Take Down'],
 		"charged_moves": ['Flash Cannon', 'Stone Edge', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/805.png"
 	},
 	"Blacephalon": {
 		"number": 806,
@@ -7665,7 +7665,7 @@ pokemon = {
 		"max_cp": 3727,
 		"fast_moves": ['Incinerate', 'Astonish'],
 		"charged_moves": ['Mystical Fire', 'Shadow Ball', 'Overheat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/806.png"
 	},
 	"Zeraora": {
 		"number": 807,
@@ -7674,7 +7674,7 @@ pokemon = {
 		"max_cp": 3865,
 		"fast_moves": ['Spark', 'Volt Switch'],
 		"charged_moves": ['Thunder Punch', 'Discharge', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/807.png"
 	},
 	"Meltan": {
 		"number": 808,
@@ -7683,7 +7683,7 @@ pokemon = {
 		"max_cp": 1207,
 		"fast_moves": ['Thunder Shock'],
 		"charged_moves": ['Flash Cannon', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/808.png"
 	},
 	"Melmetal": {
 		"number": 809,
@@ -7692,7 +7692,7 @@ pokemon = {
 		"max_cp": 4069,
 		"fast_moves": ['Thunder Shock'],
 		"charged_moves": ['Flash Cannon', 'Thunderbolt', 'Hyper Beam', 'Rock Slide', 'Superpower', 'Double Iron Bash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/809.png"
 	},
 	"Grookey": {
 		"number": 810,
@@ -7701,7 +7701,7 @@ pokemon = {
 		"max_cp": 1227,
 		"fast_moves": ['Scratch', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/810.png"
 	},
 	"Thwackey": {
 		"number": 811,
@@ -7710,7 +7710,7 @@ pokemon = {
 		"max_cp": 2121,
 		"fast_moves": ['Scratch', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/811.png"
 	},
 	"Rillaboom": {
 		"number": 812,
@@ -7719,7 +7719,7 @@ pokemon = {
 		"max_cp": 3758,
 		"fast_moves": ['Scratch', 'Razor Leaf'],
 		"charged_moves": ['Energy Ball', 'Grass Knot', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/812.png"
 	},
 	"Scorbunny": {
 		"number": 813,
@@ -7728,7 +7728,7 @@ pokemon = {
 		"max_cp": 1240,
 		"fast_moves": ['Tackle', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/813.png"
 	},
 	"Raboot": {
 		"number": 814,
@@ -7737,7 +7737,7 @@ pokemon = {
 		"max_cp": 2062,
 		"fast_moves": ['Tackle', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/814.png"
 	},
 	"Cinderace": {
 		"number": 815,
@@ -7746,7 +7746,7 @@ pokemon = {
 		"max_cp": 3412,
 		"fast_moves": ['Tackle', 'Ember'],
 		"charged_moves": ['Flame Charge', 'Flamethrower', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/815.png"
 	},
 	"Sobble": {
 		"number": 816,
@@ -7755,7 +7755,7 @@ pokemon = {
 		"max_cp": 1240,
 		"fast_moves": ['Pound', 'Water Gun'],
 		"charged_moves": ['Water Pulse', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/816.png"
 	},
 	"Drizzile": {
 		"number": 817,
@@ -7764,7 +7764,7 @@ pokemon = {
 		"max_cp": 2142,
 		"fast_moves": ['Pound', 'Water Gun'],
 		"charged_moves": ['Water Pulse', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/817.png"
 	},
 	"Inteleon": {
 		"number": 818,
@@ -7773,7 +7773,7 @@ pokemon = {
 		"max_cp": 3351,
 		"fast_moves": ['Pound', 'Water Gun'],
 		"charged_moves": ['Water Pulse', 'Surf', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/818.png"
 	},
 	"Skwovet": {
 		"number": 819,
@@ -7782,7 +7782,7 @@ pokemon = {
 		"max_cp": 1067,
 		"fast_moves": ['Tackle', 'Bite', 'Bullet Seed'],
 		"charged_moves": ['Body Slam', 'Crunch', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/819.png"
 	},
 	"Greedent": {
 		"number": 820,
@@ -7791,7 +7791,7 @@ pokemon = {
 		"max_cp": 2679,
 		"fast_moves": ['Tackle', 'Bite', 'Bullet Seed', 'Mud Shot'],
 		"charged_moves": ['Body Slam', 'Crunch', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/820.png"
 	},
 	"Rookidee": {
 		"number": 821,
@@ -7800,7 +7800,7 @@ pokemon = {
 		"max_cp": 753,
 		"fast_moves": ['Peck', 'Air Slash'],
 		"charged_moves": ['Drill Peck', 'Brave Bird'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/821.png"
 	},
 	"Corvisquire": {
 		"number": 822,
@@ -7809,7 +7809,7 @@ pokemon = {
 		"max_cp": 1542,
 		"fast_moves": ['Peck', 'Air Slash'],
 		"charged_moves": ['Drill Peck', 'Brave Bird'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/822.png"
 	},
 	"Corviknight": {
 		"number": 823,
@@ -7818,7 +7818,7 @@ pokemon = {
 		"max_cp": 2777,
 		"fast_moves": ['Steel Wing', 'Air Slash'],
 		"charged_moves": ['Drill Peck', 'Brave Bird', 'Iron Head'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/823.png"
 	},
 	"Blipbug": {
 		"number": 824,
@@ -7827,7 +7827,7 @@ pokemon = {
 		"max_cp": 405,
 		"fast_moves": ['Struggle Bug'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/824.png"
 	},
 	"Dottler": {
 		"number": 825,
@@ -7836,7 +7836,7 @@ pokemon = {
 		"max_cp": 1164,
 		"fast_moves": ['Struggle Bug', 'Confusion'],
 		"charged_moves": ['Bug Buzz', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/825.png"
 	},
 	"Orbeetle": {
 		"number": 826,
@@ -7845,7 +7845,7 @@ pokemon = {
 		"max_cp": 2513,
 		"fast_moves": ['Struggle Bug', 'Confusion'],
 		"charged_moves": ['Bug Buzz', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/826.png"
 	},
 	"Nickit": {
 		"number": 827,
@@ -7854,7 +7854,7 @@ pokemon = {
 		"max_cp": 808,
 		"fast_moves": ['Quick Attack', 'Snarl'],
 		"charged_moves": ['Night Slash', 'Play Rough'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/827.png"
 	},
 	"Thievul": {
 		"number": 828,
@@ -7863,7 +7863,7 @@ pokemon = {
 		"max_cp": 2415,
 		"fast_moves": ['Quick Attack', 'Snarl'],
 		"charged_moves": ['Night Slash', 'Play Rough'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/828.png"
 	},
 	"Gossifleur": {
 		"number": 829,
@@ -7872,7 +7872,7 @@ pokemon = {
 		"max_cp": 760,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
 		"charged_moves": ['Energy Ball', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/829.png"
 	},
 	"Eldegoss": {
 		"number": 830,
@@ -7881,7 +7881,7 @@ pokemon = {
 		"max_cp": 2255,
 		"fast_moves": ['Razor Leaf', 'Bullet Seed'],
 		"charged_moves": ['Energy Ball', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/830.png"
 	},
 	"Wooloo": {
 		"number": 831,
@@ -7890,7 +7890,7 @@ pokemon = {
 		"max_cp": 798,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Wild Charge', 'Payback', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/831.png"
 	},
 	"Dubwool": {
 		"number": 832,
@@ -7899,7 +7899,7 @@ pokemon = {
 		"max_cp": 2478,
 		"fast_moves": ['Tackle', 'Take Down', 'Double Kick'],
 		"charged_moves": ['Wild Charge', 'Payback', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/832.png"
 	},
 	"Chewtle": {
 		"number": 833,
@@ -7908,7 +7908,7 @@ pokemon = {
 		"max_cp": 1123,
 		"fast_moves": ['Water Gun', 'Bite'],
 		"charged_moves": ['Body Slam', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/833.png"
 	},
 	"Drednaw": {
 		"number": 834,
@@ -7917,7 +7917,7 @@ pokemon = {
 		"max_cp": 3209,
 		"fast_moves": ['Waterfall', 'Bite'],
 		"charged_moves": ['Body Slam', 'Surf', 'Rock Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/834.png"
 	},
 	"Yamper": {
 		"number": 835,
@@ -7926,7 +7926,7 @@ pokemon = {
 		"max_cp": 890,
 		"fast_moves": ['Spark', 'Bite'],
 		"charged_moves": ['Crunch', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/835.png"
 	},
 	"Boltund": {
 		"number": 836,
@@ -7935,7 +7935,7 @@ pokemon = {
 		"max_cp": 2460,
 		"fast_moves": ['Spark', 'Bite'],
 		"charged_moves": ['Crunch', 'Thunder'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/836.png"
 	},
 	"Rolycoly": {
 		"number": 837,
@@ -7944,7 +7944,7 @@ pokemon = {
 		"max_cp": 691,
 		"fast_moves": ['Smack Down', 'Tackle'],
 		"charged_moves": ['Rock Blast', 'Rock Slide'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/837.png"
 	},
 	"Carkol": {
 		"number": 838,
@@ -7953,7 +7953,7 @@ pokemon = {
 		"max_cp": 1710,
 		"fast_moves": ['Smack Down', 'Incinerate'],
 		"charged_moves": ['Rock Blast', 'Rock Slide', 'Flame Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/838.png"
 	},
 	"Coalossal": {
 		"number": 839,
@@ -7962,7 +7962,7 @@ pokemon = {
 		"max_cp": 2659,
 		"fast_moves": ['Smack Down', 'Incinerate'],
 		"charged_moves": ['Rock Blast', 'Rock Slide', 'Flame Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/839.png"
 	},
 	"Applin": {
 		"number": 840,
@@ -7971,7 +7971,7 @@ pokemon = {
 		"max_cp": 807,
 		"fast_moves": ['Astonish'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/840.png"
 	},
 	"Flapple": {
 		"number": 841,
@@ -7980,7 +7980,7 @@ pokemon = {
 		"max_cp": 2788,
 		"fast_moves": ['Bullet Seed', 'Dragon Breath'],
 		"charged_moves": ['Dragon Pulse', 'Fly', 'Outrage', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/841.png"
 	},
 	"Appletun": {
 		"number": 842,
@@ -7989,7 +7989,7 @@ pokemon = {
 		"max_cp": 2772,
 		"fast_moves": ['Bullet Seed', 'Astonish'],
 		"charged_moves": ['Dragon Pulse', 'Energy Ball', 'Outrage', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/842.png"
 	},
 	"Silicobra": {
 		"number": 843,
@@ -7998,7 +7998,7 @@ pokemon = {
 		"max_cp": 1222,
 		"fast_moves": ['Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Dig', 'Bulldoze', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/843.png"
 	},
 	"Sandaconda": {
 		"number": 844,
@@ -8007,7 +8007,7 @@ pokemon = {
 		"max_cp": 3155,
 		"fast_moves": ['Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Dig', 'Bulldoze', 'Earth Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/844.png"
 	},
 	"Cramorant": {
 		"number": 845,
@@ -8016,7 +8016,7 @@ pokemon = {
 		"max_cp": 2421,
 		"fast_moves": ['Peck', 'Water Gun'],
 		"charged_moves": ['Drill Peck', 'Fly', 'Hydro Pump'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/845.png"
 	},
 	"Arrokuda": {
 		"number": 846,
@@ -8025,7 +8025,7 @@ pokemon = {
 		"max_cp": 1021,
 		"fast_moves": ['Waterfall', 'Bite', 'Peck'],
 		"charged_moves": ['Crunch', 'Aqua Jet', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/846.png"
 	},
 	"Barraskewda": {
 		"number": 847,
@@ -8034,7 +8034,7 @@ pokemon = {
 		"max_cp": 3003,
 		"fast_moves": ['Waterfall', 'Bite', 'Peck'],
 		"charged_moves": ['Crunch', 'Aqua Jet', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/847.png"
 	},
 	"Toxel": {
 		"number": 848,
@@ -8043,7 +8043,7 @@ pokemon = {
 		"max_cp": 821,
 		"fast_moves": ['Acid'],
 		"charged_moves": ['Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/848.png"
 	},
 	"Toxtricity": {
 		"number": 849,
@@ -8052,7 +8052,7 @@ pokemon = {
 		"max_cp": 2941,
 		"fast_moves": ['Acid', 'Spark', 'Poison Jab'],
 		"charged_moves": ['Acid Spray', 'Discharge', 'Wild Charge', 'Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/849.png"
 	},
 	"Sizzlipede": {
 		"number": 850,
@@ -8061,7 +8061,7 @@ pokemon = {
 		"max_cp": 1186,
 		"fast_moves": ['Bug Bite', 'Ember'],
 		"charged_moves": ['Heat Wave', 'Bug Buzz', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/850.png"
 	},
 	"Centiskorch": {
 		"number": 851,
@@ -8070,7 +8070,7 @@ pokemon = {
 		"max_cp": 3381,
 		"fast_moves": ['Bug Bite', 'Ember'],
 		"charged_moves": ['Heat Wave', 'Bug Buzz', 'Crunch', 'Lunge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/851.png"
 	},
 	"Clobbopus": {
 		"number": 852,
@@ -8079,7 +8079,7 @@ pokemon = {
 		"max_cp": 1286,
 		"fast_moves": ['Rock Smash'],
 		"charged_moves": ['Brick Break', 'Superpower', 'Ice Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/852.png"
 	},
 	"Grapploct": {
 		"number": 853,
@@ -8088,7 +8088,7 @@ pokemon = {
 		"max_cp": 3012,
 		"fast_moves": ['Rock Smash', 'Waterfall'],
 		"charged_moves": ['Brick Break', 'Superpower', 'Ice Punch', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/853.png"
 	},
 	"Sinistea": {
 		"number": 854,
@@ -8097,7 +8097,7 @@ pokemon = {
 		"max_cp": 1287,
 		"fast_moves": ['Astonish', 'Sucker Punch'],
 		"charged_moves": ['Shadow Ball', 'Dark Pulse', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/854.png"
 	},
 	"Polteageist": {
 		"number": 855,
@@ -8106,7 +8106,7 @@ pokemon = {
 		"max_cp": 3458,
 		"fast_moves": ['Astonish', 'Sucker Punch', 'Hex'],
 		"charged_moves": ['Shadow Ball', 'Dark Pulse', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/855.png"
 	},
 	"Hatenna": {
 		"number": 856,
@@ -8115,7 +8115,7 @@ pokemon = {
 		"max_cp": 974,
 		"fast_moves": ['Confusion', 'Charm'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/856.png"
 	},
 	"Hattrem": {
 		"number": 857,
@@ -8124,7 +8124,7 @@ pokemon = {
 		"max_cp": 1848,
 		"fast_moves": ['Confusion', 'Charm'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/857.png"
 	},
 	"Hatterene": {
 		"number": 858,
@@ -8133,7 +8133,7 @@ pokemon = {
 		"max_cp": 3198,
 		"fast_moves": ['Confusion', 'Charm', 'Psycho Cut'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Dazzling Gleam', 'Power Whip'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/858.png"
 	},
 	"Impidimp": {
 		"number": 859,
@@ -8142,7 +8142,7 @@ pokemon = {
 		"max_cp": 913,
 		"fast_moves": ['Bite', 'Sucker Punch'],
 		"charged_moves": ['Foul Play', 'Dark Pulse', 'Play Rough'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/859.png"
 	},
 	"Morgrem": {
 		"number": 860,
@@ -8151,7 +8151,7 @@ pokemon = {
 		"max_cp": 1630,
 		"fast_moves": ['Bite', 'Sucker Punch'],
 		"charged_moves": ['Foul Play', 'Dark Pulse', 'Play Rough'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/860.png"
 	},
 	"Grimmsnarl": {
 		"number": 861,
@@ -8160,7 +8160,7 @@ pokemon = {
 		"max_cp": 3222,
 		"fast_moves": ['Bite', 'Sucker Punch', 'Low Kick'],
 		"charged_moves": ['Foul Play', 'Dark Pulse', 'Play Rough', 'Power-Up Punch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/861.png"
 	},
 	"Obstagoon": {
 		"number": 862,
@@ -8169,7 +8169,7 @@ pokemon = {
 		"max_cp": 2999,
 		"fast_moves": ['Counter', 'Lick'],
 		"charged_moves": ['Cross Chop', 'Night Slash', 'Hyper Beam', 'Gunk Shot', 'Obstruct'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/862.png"
 	},
 	"Perrserker": {
 		"number": 863,
@@ -8178,7 +8178,7 @@ pokemon = {
 		"max_cp": 2697,
 		"fast_moves": ['Metal Claw', 'Shadow Claw'],
 		"charged_moves": ['Iron Head', 'Close Combat', 'Play Rough', 'Foul Play', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/863.png"
 	},
 	"Cursola": {
 		"number": 864,
@@ -8187,7 +8187,7 @@ pokemon = {
 		"max_cp": 3463,
 		"fast_moves": ['Astonish', 'Hex'],
 		"charged_moves": ['Rock Blast', 'Brine', 'Night Shade', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/864.png"
 	},
 	"Sirfetch'd": {
 		"number": 865,
@@ -8196,7 +8196,7 @@ pokemon = {
 		"max_cp": 3375,
 		"fast_moves": ['Counter', 'Fury Cutter'],
 		"charged_moves": ['Close Combat', 'Brave Bird', 'Leaf Blade', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/865.png"
 	},
 	"Mr. Rime": {
 		"number": 866,
@@ -8205,7 +8205,7 @@ pokemon = {
 		"max_cp": 3196,
 		"fast_moves": ['Confusion', 'Zen Headbutt', 'Ice Shard'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Ice Punch', 'Icy Wind', 'Triple Axel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/866.png"
 	},
 	"Runerigus": {
 		"number": 867,
@@ -8214,7 +8214,7 @@ pokemon = {
 		"max_cp": 2570,
 		"fast_moves": ['Astonish', 'Shadow Claw'],
 		"charged_moves": ['Shadow Ball', 'Sand Tomb', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/867.png"
 	},
 	"Milcery": {
 		"number": 868,
@@ -8223,7 +8223,7 @@ pokemon = {
 		"max_cp": 938,
 		"fast_moves": ['Tackle', 'Charm'],
 		"charged_moves": ['Dazzling Gleam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/868.png"
 	},
 	"Alcremie": {
 		"number": 869,
@@ -8232,7 +8232,7 @@ pokemon = {
 		"max_cp": 3032,
 		"fast_moves": ['Tackle', 'Charm'],
 		"charged_moves": ['Dazzling Gleam', 'Psyshock', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/869.png"
 	},
 	"Falinks": {
 		"number": 870,
@@ -8241,7 +8241,7 @@ pokemon = {
 		"max_cp": 2665,
 		"fast_moves": ['Rock Smash', 'Counter'],
 		"charged_moves": ['Superpower', 'Brick Break', 'Megahorn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/870.png"
 	},
 	"Pincurchin": {
 		"number": 871,
@@ -8250,7 +8250,7 @@ pokemon = {
 		"max_cp": 2183,
 		"fast_moves": ['Thunder Shock', 'Water Gun', 'Poison Jab'],
 		"charged_moves": ['Discharge', 'Thunderbolt', 'Bubble Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/871.png"
 	},
 	"Snom": {
 		"number": 872,
@@ -8259,7 +8259,7 @@ pokemon = {
 		"max_cp": 597,
 		"fast_moves": ['Powder Snow', 'Struggle Bug'],
 		"charged_moves": ['Icy Wind', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/872.png"
 	},
 	"Frosmoth": {
 		"number": 873,
@@ -8268,7 +8268,7 @@ pokemon = {
 		"max_cp": 3084,
 		"fast_moves": ['Powder Snow', 'Bug Bite'],
 		"charged_moves": ['Icy Wind', 'Bug Buzz', 'Ice Beam', 'Hurricane'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/873.png"
 	},
 	"Stonjourner": {
 		"number": 874,
@@ -8277,7 +8277,7 @@ pokemon = {
 		"max_cp": 3638,
 		"fast_moves": ['Rock Throw'],
 		"charged_moves": ['Stone Edge', 'Rock Slide', 'Stomp'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/874.png"
 	},
 	"Eiscue": {
 		"number": 875,
@@ -8286,7 +8286,7 @@ pokemon = {
 		"max_cp": 2335,
 		"fast_moves": ['Powder Snow'],
 		"charged_moves": ['Icy Wind', 'Weather Ball', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/875.png"
 	},
 	"Indeedee": {
 		"number": 876,
@@ -8295,7 +8295,7 @@ pokemon = {
 		"max_cp": 2762,
 		"fast_moves": ['Extrasensory'],
 		"charged_moves": ['Psybeam', 'Psychic', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/876.png"
 	},
 	"Morpeko": {
 		"number": 877,
@@ -8304,7 +8304,7 @@ pokemon = {
 		"max_cp": 2196,
 		"fast_moves": ['Thunder Shock', 'Bite'],
 		"charged_moves": ['Crunch', 'Payback', 'Thunderbolt', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/877.png"
 	},
 	"Cufant": {
 		"number": 878,
@@ -8313,7 +8313,7 @@ pokemon = {
 		"max_cp": 1557,
 		"fast_moves": ['Tackle', 'Rock Smash'],
 		"charged_moves": ['Iron Head', 'Dig', 'Play Rough'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/878.png"
 	},
 	"Copperajah": {
 		"number": 879,
@@ -8322,7 +8322,7 @@ pokemon = {
 		"max_cp": 3369,
 		"fast_moves": ['Tackle', 'Rock Smash'],
 		"charged_moves": ['Iron Head', 'Dig', 'Play Rough', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/879.png"
 	},
 	"Dracozolt": {
 		"number": 880,
@@ -8331,7 +8331,7 @@ pokemon = {
 		"max_cp": 2964,
 		"fast_moves": ['Dragon Tail', 'Thunder Shock'],
 		"charged_moves": ['Discharge', 'Dragon Pulse', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/880.png"
 	},
 	"Arctozolt": {
 		"number": 881,
@@ -8340,7 +8340,7 @@ pokemon = {
 		"max_cp": 2901,
 		"fast_moves": ['Powder Snow', 'Thunder Shock'],
 		"charged_moves": ['Discharge', 'Avalanche', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/881.png"
 	},
 	"Dracovish": {
 		"number": 882,
@@ -8349,7 +8349,7 @@ pokemon = {
 		"max_cp": 2826,
 		"fast_moves": ['Dragon Breath', 'Water Gun'],
 		"charged_moves": ['Brine', 'Dragon Pulse', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/882.png"
 	},
 	"Arctovish": {
 		"number": 883,
@@ -8358,7 +8358,7 @@ pokemon = {
 		"max_cp": 2767,
 		"fast_moves": ['Powder Snow', 'Water Gun'],
 		"charged_moves": ['Brine', 'Avalanche', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/883.png"
 	},
 	"Duraludon": {
 		"number": 884,
@@ -8367,7 +8367,7 @@ pokemon = {
 		"max_cp": 3468,
 		"fast_moves": ['Dragon Tail', 'Metal Claw'],
 		"charged_moves": ['Flash Cannon', 'Dragon Claw', 'Hyper Beam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/884.png"
 	},
 	"Dreepy": {
 		"number": 885,
@@ -8376,7 +8376,7 @@ pokemon = {
 		"max_cp": 867,
 		"fast_moves": ['Astonish', 'Quick Attack'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/885.png"
 	},
 	"Drakloak": {
 		"number": 886,
@@ -8385,7 +8385,7 @@ pokemon = {
 		"max_cp": 1867,
 		"fast_moves": ['Astonish', 'Dragon Tail'],
 		"charged_moves": ['Dragon Pulse', 'Shadow Ball', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/886.png"
 	},
 	"Dragapult": {
 		"number": 887,
@@ -8394,7 +8394,7 @@ pokemon = {
 		"max_cp": 3993,
 		"fast_moves": ['Hex', 'Dragon Tail'],
 		"charged_moves": ['Dragon Pulse', 'Shadow Ball', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/887.png"
 	},
 	"Zacian": {
 		"number": 888,
@@ -8403,7 +8403,7 @@ pokemon = {
 		"max_cp": 4329,
 		"fast_moves": ['Metal Claw', 'Snarl', 'Quick Attack', 'Fire Fang'],
 		"charged_moves": ['Play Rough', 'Iron Head', 'Wild Charge', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/888.png"
 	},
 	"Zamazenta": {
 		"number": 889,
@@ -8412,7 +8412,7 @@ pokemon = {
 		"max_cp": 4329,
 		"fast_moves": ['Metal Claw', 'Snarl', 'Quick Attack', 'Ice Fang'],
 		"charged_moves": ['Moonblast', 'Iron Head', 'Crunch', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/889.png"
 	},
 	"Eternatus": {
 		"number": 890,
@@ -8421,7 +8421,7 @@ pokemon = {
 		"max_cp": 5007,
 		"fast_moves": ['Dragon Tail', 'Poison Jab'],
 		"charged_moves": ['Cross Poison', 'Dragon Pulse', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/890.png"
 	},
 	"Kubfu": {
 		"number": 891,
@@ -8430,7 +8430,7 @@ pokemon = {
 		"max_cp": 1919,
 		"fast_moves": ['Rock Smash', 'Counter'],
 		"charged_moves": ['Brick Break', 'Dynamic Punch', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/891.png"
 	},
 	"Urshifu": {
 		"number": 892,
@@ -8439,7 +8439,7 @@ pokemon = {
 		"max_cp": 4077,
 		"fast_moves": ['Rock Smash', 'Counter'],
 		"charged_moves": ['Brick Break', 'Dynamic Punch', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/892.png"
 	},
 	"Zarude": {
 		"number": 893,
@@ -8448,7 +8448,7 @@ pokemon = {
 		"max_cp": 4334,
 		"fast_moves": ['Vine Whip', 'Bite'],
 		"charged_moves": ['Power Whip', 'Energy Ball', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/893.png"
 	},
 	"Regieleki": {
 		"number": 894,
@@ -8457,7 +8457,7 @@ pokemon = {
 		"max_cp": 3169,
 		"fast_moves": ['Thunder Shock', 'Lock-On', 'Volt Switch'],
 		"charged_moves": ['Hyper Beam', 'Thunder', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/894.png"
 	},
 	"Regidrago": {
 		"number": 895,
@@ -8466,7 +8466,7 @@ pokemon = {
 		"max_cp": 3361,
 		"fast_moves": ['Bite'],
 		"charged_moves": ['Hyper Beam', 'Outrage', 'Dragon Pulse', 'Breaking Swipe'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/895.png"
 	},
 	"Glastrier": {
 		"number": 896,
@@ -8475,7 +8475,7 @@ pokemon = {
 		"max_cp": 4404,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Avalanche', 'Icy Wind', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/896.png"
 	},
 	"Spectrier": {
 		"number": 897,
@@ -8484,7 +8484,7 @@ pokemon = {
 		"max_cp": 3827,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Shadow Ball', 'Foul Play', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/897.png"
 	},
 	"Calyrex": {
 		"number": 898,
@@ -8493,7 +8493,7 @@ pokemon = {
 		"max_cp": 2575,
 		"fast_moves": ['Pound', 'Confusion'],
 		"charged_moves": ['Psyshock', 'Psychic', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/898.png"
 	},
 	"Wyrdeer": {
 		"number": 899,
@@ -8502,7 +8502,7 @@ pokemon = {
 		"max_cp": 3089,
 		"fast_moves": ['Tackle', 'Zen Headbutt', 'Confusion'],
 		"charged_moves": ['Stomp', 'Wild Charge', 'Megahorn', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/899.png"
 	},
 	"Kleavor": {
 		"number": 900,
@@ -8511,7 +8511,7 @@ pokemon = {
 		"max_cp": 3557,
 		"fast_moves": ['Quick Attack', 'Air Slash'],
 		"charged_moves": ['X-Scissor', 'Rock Slide', 'Stone Edge', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/900.png"
 	},
 	"Ursaluna": {
 		"number": 901,
@@ -8520,7 +8520,7 @@ pokemon = {
 		"max_cp": 4358,
 		"fast_moves": ['Tackle', 'Rock Smash'],
 		"charged_moves": ['Fire Punch', 'Thunder Punch', 'Aerial Ace', 'Ice Punch', 'Trailblaze', 'High Horsepower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/901.png"
 	},
 	"Sneasler": {
 		"number": 903,
@@ -8529,7 +8529,7 @@ pokemon = {
 		"max_cp": 3643,
 		"fast_moves": ['Rock Smash', 'Poison Jab', 'Shadow Claw'],
 		"charged_moves": ['Aerial Ace', 'Close Combat', 'X-Scissor'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/903.png"
 	},
 	"Overqwil": {
 		"number": 904,
@@ -8538,7 +8538,7 @@ pokemon = {
 		"max_cp": 3330,
 		"fast_moves": ['Poison Sting', 'Poison Jab'],
 		"charged_moves": ['Aqua Tail', 'Ice Beam', 'Sludge Bomb', 'Dark Pulse', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/904.png"
 	},
 	"Enamorus": {
 		"number": 905,
@@ -8547,7 +8547,7 @@ pokemon = {
 		"max_cp": 3873,
 		"fast_moves": ['Astonish', 'Zen Headbutt', 'Fairy Wind'],
 		"charged_moves": ['Dazzling Gleam', 'Fly', 'Grass Knot'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/905.png"
 	},
 	"Sprigatito": {
 		"number": 906,
@@ -8556,7 +8556,7 @@ pokemon = {
 		"max_cp": 1147,
 		"fast_moves": ['Leafage', 'Charm'],
 		"charged_moves": ['Grass Knot', 'Play Rough', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/906.png"
 	},
 	"Floragato": {
 		"number": 907,
@@ -8565,7 +8565,7 @@ pokemon = {
 		"max_cp": 1899,
 		"fast_moves": ['Leafage', 'Charm'],
 		"charged_moves": ['Grass Knot', 'Play Rough', 'Energy Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/907.png"
 	},
 	"Meowscarada": {
 		"number": 908,
@@ -8574,7 +8574,7 @@ pokemon = {
 		"max_cp": 3193,
 		"fast_moves": ['Leafage', 'Charm'],
 		"charged_moves": ['Grass Knot', 'Play Rough', 'Energy Ball', 'Night Slash'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/908.png"
 	},
 	"Fuecoco": {
 		"number": 909,
@@ -8583,7 +8583,7 @@ pokemon = {
 		"max_cp": 1274,
 		"fast_moves": ['Incinerate', 'Bite'],
 		"charged_moves": ['Flamethrower', 'Disarming Voice', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/909.png"
 	},
 	"Crocalor": {
 		"number": 910,
@@ -8592,7 +8592,7 @@ pokemon = {
 		"max_cp": 2189,
 		"fast_moves": ['Incinerate', 'Bite'],
 		"charged_moves": ['Flamethrower', 'Disarming Voice', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/910.png"
 	},
 	"Skeledirge": {
 		"number": 911,
@@ -8601,7 +8601,7 @@ pokemon = {
 		"max_cp": 3422,
 		"fast_moves": ['Incinerate', 'Bite'],
 		"charged_moves": ['Flamethrower', 'Disarming Voice', 'Crunch', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/911.png"
 	},
 	"Quaxly": {
 		"number": 912,
@@ -8610,7 +8610,7 @@ pokemon = {
 		"max_cp": 1215,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
 		"charged_moves": ['Aqua Jet', 'Aerial Ace', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/912.png"
 	},
 	"Quaxwell": {
 		"number": 913,
@@ -8619,7 +8619,7 @@ pokemon = {
 		"max_cp": 2007,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
 		"charged_moves": ['Aqua Jet', 'Aerial Ace', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/913.png"
 	},
 	"Quaquaval": {
 		"number": 914,
@@ -8628,7 +8628,7 @@ pokemon = {
 		"max_cp": 3411,
 		"fast_moves": ['Water Gun', 'Wing Attack'],
 		"charged_moves": ['Aqua Jet', 'Aerial Ace', 'Liquidation', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/914.png"
 	},
 	"Lechonk": {
 		"number": 915,
@@ -8637,7 +8637,7 @@ pokemon = {
 		"max_cp": 828,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Dig', 'Trailblaze', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/915.png"
 	},
 	"Oinkologne": {
 		"number": 916,
@@ -8646,7 +8646,7 @@ pokemon = {
 		"max_cp": 2949,
 		"fast_moves": ['Tackle', 'Take Down'],
 		"charged_moves": ['Dig', 'Trailblaze', 'Body Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/916.png"
 	},
 	"Tarountula": {
 		"number": 917,
@@ -8655,7 +8655,7 @@ pokemon = {
 		"max_cp": 646,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
 		"charged_moves": ['X-Scissor', 'Grass Knot', 'Lunge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/917.png"
 	},
 	"Spidops": {
 		"number": 918,
@@ -8664,7 +8664,7 @@ pokemon = {
 		"max_cp": 1907,
 		"fast_moves": ['Bug Bite', 'Counter'],
 		"charged_moves": ['X-Scissor', 'Grass Knot', 'Lunge', 'Rock Tomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/918.png"
 	},
 	"Nymble": {
 		"number": 919,
@@ -8673,7 +8673,7 @@ pokemon = {
 		"max_cp": 669,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
 		"charged_moves": ['X-Scissor', 'Trailblaze', 'Bug Buzz'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/919.png"
 	},
 	"Lokix": {
 		"number": 920,
@@ -8682,7 +8682,7 @@ pokemon = {
 		"max_cp": 2619,
 		"fast_moves": ['Bug Bite', 'Sucker Punch'],
 		"charged_moves": ['X-Scissor', 'Trailblaze', 'Bug Buzz', 'Dark Pulse'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/920.png"
 	},
 	"Pawmi": {
 		"number": 921,
@@ -8691,7 +8691,7 @@ pokemon = {
 		"max_cp": 719,
 		"fast_moves": ['Spark', 'Charge Beam'],
 		"charged_moves": ['Thunderbolt', 'Discharge', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/921.png"
 	},
 	"Pawmo": {
 		"number": 922,
@@ -8700,7 +8700,7 @@ pokemon = {
 		"max_cp": 1468,
 		"fast_moves": ['Spark', 'Charge Beam'],
 		"charged_moves": ['Thunderbolt', 'Discharge', 'Wild Charge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/922.png"
 	},
 	"Pawmot": {
 		"number": 923,
@@ -8709,7 +8709,7 @@ pokemon = {
 		"max_cp": 2978,
 		"fast_moves": ['Spark', 'Charge Beam', 'Low Kick'],
 		"charged_moves": ['Thunderbolt', 'Discharge', 'Wild Charge', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/923.png"
 	},
 	"Tandemaus": {
 		"number": 924,
@@ -8718,7 +8718,7 @@ pokemon = {
 		"max_cp": 1008,
 		"fast_moves": ['Take Down', 'Mud Shot', 'Bullet Seed'],
 		"charged_moves": ['Swift', 'Play Rough', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/924.png"
 	},
 	"Maushold": {
 		"number": 925,
@@ -8727,7 +8727,7 @@ pokemon = {
 		"max_cp": 2244,
 		"fast_moves": ['Take Down', 'Mud Shot', 'Bullet Seed'],
 		"charged_moves": ['Swift', 'Play Rough', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/925.png"
 	},
 	"Fidough": {
 		"number": 926,
@@ -8736,7 +8736,7 @@ pokemon = {
 		"max_cp": 1114,
 		"fast_moves": ['Charm', 'Bite'],
 		"charged_moves": ['Body Slam', 'Play Rough', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/926.png"
 	},
 	"Dachsbun": {
 		"number": 927,
@@ -8745,7 +8745,7 @@ pokemon = {
 		"max_cp": 2370,
 		"fast_moves": ['Charm', 'Bite'],
 		"charged_moves": ['Body Slam', 'Play Rough', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/927.png"
 	},
 	"Smoliv": {
 		"number": 928,
@@ -8754,7 +8754,7 @@ pokemon = {
 		"max_cp": 965,
 		"fast_moves": ['Razor Leaf', 'Tackle'],
 		"charged_moves": ['Seed Bomb', 'Energy Ball', 'Earth Power', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/928.png"
 	},
 	"Dolliv": {
 		"number": 929,
@@ -8763,7 +8763,7 @@ pokemon = {
 		"max_cp": 1619,
 		"fast_moves": ['Razor Leaf', 'Tackle', 'Magical Leaf'],
 		"charged_moves": ['Seed Bomb', 'Energy Ball', 'Earth Power', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/929.png"
 	},
 	"Arboliva": {
 		"number": 930,
@@ -8772,7 +8772,7 @@ pokemon = {
 		"max_cp": 3345,
 		"fast_moves": ['Razor Leaf', 'Tackle', 'Magical Leaf'],
 		"charged_moves": ['Seed Bomb', 'Energy Ball', 'Earth Power', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/930.png"
 	},
 	"Squawkabilly": {
 		"number": 931,
@@ -8781,7 +8781,7 @@ pokemon = {
 		"max_cp": 2231,
 		"fast_moves": ['Peck', 'Air Slash'],
 		"charged_moves": ['Aerial Ace', 'Brave Bird', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/931.png"
 	},
 	"Nacli": {
 		"number": 932,
@@ -8790,7 +8790,7 @@ pokemon = {
 		"max_cp": 1093,
 		"fast_moves": ['Rock Throw', 'Mud Shot'],
 		"charged_moves": ['Rock Blast', 'Rock Tomb', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/932.png"
 	},
 	"Naclstack": {
 		"number": 933,
@@ -8799,7 +8799,7 @@ pokemon = {
 		"max_cp": 1461,
 		"fast_moves": ['Smack Down', 'Mud Shot'],
 		"charged_moves": ['Rock Blast', 'Rock Tomb', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/933.png"
 	},
 	"Garganacl": {
 		"number": 934,
@@ -8808,7 +8808,7 @@ pokemon = {
 		"max_cp": 3065,
 		"fast_moves": ['Smack Down', 'Mud Shot'],
 		"charged_moves": ['Rock Slide', 'Rock Tomb', 'Ancient Power'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/934.png"
 	},
 	"Charcadet": {
 		"number": 935,
@@ -8817,7 +8817,7 @@ pokemon = {
 		"max_cp": 828,
 		"fast_moves": ['Ember', 'Incinerate'],
 		"charged_moves": ['Flame Charge', 'Heat Wave', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/935.png"
 	},
 	"Armarouge": {
 		"number": 936,
@@ -8826,7 +8826,7 @@ pokemon = {
 		"max_cp": 3628,
 		"fast_moves": ['Ember', 'Incinerate'],
 		"charged_moves": ['Flame Charge', 'Heat Wave', 'Flamethrower', 'Psyshock'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/936.png"
 	},
 	"Ceruledge": {
 		"number": 937,
@@ -8835,7 +8835,7 @@ pokemon = {
 		"max_cp": 3586,
 		"fast_moves": ['Ember', 'Incinerate'],
 		"charged_moves": ['Flame Charge', 'Heat Wave', 'Flamethrower', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/937.png"
 	},
 	"Tadbulb": {
 		"number": 938,
@@ -8844,7 +8844,7 @@ pokemon = {
 		"max_cp": 1030,
 		"fast_moves": ['Thunder Shock', 'Water Gun'],
 		"charged_moves": ['Parabolic Charge', 'Discharge', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/938.png"
 	},
 	"Bellibolt": {
 		"number": 939,
@@ -8853,7 +8853,7 @@ pokemon = {
 		"max_cp": 3010,
 		"fast_moves": ['Thunder Shock', 'Water Gun'],
 		"charged_moves": ['Parabolic Charge', 'Discharge', 'Zap Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/939.png"
 	},
 	"Wattrel": {
 		"number": 940,
@@ -8862,7 +8862,7 @@ pokemon = {
 		"max_cp": 933,
 		"fast_moves": ['Thunder Shock', 'Peck'],
 		"charged_moves": ['Acrobatics', 'Aerial Ace', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/940.png"
 	},
 	"Kilowattrel": {
 		"number": 941,
@@ -8871,7 +8871,7 @@ pokemon = {
 		"max_cp": 2762,
 		"fast_moves": ['Thunder Shock', 'Air Slash'],
 		"charged_moves": ['Acrobatics', 'Aerial Ace', 'Thunderbolt'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/941.png"
 	},
 	"Maschiff": {
 		"number": 942,
@@ -8880,7 +8880,7 @@ pokemon = {
 		"max_cp": 1582,
 		"fast_moves": ['Snarl', 'Bite'],
 		"charged_moves": ['Crunch', 'Payback', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/942.png"
 	},
 	"Mabosstiff": {
 		"number": 943,
@@ -8889,7 +8889,7 @@ pokemon = {
 		"max_cp": 3350,
 		"fast_moves": ['Snarl', 'Bite'],
 		"charged_moves": ['Crunch', 'Payback', 'Dig'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/943.png"
 	},
 	"Shroodle": {
 		"number": 944,
@@ -8898,7 +8898,7 @@ pokemon = {
 		"max_cp": 1051,
 		"fast_moves": ['Mud-Slap', 'Poison Jab'],
 		"charged_moves": ['Acid Spray', 'Poison Fang', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/944.png"
 	},
 	"Grafaiai": {
 		"number": 945,
@@ -8907,7 +8907,7 @@ pokemon = {
 		"max_cp": 2559,
 		"fast_moves": ['Mud-Slap', 'Poison Jab'],
 		"charged_moves": ['Acid Spray', 'Poison Fang', 'Sludge Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/945.png"
 	},
 	"Bramblin": {
 		"number": 946,
@@ -8916,7 +8916,7 @@ pokemon = {
 		"max_cp": 991,
 		"fast_moves": ['Astonish', 'Bullet Seed'],
 		"charged_moves": ['Shadow Sneak', 'Night Shade', 'Power Whip'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/946.png"
 	},
 	"Brambleghast": {
 		"number": 947,
@@ -8925,7 +8925,7 @@ pokemon = {
 		"max_cp": 2745,
 		"fast_moves": ['Hex', 'Bullet Seed'],
 		"charged_moves": ['Shadow Sneak', 'Night Shade', 'Power Whip'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/947.png"
 	},
 	"Toedscool": {
 		"number": 948,
@@ -8934,7 +8934,7 @@ pokemon = {
 		"max_cp": 1176,
 		"fast_moves": ['Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Earth Power', 'Seed Bomb', 'Wrap'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/948.png"
 	},
 	"Toedscruel": {
 		"number": 949,
@@ -8943,7 +8943,7 @@ pokemon = {
 		"max_cp": 2738,
 		"fast_moves": ['Mud-Slap', 'Mud Shot'],
 		"charged_moves": ['Earth Power', 'Seed Bomb', 'Acid Spray'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/949.png"
 	},
 	"Klawf": {
 		"number": 950,
@@ -8952,7 +8952,7 @@ pokemon = {
 		"max_cp": 2717,
 		"fast_moves": ['Rock Throw', 'Mud-Slap'],
 		"charged_moves": ['Rock Slide', 'Rock Tomb', 'Bulldoze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/950.png"
 	},
 	"Capsakid": {
 		"number": 951,
@@ -8961,7 +8961,7 @@ pokemon = {
 		"max_cp": 1104,
 		"fast_moves": ['Leafage', 'Razor Leaf'],
 		"charged_moves": ['Leaf Storm', 'Grass Knot', 'Seed Bomb'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/951.png"
 	},
 	"Scovillain": {
 		"number": 952,
@@ -8970,7 +8970,7 @@ pokemon = {
 		"max_cp": 2620,
 		"fast_moves": ['Leafage', 'Fire Fang'],
 		"charged_moves": ['Leaf Storm', 'Grass Knot', 'Overheat', 'Flamethrower'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/952.png"
 	},
 	"Rellor": {
 		"number": 953,
@@ -8979,7 +8979,7 @@ pokemon = {
 		"max_cp": 922,
 		"fast_moves": ['Bug Bite', 'Struggle Bug'],
 		"charged_moves": ['Dig', 'Bug Buzz', 'Lunge'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/953.png"
 	},
 	"Rabsca": {
 		"number": 954,
@@ -8988,7 +8988,7 @@ pokemon = {
 		"max_cp": 2966,
 		"fast_moves": ['Bug Bite', 'Confusion'],
 		"charged_moves": ['Dig', 'Bug Buzz', 'Lunge', 'Psybeam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/954.png"
 	},
 	"Flittle": {
 		"number": 955,
@@ -8997,7 +8997,7 @@ pokemon = {
 		"max_cp": 793,
 		"fast_moves": ['Peck', 'Confusion'],
 		"charged_moves": ['Psybeam', 'Psyshock', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/955.png"
 	},
 	"Espathra": {
 		"number": 956,
@@ -9006,7 +9006,7 @@ pokemon = {
 		"max_cp": 2800,
 		"fast_moves": ['Peck', 'Confusion'],
 		"charged_moves": ['Psybeam', 'Psyshock', 'Psychic'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/956.png"
 	},
 	"Tinkatink": {
 		"number": 957,
@@ -9015,7 +9015,7 @@ pokemon = {
 		"max_cp": 973,
 		"fast_moves": ['Fairy Wind', 'Rock Smash'],
 		"charged_moves": ['Play Rough', 'Brutal Swing', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/957.png"
 	},
 	"Tinkatuff": {
 		"number": 958,
@@ -9024,7 +9024,7 @@ pokemon = {
 		"max_cp": 1477,
 		"fast_moves": ['Fairy Wind', 'Rock Smash'],
 		"charged_moves": ['Play Rough', 'Brutal Swing', 'Flash Cannon'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/958.png"
 	},
 	"Tinkaton": {
 		"number": 959,
@@ -9033,7 +9033,7 @@ pokemon = {
 		"max_cp": 2544,
 		"fast_moves": ['Fairy Wind', 'Rock Smash'],
 		"charged_moves": ['Play Rough', 'Brutal Swing', 'Flash Cannon', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/959.png"
 	},
 	"Wiglett": {
 		"number": 960,
@@ -9042,7 +9042,7 @@ pokemon = {
 		"max_cp": 648,
 		"fast_moves": ['Water Gun', 'Mud-Slap'],
 		"charged_moves": ['Liquidation', 'Dig', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/960.png"
 	},
 	"Wugtrio": {
 		"number": 961,
@@ -9051,7 +9051,7 @@ pokemon = {
 		"max_cp": 2142,
 		"fast_moves": ['Water Gun', 'Mud-Slap'],
 		"charged_moves": ['Liquidation', 'Dig', 'Surf'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/961.png"
 	},
 	"Bombirdier": {
 		"number": 962,
@@ -9060,7 +9060,7 @@ pokemon = {
 		"max_cp": 2812,
 		"fast_moves": ['Wing Attack', 'Rock Throw'],
 		"charged_moves": ['Payback', 'Aerial Ace', 'Fly'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/962.png"
 	},
 	"Finizen": {
 		"number": 963,
@@ -9069,7 +9069,7 @@ pokemon = {
 		"max_cp": 988,
 		"fast_moves": ['Waterfall', 'Charm'],
 		"charged_moves": ['Aqua Jet', 'Water Pulse', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/963.png"
 	},
 	"Palafin": {
 		"number": 964,
@@ -9078,7 +9078,7 @@ pokemon = {
 		"max_cp": 2179,
 		"fast_moves": ['Waterfall', 'Charm', 'Counter'],
 		"charged_moves": ['Aqua Jet', 'Water Pulse', 'Icy Wind', 'Drain Punch', 'Acrobatics'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/964.png"
 	},
 	"Varoom": {
 		"number": 965,
@@ -9087,7 +9087,7 @@ pokemon = {
 		"max_cp": 1287,
 		"fast_moves": ['Lick', 'Poison Jab'],
 		"charged_moves": ['Acid Spray', 'Gunk Shot', 'Gyro Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/965.png"
 	},
 	"Revavroom": {
 		"number": 966,
@@ -9096,7 +9096,7 @@ pokemon = {
 		"max_cp": 3337,
 		"fast_moves": ['Lick', 'Poison Jab'],
 		"charged_moves": ['Acid Spray', 'Gunk Shot', 'Gyro Ball', 'Overheat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/966.png"
 	},
 	"Cyclizar": {
 		"number": 967,
@@ -9105,7 +9105,7 @@ pokemon = {
 		"max_cp": 2661,
 		"fast_moves": ['Dragon Tail', 'Take Down'],
 		"charged_moves": ['Dragon Claw', 'Body Slam', 'Trailblaze'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/967.png"
 	},
 	"Orthworm": {
 		"number": 968,
@@ -9114,7 +9114,7 @@ pokemon = {
 		"max_cp": 2599,
 		"fast_moves": ['Iron Tail', 'Mud-Slap'],
 		"charged_moves": ['Rock Tomb', 'Earthquake', 'Iron Head'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/968.png"
 	},
 	"Glimmet": {
 		"number": 969,
@@ -9123,7 +9123,7 @@ pokemon = {
 		"max_cp": 1899,
 		"fast_moves": ['Rock Throw', 'Smack Down'],
 		"charged_moves": ['Dazzling Gleam', 'Rock Slide', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/969.png"
 	},
 	"Glimmora": {
 		"number": 970,
@@ -9132,7 +9132,7 @@ pokemon = {
 		"max_cp": 3700,
 		"fast_moves": ['Rock Throw', 'Smack Down'],
 		"charged_moves": ['Dazzling Gleam', 'Rock Slide', 'Sludge Wave'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/970.png"
 	},
 	"Greavard": {
 		"number": 971,
@@ -9141,7 +9141,7 @@ pokemon = {
 		"max_cp": 1149,
 		"fast_moves": ['Lick', 'Bite'],
 		"charged_moves": ['Shadow Ball', 'Dig', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/971.png"
 	},
 	"Houndstone": {
 		"number": 972,
@@ -9150,7 +9150,7 @@ pokemon = {
 		"max_cp": 2842,
 		"fast_moves": ['Lick', 'Bite'],
 		"charged_moves": ['Shadow Ball', 'Dig', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/972.png"
 	},
 	"Flamigo": {
 		"number": 973,
@@ -9159,7 +9159,7 @@ pokemon = {
 		"max_cp": 3117,
 		"fast_moves": ['Wing Attack', 'Double Kick'],
 		"charged_moves": ['Aerial Ace', 'Brave Bird', 'Close Combat'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/973.png"
 	},
 	"Cetoddle": {
 		"number": 974,
@@ -9168,7 +9168,7 @@ pokemon = {
 		"max_cp": 1469,
 		"fast_moves": ['Ice Shard', 'Tackle'],
 		"charged_moves": ['Body Slam', 'Avalanche', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/974.png"
 	},
 	"Cetitan": {
 		"number": 975,
@@ -9177,7 +9177,7 @@ pokemon = {
 		"max_cp": 3519,
 		"fast_moves": ['Ice Shard', 'Tackle'],
 		"charged_moves": ['Body Slam', 'Avalanche', 'Heavy Slam'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/975.png"
 	},
 	"Veluza": {
 		"number": 976,
@@ -9186,7 +9186,7 @@ pokemon = {
 		"max_cp": 2754,
 		"fast_moves": ['Ice Fang', 'Zen Headbutt'],
 		"charged_moves": ['Water Pulse', 'Psychic Fangs', 'Drill Run', 'Crunch'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/976.png"
 	},
 	"Dondozo": {
 		"number": 977,
@@ -9195,7 +9195,7 @@ pokemon = {
 		"max_cp": 3388,
 		"fast_moves": ['Waterfall', 'Water Gun'],
 		"charged_moves": ['Outrage', 'Surf', 'Hydro Pump', 'Liquidation'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/977.png"
 	},
 	"Tatsugiri": {
 		"number": 978,
@@ -9204,7 +9204,7 @@ pokemon = {
 		"max_cp": 3105,
 		"fast_moves": ['Take Down', 'Water Gun'],
 		"charged_moves": ['Outrage', 'Surf', 'Hydro Pump', 'Muddy Water'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/978.png"
 	},
 	"Annihilape": {
 		"number": 979,
@@ -9213,7 +9213,7 @@ pokemon = {
 		"max_cp": 3695,
 		"fast_moves": ['Low Kick', 'Counter'],
 		"charged_moves": ['Close Combat', 'Low Sweep', 'Night Slash', 'Ice Punch', 'Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/979.png"
 	},
 	"Clodsire": {
 		"number": 980,
@@ -9222,7 +9222,7 @@ pokemon = {
 		"max_cp": 2207,
 		"fast_moves": ['Poison Sting', 'Mud Shot'],
 		"charged_moves": ['Sludge Bomb', 'Earthquake', 'Stone Edge', 'Acid Spray', 'Water Pulse', 'Megahorn'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/980.png"
 	},
 	"Farigiraf": {
 		"number": 981,
@@ -9231,7 +9231,7 @@ pokemon = {
 		"max_cp": 3223,
 		"fast_moves": ['Tackle', 'Confusion', 'Double Kick'],
 		"charged_moves": ['Psychic', 'Thunderbolt', 'Mirror Coat', 'Psychic Fangs'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/981.png"
 	},
 	"Dudunsparce": {
 		"number": 982,
@@ -9240,7 +9240,7 @@ pokemon = {
 		"max_cp": 3097,
 		"fast_moves": ['Bite', 'Astonish', 'Rollout'],
 		"charged_moves": ['Dig', 'Rock Slide', 'Drill Run'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/982.png"
 	},
 	"Kingambit": {
 		"number": 983,
@@ -9249,7 +9249,7 @@ pokemon = {
 		"max_cp": 4086,
 		"fast_moves": ['Snarl', 'Metal Claw'],
 		"charged_moves": ['Dark Pulse', 'Iron Head', 'X-Scissor', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/983.png"
 	},
 	"Great Tusk": {
 		"number": 984,
@@ -9258,7 +9258,7 @@ pokemon = {
 		"max_cp": 4550,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/984.png"
 	},
 	"Scream Tail": {
 		"number": 985,
@@ -9267,7 +9267,7 @@ pokemon = {
 		"max_cp": 2798,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/985.png"
 	},
 	"Brute Bonnet": {
 		"number": 986,
@@ -9276,7 +9276,7 @@ pokemon = {
 		"max_cp": 4018,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/986.png"
 	},
 	"Flutter Mane": {
 		"number": 987,
@@ -9285,7 +9285,7 @@ pokemon = {
 		"max_cp": 4179,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/987.png"
 	},
 	"Slither Wing": {
 		"number": 988,
@@ -9294,7 +9294,7 @@ pokemon = {
 		"max_cp": 4102,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/988.png"
 	},
 	"Sandy Shocks": {
 		"number": 989,
@@ -9303,7 +9303,7 @@ pokemon = {
 		"max_cp": 3867,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/989.png"
 	},
 	"Iron Treads": {
 		"number": 990,
@@ -9312,7 +9312,7 @@ pokemon = {
 		"max_cp": 3869,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/990.png"
 	},
 	"Iron Bundle": {
 		"number": 991,
@@ -9321,7 +9321,7 @@ pokemon = {
 		"max_cp": 3808,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/991.png"
 	},
 	"Iron Hands": {
 		"number": 992,
@@ -9330,7 +9330,7 @@ pokemon = {
 		"max_cp": 4649,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/992.png"
 	},
 	"Iron Jugulis": {
 		"number": 993,
@@ -9339,7 +9339,7 @@ pokemon = {
 		"max_cp": 3929,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/993.png"
 	},
 	"Iron Moth": {
 		"number": 994,
@@ -9348,7 +9348,7 @@ pokemon = {
 		"max_cp": 4346,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/994.png"
 	},
 	"Iron Thorns": {
 		"number": 995,
@@ -9357,7 +9357,7 @@ pokemon = {
 		"max_cp": 4250,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/995.png"
 	},
 	"Frigibax": {
 		"number": 996,
@@ -9366,7 +9366,7 @@ pokemon = {
 		"max_cp": 1410,
 		"fast_moves": ['Dragon Breath', 'Ice Fang'],
 		"charged_moves": ['Dragon Claw', 'Avalanche', 'Outrage', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/996.png"
 	},
 	"Arctibax": {
 		"number": 997,
@@ -9375,7 +9375,7 @@ pokemon = {
 		"max_cp": 2365,
 		"fast_moves": ['Dragon Breath', 'Ice Fang'],
 		"charged_moves": ['Dragon Claw', 'Avalanche', 'Outrage', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/997.png"
 	},
 	"Baxcalibur": {
 		"number": 998,
@@ -9384,7 +9384,7 @@ pokemon = {
 		"max_cp": 4013,
 		"fast_moves": ['Dragon Breath', 'Ice Fang'],
 		"charged_moves": ['Dragon Claw', 'Avalanche', 'Outrage', 'Blizzard', 'Icy Wind'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/998.png"
 	},
 	"Gimmighoul": {
 		"number": 999,
@@ -9393,7 +9393,7 @@ pokemon = {
 		"max_cp": 1248,
 		"fast_moves": ['Astonish'],
 		"charged_moves": ['Shadow Ball'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/999.png"
 	},
 	"Gholdengo": {
 		"number": 1000,
@@ -9402,7 +9402,7 @@ pokemon = {
 		"max_cp": 3976,
 		"fast_moves": ['Astonish', 'Hex'],
 		"charged_moves": ['Shadow Ball', 'Dazzling Gleam', 'Focus Blast'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1000.png"
 	},
 	"Wo-Chien": {
 		"number": 1001,
@@ -9411,7 +9411,7 @@ pokemon = {
 		"max_cp": 3320,
 		"fast_moves": ['Magical Leaf', 'Snarl'],
 		"charged_moves": ['Dark Pulse', 'Grass Knot', 'Leaf Storm'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1001.png"
 	},
 	"Chien-Pao": {
 		"number": 1002,
@@ -9420,7 +9420,7 @@ pokemon = {
 		"max_cp": 3764,
 		"fast_moves": ['Powder Snow', 'Snarl'],
 		"charged_moves": ['Dark Pulse', 'Avalanche', 'Blizzard'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1002.png"
 	},
 	"Ting-Lu": {
 		"number": 1003,
@@ -9429,7 +9429,7 @@ pokemon = {
 		"max_cp": 3994,
 		"fast_moves": ['Mud Shot', 'Snarl'],
 		"charged_moves": ['Dark Pulse', 'Bulldoze', 'Earthquake'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1003.png"
 	},
 	"Chi-Yu": {
 		"number": 1004,
@@ -9438,7 +9438,7 @@ pokemon = {
 		"max_cp": 3908,
 		"fast_moves": ['Incinerate', 'Snarl'],
 		"charged_moves": ['Dark Pulse', 'Flame Charge', 'Flame Wheel'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1004.png"
 	},
 	"Roaring Moon": {
 		"number": 1005,
@@ -9447,7 +9447,7 @@ pokemon = {
 		"max_cp": 4764,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1005.png"
 	},
 	"Iron Valiant": {
 		"number": 1006,
@@ -9456,7 +9456,7 @@ pokemon = {
 		"max_cp": 3943,
 		"fast_moves": ['Splash'],
 		"charged_moves": ['Struggle'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1006.png"
 	},
 	"Koraidon": {
 		"number": 1007,
@@ -9465,7 +9465,7 @@ pokemon = {
 		"max_cp": 4491,
 		"fast_moves": ['Rock Smash', 'Dragon Tail'],
 		"charged_moves": ['Giga Impact', 'Dragon Claw', 'Close Combat', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1007.png"
 	},
 	"Miraidon": {
 		"number": 1008,
@@ -9474,6 +9474,6 @@ pokemon = {
 		"max_cp": 4491,
 		"fast_moves": ['Thunder Shock', 'Dragon Breath'],
 		"charged_moves": ['Hyper Beam', 'Dragon Pulse', 'Thunder', 'Outrage'],
-		"image": "./assets/sprites/<class 'str'>.png"
+		"image": "./assets/sprites/1008.png"
 	},
 }

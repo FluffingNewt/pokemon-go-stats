@@ -3,77 +3,46 @@
     <title>Pokemon GO Damage Stats</title>
     <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./src/tablesort.css">
-    <style>
-        table {
-          border-collapse: collapse;
-          width: 50%;
-          margin: auto; /* Center the table horizontally */
-        }
-        tbody {
-            pointer-events: none; /* Disable pointer events for the whole body */
-        }
-        th, td {
-          border: 1px solid black;
-          padding: 8px;
-          text-align: left; /* Centering text horizontally */
-          vertical-align: top; /* Vertical alignment */
-        }
-        th:focus, td:focus {
-            outline: none; /* Remove outline on focus */
-        }
-        img {
-          vertical-align: middle; /* Align the image with the text */
-          margin-right: 10px; /* Add some space between the image and the text */
-        }
-      </style>
+    <link rel="stylesheet" href="./src/tablestyles.css">
 </head>
 
 <body>
+    <h1>Hello</h1>
     <table class="table-sortable">
 		<thead>
 			<tr>
-				<th style="width: 200px;">Pokemon</th>
-				<th style="width: 200px;">Fast Move</th>
-				<th style="width: 200px;">Charged Move</th>
-				<th style="width: 50px;">DPS</th>
-                <th style="width: 50px;">TDO</th>
-                <th style="width: 50px;">ER</th>
-                <th style="width: 50px;">Max CP</th>
+				<th style="width: 210px; min-width: 210px; max-width: 210px;">Pokemon</th>
+				<th style="width: 180px; min-width: 150px; max-width: 180px;">Fast Move</th>
+				<th style="width: 180px; min-width: 150px; max-width: 180px;">Charged Move</th>
+				<th style="width: 80px; min-width: 50px; max-width: 80px;">DPS</th>
+                <th style="width: 70px; min-width: 50px; max-width: 70px;">TDO</th>
+                <th style="width: 70px; min-width: 50px; max-width: 70px;">ER</th>
+                <th style="width: 70px; min-width: 55px; max-width: 70px;">Max CP</th>
 			</tr>
 		</thead>
 		<tbody class="inactive-cells">
 			<tr>
-				<td>
-                    <img src="./assets/sprites/3-mega.png">
-                    Mega Venusaur
-                </td>
-				<td>Blah</td>
-				<td>Blah</td>
+				<td><img src="./assets/sprites/3-mega.png">Gigantomax Venusaur</td>
+				<td><img src="./assets/types/bug.png">Blah</td>
+				<td><img src="./assets/types/bug.png">Blah</td>
+				<td>2000</td>
+                <td>Blah</td>
+                <td>Blah</td>
+                <td>7000</td>
+			</tr>
+            <tr>
+				<td><img src="./assets/sprites/384-mega.png"> Mega Rayquaza </td>
+				<td><img src="./assets/types/bug.png">Dragon Tail</td>
+				<td><img src="./assets/types/bug.png">Blah</td>
 				<td>Blah</td>
                 <td>Blah</td>
                 <td>Blah</td>
                 <td>Blah</td>
 			</tr>
             <tr>
-				<td>
-                    <img src="./assets/sprites/384-mega.png">
-                    Mega Rayquaza
-                </td>
-				<td>Blah</td>
-				<td>Blah</td>
-				<td>Blah</td>
-                <td>Blah</td>
-                <td>Blah</td>
-                <td>Blah</td>
-			</tr>
-            <tr>
-				<td>
-                    <img src="./assets/sprites/3.png">
-                    Venusaur
-                </td>
-				<td>Blah</td>
-				<td>Blah</td>
+				<td><img src="./assets/sprites/3.png">Venusaur</td>
+				<td><img src="./assets/types/bug.png">Blah</td>
+				<td><img src="./assets/types/bug.png">Blah</td>
 				<td>Blah</td>
                 <td>Blah</td>
                 <td>Blah</td>
@@ -83,5 +52,24 @@
 	</table>
 
     <script src="./src/tablesort.js"></script>
+    <script>
+        window.onload = function() {
+          var images = document.querySelectorAll('table img');
+    
+          images.forEach(function(img) {
+            var originalWidth = img.naturalWidth;
+            var originalHeight = img.naturalHeight;
+
+            if (img.src.includes("assets/types")) {
+                img.style.width = (originalWidth * 0.45) + 'px';
+                img.style.height = (originalHeight * 0.45) + 'px';
+
+            } else if (originalWidth > 40 && originalHeight > 30) {
+              img.style.width = (originalWidth * 0.5882) + 'px';
+              img.style.height = (originalHeight * 0.5357) + 'px';
+            }
+          });
+        };
+      </script>
 </body>
 </html>
