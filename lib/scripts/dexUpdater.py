@@ -141,9 +141,3 @@ def gen_mega_dict():
             prev_entry = pokemon["names"]["English"]
 
         file.write("}\n")
-
-
-
-########## Method Calls ##########
-gen_dex_dict()
-gen_mega_dict()

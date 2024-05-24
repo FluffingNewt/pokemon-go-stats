@@ -54,7 +54,3 @@ def gen_pve_move_dict():
             charged_obj = Move(charged_move)
             write_move_data(file, charged_obj)
         file.write("}\n")
-
-
-
-gen_pve_move_dict()
