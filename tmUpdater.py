@@ -56,4 +56,5 @@ def gen_pve_move_dict():
         file.write("}\n")
 
 
+
 gen_pve_move_dict()
