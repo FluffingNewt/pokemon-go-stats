@@ -4,531 +4,531 @@
 		"pwr": 3,
 		"energy_delta": 6,
 		"duration": 400,
-		"image": "./assets/types/Bug.png"
+		"image": "./assets/types/bug.png"
 	},
 	"Bug Bite": {
 		"type": "Bug",
 		"pwr": 5,
 		"energy_delta": 6,
 		"duration": 500,
-		"image": "./assets/types/Bug.png"
+		"image": "./assets/types/bug.png"
 	},
 	"Bite": {
 		"type": "Dark",
 		"pwr": 6,
 		"energy_delta": 4,
 		"duration": 500,
-		"image": "./assets/types/Dark.png"
+		"image": "./assets/types/dark.png"
 	},
 	"Sucker Punch": {
 		"type": "Dark",
 		"pwr": 7,
 		"energy_delta": 8,
 		"duration": 700,
-		"image": "./assets/types/Dark.png"
+		"image": "./assets/types/dark.png"
 	},
 	"Dragon Breath": {
 		"type": "Dragon",
 		"pwr": 6,
 		"energy_delta": 4,
 		"duration": 500,
-		"image": "./assets/types/Dragon.png"
+		"image": "./assets/types/dragon.png"
 	},
 	"Thunder Shock": {
 		"type": "Electric",
 		"pwr": 5,
 		"energy_delta": 8,
 		"duration": 600,
-		"image": "./assets/types/Electric.png"
+		"image": "./assets/types/electric.png"
 	},
 	"Spark": {
 		"type": "Electric",
 		"pwr": 6,
 		"energy_delta": 9,
 		"duration": 700,
-		"image": "./assets/types/Electric.png"
+		"image": "./assets/types/electric.png"
 	},
 	"Low Kick": {
 		"type": "Fighting",
 		"pwr": 6,
 		"energy_delta": 6,
 		"duration": 600,
-		"image": "./assets/types/Fighting.png"
+		"image": "./assets/types/fighting.png"
 	},
 	"Karate Chop": {
 		"type": "Fighting",
 		"pwr": 8,
 		"energy_delta": 10,
 		"duration": 800,
-		"image": "./assets/types/Fighting.png"
+		"image": "./assets/types/fighting.png"
 	},
 	"Ember": {
 		"type": "Fire",
 		"pwr": 10,
 		"energy_delta": 10,
 		"duration": 1000,
-		"image": "./assets/types/Fire.png"
+		"image": "./assets/types/fire.png"
 	},
 	"Wing Attack": {
 		"type": "Flying",
 		"pwr": 8,
 		"energy_delta": 9,
 		"duration": 800,
-		"image": "./assets/types/Flying.png"
+		"image": "./assets/types/flying.png"
 	},
 	"Peck": {
 		"type": "Flying",
 		"pwr": 10,
 		"energy_delta": 10,
 		"duration": 1000,
-		"image": "./assets/types/Flying.png"
+		"image": "./assets/types/flying.png"
 	},
 	"Lick": {
 		"type": "Ghost",
 		"pwr": 5,
 		"energy_delta": 6,
 		"duration": 500,
-		"image": "./assets/types/Ghost.png"
+		"image": "./assets/types/ghost.png"
 	},
 	"Shadow Claw": {
 		"type": "Ghost",
 		"pwr": 9,
 		"energy_delta": 6,
 		"duration": 700,
-		"image": "./assets/types/Ghost.png"
+		"image": "./assets/types/ghost.png"
 	},
 	"Vine Whip": {
 		"type": "Grass",
 		"pwr": 7,
 		"energy_delta": 6,
 		"duration": 600,
-		"image": "./assets/types/Grass.png"
+		"image": "./assets/types/grass.png"
 	},
 	"Razor Leaf": {
 		"type": "Grass",
 		"pwr": 13,
 		"energy_delta": 7,
 		"duration": 1000,
-		"image": "./assets/types/Grass.png"
+		"image": "./assets/types/grass.png"
 	},
 	"Mud Shot": {
 		"type": "Ground",
 		"pwr": 5,
 		"energy_delta": 7,
 		"duration": 600,
-		"image": "./assets/types/Ground.png"
+		"image": "./assets/types/ground.png"
 	},
 	"Ice Shard": {
 		"type": "Ice",
 		"pwr": 12,
 		"energy_delta": 12,
 		"duration": 1200,
-		"image": "./assets/types/Ice.png"
+		"image": "./assets/types/ice.png"
 	},
 	"Frost Breath": {
 		"type": "Ice",
 		"pwr": 10,
 		"energy_delta": 8,
 		"duration": 900,
-		"image": "./assets/types/Ice.png"
+		"image": "./assets/types/ice.png"
 	},
 	"Quick Attack": {
 		"type": "Normal",
 		"pwr": 8,
 		"energy_delta": 10,
 		"duration": 800,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Scratch": {
 		"type": "Normal",
 		"pwr": 6,
 		"energy_delta": 4,
 		"duration": 500,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Tackle": {
 		"type": "Normal",
 		"pwr": 5,
 		"energy_delta": 5,
 		"duration": 500,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Pound": {
 		"type": "Normal",
 		"pwr": 7,
 		"energy_delta": 6,
 		"duration": 600,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Cut": {
 		"type": "Normal",
 		"pwr": 5,
 		"energy_delta": 5,
 		"duration": 500,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Poison Jab": {
 		"type": "Poison",
 		"pwr": 10,
 		"energy_delta": 7,
 		"duration": 800,
-		"image": "./assets/types/Poison.png"
+		"image": "./assets/types/poison.png"
 	},
 	"Acid": {
 		"type": "Poison",
 		"pwr": 9,
 		"energy_delta": 8,
 		"duration": 800,
-		"image": "./assets/types/Poison.png"
+		"image": "./assets/types/poison.png"
 	},
 	"Psycho Cut": {
 		"type": "Psychic",
 		"pwr": 5,
 		"energy_delta": 8,
 		"duration": 600,
-		"image": "./assets/types/Psychic.png"
+		"image": "./assets/types/psychic.png"
 	},
 	"Rock Throw": {
 		"type": "Rock",
 		"pwr": 12,
 		"energy_delta": 7,
 		"duration": 900,
-		"image": "./assets/types/Rock.png"
+		"image": "./assets/types/rock.png"
 	},
 	"Metal Claw": {
 		"type": "Steel",
 		"pwr": 8,
 		"energy_delta": 7,
 		"duration": 700,
-		"image": "./assets/types/Steel.png"
+		"image": "./assets/types/steel.png"
 	},
 	"Bullet Punch": {
 		"type": "Steel",
 		"pwr": 9,
 		"energy_delta": 10,
 		"duration": 900,
-		"image": "./assets/types/Steel.png"
+		"image": "./assets/types/steel.png"
 	},
 	"Water Gun": {
 		"type": "Water",
 		"pwr": 5,
 		"energy_delta": 5,
 		"duration": 500,
-		"image": "./assets/types/Water.png"
+		"image": "./assets/types/water.png"
 	},
 	"Splash": {
 		"type": "Water",
 		"pwr": 0,
 		"energy_delta": 20,
 		"duration": 1730,
-		"image": "./assets/types/Water.png"
+		"image": "./assets/types/water.png"
 	},
 	"Mud Slap": {
 		"type": "Ground",
 		"pwr": 18,
 		"energy_delta": 12,
 		"duration": 1400,
-		"image": "./assets/types/Ground.png"
+		"image": "./assets/types/ground.png"
 	},
 	"Zen Headbutt": {
 		"type": "Psychic",
 		"pwr": 12,
 		"energy_delta": 10,
 		"duration": 1100,
-		"image": "./assets/types/Psychic.png"
+		"image": "./assets/types/psychic.png"
 	},
 	"Confusion": {
 		"type": "Psychic",
 		"pwr": 20,
 		"energy_delta": 15,
 		"duration": 1600,
-		"image": "./assets/types/Psychic.png"
+		"image": "./assets/types/psychic.png"
 	},
 	"Poison Sting": {
 		"type": "Poison",
 		"pwr": 5,
 		"energy_delta": 7,
 		"duration": 600,
-		"image": "./assets/types/Poison.png"
+		"image": "./assets/types/poison.png"
 	},
 	"Bubble": {
 		"type": "Water",
 		"pwr": 12,
 		"energy_delta": 14,
 		"duration": 1200,
-		"image": "./assets/types/Water.png"
+		"image": "./assets/types/water.png"
 	},
 	"Feint Attack": {
 		"type": "Dark",
 		"pwr": 10,
 		"energy_delta": 9,
 		"duration": 900,
-		"image": "./assets/types/Dark.png"
+		"image": "./assets/types/dark.png"
 	},
 	"Steel Wing": {
 		"type": "Steel",
 		"pwr": 11,
 		"energy_delta": 6,
 		"duration": 800,
-		"image": "./assets/types/Steel.png"
+		"image": "./assets/types/steel.png"
 	},
 	"Fire Fang": {
 		"type": "Fire",
 		"pwr": 12,
 		"energy_delta": 8,
 		"duration": 900,
-		"image": "./assets/types/Fire.png"
+		"image": "./assets/types/fire.png"
 	},
 	"Rock Smash": {
 		"type": "Fighting",
 		"pwr": 15,
 		"energy_delta": 10,
 		"duration": 1300,
-		"image": "./assets/types/Fighting.png"
+		"image": "./assets/types/fighting.png"
 	},
 	"Transform": {
 		"type": "Normal",
 		"pwr": 0,
 		"energy_delta": 0,
 		"duration": 2230,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Counter": {
 		"type": "Fighting",
 		"pwr": 12,
 		"energy_delta": 8,
 		"duration": 900,
-		"image": "./assets/types/Fighting.png"
+		"image": "./assets/types/fighting.png"
 	},
 	"Powder Snow": {
 		"type": "Ice",
 		"pwr": 6,
 		"energy_delta": 15,
 		"duration": 1000,
-		"image": "./assets/types/Ice.png"
+		"image": "./assets/types/ice.png"
 	},
 	"Charge Beam": {
 		"type": "Electric",
 		"pwr": 8,
 		"energy_delta": 15,
 		"duration": 1100,
-		"image": "./assets/types/Electric.png"
+		"image": "./assets/types/electric.png"
 	},
 	"Volt Switch": {
 		"type": "Electric",
 		"pwr": 14,
 		"energy_delta": 21,
 		"duration": 1600,
-		"image": "./assets/types/Electric.png"
+		"image": "./assets/types/electric.png"
 	},
 	"Dragon Tail": {
 		"type": "Dragon",
 		"pwr": 15,
 		"energy_delta": 9,
 		"duration": 1100,
-		"image": "./assets/types/Dragon.png"
+		"image": "./assets/types/dragon.png"
 	},
 	"Air Slash": {
 		"type": "Flying",
 		"pwr": 14,
 		"energy_delta": 10,
 		"duration": 1200,
-		"image": "./assets/types/Flying.png"
+		"image": "./assets/types/flying.png"
 	},
 	"Infestation": {
 		"type": "Bug",
 		"pwr": 10,
 		"energy_delta": 14,
 		"duration": 1100,
-		"image": "./assets/types/Bug.png"
+		"image": "./assets/types/bug.png"
 	},
 	"Struggle Bug": {
 		"type": "Bug",
 		"pwr": 15,
 		"energy_delta": 15,
 		"duration": 1500,
-		"image": "./assets/types/Bug.png"
+		"image": "./assets/types/bug.png"
 	},
 	"Astonish": {
 		"type": "Ghost",
 		"pwr": 8,
 		"energy_delta": 14,
 		"duration": 1100,
-		"image": "./assets/types/Ghost.png"
+		"image": "./assets/types/ghost.png"
 	},
 	"Hex": {
 		"type": "Ghost",
 		"pwr": 10,
 		"energy_delta": 16,
 		"duration": 1200,
-		"image": "./assets/types/Ghost.png"
+		"image": "./assets/types/ghost.png"
 	},
 	"Iron Tail": {
 		"type": "Steel",
 		"pwr": 15,
 		"energy_delta": 7,
 		"duration": 1100,
-		"image": "./assets/types/Steel.png"
+		"image": "./assets/types/steel.png"
 	},
 	"Fire Spin": {
 		"type": "Fire",
 		"pwr": 14,
 		"energy_delta": 10,
 		"duration": 1100,
-		"image": "./assets/types/Fire.png"
+		"image": "./assets/types/fire.png"
 	},
 	"Bullet Seed": {
 		"type": "Grass",
 		"pwr": 8,
 		"energy_delta": 14,
 		"duration": 1100,
-		"image": "./assets/types/Grass.png"
+		"image": "./assets/types/grass.png"
 	},
 	"Extrasensory": {
 		"type": "Psychic",
 		"pwr": 12,
 		"energy_delta": 12,
 		"duration": 1100,
-		"image": "./assets/types/Psychic.png"
+		"image": "./assets/types/psychic.png"
 	},
 	"Snarl": {
 		"type": "Dark",
 		"pwr": 12,
 		"energy_delta": 14,
 		"duration": 1100,
-		"image": "./assets/types/Dark.png"
+		"image": "./assets/types/dark.png"
 	},
 	"Hidden Power": {
 		"type": "Normal",
 		"pwr": 15,
 		"energy_delta": 15,
 		"duration": 1500,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Take Down": {
 		"type": "Normal",
 		"pwr": 8,
 		"energy_delta": 10,
 		"duration": 1200,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Waterfall": {
 		"type": "Water",
 		"pwr": 16,
 		"energy_delta": 8,
 		"duration": 1200,
-		"image": "./assets/types/Water.png"
+		"image": "./assets/types/water.png"
 	},
 	"Yawn": {
 		"type": "Normal",
 		"pwr": 0,
 		"energy_delta": 15,
 		"duration": 1700,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Present": {
 		"type": "Normal",
 		"pwr": 5,
 		"energy_delta": 20,
 		"duration": 1300,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Smack Down": {
 		"type": "Rock",
 		"pwr": 16,
 		"energy_delta": 8,
 		"duration": 1200,
-		"image": "./assets/types/Rock.png"
+		"image": "./assets/types/rock.png"
 	},
 	"Charm": {
 		"type": "Fairy",
 		"pwr": 20,
 		"energy_delta": 11,
 		"duration": 1500,
-		"image": "./assets/types/Fairy.png"
+		"image": "./assets/types/fairy.png"
 	},
 	"Lock On": {
 		"type": "Normal",
 		"pwr": 1,
 		"energy_delta": 6,
 		"duration": 300,
-		"image": "./assets/types/Normal.png"
+		"image": "./assets/types/normal.png"
 	},
 	"Thunder Fang": {
 		"type": "Electric",
 		"pwr": 12,
 		"energy_delta": 16,
 		"duration": 1200,
-		"image": "./assets/types/Electric.png"
+		"image": "./assets/types/electric.png"
 	},
 	"Ice Fang": {
 		"type": "Ice",
 		"pwr": 12,
 		"energy_delta": 20,
 		"duration": 1500,
-		"image": "./assets/types/Ice.png"
+		"image": "./assets/types/ice.png"
 	},
 	"Gust": {
 		"type": "Flying",
 		"pwr": 25,
 		"energy_delta": 20,
 		"duration": 2000,
-		"image": "./assets/types/Flying.png"
+		"image": "./assets/types/flying.png"
 	},
 	"Incinerate": {
 		"type": "Fire",
 		"pwr": 29,
 		"energy_delta": 20,
 		"duration": 2300,
-		"image": "./assets/types/Fire.png"
+		"image": "./assets/types/fire.png"
 	},
 	"Fairy Wind": {
 		"type": "Fairy",
 		"pwr": 9,
 		"energy_delta": 13,
 		"duration": 970,
-		"image": "./assets/types/Fairy.png"
+		"image": "./assets/types/fairy.png"
 	},
 	"Double Kick": {
 		"type": "Fighting",
 		"pwr": 10,
 		"energy_delta": 13,
 		"duration": 1000,
-		"image": "./assets/types/Fighting.png"
+		"image": "./assets/types/fighting.png"
 	},
 	"Magical Leaf": {
 		"type": "Grass",
 		"pwr": 16,
 		"energy_delta": 16,
 		"duration": 1400,
-		"image": "./assets/types/Grass.png"
+		"image": "./assets/types/grass.png"
 	},
 	"Rollout": {
 		"type": "Rock",
 		"pwr": 14,
 		"energy_delta": 18,
 		"duration": 1400,
-		"image": "./assets/types/Rock.png"
+		"image": "./assets/types/rock.png"
 	},
 	"Water Shuriken": {
 		"type": "Water",
 		"pwr": 10,
 		"energy_delta": 15,
 		"duration": 1100,
-		"image": "./assets/types/Water.png"
+		"image": "./assets/types/water.png"
 	},
 	"Leafage": {
 		"type": "Grass",
 		"pwr": 9,
 		"energy_delta": 6,
 		"duration": 700,
-		"image": "./assets/types/Grass.png"
+		"image": "./assets/types/grass.png"
 	},
 	"Geomancy": {
 		"type": "Fairy",
 		"pwr": 20,
 		"energy_delta": 14,
 		"duration": 1500,
-		"image": "./assets/types/Fairy.png"
+		"image": "./assets/types/fairy.png"
 	}
 }

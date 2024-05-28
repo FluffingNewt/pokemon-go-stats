@@ -10,7 +10,7 @@ class Move:
         self.pwr          = move_dict["power"]
         self.duration     = move_dict["duration"]
         self.energy_delta = move_dict["energy_delta"]
-        self.image        = f'"./assets/types/{self.type}.png"'
+        self.image        = f'"./assets/types/{self.type.lower()}.png"'
 
 
 

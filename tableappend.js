@@ -22,7 +22,7 @@ function calcMaxCP(pokemon, level50) {
 }
 
 fetch("pokemon-mega.json")
-  .then((response) => response.json())
+  .then((r1) => r1.json())
   .then((data) => {
     console.log("Fetched data:", data);
     const tableBody = document.querySelector("#pokemonTable tbody");
@@ -31,18 +31,34 @@ fetch("pokemon-mega.json")
     for (const pokemonName in data) {
       const pokemon = data[pokemonName];
 
-      // Create a table row for each Pokémon
-      const row = document.createElement("tr");
-      row.innerHTML = `
-              <td>${pokemonName}</td>
-              <td>Blah</td>
-              <td>Blah</td>
-              <td>Blah</td>
-              <td>Blah</td>
-              <td>Blah</td>
-              <td>${calcMaxCP(pokemon, true)}</td>
-        `;
-      tableBody.appendChild(row);
+      fetch("fast_moves_pve.json")
+        .then((r2) => r2.json())
+        .then((fast_moves) => {
+          for (const fastMove of pokemon.fast_moves) {
+            const fm = fast_moves[fastMove];
+
+            fetch("charged_moves_pve.json")
+              .then((r3) => r3.json())
+              .then((charged_moves) => {
+                for (const chargedMove of pokemon.charged_moves) {
+                  const cm = charged_moves[chargedMove];
+
+                  // Create a table row for each Pokémon
+                  const row = document.createElement("tr");
+                  row.innerHTML = `
+                    <td><img src="${pokemon.image}">${pokemonName}</td>
+                    <td><img src="${fm.image}">${fastMove}</td>
+                    <td><img src="${cm.image}">${chargedMove}</td>
+                    <td>Blah</td>
+                    <td>Blah</td>
+                    <td>Blah</td>
+                    <td>${calcMaxCP(pokemon, true)}</td>
+                  `;
+                  tableBody.appendChild(row);
+                }
+              });
+          }
+        });
     }
   });
 
