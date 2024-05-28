@@ -1,50 +1,39 @@
 <!DOCTYPE html>
-<head>
+<html lang="en">
+  <head>
     <title>Pokemon GO Damage Stats</title>
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./src/tablestyles.css">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./src/styles/tablestyles.css" />
+  </head>
 
-<body>
+  <body>
     <h1>Hello</h1>
-    
-    <table class="table-sortable">
-		<thead>
-			<tr>
-				<th style="width: 210px; min-width: 210px; max-width: 210px;">Pokemon</th>
-				<th style="width: 180px; min-width: 150px; max-width: 180px;">Fast Move</th>
-				<th style="width: 180px; min-width: 150px; max-width: 180px;">Charged Move</th>
-				<th style="width: 80px; min-width: 50px; max-width: 80px;">DPS</th>
-        <th style="width: 70px; min-width: 50px; max-width: 70px;">TDO</th>
-        <th style="width: 70px; min-width: 50px; max-width: 70px;">ER</th>
-        <th style="width: 70px; min-width: 55px; max-width: 70px;">Max CP</th>
-			</tr>
-		</thead>
-		<tbody class="inactive-cells">
-			
-		</tbody>
-	</table>
 
-    <script src="./src/tablesort.js"></script>
-    <script>
-        window.onload = function() {
-          var images = document.querySelectorAll('table img');
-    
-          images.forEach(function(img) {
-            var originalWidth = img.naturalWidth;
-            var originalHeight = img.naturalHeight;
+    <table id="pokemonTable">
+      <thead>
+        <tr>
+          <th style="width: 210px; min-width: 210px; max-width: 210px">
+            Pokemon
+          </th>
+          <th style="width: 180px; min-width: 150px; max-width: 180px">
+            Fast Move
+          </th>
+          <th style="width: 180px; min-width: 150px; max-width: 180px">
+            Charged Move
+          </th>
+          <th style="width: 80px; min-width: 50px; max-width: 80px">DPS</th>
+          <th style="width: 70px; min-width: 50px; max-width: 70px">TDO</th>
+          <th style="width: 70px; min-width: 50px; max-width: 70px">ER</th>
+          <th style="width: 70px; min-width: 55px; max-width: 70px">Max CP</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
 
-            if (img.src.includes("assets/types")) {
-                img.style.width = (originalWidth * 0.45) + 'px';
-                img.style.height = (originalHeight * 0.45) + 'px';
+    <!-- <script src="./src/scripts/tablesort.js"></script> -->
 
-            } else if (originalWidth > 40 && originalHeight > 30) {
-              img.style.width = (originalWidth * 0.5882) + 'px';
-              img.style.height = (originalHeight * 0.5357) + 'px';
-            }
-          });
-        };
-      </script>
-</body>
-</html>https://github.com/FluffingNewt/pokemon-go-stats.git
+    <script src="./tableappend.js"></script>
+  </body>
+</html>
+https://github.com/FluffingNewt/pokemon-go-stats.git
