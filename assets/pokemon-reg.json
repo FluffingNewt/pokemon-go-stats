@@ -1,4 +1,4 @@
-pokemon = {
+{
 	"Bulbasaur": {
 		"number": 1,
 		"type": ["Grass", "Poison"],

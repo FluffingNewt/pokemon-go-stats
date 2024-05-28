@@ -96,8 +96,8 @@ def gen_dex_dict():
         print(f"Error fetching data from API: {e}")
         return
 
-    with open("./assets/pokemon-reg.py", "w") as file:
-        file.write("pokemon = {\n")
+    with open("./assets/pokemon-reg.json", "w",encoding='utf-8') as file:
+        file.write("{\n")
 
         for pokemon in data:
             if pokemon["stats"]:
@@ -129,8 +129,8 @@ def gen_mega_dict():
         print(f"Error fetching data from API: {e}")
         return
 
-    with open("./assets/pokemon-mega.py", "w") as file:
-        file.write("megas = {\n")
+    with open("./assets/pokemon-mega.json", "w",encoding='utf-8') as file:
+        file.write("{\n")
         prev_entry = ""
         for pokemon in data:
             if prev_entry != pokemon["names"]["English"]:

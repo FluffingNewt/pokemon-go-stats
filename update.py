@@ -1,5 +1,5 @@
-from lib.scripts import dexUpdater
-from lib.scripts import tmUpdater
+from lib import dexUpdater
+from lib import tmUpdater
 
 dexUpdater.gen_dex_dict()
 dexUpdater.gen_mega_dict()

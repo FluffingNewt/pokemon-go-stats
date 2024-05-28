@@ -38,8 +38,8 @@ def gen_pve_move_dict():
         return
 
 
-    with open("./assets/moves_pve.py", "w") as file:
-        file.write("fast_moves_pve = {\n")
+    with open("./assets/fast_moves_pve.json", "w",encoding='utf-8') as file:
+        file.write("{\n")
         for fast_move in data:
             fast_obj = Move(fast_move)
             write_move_data(file, fast_obj)
@@ -50,6 +50,17 @@ def gen_pve_move_dict():
         data = response.json()
         
         file.write("\n\n\ncharged_moves_pve = {\n")
+        for charged_move in data:
+            charged_obj = Move(charged_move)
+            write_move_data(file, charged_obj)
+        file.write("}\n")
+
+    with open("./assets/charged_moves_pve.json", "w",encoding='utf-8') as file:
+        url = f"{base_url}charged_moves.json"
+        response = requests.get(url)
+        data = response.json()
+        
+        file.write("{\n")
         for charged_move in data:
             charged_obj = Move(charged_move)
             write_move_data(file, charged_obj)
