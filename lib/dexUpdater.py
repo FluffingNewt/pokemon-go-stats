@@ -31,7 +31,7 @@ class Pokemon:
         ]
         self.charged_moves = json.dumps(cms)
         
-        self.image = f'"./assets/sprites/{self.number}.png"' if region == "" else f'"./assets/sprites/{self.number}-{region.lower()}.png"'
+        self.image = f'"./images/sprites/{self.number}.png"' if region == "" else f'"./images/sprites/{self.number}-{region.lower()}.png"'
 
 
 
@@ -64,7 +64,7 @@ class Mega:
         if self.name[-1] in {"X", "Y"}:
                 url += f"-{self.name[-1].lower()}"
 
-        self.image = f'"./assets/sprites/{url}.png"'
+        self.image = f'"./images/sprites/{url}.png"'
 
 
 
@@ -96,13 +96,11 @@ def gen_dex_dict():
         print(f"Error fetching data from API: {e}")
         return
 
-    with open("./assets/pokemon-reg.json", "w",encoding='utf-8') as file:
+    with open("./data/pokemon-reg.json", "w",encoding='utf-8') as file:
         file.write("{\n")
         index = 0
         for pokemon in data:
-            if pokemon["stats"]:
-                print(f"index: {index}      length of data: {len(data)}")
-                
+            if pokemon["stats"]:                
                 # Create and write the main Pokemon object
                 pokemon_obj = Pokemon(pokemon, "")
                 write_pokemon_data(file, pokemon_obj)
@@ -136,7 +134,7 @@ def gen_mega_dict():
         print(f"Error fetching data from API: {e}")
         return
 
-    with open("./assets/pokemon-mega.json", "w",encoding='utf-8') as file:
+    with open("./data/pokemon-mega.json", "w",encoding='utf-8') as file:
         file.write("{\n")
         prev_entry = ""
         index = 0

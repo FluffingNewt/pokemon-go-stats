@@ -10,7 +10,7 @@ class Move:
         self.pwr          = move_dict["power"]
         self.duration     = move_dict["duration"]
         self.energy_delta = move_dict["energy_delta"]
-        self.image        = f'"./assets/types/{self.type.lower()}.png"'
+        self.image        = f'"./images/types/{self.type.lower()}.png"'
 
 
 
@@ -39,7 +39,7 @@ def gen_pve_move_dict():
         return
 
 
-    with open("./assets/fast_moves_pve.json", "w",encoding='utf-8') as file:
+    with open("./data/fast_moves_pve.json", "w",encoding='utf-8') as file:
         file.write("{\n")
         index = 0
         for fast_move in data:
@@ -50,7 +50,7 @@ def gen_pve_move_dict():
             index += 1
         file.write("}\n")
 
-    with open("./assets/charged_moves_pve.json", "w",encoding='utf-8') as file:
+    with open("./data/charged_moves_pve.json", "w",encoding='utf-8') as file:
         url = f"{base_url}charged_moves.json"
         response = requests.get(url)
         data = response.json()
