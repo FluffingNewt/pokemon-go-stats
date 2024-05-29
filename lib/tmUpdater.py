@@ -10,6 +10,7 @@ class Move:
         self.pwr          = move_dict["power"]
         self.duration     = move_dict["duration"]
         self.energy_delta = move_dict["energy_delta"]
+        self.image        = f'"./assets/types/{self.type.lower()}.png"'
 
 
 
@@ -19,8 +20,8 @@ def write_move_data(file, move):
         f'\t\t"type": "{move.type}",\n'
         f'\t\t"pwr": {move.pwr},\n'
         f'\t\t"energy_delta": {move.energy_delta},\n'
-        f'\t\t"duration": {move.duration}\n'
-        f'\t}},\n'
+        f'\t\t"duration": {move.duration},\n'
+        f'\t\t"image": {move.image}\n'
     )
     file.write(text)
 
@@ -38,21 +39,30 @@ def gen_pve_move_dict():
         return
 
 
-    with open("./assets/moves_pve.py", "w") as file:
-        file.write("fast_moves_pve = {\n")
+    with open("./assets/fast_moves_pve.json", "w",encoding='utf-8') as file:
+        file.write("{\n")
+        index = 0
         for fast_move in data:
             fast_obj = Move(fast_move)
             write_move_data(file, fast_obj)
+            if index != len(data) - 1: file.write(f'\t}},\n')
+            else: file.write(f'\t}}\n')
+            index += 1
         file.write("}\n")
 
+    with open("./assets/charged_moves_pve.json", "w",encoding='utf-8') as file:
         url = f"{base_url}charged_moves.json"
         response = requests.get(url)
         data = response.json()
         
-        file.write("\n\n\ncharged_moves_pve = {\n")
+        file.write("{\n")
+        index = 0
         for charged_move in data:
             charged_obj = Move(charged_move)
             write_move_data(file, charged_obj)
+            if index != len(data) - 1: file.write(f'\t}},\n')
+            else: file.write(f'\t}}\n')
+            index += 1
         file.write("}\n")
 
 
