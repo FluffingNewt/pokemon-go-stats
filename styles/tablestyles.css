@@ -1,4 +1,4 @@
-/* .table-sortable th {
+.table-sortable th {
 	cursor: pointer;
 }
 
@@ -16,7 +16,7 @@
 
 .table-sortable .th-sort-asc, .table-sortable .th-sort-desc {
 	background: rgba(0, 0, 0, 0.1);
-} */
+}
 
 table {
     border-collapse: collapse;
@@ -49,4 +49,18 @@ img {
     vertical-align: middle;
     margin-right: 10px;
     margin-left: 10px;
+}
+
+#type-img img {
+    width: 15%;
+    /* height: 20%; */
+}
+
+#reg-img img {
+    width: 58.82%;
+    height: 53.57%;
+}
+
+.hidden {
+    display: none;
 }

@@ -21,6 +21,8 @@ function calcMaxCP(pokemon, level50) {
   return Math.floor(Math.max(10, cp));
 }
 
+function fetchDataAndRender() {
+// Adds megas to table
 fetch("../data/pokemon-mega.json")
   .then((r1) => r1.json())
   .then((data) => {
@@ -49,8 +51,8 @@ fetch("../data/pokemon-mega.json")
                   const row = document.createElement("tr");
                   row.innerHTML = `
                     <td><img src="${pokemon.image}">${pokemonName}</td>
-                    <td><img src="${fm.image}">${fastMove}</td>
-                    <td><img src="${cm.image}">${chargedMove}</td>
+                    <td id="type-img"><img src="${fm.image}">${fastMove}</td>
+                    <td id="type-img"><img src="${cm.image}">${chargedMove}</td>
                     <td>Blah</td>
                     <td>Blah</td>
                     <td>Blah</td>
@@ -63,21 +65,25 @@ fetch("../data/pokemon-mega.json")
         });
     }
   });
+}
 
-// Changes image sizes to fit cells
-// window.onload = function () {
-//   var images = document.querySelectorAll("table img");
+// Function to filter the table based on user input
+function filterTable() {
+  const filterValue = document.getElementById("filterInput").value.toLowerCase();
+  const rows = document.querySelectorAll("#pokemonTable tbody tr");
 
-//   images.forEach(function (img) {
-//     var originalWidth = img.naturalWidth;
-//     var originalHeight = img.naturalHeight;
+  rows.forEach((row) => {
+      const typeCell = row.querySelector('td:nth-child(2)').textContent.toLowerCase();
+      if (typeCell.includes(filterValue)) {
+          row.style.display = "";
+      } else {
+          row.style.display = "none";
+      }
+  });
+}
 
-//     if (img.src.includes("assets/types")) {
-//       img.style.width = originalWidth * 0.45 + "px";
-//       img.style.height = originalHeight * 0.45 + "px";
-//     } else if (originalWidth > 40 && originalHeight > 30) {
-//       img.style.width = originalWidth * 0.5882 + "px";
-//       img.style.height = originalHeight * 0.5357 + "px";
-//     }
-//   });
-// };
+// Fetch data and render the table on page load
+fetchDataAndRender();
+
+// Add event listener for the filter input box
+document.getElementById("filterInput").addEventListener("input", filterTable);

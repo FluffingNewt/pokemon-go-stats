@@ -8,9 +8,13 @@
   </head>
 
   <body>
-    <h1>Hello</h1>
+    <h1>Pokemon PVE Damage Calculations</h1>
 
-    <table id="pokemonTable">
+    <input type="text" id="filterInput" placeholder="Filter Pokémon by name">
+    
+    <button onclick="showHiddenRows()">Show Hidden Rows</button>
+
+    <table id="pokemonTable" class="table-sortable">
       <thead>
         <tr>
           <th style="width: 210px; min-width: 210px; max-width: 210px">
@@ -28,12 +32,15 @@
           <th style="width: 70px; min-width: 55px; max-width: 70px">Max CP</th>
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody class="inactive-cells">
+
+      </tbody>
     </table>
 
-    <!-- <script src="./src/scripts/tablesort.js"></script> -->
+    <script src="./scripts/tableSort.js"></script>
 
-    <script src="./scripts/tableappend.js"></script>
+    <script src="./scripts/loadData.js"></script>
+    
   </body>
 </html>
 https://github.com/FluffingNewt/pokemon-go-stats.git
