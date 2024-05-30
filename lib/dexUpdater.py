@@ -1,20 +1,30 @@
 import requests
 import json
+import math
 
 
 regions = ["ALOLA", "GALARIAN", "HISUIAN", "PALDEA"]
 base_url = "https://pokemon-go-api.github.io/pokemon-go-api/api/pokedex"
 
+# Calculates the max cp per pokemon based on level 40 or level 50.
+def calc_max_cp(pokemon, level50):
+    cpm = 0.84029999 if level50 else 0.7903
+    
+    attack = pokemon['stats']['attack'] + 15
+    defense = math.sqrt(pokemon['stats']['defense'] + 15)
+    hp = math.sqrt(pokemon['stats']['hp'] + 15)
+    
+    cp = ((attack * defense * hp * (cpm ** 2)) / 10)
+    
+    return math.floor(max(10, cp))
+
 
 class Pokemon:
-    def __init__(self, pokemon_dict, region):
+    def __init__(self, pokemon_dict):
+        poke_name = pokemon_dict["names"]["English"]
+        tag = poke_name.split()[0] if len(poke_name.split()) > 1 else ""
 
-        nameArr = pokemon_dict["names"]["English"].split()
-        if len(nameArr) > 1:
-            self.id = nameArr[0].upper() + "_" + pokemon_dict["id"]
-        else:
-            self.id      = pokemon_dict["id"]
-
+        self.id = tag.upper() + "_" + pokemon_dict["id"] if " " in poke_name else pokemon_dict["id"]
         self.name    = pokemon_dict["names"]["English"]
         self.number  = pokemon_dict["dexNr"]
         self.type1   = pokemon_dict["primaryType"]["names"]["English"]
@@ -24,8 +34,6 @@ class Pokemon:
         fast_moves = {}
         for move in pokemon_dict["quickMoves"]:
             name         = pokemon_dict["quickMoves"][move]["names"]["English"]
-            pve = {}
-            pvp = {}
             move_type    = pokemon_dict["quickMoves"][move]["type"]["names"]["English"]
             power        = pokemon_dict["quickMoves"][move]["power"]
             energy_delta = pokemon_dict["quickMoves"][move]["energy"]
@@ -57,6 +65,7 @@ class Pokemon:
             }
 
         self.fast_moves = json.dumps(fast_moves)
+
         ####################################################################################
 
         charged_moves = {}
@@ -94,10 +103,15 @@ class Pokemon:
         
         self.charged_moves = json.dumps(charged_moves)
 
-        
-        self.image = f'"./images/sprites/{self.number}.png"' if region == "" else f'"./images/sprites/{self.number}-{region.lower()}.png"'
+        ####################################################################################
 
+        pve = {}
+        pvp = {}
 
+        ####################################################################################
+
+        url = f"{self.number}-{tag.lower()}" if " " in poke_name else str(self.number)
+        self.image = f'"./images/sprites/{url}.png"'
 
 class Mega:
     def __init__(self, pokemon_dict, mega_dict):
@@ -168,7 +182,7 @@ def gen_dex_dict():
         for pokemon in data:
             if pokemon["stats"]:                
                 # Create and write the main Pokemon object
-                pokemon_obj = Pokemon(pokemon, "")
+                pokemon_obj = Pokemon(pokemon)
                 write_pokemon_data(file, pokemon_obj)
                 if index != len(data) - 1: file.write(f'\t}},\n')
                 else: file.write(f'\t}}\n')
@@ -178,7 +192,7 @@ def gen_dex_dict():
                 for regional in pokemon["regionForms"]:
                     for region in regions:
                         if region in regional:
-                            regionalObj = Pokemon(pokemon["regionForms"][regional], region)
+                            regionalObj = Pokemon(pokemon["regionForms"][regional])
                             write_pokemon_data(file, regionalObj)
                             file.write(f'\t}},\n')
             else :

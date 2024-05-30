@@ -177,7 +177,7 @@
 		"stats": {"attack": 103, "defense": 70, "hp": 102},
 		"fast_moves": {"Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Quick Attack": {"type": "Normal", "power": 8, "energy delta": 10, "duration": 800, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Crunch": {"type": "Dark", "power": 70, "energy delta": -33, "duration": 3200, "isLegacy": false, "image": "./images/types/dark.png"}, "Hyper Fang": {"type": "Normal", "power": 80, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/normal.png"}, "Shadow Ball": {"type": "Ghost", "power": 100, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/ghost.png"}},
-		"image": "./images/sprites/19-alola.png"
+		"image": "./images/sprites/19-alolan.png"
 	},
 	"RATICATE": {
 		"name": "Raticate",
@@ -195,7 +195,7 @@
 		"stats": {"attack": 135, "defense": 154, "hp": 181},
 		"fast_moves": {"Bite": {"type": "Dark", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/dark.png"}, "Quick Attack": {"type": "Normal", "power": 8, "energy delta": 10, "duration": 800, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Crunch": {"type": "Dark", "power": 70, "energy delta": -33, "duration": 3200, "isLegacy": false, "image": "./images/types/dark.png"}, "Hyper Fang": {"type": "Normal", "power": 80, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/normal.png"}, "Hyper Beam": {"type": "Normal", "power": 150, "energy delta": -100, "duration": 3800, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/20-alola.png"
+		"image": "./images/sprites/20-alolan.png"
 	},
 	"SPEAROW": {
 		"name": "Spearow",
@@ -258,7 +258,7 @@
 		"stats": {"attack": 201, "defense": 154, "hp": 155},
 		"fast_moves": {"Volt Switch": {"type": "Electric", "power": 14, "energy delta": 21, "duration": 1600, "isLegacy": false, "image": "./images/types/electric.png"}, "Spark": {"type": "Electric", "power": 6, "energy delta": 9, "duration": 700, "isLegacy": false, "image": "./images/types/electric.png"}, "Thunder Shock": {"type": "Electric", "power": 5, "energy delta": 8, "duration": 600, "isLegacy": false, "image": "./images/types/electric.png"}},
 		"charged_moves": {"Psychic": {"type": "Psychic", "power": 90, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/psychic.png"}, "Thunder Punch": {"type": "Electric", "power": 45, "energy delta": -33, "duration": 1800, "isLegacy": false, "image": "./images/types/electric.png"}, "Wild Charge": {"type": "Electric", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/electric.png"}, "Grass Knot": {"type": "Grass", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/grass.png"}, "Trailblaze": {"type": "Grass", "power": 65, "energy delta": -50, "duration": 2000, "isLegacy": false, "image": "./images/types/grass.png"}},
-		"image": "./images/sprites/26-alola.png"
+		"image": "./images/sprites/26-alolan.png"
 	},
 	"SANDSHREW": {
 		"name": "Sandshrew",
@@ -276,7 +276,7 @@
 		"stats": {"attack": 125, "defense": 129, "hp": 137},
 		"fast_moves": {"Metal Claw": {"type": "Steel", "power": 8, "energy delta": 7, "duration": 700, "isLegacy": false, "image": "./images/types/steel.png"}, "Powder Snow": {"type": "Ice", "power": 6, "energy delta": 15, "duration": 1000, "isLegacy": false, "image": "./images/types/ice.png"}},
 		"charged_moves": {"Blizzard": {"type": "Ice", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/ice.png"}, "Gyro Ball": {"type": "Steel", "power": 80, "energy delta": -50, "duration": 3300, "isLegacy": false, "image": "./images/types/steel.png"}, "Night Slash": {"type": "Dark", "power": 50, "energy delta": -33, "duration": 2200, "isLegacy": false, "image": "./images/types/dark.png"}},
-		"image": "./images/sprites/27-alola.png"
+		"image": "./images/sprites/27-alolan.png"
 	},
 	"SANDSLASH": {
 		"name": "Sandslash",
@@ -294,7 +294,7 @@
 		"stats": {"attack": 177, "defense": 195, "hp": 181},
 		"fast_moves": {"Metal Claw": {"type": "Steel", "power": 8, "energy delta": 7, "duration": 700, "isLegacy": false, "image": "./images/types/steel.png"}, "Powder Snow": {"type": "Ice", "power": 6, "energy delta": 15, "duration": 1000, "isLegacy": false, "image": "./images/types/ice.png"}, "Shadow Claw": {"type": "Ghost", "power": 9, "energy delta": 6, "duration": 700, "isLegacy": true, "image": "./images/types/ghost.png"}},
 		"charged_moves": {"Blizzard": {"type": "Ice", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/ice.png"}, "Gyro Ball": {"type": "Steel", "power": 80, "energy delta": -50, "duration": 3300, "isLegacy": false, "image": "./images/types/steel.png"}, "Bulldoze": {"type": "Ground", "power": 80, "energy delta": -50, "duration": 3500, "isLegacy": false, "image": "./images/types/ground.png"}, "Ice Punch": {"type": "Ice", "power": 50, "energy delta": -33, "duration": 1900, "isLegacy": false, "image": "./images/types/ice.png"}, "Drill Run": {"type": "Ground", "power": 80, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/ground.png"}, "Aerial Ace": {"type": "Flying", "power": 55, "energy delta": -33, "duration": 2400, "isLegacy": false, "image": "./images/types/flying.png"}},
-		"image": "./images/sprites/28-alola.png"
+		"image": "./images/sprites/28-alolan.png"
 	},
 	"NIDORAN_FEMALE": {
 		"name": "Nidoran♀",
@@ -384,7 +384,7 @@
 		"stats": {"attack": 96, "defense": 109, "hp": 116},
 		"fast_moves": {"Zen Headbutt": {"type": "Psychic", "power": 12, "energy delta": 10, "duration": 1100, "isLegacy": false, "image": "./images/types/psychic.png"}, "Powder Snow": {"type": "Ice", "power": 6, "energy delta": 15, "duration": 1000, "isLegacy": false, "image": "./images/types/ice.png"}},
 		"charged_moves": {"Dark Pulse": {"type": "Dark", "power": 80, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/dark.png"}, "Ice Beam": {"type": "Ice", "power": 90, "energy delta": -50, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}, "Blizzard": {"type": "Ice", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/ice.png"}, "Weather Ball": {"type": "Ice", "power": 55, "energy delta": -33, "duration": 1600, "isLegacy": false, "image": "./images/types/ice.png"}},
-		"image": "./images/sprites/37-alola.png"
+		"image": "./images/sprites/37-alolan.png"
 	},
 	"NINETALES": {
 		"name": "Ninetales",
@@ -402,7 +402,7 @@
 		"stats": {"attack": 170, "defense": 193, "hp": 177},
 		"fast_moves": {"Feint Attack": {"type": "Dark", "power": 10, "energy delta": 9, "duration": 900, "isLegacy": false, "image": "./images/types/dark.png"}, "Powder Snow": {"type": "Ice", "power": 6, "energy delta": 15, "duration": 1000, "isLegacy": false, "image": "./images/types/ice.png"}, "Charm": {"type": "Fairy", "power": 20, "energy delta": 11, "duration": 1500, "isLegacy": false, "image": "./images/types/fairy.png"}},
 		"charged_moves": {"Dazzling Gleam": {"type": "Fairy", "power": 100, "energy delta": -50, "duration": 3500, "isLegacy": false, "image": "./images/types/fairy.png"}, "Ice Beam": {"type": "Ice", "power": 90, "energy delta": -50, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}, "Blizzard": {"type": "Ice", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/ice.png"}, "Psyshock": {"type": "Psychic", "power": 65, "energy delta": -33, "duration": 2700, "isLegacy": false, "image": "./images/types/psychic.png"}, "Weather Ball": {"type": "Ice", "power": 55, "energy delta": -33, "duration": 1600, "isLegacy": false, "image": "./images/types/ice.png"}},
-		"image": "./images/sprites/38-alola.png"
+		"image": "./images/sprites/38-alolan.png"
 	},
 	"JIGGLYPUFF": {
 		"name": "Jigglypuff",
@@ -519,7 +519,7 @@
 		"stats": {"attack": 108, "defense": 81, "hp": 67},
 		"fast_moves": {"Mud-Slap": {"type": "Ground", "power": 18, "energy delta": 12, "duration": 1400, "isLegacy": false, "image": "./images/types/ground.png"}, "Metal Claw": {"type": "Steel", "power": 8, "energy delta": 7, "duration": 700, "isLegacy": false, "image": "./images/types/steel.png"}, "Sand Attack": {"type": "Ground", "power": 4, "energy delta": 7, "duration": 500, "isLegacy": false, "image": "./images/types/ground.png"}},
 		"charged_moves": {"Dig": {"type": "Ground", "power": 100, "energy delta": -50, "duration": 4700, "isLegacy": false, "image": "./images/types/ground.png"}, "Mud Bomb": {"type": "Ground", "power": 55, "energy delta": -33, "duration": 2300, "isLegacy": false, "image": "./images/types/ground.png"}, "Rock Tomb": {"type": "Rock", "power": 70, "energy delta": -50, "duration": 3200, "isLegacy": false, "image": "./images/types/rock.png"}},
-		"image": "./images/sprites/50-alola.png"
+		"image": "./images/sprites/50-alolan.png"
 	},
 	"DUGTRIO": {
 		"name": "Dugtrio",
@@ -537,7 +537,7 @@
 		"stats": {"attack": 201, "defense": 142, "hp": 111},
 		"fast_moves": {"Metal Claw": {"type": "Steel", "power": 8, "energy delta": 7, "duration": 700, "isLegacy": false, "image": "./images/types/steel.png"}, "Mud-Slap": {"type": "Ground", "power": 18, "energy delta": 12, "duration": 1400, "isLegacy": false, "image": "./images/types/ground.png"}, "Sand Attack": {"type": "Ground", "power": 4, "energy delta": 7, "duration": 500, "isLegacy": false, "image": "./images/types/ground.png"}},
 		"charged_moves": {"Earthquake": {"type": "Ground", "power": 140, "energy delta": -100, "duration": 3600, "isLegacy": false, "image": "./images/types/ground.png"}, "Mud Bomb": {"type": "Ground", "power": 55, "energy delta": -33, "duration": 2300, "isLegacy": false, "image": "./images/types/ground.png"}, "Iron Head": {"type": "Steel", "power": 60, "energy delta": -50, "duration": 1900, "isLegacy": false, "image": "./images/types/steel.png"}},
-		"image": "./images/sprites/51-alola.png"
+		"image": "./images/sprites/51-alolan.png"
 	},
 	"MEOWTH": {
 		"name": "Meowth",
@@ -555,7 +555,7 @@
 		"stats": {"attack": 99, "defense": 78, "hp": 120},
 		"fast_moves": {"Scratch": {"type": "Normal", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Bite": {"type": "Dark", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/dark.png"}},
 		"charged_moves": {"Night Slash": {"type": "Dark", "power": 50, "energy delta": -33, "duration": 2200, "isLegacy": false, "image": "./images/types/dark.png"}, "Dark Pulse": {"type": "Dark", "power": 80, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/dark.png"}, "Foul Play": {"type": "Dark", "power": 70, "energy delta": -50, "duration": 2000, "isLegacy": false, "image": "./images/types/dark.png"}, "Trailblaze": {"type": "Grass", "power": 65, "energy delta": -50, "duration": 2000, "isLegacy": false, "image": "./images/types/grass.png"}},
-		"image": "./images/sprites/52-alola.png"
+		"image": "./images/sprites/52-alolan.png"
 	},
 	"GALARIAN_MEOWTH": {
 		"name": "Galarian Meowth",
@@ -582,7 +582,7 @@
 		"stats": {"attack": 158, "defense": 136, "hp": 163},
 		"fast_moves": {"Scratch": {"type": "Normal", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Feint Attack": {"type": "Dark", "power": 10, "energy delta": 9, "duration": 900, "isLegacy": false, "image": "./images/types/dark.png"}},
 		"charged_moves": {"Foul Play": {"type": "Dark", "power": 70, "energy delta": -50, "duration": 2000, "isLegacy": false, "image": "./images/types/dark.png"}, "Dark Pulse": {"type": "Dark", "power": 80, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/dark.png"}, "Play Rough": {"type": "Fairy", "power": 90, "energy delta": -50, "duration": 2900, "isLegacy": false, "image": "./images/types/fairy.png"}, "Payback": {"type": "Dark", "power": 100, "energy delta": -100, "duration": 2200, "isLegacy": false, "image": "./images/types/dark.png"}, "Trailblaze": {"type": "Grass", "power": 65, "energy delta": -50, "duration": 2000, "isLegacy": false, "image": "./images/types/grass.png"}},
-		"image": "./images/sprites/53-alola.png"
+		"image": "./images/sprites/53-alolan.png"
 	},
 	"PSYDUCK": {
 		"name": "Psyduck",
@@ -636,7 +636,7 @@
 		"stats": {"attack": 142, "defense": 92, "hp": 155},
 		"fast_moves": {"Ember": {"type": "Fire", "power": 10, "energy delta": 10, "duration": 1000, "isLegacy": false, "image": "./images/types/fire.png"}, "Bite": {"type": "Dark", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/dark.png"}},
 		"charged_moves": {"Rock Slide": {"type": "Rock", "power": 80, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/rock.png"}, "Crunch": {"type": "Dark", "power": 70, "energy delta": -33, "duration": 3200, "isLegacy": false, "image": "./images/types/dark.png"}, "Flamethrower": {"type": "Fire", "power": 70, "energy delta": -50, "duration": 2200, "isLegacy": false, "image": "./images/types/fire.png"}},
-		"image": "./images/sprites/58-hisuian.png"
+		"image": "./images/sprites/58.png"
 	},
 	"ARCANINE": {
 		"name": "Arcanine",
@@ -654,7 +654,7 @@
 		"stats": {"attack": 232, "defense": 165, "hp": 216},
 		"fast_moves": {"Fire Fang": {"type": "Fire", "power": 12, "energy delta": 8, "duration": 900, "isLegacy": false, "image": "./images/types/fire.png"}, "Snarl": {"type": "Dark", "power": 12, "energy delta": 14, "duration": 1100, "isLegacy": false, "image": "./images/types/dark.png"}, "Rock Smash": {"type": "Fighting", "power": 15, "energy delta": 10, "duration": 1300, "isLegacy": false, "image": "./images/types/fighting.png"}},
 		"charged_moves": {"Rock Slide": {"type": "Rock", "power": 80, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/rock.png"}, "Wild Charge": {"type": "Electric", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/electric.png"}, "Crunch": {"type": "Dark", "power": 70, "energy delta": -33, "duration": 3200, "isLegacy": false, "image": "./images/types/dark.png"}, "Flamethrower": {"type": "Fire", "power": 70, "energy delta": -50, "duration": 2200, "isLegacy": false, "image": "./images/types/fire.png"}},
-		"image": "./images/sprites/59-hisuian.png"
+		"image": "./images/sprites/59.png"
 	},
 	"POLIWAG": {
 		"name": "Poliwag",
@@ -798,7 +798,7 @@
 		"stats": {"attack": 132, "defense": 132, "hp": 120},
 		"fast_moves": {"Rock Throw": {"type": "Rock", "power": 12, "energy delta": 7, "duration": 900, "isLegacy": false, "image": "./images/types/rock.png"}, "Volt Switch": {"type": "Electric", "power": 14, "energy delta": 21, "duration": 1600, "isLegacy": false, "image": "./images/types/electric.png"}},
 		"charged_moves": {"Rock Slide": {"type": "Rock", "power": 80, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/rock.png"}, "Rock Tomb": {"type": "Rock", "power": 70, "energy delta": -50, "duration": 3200, "isLegacy": false, "image": "./images/types/rock.png"}, "Thunderbolt": {"type": "Electric", "power": 80, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/electric.png"}},
-		"image": "./images/sprites/74-alola.png"
+		"image": "./images/sprites/74-alolan.png"
 	},
 	"GRAVELER": {
 		"name": "Graveler",
@@ -816,7 +816,7 @@
 		"stats": {"attack": 164, "defense": 164, "hp": 146},
 		"fast_moves": {"Rock Throw": {"type": "Rock", "power": 12, "energy delta": 7, "duration": 900, "isLegacy": false, "image": "./images/types/rock.png"}, "Volt Switch": {"type": "Electric", "power": 14, "energy delta": 21, "duration": 1600, "isLegacy": false, "image": "./images/types/electric.png"}},
 		"charged_moves": {"Thunderbolt": {"type": "Electric", "power": 80, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/electric.png"}, "Stone Edge": {"type": "Rock", "power": 100, "energy delta": -100, "duration": 2300, "isLegacy": false, "image": "./images/types/rock.png"}, "Rock Blast": {"type": "Rock", "power": 50, "energy delta": -33, "duration": 2100, "isLegacy": false, "image": "./images/types/rock.png"}},
-		"image": "./images/sprites/75-alola.png"
+		"image": "./images/sprites/75-alolan.png"
 	},
 	"GOLEM": {
 		"name": "Golem",
@@ -834,7 +834,7 @@
 		"stats": {"attack": 211, "defense": 198, "hp": 190},
 		"fast_moves": {"Rock Throw": {"type": "Rock", "power": 12, "energy delta": 7, "duration": 900, "isLegacy": false, "image": "./images/types/rock.png"}, "Volt Switch": {"type": "Electric", "power": 14, "energy delta": 21, "duration": 1600, "isLegacy": false, "image": "./images/types/electric.png"}, "Rollout": {"type": "Rock", "power": 14, "energy delta": 18, "duration": 1400, "isLegacy": true, "image": "./images/types/rock.png"}},
 		"charged_moves": {"Stone Edge": {"type": "Rock", "power": 100, "energy delta": -100, "duration": 2300, "isLegacy": false, "image": "./images/types/rock.png"}, "Rock Blast": {"type": "Rock", "power": 50, "energy delta": -33, "duration": 2100, "isLegacy": false, "image": "./images/types/rock.png"}, "Wild Charge": {"type": "Electric", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/electric.png"}},
-		"image": "./images/sprites/76-alola.png"
+		"image": "./images/sprites/76-alolan.png"
 	},
 	"PONYTA": {
 		"name": "Ponyta",
@@ -996,7 +996,7 @@
 		"stats": {"attack": 135, "defense": 90, "hp": 190},
 		"fast_moves": {"Poison Jab": {"type": "Poison", "power": 10, "energy delta": 7, "duration": 800, "isLegacy": false, "image": "./images/types/poison.png"}, "Bite": {"type": "Dark", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/dark.png"}},
 		"charged_moves": {"Crunch": {"type": "Dark", "power": 70, "energy delta": -33, "duration": 3200, "isLegacy": false, "image": "./images/types/dark.png"}, "Gunk Shot": {"type": "Poison", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/poison.png"}, "Sludge Bomb": {"type": "Poison", "power": 80, "energy delta": -50, "duration": 2300, "isLegacy": false, "image": "./images/types/poison.png"}},
-		"image": "./images/sprites/88-alola.png"
+		"image": "./images/sprites/88-alolan.png"
 	},
 	"MUK": {
 		"name": "Muk",
@@ -1014,7 +1014,7 @@
 		"stats": {"attack": 190, "defense": 172, "hp": 233},
 		"fast_moves": {"Bite": {"type": "Dark", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/dark.png"}, "Poison Jab": {"type": "Poison", "power": 10, "energy delta": 7, "duration": 800, "isLegacy": false, "image": "./images/types/poison.png"}, "Snarl": {"type": "Dark", "power": 12, "energy delta": 14, "duration": 1100, "isLegacy": false, "image": "./images/types/dark.png"}},
 		"charged_moves": {"Dark Pulse": {"type": "Dark", "power": 80, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/dark.png"}, "Gunk Shot": {"type": "Poison", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/poison.png"}, "Sludge Wave": {"type": "Poison", "power": 110, "energy delta": -100, "duration": 3200, "isLegacy": false, "image": "./images/types/poison.png"}, "Acid Spray": {"type": "Poison", "power": 20, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/poison.png"}},
-		"image": "./images/sprites/89-alola.png"
+		"image": "./images/sprites/89-alolan.png"
 	},
 	"SHELLDER": {
 		"name": "Shellder",
@@ -1122,7 +1122,7 @@
 		"stats": {"attack": 109, "defense": 111, "hp": 120},
 		"fast_moves": {"Charge Beam": {"type": "Electric", "power": 8, "energy delta": 15, "duration": 1100, "isLegacy": false, "image": "./images/types/electric.png"}, "Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Swift": {"type": "Normal", "power": 60, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/normal.png"}, "Thunderbolt": {"type": "Electric", "power": 80, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/electric.png"}, "Energy Ball": {"type": "Grass", "power": 90, "energy delta": -50, "duration": 3900, "isLegacy": false, "image": "./images/types/grass.png"}},
-		"image": "./images/sprites/100-hisuian.png"
+		"image": "./images/sprites/100.png"
 	},
 	"ELECTRODE": {
 		"name": "Electrode",
@@ -1140,7 +1140,7 @@
 		"stats": {"attack": 176, "defense": 176, "hp": 155},
 		"fast_moves": {"Thunder Shock": {"type": "Electric", "power": 5, "energy delta": 8, "duration": 600, "isLegacy": false, "image": "./images/types/electric.png"}, "Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Swift": {"type": "Normal", "power": 60, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/normal.png"}, "Wild Charge": {"type": "Electric", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/electric.png"}, "Energy Ball": {"type": "Grass", "power": 90, "energy delta": -50, "duration": 3900, "isLegacy": false, "image": "./images/types/grass.png"}},
-		"image": "./images/sprites/101-hisuian.png"
+		"image": "./images/sprites/101.png"
 	},
 	"EXEGGCUTE": {
 		"name": "Exeggcute",
@@ -1167,7 +1167,7 @@
 		"stats": {"attack": 230, "defense": 153, "hp": 216},
 		"fast_moves": {"Bullet Seed": {"type": "Grass", "power": 8, "energy delta": 14, "duration": 1100, "isLegacy": false, "image": "./images/types/grass.png"}, "Dragon Tail": {"type": "Dragon", "power": 15, "energy delta": 9, "duration": 1100, "isLegacy": false, "image": "./images/types/dragon.png"}},
 		"charged_moves": {"Seed Bomb": {"type": "Grass", "power": 55, "energy delta": -33, "duration": 2100, "isLegacy": false, "image": "./images/types/grass.png"}, "Dragon Pulse": {"type": "Dragon", "power": 90, "energy delta": -50, "duration": 3600, "isLegacy": false, "image": "./images/types/dragon.png"}, "Solar Beam": {"type": "Grass", "power": 180, "energy delta": -100, "duration": 4900, "isLegacy": false, "image": "./images/types/grass.png"}, "Draco Meteor": {"type": "Dragon", "power": 150, "energy delta": -100, "duration": 3600, "isLegacy": true, "image": "./images/types/dragon.png"}},
-		"image": "./images/sprites/103-alola.png"
+		"image": "./images/sprites/103-alolan.png"
 	},
 	"CUBONE": {
 		"name": "Cubone",
@@ -1194,7 +1194,7 @@
 		"stats": {"attack": 144, "defense": 186, "hp": 155},
 		"fast_moves": {"Hex": {"type": "Ghost", "power": 10, "energy delta": 16, "duration": 1200, "isLegacy": false, "image": "./images/types/ghost.png"}, "Rock Smash": {"type": "Fighting", "power": 15, "energy delta": 10, "duration": 1300, "isLegacy": false, "image": "./images/types/fighting.png"}, "Fire Spin": {"type": "Fire", "power": 14, "energy delta": 10, "duration": 1100, "isLegacy": false, "image": "./images/types/fire.png"}},
 		"charged_moves": {"Bone Club": {"type": "Ground", "power": 40, "energy delta": -33, "duration": 1600, "isLegacy": false, "image": "./images/types/ground.png"}, "Shadow Ball": {"type": "Ghost", "power": 100, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/ghost.png"}, "Fire Blast": {"type": "Fire", "power": 140, "energy delta": -100, "duration": 4200, "isLegacy": false, "image": "./images/types/fire.png"}, "Flame Wheel": {"type": "Fire", "power": 60, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/fire.png"}, "Shadow Bone": {"type": "Ghost", "power": 80, "energy delta": -50, "duration": 2800, "isLegacy": true, "image": "./images/types/ghost.png"}},
-		"image": "./images/sprites/105-alola.png"
+		"image": "./images/sprites/105-alolan.png"
 	},
 	"HITMONLEE": {
 		"name": "Hitmonlee",
@@ -1356,7 +1356,7 @@
 		"stats": {"attack": 192, "defense": 205, "hp": 120},
 		"fast_moves": {"Confusion": {"type": "Psychic", "power": 20, "energy delta": 15, "duration": 1600, "isLegacy": false, "image": "./images/types/psychic.png"}, "Zen Headbutt": {"type": "Psychic", "power": 12, "energy delta": 10, "duration": 1100, "isLegacy": false, "image": "./images/types/psychic.png"}, "Magical Leaf": {"type": "Grass", "power": 16, "energy delta": 16, "duration": 1400, "isLegacy": false, "image": "./images/types/grass.png"}, "Psywave": {"type": "Psychic", "power": 4, "energy delta": 7, "duration": 500, "isLegacy": false, "image": "./images/types/psychic.png"}},
 		"charged_moves": {"Psybeam": {"type": "Psychic", "power": 70, "energy delta": -50, "duration": 3200, "isLegacy": false, "image": "./images/types/psychic.png"}, "Psychic": {"type": "Psychic", "power": 90, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/psychic.png"}, "Shadow Ball": {"type": "Ghost", "power": 100, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/ghost.png"}},
-		"image": "./images/sprites/122.png"
+		"image": "./images/sprites/122-mr..png"
 	},
 	"GALARIAN_MR_MIME": {
 		"name": "Galarian Mr. Mime",
@@ -1716,7 +1716,7 @@
 		"stats": {"attack": 238, "defense": 172, "hp": 177},
 		"fast_moves": {"Hex": {"type": "Ghost", "power": 10, "energy delta": 16, "duration": 1200, "isLegacy": false, "image": "./images/types/ghost.png"}, "Ember": {"type": "Fire", "power": 10, "energy delta": 10, "duration": 1000, "isLegacy": false, "image": "./images/types/fire.png"}},
 		"charged_moves": {"Fire Punch": {"type": "Fire", "power": 55, "energy delta": -33, "duration": 2200, "isLegacy": false, "image": "./images/types/fire.png"}, "Wild Charge": {"type": "Electric", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/electric.png"}, "Shadow Ball": {"type": "Ghost", "power": 100, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/ghost.png"}, "Overheat": {"type": "Fire", "power": 160, "energy delta": -100, "duration": 4000, "isLegacy": false, "image": "./images/types/fire.png"}},
-		"image": "./images/sprites/157-hisuian.png"
+		"image": "./images/sprites/157.png"
 	},
 	"TOTODILE": {
 		"name": "Totodile",
@@ -2058,7 +2058,7 @@
 		"stats": {"attack": 75, "defense": 66, "hp": 146},
 		"fast_moves": {"Poison Jab": {"type": "Poison", "power": 10, "energy delta": 7, "duration": 800, "isLegacy": false, "image": "./images/types/poison.png"}, "Mud Shot": {"type": "Ground", "power": 5, "energy delta": 7, "duration": 600, "isLegacy": false, "image": "./images/types/ground.png"}},
 		"charged_moves": {"Sludge Wave": {"type": "Poison", "power": 110, "energy delta": -100, "duration": 3200, "isLegacy": false, "image": "./images/types/poison.png"}, "Dig": {"type": "Ground", "power": 100, "energy delta": -50, "duration": 4700, "isLegacy": false, "image": "./images/types/ground.png"}, "Body Slam": {"type": "Normal", "power": 50, "energy delta": -33, "duration": 1900, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/194-paldea.png"
+		"image": "./images/sprites/194.png"
 	},
 	"QUAGSIRE": {
 		"name": "Quagsire",
@@ -2229,7 +2229,7 @@
 		"stats": {"attack": 184, "defense": 151, "hp": 163},
 		"fast_moves": {"Poison Sting": {"type": "Poison", "power": 5, "energy delta": 7, "duration": 600, "isLegacy": false, "image": "./images/types/poison.png"}, "Poison Jab": {"type": "Poison", "power": 10, "energy delta": 7, "duration": 800, "isLegacy": false, "image": "./images/types/poison.png"}},
 		"charged_moves": {"Aqua Tail": {"type": "Water", "power": 50, "energy delta": -33, "duration": 1900, "isLegacy": false, "image": "./images/types/water.png"}, "Ice Beam": {"type": "Ice", "power": 90, "energy delta": -50, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}, "Sludge Bomb": {"type": "Poison", "power": 80, "energy delta": -50, "duration": 2300, "isLegacy": false, "image": "./images/types/poison.png"}, "Dark Pulse": {"type": "Dark", "power": 80, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/dark.png"}, "Shadow Ball": {"type": "Ghost", "power": 100, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/ghost.png"}},
-		"image": "./images/sprites/211-hisuian.png"
+		"image": "./images/sprites/211.png"
 	},
 	"SCIZOR": {
 		"name": "Scizor",
@@ -2274,7 +2274,7 @@
 		"stats": {"attack": 189, "defense": 146, "hp": 146},
 		"fast_moves": {"Rock Smash": {"type": "Fighting", "power": 15, "energy delta": 10, "duration": 1300, "isLegacy": false, "image": "./images/types/fighting.png"}, "Poison Jab": {"type": "Poison", "power": 10, "energy delta": 7, "duration": 800, "isLegacy": false, "image": "./images/types/poison.png"}},
 		"charged_moves": {"Aerial Ace": {"type": "Flying", "power": 55, "energy delta": -33, "duration": 2400, "isLegacy": false, "image": "./images/types/flying.png"}, "Close Combat": {"type": "Fighting", "power": 100, "energy delta": -100, "duration": 2300, "isLegacy": false, "image": "./images/types/fighting.png"}, "X-Scissor": {"type": "Bug", "power": 45, "energy delta": -33, "duration": 1600, "isLegacy": false, "image": "./images/types/bug.png"}},
-		"image": "./images/sprites/215-hisuian.png"
+		"image": "./images/sprites/215.png"
 	},
 	"TEDDIURSA": {
 		"name": "Teddiursa",
@@ -4308,7 +4308,7 @@
 		"stats": {"attack": 125, "defense": 142, "hp": 85},
 		"fast_moves": {"Confusion": {"type": "Psychic", "power": 20, "energy delta": 15, "duration": 1600, "isLegacy": false, "image": "./images/types/psychic.png"}, "Pound": {"type": "Normal", "power": 7, "energy delta": 6, "duration": 600, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Psybeam": {"type": "Psychic", "power": 70, "energy delta": -50, "duration": 3200, "isLegacy": false, "image": "./images/types/psychic.png"}, "Psychic": {"type": "Psychic", "power": 90, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/psychic.png"}, "Psyshock": {"type": "Psychic", "power": 65, "energy delta": -33, "duration": 2700, "isLegacy": false, "image": "./images/types/psychic.png"}},
-		"image": "./images/sprites/439.png"
+		"image": "./images/sprites/439-mime.png"
 	},
 	"HAPPINY": {
 		"name": "Happiny",
@@ -4893,7 +4893,7 @@
 		"stats": {"attack": 218, "defense": 152, "hp": 207},
 		"fast_moves": {"Waterfall": {"type": "Water", "power": 16, "energy delta": 8, "duration": 1200, "isLegacy": false, "image": "./images/types/water.png"}, "Fury Cutter": {"type": "Bug", "power": 3, "energy delta": 6, "duration": 400, "isLegacy": false, "image": "./images/types/bug.png"}, "Snarl": {"type": "Dark", "power": 12, "energy delta": 14, "duration": 1100, "isLegacy": false, "image": "./images/types/dark.png"}},
 		"charged_moves": {"Razor Shell": {"type": "Water", "power": 45, "energy delta": -33, "duration": 1300, "isLegacy": false, "image": "./images/types/water.png"}, "Icy Wind": {"type": "Ice", "power": 60, "energy delta": -33, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}, "X-Scissor": {"type": "Bug", "power": 45, "energy delta": -33, "duration": 1600, "isLegacy": false, "image": "./images/types/bug.png"}, "Dark Pulse": {"type": "Dark", "power": 80, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/dark.png"}},
-		"image": "./images/sprites/503-hisuian.png"
+		"image": "./images/sprites/503.png"
 	},
 	"PATRAT": {
 		"name": "Patrat",
@@ -5379,7 +5379,7 @@
 		"stats": {"attack": 263, "defense": 114, "hp": 233},
 		"fast_moves": {"Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Ice Fang": {"type": "Ice", "power": 12, "energy delta": 20, "duration": 1500, "isLegacy": false, "image": "./images/types/ice.png"}},
 		"charged_moves": {"Overheat": {"type": "Fire", "power": 160, "energy delta": -100, "duration": 4000, "isLegacy": false, "image": "./images/types/fire.png"}, "Avalanche": {"type": "Ice", "power": 90, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/ice.png"}, "Superpower": {"type": "Fighting", "power": 85, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/fighting.png"}, "Ice Punch": {"type": "Ice", "power": 50, "energy delta": -33, "duration": 1900, "isLegacy": false, "image": "./images/types/ice.png"}},
-		"image": "./images/sprites/555-galarian.png"
+		"image": "./images/sprites/555.png"
 	},
 	"DARMANITAN": {
 		"name": "Darmanitan",
@@ -5388,7 +5388,7 @@
 		"stats": {"attack": 323, "defense": 123, "hp": 233},
 		"fast_moves": {"Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Ice Fang": {"type": "Ice", "power": 12, "energy delta": 20, "duration": 1500, "isLegacy": false, "image": "./images/types/ice.png"}},
 		"charged_moves": {"Overheat": {"type": "Fire", "power": 160, "energy delta": -100, "duration": 4000, "isLegacy": false, "image": "./images/types/fire.png"}, "Avalanche": {"type": "Ice", "power": 90, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/ice.png"}, "Superpower": {"type": "Fighting", "power": 85, "energy delta": -50, "duration": 3000, "isLegacy": false, "image": "./images/types/fighting.png"}, "Ice Punch": {"type": "Ice", "power": 50, "energy delta": -33, "duration": 1900, "isLegacy": false, "image": "./images/types/ice.png"}},
-		"image": "./images/sprites/555-galarian.png"
+		"image": "./images/sprites/555.png"
 	},
 	"MARACTUS": {
 		"name": "Maractus",
@@ -6072,7 +6072,7 @@
 		"stats": {"attack": 213, "defense": 137, "hp": 242},
 		"fast_moves": {"Air Slash": {"type": "Flying", "power": 14, "energy delta": 10, "duration": 1200, "isLegacy": false, "image": "./images/types/flying.png"}, "Zen Headbutt": {"type": "Psychic", "power": 12, "energy delta": 10, "duration": 1100, "isLegacy": false, "image": "./images/types/psychic.png"}},
 		"charged_moves": {"Dazzling Gleam": {"type": "Fairy", "power": 100, "energy delta": -50, "duration": 3500, "isLegacy": false, "image": "./images/types/fairy.png"}, "Brave Bird": {"type": "Flying", "power": 130, "energy delta": -100, "duration": 2000, "isLegacy": false, "image": "./images/types/flying.png"}, "Psychic": {"type": "Psychic", "power": 90, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/psychic.png"}, "Ominous Wind": {"type": "Ghost", "power": 50, "energy delta": -33, "duration": 2300, "isLegacy": false, "image": "./images/types/ghost.png"}, "Fly": {"type": "Flying", "power": 80, "energy delta": -50, "duration": 1800, "isLegacy": false, "image": "./images/types/flying.png"}},
-		"image": "./images/sprites/628-hisuian.png"
+		"image": "./images/sprites/628.png"
 	},
 	"VULLABY": {
 		"name": "Vullaby",
@@ -6819,7 +6819,7 @@
 		"stats": {"attack": 214, "defense": 238, "hp": 216},
 		"fast_moves": {"Bite": {"type": "Dark", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": "./images/types/dark.png"}, "Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Powder Snow": {"type": "Ice", "power": 6, "energy delta": 15, "duration": 1000, "isLegacy": false, "image": "./images/types/ice.png"}},
 		"charged_moves": {"Crunch": {"type": "Dark", "power": 70, "energy delta": -33, "duration": 3200, "isLegacy": false, "image": "./images/types/dark.png"}, "Rock Slide": {"type": "Rock", "power": 80, "energy delta": -50, "duration": 2700, "isLegacy": false, "image": "./images/types/rock.png"}, "Blizzard": {"type": "Ice", "power": 130, "energy delta": -100, "duration": 3100, "isLegacy": false, "image": "./images/types/ice.png"}, "Icy Wind": {"type": "Ice", "power": 60, "energy delta": -33, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}},
-		"image": "./images/sprites/713-hisuian.png"
+		"image": "./images/sprites/713.png"
 	},
 	"NOIBAT": {
 		"name": "Noibat",
@@ -6927,7 +6927,7 @@
 		"stats": {"attack": 213, "defense": 174, "hp": 204},
 		"fast_moves": {"Magical Leaf": {"type": "Grass", "power": 16, "energy delta": 16, "duration": 1400, "isLegacy": false, "image": "./images/types/grass.png"}, "Psycho Cut": {"type": "Psychic", "power": 5, "energy delta": 8, "duration": 600, "isLegacy": false, "image": "./images/types/psychic.png"}},
 		"charged_moves": {"Trailblaze": {"type": "Grass", "power": 65, "energy delta": -50, "duration": 2000, "isLegacy": false, "image": "./images/types/grass.png"}, "Energy Ball": {"type": "Grass", "power": 90, "energy delta": -50, "duration": 3900, "isLegacy": false, "image": "./images/types/grass.png"}, "Aura Sphere": {"type": "Fighting", "power": 90, "energy delta": -50, "duration": 1800, "isLegacy": false, "image": "./images/types/fighting.png"}, "Aerial Ace": {"type": "Flying", "power": 55, "energy delta": -33, "duration": 2400, "isLegacy": false, "image": "./images/types/flying.png"}},
-		"image": "./images/sprites/724-hisuian.png"
+		"image": "./images/sprites/724.png"
 	},
 	"LITTEN": {
 		"name": "Litten",
@@ -7359,7 +7359,7 @@
 		"stats": {"attack": 184, "defense": 184, "hp": 216},
 		"fast_moves": {"Tackle": {"type": "Normal", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/normal.png"}, "Take Down": {"type": "Normal", "power": 8, "energy delta": 10, "duration": 1200, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Tri Attack": {"type": "Normal", "power": 75, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/normal.png"}, "Iron Head": {"type": "Steel", "power": 60, "energy delta": -50, "duration": 1900, "isLegacy": false, "image": "./images/types/steel.png"}, "Aerial Ace": {"type": "Flying", "power": 55, "energy delta": -33, "duration": 2400, "isLegacy": false, "image": "./images/types/flying.png"}},
-		"image": "./images/sprites/772.png"
+		"image": "./images/sprites/772-type:.png"
 	},
 	"SILVALLY": {
 		"name": "Silvally",
@@ -7476,7 +7476,7 @@
 		"stats": {"attack": 250, "defense": 181, "hp": 172},
 		"fast_moves": {"Volt Switch": {"type": "Electric", "power": 14, "energy delta": 21, "duration": 1600, "isLegacy": false, "image": "./images/types/electric.png"}, "Quick Attack": {"type": "Normal", "power": 8, "energy delta": 10, "duration": 800, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Thunderbolt": {"type": "Electric", "power": 80, "energy delta": -50, "duration": 2500, "isLegacy": false, "image": "./images/types/electric.png"}, "Dazzling Gleam": {"type": "Fairy", "power": 100, "energy delta": -50, "duration": 3500, "isLegacy": false, "image": "./images/types/fairy.png"}, "Brave Bird": {"type": "Flying", "power": 130, "energy delta": -100, "duration": 2000, "isLegacy": false, "image": "./images/types/flying.png"}, "Thunder": {"type": "Electric", "power": 100, "energy delta": -100, "duration": 2400, "isLegacy": false, "image": "./images/types/electric.png"}, "Nature\u2019s Madness": {"type": "Fairy", "power": 90, "energy delta": -50, "duration": 2100, "isLegacy": true, "image": "./images/types/fairy.png"}},
-		"image": "./images/sprites/785.png"
+		"image": "./images/sprites/785-tapu.png"
 	},
 	"TAPU_TAPU_LELE": {
 		"name": "Tapu Lele",
@@ -7485,7 +7485,7 @@
 		"stats": {"attack": 259, "defense": 208, "hp": 172},
 		"fast_moves": {"Confusion": {"type": "Psychic", "power": 20, "energy delta": 15, "duration": 1600, "isLegacy": false, "image": "./images/types/psychic.png"}, "Astonish": {"type": "Ghost", "power": 8, "energy delta": 14, "duration": 1100, "isLegacy": false, "image": "./images/types/ghost.png"}},
 		"charged_moves": {"Psyshock": {"type": "Psychic", "power": 65, "energy delta": -33, "duration": 2700, "isLegacy": false, "image": "./images/types/psychic.png"}, "Moonblast": {"type": "Fairy", "power": 130, "energy delta": -100, "duration": 3900, "isLegacy": false, "image": "./images/types/fairy.png"}, "Focus Blast": {"type": "Fighting", "power": 140, "energy delta": -100, "duration": 3500, "isLegacy": false, "image": "./images/types/fighting.png"}, "Future Sight": {"type": "Psychic", "power": 120, "energy delta": -100, "duration": 2700, "isLegacy": false, "image": "./images/types/psychic.png"}, "Nature\u2019s Madness": {"type": "Fairy", "power": 90, "energy delta": -50, "duration": 2100, "isLegacy": true, "image": "./images/types/fairy.png"}},
-		"image": "./images/sprites/786.png"
+		"image": "./images/sprites/786-tapu.png"
 	},
 	"TAPU_TAPU_BULU": {
 		"name": "Tapu Bulu",
@@ -7494,7 +7494,7 @@
 		"stats": {"attack": 249, "defense": 215, "hp": 172},
 		"fast_moves": {"Bullet Seed": {"type": "Grass", "power": 8, "energy delta": 14, "duration": 1100, "isLegacy": false, "image": "./images/types/grass.png"}, "Rock Smash": {"type": "Fighting", "power": 15, "energy delta": 10, "duration": 1300, "isLegacy": false, "image": "./images/types/fighting.png"}},
 		"charged_moves": {"Grass Knot": {"type": "Grass", "power": 90, "energy delta": -50, "duration": 2600, "isLegacy": false, "image": "./images/types/grass.png"}, "Dazzling Gleam": {"type": "Fairy", "power": 100, "energy delta": -50, "duration": 3500, "isLegacy": false, "image": "./images/types/fairy.png"}, "Megahorn": {"type": "Bug", "power": 110, "energy delta": -100, "duration": 2200, "isLegacy": false, "image": "./images/types/bug.png"}, "Solar Beam": {"type": "Grass", "power": 180, "energy delta": -100, "duration": 4900, "isLegacy": false, "image": "./images/types/grass.png"}, "Nature\u2019s Madness": {"type": "Fairy", "power": 90, "energy delta": -50, "duration": 2100, "isLegacy": true, "image": "./images/types/fairy.png"}},
-		"image": "./images/sprites/787.png"
+		"image": "./images/sprites/787-tapu.png"
 	},
 	"TAPU_TAPU_FINI": {
 		"name": "Tapu Fini",
@@ -7503,7 +7503,7 @@
 		"stats": {"attack": 189, "defense": 254, "hp": 172},
 		"fast_moves": {"Water Gun": {"type": "Water", "power": 5, "energy delta": 5, "duration": 500, "isLegacy": false, "image": "./images/types/water.png"}, "Hidden Power": {"type": "Normal", "power": 15, "energy delta": 15, "duration": 1500, "isLegacy": false, "image": "./images/types/normal.png"}},
 		"charged_moves": {"Surf": {"type": "Water", "power": 65, "energy delta": -50, "duration": 1700, "isLegacy": false, "image": "./images/types/water.png"}, "Moonblast": {"type": "Fairy", "power": 130, "energy delta": -100, "duration": 3900, "isLegacy": false, "image": "./images/types/fairy.png"}, "Ice Beam": {"type": "Ice", "power": 90, "energy delta": -50, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}, "Hydro Pump": {"type": "Water", "power": 130, "energy delta": -100, "duration": 3300, "isLegacy": false, "image": "./images/types/water.png"}, "Nature\u2019s Madness": {"type": "Fairy", "power": 90, "energy delta": -50, "duration": 2100, "isLegacy": true, "image": "./images/types/fairy.png"}},
-		"image": "./images/sprites/788.png"
+		"image": "./images/sprites/788-tapu.png"
 	},
 	"COSMOG": {
 		"name": "Cosmog",
@@ -8205,7 +8205,7 @@
 		"stats": {"attack": 212, "defense": 179, "hp": 190},
 		"fast_moves": {"Confusion": {"type": "Psychic", "power": 20, "energy delta": 15, "duration": 1600, "isLegacy": false, "image": "./images/types/psychic.png"}, "Zen Headbutt": {"type": "Psychic", "power": 12, "energy delta": 10, "duration": 1100, "isLegacy": false, "image": "./images/types/psychic.png"}, "Ice Shard": {"type": "Ice", "power": 12, "energy delta": 12, "duration": 1200, "isLegacy": false, "image": "./images/types/ice.png"}},
 		"charged_moves": {"Psybeam": {"type": "Psychic", "power": 70, "energy delta": -50, "duration": 3200, "isLegacy": false, "image": "./images/types/psychic.png"}, "Psychic": {"type": "Psychic", "power": 90, "energy delta": -50, "duration": 2800, "isLegacy": false, "image": "./images/types/psychic.png"}, "Ice Punch": {"type": "Ice", "power": 50, "energy delta": -33, "duration": 1900, "isLegacy": false, "image": "./images/types/ice.png"}, "Icy Wind": {"type": "Ice", "power": 60, "energy delta": -33, "duration": 3300, "isLegacy": false, "image": "./images/types/ice.png"}, "Triple Axel": {"type": "Ice", "power": 60, "energy delta": -33, "duration": 2000, "isLegacy": false, "image": "./images/types/ice.png"}},
-		"image": "./images/sprites/866.png"
+		"image": "./images/sprites/866-mr..png"
 	},
 	"RUNERIGUS": {
 		"name": "Runerigus",
@@ -9258,7 +9258,7 @@
 		"stats": {"attack": 249, "defense": 209, "hp": 251},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/984.png"
+		"image": "./images/sprites/984-great.png"
 	},
 	"SCREAM_SCREAMTAIL": {
 		"name": "Scream Tail",
@@ -9267,7 +9267,7 @@
 		"stats": {"attack": 139, "defense": 234, "hp": 251},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/985.png"
+		"image": "./images/sprites/985-scream.png"
 	},
 	"BRUTE_BRUTEBONNET": {
 		"name": "Brute Bonnet",
@@ -9276,7 +9276,7 @@
 		"stats": {"attack": 232, "defense": 190, "hp": 244},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/986.png"
+		"image": "./images/sprites/986-brute.png"
 	},
 	"FLUTTER_FLUTTERMANE": {
 		"name": "Flutter Mane",
@@ -9285,7 +9285,7 @@
 		"stats": {"attack": 280, "defense": 235, "hp": 146},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/987.png"
+		"image": "./images/sprites/987-flutter.png"
 	},
 	"SLITHER_SLITHERWING": {
 		"name": "Slither Wing",
@@ -9294,7 +9294,7 @@
 		"stats": {"attack": 261, "defense": 193, "hp": 198},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/988.png"
+		"image": "./images/sprites/988-slither.png"
 	},
 	"SANDY_SANDYSHOCKS": {
 		"name": "Sandy Shocks",
@@ -9303,7 +9303,7 @@
 		"stats": {"attack": 244, "defense": 195, "hp": 198},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/989.png"
+		"image": "./images/sprites/989-sandy.png"
 	},
 	"IRON_IRONTREADS": {
 		"name": "Iron Treads",
@@ -9312,7 +9312,7 @@
 		"stats": {"attack": 227, "defense": 216, "hp": 207},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/990.png"
+		"image": "./images/sprites/990-iron.png"
 	},
 	"IRON_IRONBUNDLE": {
 		"name": "Iron Bundle",
@@ -9321,7 +9321,7 @@
 		"stats": {"attack": 266, "defense": 211, "hp": 148},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/991.png"
+		"image": "./images/sprites/991-iron.png"
 	},
 	"IRON_IRONHANDS": {
 		"name": "Iron Hands",
@@ -9330,7 +9330,7 @@
 		"stats": {"attack": 245, "defense": 177, "hp": 319},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/992.png"
+		"image": "./images/sprites/992-iron.png"
 	},
 	"IRON_IRONJUGULIS": {
 		"name": "Iron Jugulis",
@@ -9339,7 +9339,7 @@
 		"stats": {"attack": 249, "defense": 179, "hp": 214},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/993.png"
+		"image": "./images/sprites/993-iron.png"
 	},
 	"IRON_IRONMOTH": {
 		"name": "Iron Moth",
@@ -9348,7 +9348,7 @@
 		"stats": {"attack": 281, "defense": 196, "hp": 190},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/994.png"
+		"image": "./images/sprites/994-iron.png"
 	},
 	"IRON_IRONTHORNS": {
 		"name": "Iron Thorns",
@@ -9357,7 +9357,7 @@
 		"stats": {"attack": 250, "defense": 200, "hp": 225},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/995.png"
+		"image": "./images/sprites/995-iron.png"
 	},
 	"FRIGIBAX": {
 		"name": "Frigibax",
@@ -9447,7 +9447,7 @@
 		"stats": {"attack": 280, "defense": 196, "hp": 233},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/1005.png"
+		"image": "./images/sprites/1005-roaring.png"
 	},
 	"IRON_IRONVALIANT": {
 		"name": "Iron Valiant",
@@ -9456,7 +9456,7 @@
 		"stats": {"attack": 279, "defense": 171, "hp": 179},
 		"fast_moves": {"Splash": {"type": "Water", "power": 0, "energy delta": 20, "duration": 1730, "isLegacy": false, "image": "./images/types/water.png"}},
 		"charged_moves": {"Struggle": {"type": "Normal", "power": 35, "energy delta": 0, "duration": 2200, "isLegacy": false, "image": "./images/types/normal.png"}},
-		"image": "./images/sprites/1006.png"
+		"image": "./images/sprites/1006-iron.png"
 	},
 	"KORAIDON": {
 		"name": "Koraidon",
