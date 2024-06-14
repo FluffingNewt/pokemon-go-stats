@@ -3,8 +3,8 @@ import json
 import math
 
 
-regions = ["ALOLA", "GALARIAN", "HISUIAN", "PALDEA"]
-base_url = "https://pokemon-go-api.github.io/pokemon-go-api/api/pokedex"
+regions = {"ALOLA" : "alolan", "GALARIAN" : "galarian", "HISUIAN" : "hisuian", "PALDEA" : "paldean"}
+url = "https://pokemon-go-api.github.io/pokemon-go-api/api/pokedex.json"
 
 # Calculates the max cp per pokemon based on level 40 or level 50.
 def calc_max_cp(pokemon, level50):
@@ -20,88 +20,129 @@ def calc_max_cp(pokemon, level50):
 
 
 class Pokemon:
-    def __init__(self, pokemon_dict):
-        poke_name = pokemon_dict["names"]["English"]
-        tag = poke_name.split()[0] if len(poke_name.split()) > 1 else ""
+    def __init__(self, pokemon_dict, parent=None):
 
-        self.id = tag.upper() + "_" + pokemon_dict["id"] if " " in poke_name else pokemon_dict["id"]
-        self.name    = pokemon_dict["names"]["English"]
-        self.number  = pokemon_dict["dexNr"]
-        self.type1   = pokemon_dict["primaryType"]["names"]["English"]
-        self.type2   = pokemon_dict["secondaryType"]["names"]["English"] if pokemon_dict["secondaryType"] else "none"
-        self.stats   = pokemon_dict["stats"]
+        if "formId" in pokemon_dict and not "NIDORAN" in pokemon_dict["id"]:
+            nameArr = pokemon_dict["formId"].split("_")
+            self.id = pokemon_dict["formId"]
 
-        fast_moves = {}
-        for move in pokemon_dict["quickMoves"]:
-            name         = pokemon_dict["quickMoves"][move]["names"]["English"]
-            move_type    = pokemon_dict["quickMoves"][move]["type"]["names"]["English"]
-            power        = pokemon_dict["quickMoves"][move]["power"]
-            energy_delta = pokemon_dict["quickMoves"][move]["energy"]
-            duration     = pokemon_dict["quickMoves"][move]["durationMs"]
+        else:
+            nameArr = pokemon_dict["id"].split("_")
+            self.id = pokemon_dict["id"]
 
-            fast_moves[name] = {
-                "type": move_type,
-                "power": power,
-                "energy delta": energy_delta,
-                "duration": duration,
-                "isLegacy": False,
-                "image": f"./images/types/{move_type.lower()}.png"
-            }
+        tag = ""
+        if "MEGA" in nameArr:
+            if len(nameArr) == 3:
+                poke_name = nameArr[1].capitalize() + " " + nameArr[0].capitalize() + " " + nameArr[2].capitalize()
+                tag       = poke_name.split()[0] + "-" + poke_name.split()[2]
+            
+            else:
+                poke_name = nameArr[1].capitalize() + " " + nameArr[0].capitalize()
+                tag       = poke_name.split()[0]
 
-        for move in pokemon_dict["eliteQuickMoves"]:
-            name         = pokemon_dict["eliteQuickMoves"][move]["names"]["English"]
-            move_type    = pokemon_dict["eliteQuickMoves"][move]["type"]["names"]["English"]
-            power        = pokemon_dict["eliteQuickMoves"][move]["power"]
-            energy_delta = pokemon_dict["eliteQuickMoves"][move]["energy"]
-            duration     = pokemon_dict["eliteQuickMoves"][move]["durationMs"]
+        elif len(nameArr) == 2 and nameArr[1] in regions:
+            poke_name = regions[nameArr[1]]  + " " +  nameArr[0].capitalize()
+            tag = poke_name[0]
 
-            fast_moves[name] = {
-                "type": move_type,
-                "power": power,
-                "energy delta": energy_delta,
-                "duration": duration,
-                "isLegacy": True,
-                "image": f"./images/types/{move_type.lower()}.png"
-            }
+        else:
+            poke_name = pokemon_dict["names"]["English"]
 
-        self.fast_moves = json.dumps(fast_moves)
+        self.name   = poke_name
+
+        if "formId" in pokemon_dict and not "NIDORAN" in pokemon_dict["id"] : self.id = pokemon_dict["formId"]
+        else                                                                : self.id = pokemon_dict["id"]
+
+        if "MALE" in self.name:
+            self.id +="_M"
+            tag = "m"
+
+        elif "FEMALE" in self.name:
+            self.id += "_F"
+            tag = "f"
+
+        self.number = pokemon_dict["dexNr"] if not parent else parent.number 
+        self.type1  = pokemon_dict["primaryType"]["names"]["English"]
+        self.type2  = pokemon_dict["secondaryType"]["names"]["English"] if pokemon_dict["secondaryType"] else "none"
+        self.stats  = pokemon_dict["stats"]
+
+        if "quickMoves" in pokemon_dict:
+            fast_moves = {}
+            for move in pokemon_dict["quickMoves"]:
+                name         = pokemon_dict["quickMoves"][move]["names"]["English"]
+                move_type    = pokemon_dict["quickMoves"][move]["type"]["names"]["English"]
+                power        = pokemon_dict["quickMoves"][move]["power"]
+                energy_delta = pokemon_dict["quickMoves"][move]["energy"]
+                duration     = pokemon_dict["quickMoves"][move]["durationMs"]
+
+                fast_moves[name] = {
+                    "type": move_type,
+                    "power": power,
+                    "energy delta": energy_delta,
+                    "duration": duration,
+                    "isLegacy": False,
+                    "image": f".assets/img/types/{move_type.lower()}.png"
+                }
+
+            for move in pokemon_dict["eliteQuickMoves"]:
+                name         = pokemon_dict["eliteQuickMoves"][move]["names"]["English"]
+                move_type    = pokemon_dict["eliteQuickMoves"][move]["type"]["names"]["English"]
+                power        = pokemon_dict["eliteQuickMoves"][move]["power"]
+                energy_delta = pokemon_dict["eliteQuickMoves"][move]["energy"]
+                duration     = pokemon_dict["eliteQuickMoves"][move]["durationMs"]
+
+                fast_moves[name] = {
+                    "type": move_type,
+                    "power": power,
+                    "energy delta": energy_delta,
+                    "duration": duration,
+                    "isLegacy": True,
+                    "image": f".assets/img/types/{move_type.lower()}.png"
+                }
+
+            self.fast_moves = json.dumps(fast_moves)
+        
+        else:
+            self.fast_moves = parent.fast_moves
 
         ####################################################################################
 
-        charged_moves = {}
-        for move in pokemon_dict["cinematicMoves"]:
-            name         = pokemon_dict["cinematicMoves"][move]["names"]["English"]
-            move_type    = pokemon_dict["cinematicMoves"][move]["type"]["names"]["English"]
-            power        = pokemon_dict["cinematicMoves"][move]["power"]
-            energy_delta = pokemon_dict["cinematicMoves"][move]["energy"]
-            duration     = pokemon_dict["cinematicMoves"][move]["durationMs"]
+        if "quickMoves" in pokemon_dict:
+            charged_moves = {}
+            for move in pokemon_dict["cinematicMoves"]:
+                name         = pokemon_dict["cinematicMoves"][move]["names"]["English"]
+                move_type    = pokemon_dict["cinematicMoves"][move]["type"]["names"]["English"]
+                power        = pokemon_dict["cinematicMoves"][move]["power"]
+                energy_delta = pokemon_dict["cinematicMoves"][move]["energy"]
+                duration     = pokemon_dict["cinematicMoves"][move]["durationMs"]
 
-            charged_moves[name] = {
-                "type": move_type,
-                "power": power,
-                "energy delta": energy_delta,
-                "duration": duration,
-                "isLegacy": False,
-                "image": f"./images/types/{move_type.lower()}.png"
-            }
+                charged_moves[name] = {
+                    "type": move_type,
+                    "power": power,
+                    "energy delta": energy_delta,
+                    "duration": duration,
+                    "isLegacy": False,
+                    "image": f".assets/img/types/{move_type.lower()}.png"
+                }
 
-        for move in pokemon_dict["eliteCinematicMoves"]:
-            name         = pokemon_dict["eliteCinematicMoves"][move]["names"]["English"]
-            move_type    = pokemon_dict["eliteCinematicMoves"][move]["type"]["names"]["English"]
-            power        = pokemon_dict["eliteCinematicMoves"][move]["power"]
-            energy_delta = pokemon_dict["eliteCinematicMoves"][move]["energy"]
-            duration     = pokemon_dict["eliteCinematicMoves"][move]["durationMs"]
+            for move in pokemon_dict["eliteCinematicMoves"]:
+                name         = pokemon_dict["eliteCinematicMoves"][move]["names"]["English"]
+                move_type    = pokemon_dict["eliteCinematicMoves"][move]["type"]["names"]["English"]
+                power        = pokemon_dict["eliteCinematicMoves"][move]["power"]
+                energy_delta = pokemon_dict["eliteCinematicMoves"][move]["energy"]
+                duration     = pokemon_dict["eliteCinematicMoves"][move]["durationMs"]
 
-            charged_moves[name] = {
-                "type": move_type,
-                "power": power,
-                "energy delta": energy_delta,
-                "duration": duration,
-                "isLegacy": True,
-                "image": f"./images/types/{move_type.lower()}.png"
-            }
-        
-        self.charged_moves = json.dumps(charged_moves)
+                charged_moves[name] = {
+                    "type": move_type,
+                    "power": power,
+                    "energy delta": energy_delta,
+                    "duration": duration,
+                    "isLegacy": True,
+                    "image": f".assets/img/types/{move_type.lower()}.png"
+                }
+            
+            self.charged_moves = json.dumps(charged_moves)
+        else:
+            self.charged_moves = parent.charged_moves
 
         ####################################################################################
 
@@ -110,40 +151,12 @@ class Pokemon:
 
         ####################################################################################
 
-        url = f"{self.number}-{tag.lower()}" if " " in poke_name else str(self.number)
-        self.image = f'"./images/sprites/{url}.png"'
-
-class Mega:
-    def __init__(self, pokemon_dict, mega_dict):
-        self.name   = mega_dict["names"]["English"]
-        self.number = pokemon_dict["dexNr"]
-        self.type1  = mega_dict["primaryType"]["names"]["English"]
-        self.type2  = mega_dict["secondaryType"]["names"]["English"] if mega_dict["secondaryType"] else "none"
-        self.stats  = mega_dict["stats"]
-        fms = [
-                pokemon_dict["quickMoves"][move]["names"]["English"]
-                for move in pokemon_dict["quickMoves"]
-                ] + [
-                pokemon_dict["eliteQuickMoves"][move]["names"]["English"]
-                for move in pokemon_dict["eliteQuickMoves"]
-            ]
-        self.fast_moves = json.dumps(fms)
-
-        cms = [
-            pokemon_dict["cinematicMoves"][move]["names"]["English"]
-            for move in pokemon_dict["cinematicMoves"]
-            ] + [
-            pokemon_dict["eliteCinematicMoves"][move]["names"]["English"]
-            for move in pokemon_dict["eliteCinematicMoves"]
-        ]
-        self.charged_moves = json.dumps(cms)
         
-        url = f"{self.number}-mega"
-        if self.name[-1] in {"X", "Y"}:
-                url += f"-{self.name[-1].lower()}"
 
-        self.image = f'"./images/sprites/{url}.png"'
+        ####################################################################################
 
+        url = f"{self.number}-{tag.lower()}" if tag != "" else str(self.number)
+        self.image = f'".assets/img/sprites/{url}.png"'
 
 
 # Writes the input pokemon's data to the file
@@ -164,8 +177,6 @@ def write_pokemon_data(file, pokemon):
 
 # Genereates the regular pokedex dictionary
 def gen_dex_dict():
-    url = f"{base_url}.json"
-
     # Checks to see if there API is up before overwriting files
     try:
         response = requests.get(url)
@@ -182,53 +193,27 @@ def gen_dex_dict():
         for pokemon in data:
             if pokemon["stats"]:                
                 # Create and write the main Pokemon object
-                pokemon_obj = Pokemon(pokemon)
-                write_pokemon_data(file, pokemon_obj)
+                pokemonObj = Pokemon(pokemon)
+                write_pokemon_data(file, pokemonObj)
                 if index != len(data) - 1: file.write(f'\t}},\n')
                 else: file.write(f'\t}}\n')
                 index += 1
 
                 # Create and write regional forms
+                if pokemon["hasMegaEvolution"]:
+                    for mega in pokemon["megaEvolutions"]:
+                        megaObj = Pokemon(pokemon["megaEvolutions"][mega], pokemonObj)
+                        write_pokemon_data(file, megaObj)
+                        file.write(f'\t}},\n')
+
+                # Create and write regional forms
                 for regional in pokemon["regionForms"]:
-                    for region in regions:
-                        if region in regional:
-                            regionalObj = Pokemon(pokemon["regionForms"][regional])
-                            write_pokemon_data(file, regionalObj)
-                            file.write(f'\t}},\n')
+                    if pokemonObj.name not in ["pikachu",]:
+                        regionalObj = Pokemon(pokemon["regionForms"][regional])
+                        write_pokemon_data(file, regionalObj)
+                        file.write(f'\t}},\n')
             else :
                 index += 1
-        file.write("}\n")
-
-
-
-# Generates the mega evolution pokedex dictionary
-def gen_mega_dict():
-    url = f"{base_url}/mega.json"
-    
-    # Checks to see if there API is up before overwriting files
-    try:
-        response = requests.get(url)
-        response.raise_for_status()
-        data = response.json()
-    except requests.RequestException as e:
-        print(f"Error fetching data from API: {e}")
-        return
-
-    with open("./data/pokemon-mega.json", "w",encoding='utf-8') as file:
-        file.write("{\n")
-        prev_entry = ""
-        index = 0
-        for pokemon in data:
-            if prev_entry != pokemon["names"]["English"]:
-                for mega in pokemon["megaEvolutions"]:
-                    mega_obj = Mega(pokemon, pokemon["megaEvolutions"][mega])
-                    write_pokemon_data(file, mega_obj)
-                    if index != len(data) - 1: file.write(f'\t}},\n')
-                    else: file.write(f'\t}}\n')
-                    index += 1
-
-            prev_entry = pokemon["names"]["English"]
-
         file.write("}\n")
 
 gen_dex_dict()
