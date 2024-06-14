@@ -189,15 +189,12 @@ def gen_dex_dict():
     # Creates/opens pokemon-reg.json
     with open("./data/pokemon.json", "w",encoding='utf-8') as file:
         file.write("{\n")
-        index = 0
         for pokemon in data:
             if pokemon["stats"]:                
                 # Create and write the main Pokemon object
                 pokemonObj = Pokemon(pokemon)
                 write_pokemon_data(file, pokemonObj)
-                if index != len(data) - 1: file.write(f'\t}},\n')
-                else: file.write(f'\t}}\n')
-                index += 1
+                file.write(f'\t}},\n')
 
                 # Create and write regional forms
                 if pokemon["hasMegaEvolution"]:
@@ -212,8 +209,14 @@ def gen_dex_dict():
                         regionalObj = Pokemon(pokemon["regionForms"][regional])
                         write_pokemon_data(file, regionalObj)
                         file.write(f'\t}},\n')
-            else :
-                index += 1
-        file.write("}\n")
+        
+
+    with open("./data/pokemon.json", "r") as infile:
+        data = infile.read()
+        data = data.rstrip(",\n")
+
+    with open("./data/pokemon.json", "w") as outfile:
+        outfile.write(data)
+        outfile.write("\n}\n")
 
 gen_dex_dict()

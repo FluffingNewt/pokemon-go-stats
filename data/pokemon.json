@@ -12490,7 +12490,7 @@
 		"fast_moves": {"Thunder Shock": {"type": "Electric", "power": 5, "energy delta": 8, "duration": 600, "isLegacy": false, "image": ".assets/img/types/electric.png"}, "Dragon Breath": {"type": "Dragon", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": ".assets/img/types/dragon.png"}},
 		"charged_moves": {"Hyper Beam": {"type": "Normal", "power": 150, "energy delta": -100, "duration": 3800, "isLegacy": false, "image": ".assets/img/types/normal.png"}, "Dragon Pulse": {"type": "Dragon", "power": 90, "energy delta": -50, "duration": 3600, "isLegacy": false, "image": ".assets/img/types/dragon.png"}, "Thunder": {"type": "Electric", "power": 100, "energy delta": -100, "duration": 2400, "isLegacy": false, "image": ".assets/img/types/electric.png"}, "Outrage": {"type": "Dragon", "power": 110, "energy delta": -50, "duration": 3900, "isLegacy": false, "image": ".assets/img/types/dragon.png"}},
 		"image": ".assets/img/sprites/1008.png"
-	}
+	},
 	"MIRAIDON_ULTIMATE": {
 		"name": "Miraidon (Ultimate Mode)",
 		"number": 1008,
@@ -12499,5 +12499,5 @@
 		"fast_moves": {"Thunder Shock": {"type": "Electric", "power": 5, "energy delta": 8, "duration": 600, "isLegacy": false, "image": ".assets/img/types/electric.png"}, "Dragon Breath": {"type": "Dragon", "power": 6, "energy delta": 4, "duration": 500, "isLegacy": false, "image": ".assets/img/types/dragon.png"}},
 		"charged_moves": {"Hyper Beam": {"type": "Normal", "power": 150, "energy delta": -100, "duration": 3800, "isLegacy": false, "image": ".assets/img/types/normal.png"}, "Dragon Pulse": {"type": "Dragon", "power": 90, "energy delta": -50, "duration": 3600, "isLegacy": false, "image": ".assets/img/types/dragon.png"}, "Thunder": {"type": "Electric", "power": 100, "energy delta": -100, "duration": 2400, "isLegacy": false, "image": ".assets/img/types/electric.png"}, "Outrage": {"type": "Dragon", "power": 110, "energy delta": -50, "duration": 3900, "isLegacy": false, "image": ".assets/img/types/dragon.png"}},
 		"image": ".assets/img/sprites/1008.png"
-	},
+	}
 }
