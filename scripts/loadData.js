@@ -23,7 +23,7 @@ function calcMaxCP(pokemon, level50) {
 
 function fetchDataAndRender() {
   // Adds megas to table
-  fetch("../data/pokemon.json")
+  fetch("../lib/pokemon.json")
     .then((r1) => r1.json())
     .then((data) => {
       console.log("Fetched data:", data);
@@ -67,7 +67,7 @@ function filterTable() {
 
   rows.forEach((row) => {
     const typeCell = row
-      .querySelector("td:nth-child(2)")
+      .querySelector("td:nth-child(1)")
       .textContent.toLowerCase();
     if (typeCell.includes(filterValue)) {
       row.style.display = "";

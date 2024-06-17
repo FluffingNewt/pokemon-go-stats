@@ -156,7 +156,7 @@ class Pokemon:
         ####################################################################################
 
         url = f"{self.number}-{tag.lower()}" if tag != "" else str(self.number)
-        self.image = f'".assets/img/sprites/{url}.png"'
+        self.image = f'"./assets/img/sprites/{url}.png"'
 
 
 # Writes the input pokemon's data to the file
