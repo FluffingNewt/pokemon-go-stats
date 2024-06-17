@@ -80,7 +80,7 @@ class Pokemon:
                     "energy delta": energy_delta,
                     "duration": duration,
                     "isLegacy": False,
-                    "image": f".assets/img/types/{move_type.lower()}.png"
+                    "image": f"./assets/img/types/{move_type.lower()}.png"
                 }
 
             for move in pokemon_dict["eliteQuickMoves"]:
@@ -96,7 +96,7 @@ class Pokemon:
                     "energy delta": energy_delta,
                     "duration": duration,
                     "isLegacy": True,
-                    "image": f".assets/img/types/{move_type.lower()}.png"
+                    "image": f"./assets/img/types/{move_type.lower()}.png"
                 }
 
             self.fast_moves = json.dumps(fast_moves)
@@ -121,7 +121,7 @@ class Pokemon:
                     "energy delta": energy_delta,
                     "duration": duration,
                     "isLegacy": False,
-                    "image": f".assets/img/types/{move_type.lower()}.png"
+                    "image": f"./assets/img/types/{move_type.lower()}.png"
                 }
 
             for move in pokemon_dict["eliteCinematicMoves"]:
@@ -137,7 +137,7 @@ class Pokemon:
                     "energy delta": energy_delta,
                     "duration": duration,
                     "isLegacy": True,
-                    "image": f".assets/img/types/{move_type.lower()}.png"
+                    "image": f"./assets/img/types/{move_type.lower()}.png"
                 }
             
             self.charged_moves = json.dumps(charged_moves)

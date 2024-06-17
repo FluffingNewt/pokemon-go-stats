@@ -22,63 +22,58 @@ function calcMaxCP(pokemon, level50) {
 }
 
 function fetchDataAndRender() {
-// Adds megas to table
-fetch("../data/pokemon-mega.json")
-  .then((r1) => r1.json())
-  .then((data) => {
-    console.log("Fetched data:", data);
-    const tableBody = document.querySelector("#pokemonTable tbody");
+  // Adds megas to table
+  fetch("../data/pokemon.json")
+    .then((r1) => r1.json())
+    .then((data) => {
+      console.log("Fetched data:", data);
+      const tableBody = document.querySelector("#pokemonTable tbody");
 
-    // Loop through each Pokémon in the data
-    for (const pokemonName in data) {
-      const pokemon = data[pokemonName];
+      // Loop through each Pokémon in the data
+      for (const pokemonName in data) {
+        const pokemon = data[pokemonName];
 
-      fetch("../data/fast_moves_pve.json")
-        .then((r2) => r2.json())
-        .then((fast_moves) => {
+        for (fastMove in pokemon.fast_moves) {
+          const fm = pokemon.fast_moves[fastMove];
 
-          for (const fastMove of pokemon.fast_moves) {
-            const fm = fast_moves[fastMove];
+          for (chargedMove in pokemon.charged_moves) {
+            const cm = pokemon.charged_moves[chargedMove];
 
-            fetch("../data/charged_moves_pve.json")
-              .then((r3) => r3.json())
-              .then((charged_moves) => {
-                
-                for (const chargedMove of pokemon.charged_moves) {
-                  const cm = charged_moves[chargedMove];
-
-                  // Create a table row for each Pokémon
-                  const row = document.createElement("tr");
-                  row.innerHTML = `
-                    <td><img src="${pokemon.image}">${pokemonName}</td>
-                    <td id="type-img"><img src="${fm.image}">${fastMove}</td>
-                    <td id="type-img"><img src="${cm.image}">${chargedMove}</td>
-                    <td>Blah</td>
-                    <td>Blah</td>
-                    <td>Blah</td>
-                    <td>${calcMaxCP(pokemon, true)}</td>
-                  `;
-                  tableBody.appendChild(row);
-                }
-              });
+            // Create a table row for each Pokémon
+            const row = document.createElement("tr");
+            row.innerHTML = `
+                      <td><img src="${pokemon.image}">${pokemonName}</td>
+                      <td id="type-img"><img src="${fm.image}">${fastMove}</td>
+                      <td id="type-img"><img src="${cm.image}">${chargedMove}</td>
+                      <td>Blah</td>
+                      <td>Blah</td>
+                      <td>Blah</td>
+                      <td>${calcMaxCP(pokemon, true)}</td>
+                    `;
+            tableBody.appendChild(row);
           }
-        });
+        }
+      }
     }
-  });
+  );
 }
 
 // Function to filter the table based on user input
 function filterTable() {
-  const filterValue = document.getElementById("filterInput").value.toLowerCase();
+  const filterValue = document
+    .getElementById("filterInput")
+    .value.toLowerCase();
   const rows = document.querySelectorAll("#pokemonTable tbody tr");
 
   rows.forEach((row) => {
-      const typeCell = row.querySelector('td:nth-child(2)').textContent.toLowerCase();
-      if (typeCell.includes(filterValue)) {
-          row.style.display = "";
-      } else {
-          row.style.display = "none";
-      }
+    const typeCell = row
+      .querySelector("td:nth-child(2)")
+      .textContent.toLowerCase();
+    if (typeCell.includes(filterValue)) {
+      row.style.display = "";
+    } else {
+      row.style.display = "none";
+    }
   });
 }
 
