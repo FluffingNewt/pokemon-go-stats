@@ -21,64 +21,75 @@ function calcMaxCP(pokemon, level50) {
   return Math.floor(Math.max(10, cp));
 }
 
-function fetchDataAndRender() {
-  // Adds megas to table
-  fetch("../lib/pokemon.json")
-    .then((r1) => r1.json())
-    .then((data) => {
-      console.log("Fetched data:", data);
-      const tableBody = document.querySelector("#pokemonTable tbody");
+function fetchDataAndRender(includeUnavailable) {
+      return new Promise((resolve, reject) => {
+        fetch("../lib/pokemon.json")
+          .then((r1) => r1.json())
+          .then((data) => {
+            const tableBody = document.querySelector("#pokemonTable tbody");
+            tableBody.innerHTML = '';  // Clear existing rows
 
-      // Loop through each Pokémon in the data
-      for (const pokemonName in data) {
-        const pokemon = data[pokemonName];
+            for (const pokemonName in data) {
+              const pokemon = data[pokemonName];
 
-        for (fastMove in pokemon.fast_moves) {
-          const fm = pokemon.fast_moves[fastMove];
+              if (!includeUnavailable && !pokemon.available) {
+                continue;  // Skip unavailable Pokémon if the checkbox is not checked
+              }
 
-          for (chargedMove in pokemon.charged_moves) {
-            const cm = pokemon.charged_moves[chargedMove];
+              for (const fastMove in pokemon.fast_moves) {
+                const fm = pokemon.fast_moves[fastMove];
 
-            // Create a table row for each Pokémon
-            const row = document.createElement("tr");
-            row.innerHTML = `
-                      <td><img src="${pokemon.image}">${pokemonName}</td>
-                      <td id="type-img"><img src="${fm.image}">${fastMove}</td>
-                      <td id="type-img"><img src="${cm.image}">${chargedMove}</td>
-                      <td>Blah</td>
-                      <td>Blah</td>
-                      <td>Blah</td>
-                      <td>${calcMaxCP(pokemon, true)}</td>
-                    `;
-            tableBody.appendChild(row);
-          }
-        }
-      }
+                for (const chargedMove in pokemon.charged_moves) {
+                  const cm = pokemon.charged_moves[chargedMove];
+
+                  const row = document.createElement("tr");
+                  row.innerHTML = `
+                    <td><img src="${pokemon.image}">${pokemon.name}</td>
+                    <td id="type-img"><img src="${fm.image}">${fastMove}</td>
+                    <td id="type-img"><img src="${cm.image}">${chargedMove}</td>
+                    <td>Blah</td>
+                    <td>Blah</td>
+                    <td>Blah</td>
+                    <td>${calcMaxCP(pokemon, true)}</td>
+                  `;
+                  tableBody.appendChild(row);
+                }
+              }
+            }
+            resolve();
+          })
+          .catch((error) => {
+            console.error('Error fetching data:', error);
+            reject(error);
+          });
+      });
     }
-  );
-}
 
-// Function to filter the table based on user input
-function filterTable() {
-  const filterValue = document
-    .getElementById("filterInput")
-    .value.toLowerCase();
-  const rows = document.querySelectorAll("#pokemonTable tbody tr");
-
-  rows.forEach((row) => {
-    const typeCell = row
-      .querySelector("td:nth-child(1)")
-      .textContent.toLowerCase();
-    if (typeCell.includes(filterValue)) {
-      row.style.display = "";
-    } else {
-      row.style.display = "none";
-    }
-  });
-}
+const includeUnavailable = $('#includeUnavailable').is(':checked');
 
 // Fetch data and render the table on page load
-fetchDataAndRender();
+// fetchDataAndRender(includeUnavailable);
 
-// Add event listener for the filter input box
-document.getElementById("filterInput").addEventListener("input", filterTable);
+$(document).ready(function() {
+  function renderTable() {
+    const includeUnavailable = $('#includeUnavailable').is(':checked');
+    fetchDataAndRender(includeUnavailable).then(function() {
+      var table = $('#pokemonTable').DataTable();
+
+      $('#pokemonFilter').on('keyup change', function() {
+        table.column(0).search(this.value).draw();
+      });
+
+      $('#moveFilter').on('keyup change', function() {
+        table.columns([1, 2]).search(this.value).draw();
+      });
+    });
+  }
+
+  $('#includeUnavailable').on('change', function() {
+    $('#pokemonTable').DataTable().destroy();
+    renderTable();
+  });
+
+  renderTable();
+});

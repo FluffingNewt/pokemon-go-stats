@@ -2,48 +2,49 @@
 <html lang="en">
 
   <head>
+
     <title>Pokemon GO Damage Stats</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta charset="utf-8" />
 
     <link rel="stylesheet" href="./styles/tableStyles.css"/>
-
     <link rel="stylesheet" href="./styles/pageStyles.css"/>
+
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css"/>
+
   </head>
 
   <body>
+
     <h1>Pokemon GO PVE Damage Calculations</h1>
 
-    <input type="text" id="filterInput" placeholder="Filter Pokémon by name">
+    <label><input type="checkbox" id="includeUnavailable"> Include Unavailable</label>
 
     <table id="pokemonTable" class="table-sortable">
-      
+
       <thead>
+
         <tr>
-          <th style="width: 210px; min-width: 210px; max-width: 210px">
-            Pokemon
-          </th>
-          <th style="width: 180px; min-width: 150px; max-width: 180px">
-            Fast Move
-          </th>
-          <th style="width: 180px; min-width: 150px; max-width: 180px">
-            Charged Move
-          </th>
+          <th style="width: 210px; min-width: 210px; max-width: 210px">Pokemon</th>
+          <th style="width: 180px; min-width: 150px; max-width: 180px">Fast Move</th>
+          <th style="width: 180px; min-width: 150px; max-width: 180px">Charged Move</th>
           <th style="width: 80px; min-width: 50px; max-width: 80px">DPS</th>
           <th style="width: 70px; min-width: 50px; max-width: 70px">TDO</th>
           <th style="width: 70px; min-width: 50px; max-width: 70px">ER</th>
           <th style="width: 70px; min-width: 55px; max-width: 70px">Max CP</th>
         </tr>
+
       </thead>
 
-      <tbody class="inactive-cells"></tbody>
+      <tbody></tbody>
 
     </table>
 
-    <script src="./scripts/tableSort.js"></script>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
     <script src="./scripts/loadData.js"></script>
-    
+
   </body>
   
 </html>
