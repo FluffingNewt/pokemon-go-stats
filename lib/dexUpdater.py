@@ -30,22 +30,22 @@ class Pokemon:
             nameArr = pokemon_dict["id"].split("_")
             self.id = pokemon_dict["id"]
 
-        tag = ""
         if "MEGA" in nameArr:
             if len(nameArr) == 3:
                 poke_name = nameArr[1].capitalize() + " " + nameArr[0].capitalize() + " " + nameArr[2].capitalize()
-                tag       = poke_name.split()[0].lower() + "-" + poke_name.split()[2].lower()
+                url       = nameArr[0].lower() + "-" + nameArr[1].lower() + "-" + nameArr[2].lower()
             
             else:
                 poke_name = nameArr[1].capitalize() + " " + nameArr[0].capitalize()
-                tag       = poke_name.split()[0].lower()
+                url       = nameArr[0].lower() + "-" + nameArr[1].lower()
 
         elif len(nameArr) == 2 and nameArr[1] in regions:
             poke_name = regions[nameArr[1]]  + " " +  nameArr[0].capitalize()
-            tag = poke_name[0].lower()
+            url       = nameArr[0].lower() + "-" + regions[nameArr[1]].lower()
 
         else:
             poke_name = pokemon_dict["names"]["English"]
+            url       = pokemon_dict["names"]["English"].lower()
 
         self.name   = poke_name
 
@@ -54,30 +54,43 @@ class Pokemon:
 
         if "MALE" in self.name:
             self.id +="_MALE"
-            tag = "m"
+            url += "-m"
 
         elif "FEMALE" in self.name:
             self.id += "_FEMALE"
-            tag = "f"
+            url += "-f"
 
         if "MEWTWO_A" == self.id:
             self.id="MEWTWO_ARMORED"
             self.name="Armored Mewtwo"
+            url = "mewtwo"
 
-        if "DARMANITAN_GALARIAN_STANDARD" == self.id:
+        elif "DARMANITAN_GALARIAN_STANDARD" == self.id:
             self.id="DARMANITAN_GALARIAN"
             self.name="Galarian Darmanitan"
+            url = "darmanitan-galarian"
 
-        if "DARMANITAN_GALARIAN_ZEN" == self.id:
+        elif "DARMANITAN_ZEN" == self.id:
+            self.id="DARMANITAN_ZEN"
+            self.name="Darmanitan (Zen Mode)"
+            url = "darmanitan-zen"
+
+        elif "DARMANITAN_GALARIAN_ZEN" == self.id:
             self.id="DARMANITAN_GALARIAN_ZEN"
             self.name="Galarian Darmanitan (Zen Mode)"
+            url = "darmanitan-galarian-zen"
 
-        if "MEOWSTIC" == self.id:
+        elif "MEOWSTIC" == self.id:
             self.id="MEOWSTIC_MALE"
-            tag = "m"
+            url += "-m"
         
-        if "MEOWSTIC_FEMALE" == self.id:
-            tag = "f"
+        elif "MEOWSTIC_FEMALE" == self.id:
+            url += "-f"
+
+        elif any(prefix in self.id for prefix in ["ARCEUS_", "CASTFORM_", "DEOXYS_", "TORNADUS_", "THUNDURUS_", "LANDORUS_", "ENAMORUS_"]):
+            url = self.id.split("_")[0].lower()+ "-" + self.id.split("_")[1].lower()
+
+        self.image = f'"./assets/img/sprites/{url}.png"'
 
         self.number = pokemon_dict["dexNr"] if not parent else parent.number 
         self.type1  = pokemon_dict["primaryType"]["names"]["English"]
@@ -171,12 +184,6 @@ class Pokemon:
 
         ####################################################################################
 
-        
-
-        ####################################################################################
-
-        url = f"{self.number}-{tag.lower()}" if tag != "" else str(self.number)
-        self.image = f'"./assets/img/sprites/{url}.png"'
 
 
 # Writes the input pokemon's data to the file
@@ -276,7 +283,7 @@ def updateAvailability():
     with open("./lib/pokemon.json", 'w') as json_file:
         json.dump(data, json_file)
 
-# gen_dex_dict()
+gen_dex_dict()
 
 updateAvailability()
 

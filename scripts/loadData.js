@@ -65,31 +65,40 @@ function fetchDataAndRender(includeUnavailable) {
       });
     }
 
-const includeUnavailable = $('#includeUnavailable').is(':checked');
-
-// Fetch data and render the table on page load
-// fetchDataAndRender(includeUnavailable);
+// !!!!!!!!!!!!!!! Script Calls !!!!!!!!!!!!!!!
 
 $(document).ready(function() {
+
   function renderTable() {
     const includeUnavailable = $('#includeUnavailable').is(':checked');
+
     fetchDataAndRender(includeUnavailable).then(function() {
       var table = $('#pokemonTable').DataTable();
 
-      $('#pokemonFilter').on('keyup change', function() {
-        table.column(0).search(this.value).draw();
-      });
+      table.clear().draw();
 
-      $('#moveFilter').on('keyup change', function() {
-        table.columns([1, 2]).search(this.value).draw();
+      // $('#pokemonFilter').on('keyup change', function() {
+      //   table.column(0).search(this.value).draw();
+      // });
+
+      // $('#moveFilter').on('keyup change', function() {
+      //   table.columns([1, 2]).search(this.value).draw();
+      // });
+
+      // Re-populate DataTable with updated data
+      fetchDataAndRender(includeUnavailable).then(function() {
+        table.rows.add($('#pokemonTable tbody tr')).draw();
       });
+    }).catch(function(error) {
+      console.error('Error rendering table:', error);
     });
   }
 
+  // Initial rendering
+  renderTable();
+
+  // Event listener for checkbox change
   $('#includeUnavailable').on('change', function() {
-    $('#pokemonTable').DataTable().destroy();
     renderTable();
   });
-
-  renderTable();
 });
