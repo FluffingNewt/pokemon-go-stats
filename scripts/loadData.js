@@ -23,7 +23,7 @@ function calcMaxCP(pokemon, level50) {
 
 function fetchDataAndRender(includeUnavailable) {
       return new Promise((resolve, reject) => {
-        fetch("../lib/pokemon.json")
+        fetch("lib/pokemon.json")
           .then((r1) => r1.json())
           .then((data) => {
             const tableBody = document.querySelector("#pokemonTable tbody");
