@@ -4,3 +4,43 @@ body {
     font-family: sans-serif;
     background-color: rgb(219, 246, 255);
 }
+
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background: rgb(130, 197, 255);
+    height: 25px;
+}
+
+tbody td {
+    height: 35px;
+}
+
+tbody tr td:nth-child(-n+3) {
+    vertical-align: middle;
+    text-align: left;
+}
+
+/* th, td {
+    border:1px solid rgb(80, 80, 80);
+    text-align: center;
+    vertical-align: middle;
+
+} */
+
+img {
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#type-img img {
+    width: 15%;
+}
+
+#reg-img img {
+    width: 58.82%;
+    height: 53.57%;
+}
