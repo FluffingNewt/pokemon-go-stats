@@ -10,9 +10,9 @@ url = "https://pokemon-go-api.github.io/pokemon-go-api/api/pokedex.json"
 def calc_max_cp(pokemon, level50):
     cpm = 0.84029999 if level50 else 0.7903
     
-    attack = pokemon['stats']['attack'] + 15
-    defense = math.sqrt(pokemon['stats']['defense'] + 15)
-    hp = math.sqrt(pokemon['stats']['hp'] + 15)
+    attack = pokemon.stats['attack'] + 15
+    defense = math.sqrt(pokemon.stats['defense'] + 15)
+    hp = math.sqrt(pokemon.stats['stamina'] + 15)
     
     cp = ((attack * defense * hp * (cpm ** 2)) / 10)
     
@@ -92,10 +92,12 @@ class Pokemon:
 
         self.image = f'"./assets/img/sprites/{url}.png"'
 
-        self.number = pokemon_dict["dexNr"] if not parent else parent.number 
-        self.type1  = pokemon_dict["primaryType"]["names"]["English"]
-        self.type2  = pokemon_dict["secondaryType"]["names"]["English"] if pokemon_dict["secondaryType"] else "none"
-        self.stats  = pokemon_dict["stats"]
+        self.number    = pokemon_dict["dexNr"] if not parent else parent.number 
+        self.type1     = pokemon_dict["primaryType"]["names"]["English"]
+        self.type2     = pokemon_dict["secondaryType"]["names"]["English"] if pokemon_dict["secondaryType"] else "none"
+        self.stats     = pokemon_dict["stats"]
+        self.maxCP40   = 0
+        self.maxCP50   = 0
         self.available = False
 
         if "quickMoves" in pokemon_dict:
@@ -179,7 +181,15 @@ class Pokemon:
 
         ####################################################################################
 
-        pve = {}
+        pve_movesets = {}
+
+        for fm in self.fast_moves:
+            
+            for cm in self.charged_moves:
+                continue
+
+        ####################################################################################
+
         pvp = {}
 
         ####################################################################################
@@ -188,12 +198,16 @@ class Pokemon:
 
 # Writes the input pokemon's data to the file
 def write_pokemon_data(file, pokemon):
+    pokemon.maxCP40 = calc_max_cp(pokemon, False)
+    pokemon.maxCP50 = calc_max_cp(pokemon, True)
+
     text = (
         f'\t"{pokemon.id}": {{\n'
         f'\t\t"name": "{pokemon.name}",\n'
         f'\t\t"number": {pokemon.number},\n'
         f'\t\t"type": ["{pokemon.type1}", "{pokemon.type2}"],\n'
         f'\t\t"stats": {{"attack": {pokemon.stats["attack"]}, "defense": {pokemon.stats["defense"]}, "hp": {pokemon.stats["stamina"]}}},\n'
+        f'\t\t"maxCP": {{"lvl40": {pokemon.maxCP40}, "lvl50": {pokemon.maxCP50}}},\n'
         f'\t\t"available": {str(pokemon.available).lower()},\n'
         f'\t\t"fast_moves": {pokemon.fast_moves},\n'
         f'\t\t"charged_moves": {pokemon.charged_moves},\n'
@@ -262,11 +276,11 @@ def gen_dex_dict():
 
 def updateAvailability():
     # Step 1: Read the JSON file
-    with open("./lib/pokemon.json", 'r') as json_file:
+    with open("lib/pokemon.json", 'r') as json_file:
         data = json.load(json_file)
 
     # Step 2: Read the config file line by line and update availability
-    with open("./lib/avail_config.txt", 'r') as config_file:
+    with open("lib/avail_config.txt", 'r') as config_file:
         for line in config_file:
             line = line.strip()  # Remove newline characters and any leading/trailing whitespace
             if line:
@@ -286,34 +300,3 @@ def updateAvailability():
 gen_dex_dict()
 
 updateAvailability()
-
-# with open("./lib/pokemon.json", 'r') as json_file:
-#     json_data = json.load(json_file)
-
-# with open("./lib/avail_config.txt", 'w') as config_file:
-#     # Step 3: Loop through the keys in the dictionary
-#     for value in json_data:
-#         pokemon = json_data[value]
-
-#         if pokemon in ["ROTOM_HEAT", "ROTOM_FAN", "DARMANITAN_ZEN", "DARMANITAN_GALARIAN_ZEN", "KYUREM_WHITE", "KYUREM_BLACK", "KELDEO_RESOLUTE", "MELOETTA_PIROUETTE", "NECROZMA_ULTRA",
-#                        "ZACIAN_CROWNED_SWORD", "ZAMAZENTA_CROWNED_SHIELD", "ENAMORUS_THERIAN"]:
-#             config_file.write(f"{pokemon["number"]}-{value}=false\n")
-
-#         elif pokemon["number"] in [489, 490, 493, 679, 680, 681, 721, 746, 749, 750, 771, 772, 773, 774, 778, 781, 801, 807, 810, 811, 812, 813, 814, 815, 816, 817,
-#                               821, 822, 823, 824, 825, 826, 827, 828, 829, 830, 833, 834, 835, 836, 837, 838, 839, 840, 841, 842, 843, 844, 845, 846, 847, 848, 849,
-#                               850, 851, 852, 853, 854, 855, 856, 857, 858, 859, 860, 861, 864, 868, 869, 871, 872, 873, 874, 875, 876, 877, 878, 879, 880, 881, 882,
-#                               883, 884, 885, 886, 887, 890, 891, 892, 896, 897, 898, 917, 918, 924, 925, 926, 927, 931, 932, 933, 934, 940, 941, 942, 943, 944, 945,
-#                               946, 947, 948, 949, 950, 951, 952, 953, 954, 955, 956, 957, 958, 959, 963, 964, 967, 968, 969, 970, 973, 976, 977, 978, 981, 982, 983,
-#                               984, 985, 986, 987, 988, 989, 990, 991, 992, 993, 994, 995, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008]:
-#             config_file.write(f"{pokemon["number"]}-{value}=false\n")
-
-        
-
-#         elif pokemon["name"] == "Camerupt":
-#             config_file.write(f"{pokemon["number"]}-{value}_MEGA=false\n")
-
-#         elif pokemon["name"] in ["Zorua", "Zoroark"]:
-#             config_file.write(f"{pokemon["number"]}-{value}_HISUIAN=false\n")
-        
-#         else:
-#             config_file.write(f"{pokemon["number"]}-{value}=true\n")

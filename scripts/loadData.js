@@ -77,18 +77,11 @@ $(document).ready(function() {
 
       table.clear().draw();
 
-      // $('#pokemonFilter').on('keyup change', function() {
-      //   table.column(0).search(this.value).draw();
-      // });
-
-      // $('#moveFilter').on('keyup change', function() {
-      //   table.columns([1, 2]).search(this.value).draw();
-      // });
-
       // Re-populate DataTable with updated data
       fetchDataAndRender(includeUnavailable).then(function() {
         table.rows.add($('#pokemonTable tbody tr')).draw();
       });
+
     }).catch(function(error) {
       console.error('Error rendering table:', error);
     });
@@ -101,4 +94,5 @@ $(document).ready(function() {
   $('#includeUnavailable').on('change', function() {
     renderTable();
   });
+  
 });
