@@ -96,8 +96,8 @@ class Pokemon:
         self.type1     = pokemon_dict["primaryType"]["names"]["English"]
         self.type2     = pokemon_dict["secondaryType"]["names"]["English"] if pokemon_dict["secondaryType"] else "none"
         self.stats     = pokemon_dict["stats"]
-        self.maxCP40   = 0
-        self.maxCP50   = 0
+        self.maxCP40   = calc_max_cp(self, False)
+        self.maxCP50   = calc_max_cp(self, True)
         self.available = False
 
         if "quickMoves" in pokemon_dict:
@@ -282,7 +282,7 @@ def updateAvailability():
     # Step 2: Read the config file line by line and update availability
     with open("lib/avail_config.txt", 'r') as config_file:
         for line in config_file:
-            line = line.strip()  # Remove newline characters and any leading/trailing whitespace
+            line = line.strip()
             if line:
                 parts = line.split("=")
                 key_part, value_part = parts

@@ -10,18 +10,7 @@
 
 // }
 
-function calcMaxCP(pokemon, level50) {
-  level50 ? (cpm = 0.84029999) : (cpm = 0.7903);
-  cp =
-    ((pokemon.stats.attack + 15) *
-      Math.pow(pokemon.stats.defense + 15, 0.5) *
-      Math.pow(pokemon.stats.hp + 15, 0.5) *
-      Math.pow(cpm, 2)) /
-    10;
-  return Math.floor(Math.max(10, cp));
-}
-
-function fetchDataAndRender(includeUnavailable) {
+function fetchDataAndRender(level, includeUnavailable, includeBest) {
       return new Promise((resolve, reject) => {
         fetch("lib/pokemon.json")
           .then((r1) => r1.json())
@@ -50,7 +39,7 @@ function fetchDataAndRender(includeUnavailable) {
                     <td>Blah</td>
                     <td>Blah</td>
                     <td>Blah</td>
-                    <td>${calcMaxCP(pokemon, true)}</td>
+                    <td>${pokemon.maxCP[level]}</td>
                   `;
                   tableBody.appendChild(row);
                 }
@@ -70,15 +59,17 @@ function fetchDataAndRender(includeUnavailable) {
 $(document).ready(function() {
 
   function renderTable() {
+    const level = document.querySelector('#level').value;
     const includeUnavailable = $('#includeUnavailable').is(':checked');
+    const includeBest = $('#best').is(':checked');
 
-    fetchDataAndRender(includeUnavailable).then(function() {
+    fetchDataAndRender(level, includeUnavailable, includeBest).then(function() {
       var table = $('#pokemonTable').DataTable();
 
       table.clear().draw();
 
       // Re-populate DataTable with updated data
-      fetchDataAndRender(includeUnavailable).then(function() {
+      fetchDataAndRender(level, includeUnavailable, includeBest).then(function() {
         table.rows.add($('#pokemonTable tbody tr')).draw();
       });
 
@@ -90,8 +81,14 @@ $(document).ready(function() {
   // Initial rendering
   renderTable();
 
-  // Event listener for checkbox change
+  // Event listeners for checkbox changes
   $('#includeUnavailable').on('change', function() {
+    renderTable();
+  });
+  $('#best').on('change', function() {
+    renderTable();
+  });
+  $('#level').on('change', function() {
     renderTable();
   });
   
